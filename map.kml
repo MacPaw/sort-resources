@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Пункти прийому вторсировини </name>
+    <description/>
+    <Style id="icon-1850-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1850-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1850-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1850-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1850-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Пункти прийому «Київміськвторресурси»</name>
+      <Placemark>
+        <name>проспект Петра Григоренка, 25В</name>
+        <description><![CDATA[Пункт прийому вторсировини : макулатура, пластик,пет -пляшки, склобій, шини, поліетиленові плівки, пакети (побутові чисті) ,склотара та інше<br>+38095-286-00-79<br>+38044-517-65-64<br><br>Пн-Пт: 7:00 - 16:00<br>Сб. Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.635678,50.405634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Шкільна, 59</name>
+        <description><![CDATA[Пункт прийому вторсировини : макулатура, пластик,пет -пляшки, склобій, шини, поліетиленові плівки, пакети (побутові чисті)  та інше<br>+38095-286-00-79<br>+38044-517-65-64<br>Вт-Cб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4855085,50.581716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Кирилівська, 58</name>
+        <description><![CDATA[Пункт прийому вторсировини : макулатура, пластик,пет -пляшки,  склобій, шини, поліетиленові плівки, пакети (побутові чисті)  та інше<br>+38095-286-00-79<br>+38044-517-65-64<br><br>Вт-Cб: 8:00 - 17:00<br>Сб.Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4969160000001,50.473282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Євгена Маланюка, 112</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/TU1WDmk7r8ReYMgp1ZMAV2OMcU6drkcF-T9GposxzMTne1WlbCaDQV6vXrMGIW2Ht-Sr9GnJtxKQ1JyFEP6VW-Fbm_7PEXEDDdljrqfm2MCE_7dkl20n0bUuAy5uOdHLAzQFcQ" height="200" width="auto" /><br><br>Евгена Маланюка,112<br>Пункт прийому вторсировини "Київмвісьвторрескурси"<br>(макулатура, пластик,  склобій, шини, пляшки, склобій,пакети,плівки,пет пляшки,)<br>+38 095-286-00-79                                                      +38044 517 65 64]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/TU1WDmk7r8ReYMgp1ZMAV2OMcU6drkcF-T9GposxzMTne1WlbCaDQV6vXrMGIW2Ht-Sr9GnJtxKQ1JyFEP6VW-Fbm_7PEXEDDdljrqfm2MCE_7dkl20n0bUuAy5uOdHLAzQFcQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.58668,50.4666135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Лісовий проспект, 43</name>
+        <description><![CDATA[проспект Лісовий, 43<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6421599,50.4854726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>провулок Соборний, 1</name>
+        <description><![CDATA[Бориспіль, Ленінградський провулок, 1<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Cб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.9299255999999,50.3642745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Михайла Грушевського, 6</name>
+        <description><![CDATA[Вишгород, вул. Михаїла Грушевського, 6А<br>Пункт прийому вторсировини<br>(макулатура, пластик,  склобій, шини, пляшки)<br>095-286-00-79<br>044-517-65-64<br>Вт-Cб: 8:00 - 17:00<br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.487699,50.588144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Гагаріна, 12</name>
+        <description><![CDATA[ровари, вул. Гагаріна, 12<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Cб: 7:00 - 16:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.7868495,50.512241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Грушевського, 1А</name>
+        <description><![CDATA[Бровари, вул. Грушевського, 1А<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Сб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.78835,50.499874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Оболонська, 34</name>
+        <description><![CDATA[вул. Оболонська, 34<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Cб: 8:00 - 17:00<br /><br>Сб.Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.510149,50.471858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Райдужна, 23</name>
+        <description><![CDATA[вул. Радужна, 23<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Cб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5883645,50.483842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Празька, 44</name>
+        <description><![CDATA[вул. Пражська, 44<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Cб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.64522,50.4357431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Курнатовського, 15</name>
+        <description><![CDATA[вулиця Курнатовського, 15<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Нд: 09:00 - 18:00<br />]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6018366,50.4884379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Чудновського 7A</name>
+        <description><![CDATA[вул. Чудновського, 7А<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6185005,50.4425615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Ованеса Туманяна, 1</name>
+        <description><![CDATA[вул. Ованеса Туманяна, 1<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6015243,50.4459987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Оноре де Бальзака, 22</name>
+        <description><![CDATA[вул. Оноре де Бальзака, 22<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Нд: 8:00 - 19:00<br /><br>без вихідних]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.589509,50.5082085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Олександра Сабурова, 3А</name>
+        <description><![CDATA[вул. Олександра Сабурова, 3А<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Нд: 8:00 - 19:00<br /><br>без вихідних]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.616491,50.510015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Мілютенка, 20</name>
+        <description><![CDATA[вул. Мілютенко, 20<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6299763,50.4736018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Миколи Закревського, 3</name>
+        <description><![CDATA[вул. Миколи Закревського, 3<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5922815,50.497861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Теодора Драйзера, 22</name>
+        <description><![CDATA[вул. Теодора Драйзера, 22<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 7:00 - 16:00<br />]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6001398,50.5085357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Харківське шосе, 59</name>
+        <description><![CDATA[вул. Харківське шосе, 59<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Сб.Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6571695,50.4186945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Бориспільська, 3/1</name>
+        <description><![CDATA[вул. Бориспільська, 1<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 08:00 - 17:00<br /><br>Сб,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6510012,50.4317014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Березняківська, 36</name>
+        <description><![CDATA[вул. Березняківська, 36<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5981812,50.4231677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Миколи Василенка, 11</name>
+        <description><![CDATA[вулиця Миколи Василенко, 11<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4213637,50.4454117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Харківське шосе, 172</name>
+        <description><![CDATA[вул. Харківське шосе, 172<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6647164,50.4122515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Ревуцького, 27</name>
+        <description><![CDATA[вул. Ревуцького, 27/29<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Нд. Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6491022,50.4092494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Горлівська, 38</name>
+        <description><![CDATA[вул. Горлівська, 38/40<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн--Пт: 8:00 - 17:00<br>Сб. Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6472205,50.421377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Ямська, 6/31</name>
+        <description><![CDATA[вул. Ямська, 6/31<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик,  склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5098559,50.4276011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Тимофія Шамрила, 17</name>
+        <description><![CDATA[вул. Тімофея Шамрило, 17<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4383445,50.4633022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Олени Теліги, 25Б</name>
+        <description><![CDATA[вул. Олени Теліги, 25Б<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:30 - 17:30<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4473695,50.4760576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>проспект Космонавта Комарова, 40</name>
+        <description><![CDATA[проспект Космонавта Комарова, 40<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4135316,50.437582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Виборзька, 41</name>
+        <description><![CDATA[вул. Выборзька, 41<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4447868,50.4480695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Волгоградська, 39</name>
+        <description><![CDATA[вул. Волгоградська, 39<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4872924,50.4226607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Академіка Білецького, 3</name>
+        <description><![CDATA[вул. Академіка Білецького, 3<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4210517,50.4312106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Тульчинська, 7</name>
+        <description><![CDATA[вул. Тульчинська, 7-9<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4798207,50.4852901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>«Київміськвторресурси»</name>
+        <description><![CDATA[проспект Свободи, 22<br><br>Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>095-286-00-79<br>044-517-65-64<br>Вт-Сб: 8:00 - 16:00<br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.426117,50.5122289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Електриків, 26/10</name>
+        <description><![CDATA[вул. Електриків, 26/10<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Пт: 9:00 - 18:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5326887,50.4765053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Волоська, 19</name>
+        <description><![CDATA[вул. Волошська 19<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5192247,50.4671805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Оболонський проспект, 28Г</name>
+        <description><![CDATA[пр. Оболонский, 28Г<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 7:00 - 16:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5034324,50.5162764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Маршала Малиновського, 25А</name>
+        <description><![CDATA[вул. Маршала Маліновського 25А<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Нд-Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5030331,50.5027095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>проспект Героїв Сталінграду, 50</name>
+        <description><![CDATA[пр. Героїв Сталінграда 50-52<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 7:00 - 16:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5164076,50.5231246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Лісовий проспект, 21</name>
+        <description><![CDATA[пр. Лісовий, 21<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.63043,50.4819929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>проспект Володимира Маяковського, 22</name>
+        <description><![CDATA[пр. Володимира Маяковського 22<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 17:00<br /><br>Нд,Пн: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6086119,50.506587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>проспект Павла Тичини, 7</name>
+        <description><![CDATA[пр. Павла Тичини, 7<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Сб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.600202,50.4282008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Русанівська Набережна, 8/1</name>
+        <description><![CDATA[Русанівська набережна, 8/1<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, ганчір’я, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Сб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5931363,50.4376876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Пожарського, 1</name>
+        <description><![CDATA[вул Пожарского, 1<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Сб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.6244392,50.4503881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>бульвар Перова, 8</name>
+        <description><![CDATA[бул. Перова, 8<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Пн-Пт: 8:00 - 17:00<br /><br>Сб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5991286,50.4696524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вулиця Митрополита Андрея Шептицького, 24</name>
+        <description><![CDATA[вул. Митрополіта Шептицького 24<br /><br>Пункт прийому вторсировини<br /><br>(макулатура, пластик, склобій, шини, пляшки, склотара)<br /><br>095-286-00-79<br /><br>044-517-65-64<br /><br>Вт-Сб: 8:00 - 19:00<br>без вихідних]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.5906956,50.4593121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>«Київміськвторресурси»
+</name>
+        <description><![CDATA[проспект Правди, 3<br><br>Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>095-286-00-79<br>044-517-65-64<br>Вт-Пт: 8:00 - 16:00<br>Cб,Нд: Вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4477176,50.5055991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Станції «Україна без сміття»</name>
+      <Placemark>
+        <name>«Україна без сміття», SilpoRecycling
+</name>
+        <description><![CDATA[вул. П. Калнишевського, 2<br><br>Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт - Пт: 17:00 - 21:00<br>Сб - Нд: 10:00 - 16:00<br>Пн: вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.535402,50.404227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>«Україна без сміття»
+</name>
+        <description><![CDATA[вул. Саперно-Слобідська, 25<br><br>Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт - Пт: 17:00 - 21:00<br>Сб - Нд: 10:00 - 16:00<br>Пн: вихідний]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.4656445,50.519384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
