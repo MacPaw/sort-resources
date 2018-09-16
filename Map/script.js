@@ -13,7 +13,7 @@ var markersData, activeMarker,
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 50.456342579672736, lng: 30.54443421505789},
-        zoom: 12,
+        zoom: 10,
         disableDefaultUI: true,
         styles: [
             {
@@ -197,54 +197,60 @@ function initMap() {
         drawMarkers(map, markersData);
     });
 
+    // Map click
     map.addListener('click', function(e) {
         activeMarker.setIcon(icon);
         activeMarker = null;
-        $('#info').removeClass('minified').removeClass('open');
+        transitionInfoToState('closed');
     });
 
+    // Info block top part touch
     $('#tap-area').on('touchend', function(e) {
         e.preventDefault();
         e.stopPropagation();
-        $('#info').toggleClass('open');
+        if ($('#info').hasClass('open')) {
+            transitionInfoToState('minified');
+        } else if ($('#info').hasClass('minified')) {
+            transitionInfoToState('open');
+        }
         return false;
     });
 
-    infoWindow = new google.maps.InfoWindow;
-
-    // Try HTML5 geolocation.
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-                lat: position.coords.latitude,
-                lng: position.coords.longitude
-            };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-        }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-        });
-    } else {
-        // Browser doesn't support Geolocation
-        handleLocationError(false, infoWindow, map.getCenter());
-    }
+    // infoWindow = new google.maps.InfoWindow;
+    //
+    // // Try HTML5 geolocation.
+    // if (navigator.geolocation) {
+    //     navigator.geolocation.getCurrentPosition(function(position) {
+    //         var pos = {
+    //             lat: position.coords.latitude,
+    //             lng: position.coords.longitude
+    //         };
+    //
+    //         infoWindow.setPosition(pos);
+    //         infoWindow.setContent('Location found.');
+    //         infoWindow.open(map);
+    //         map.setCenter(pos);
+    //     }, function() {
+    //         handleLocationError(true, infoWindow, map.getCenter());
+    //     });
+    // } else {
+    //     // Browser doesn't support Geolocation
+    //     handleLocationError(false, infoWindow, map.getCenter());
+    // }
 }
 
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-    infoWindow.setPosition(pos);
-    infoWindow.setContent(browserHasGeolocation ?
-        'Error: The Geolocation service failed.' :
-        'Error: Your browser doesn\'t support geolocation.');
-    infoWindow.open(map);
-}
+// function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+//     infoWindow.setPosition(pos);
+//     infoWindow.setContent(browserHasGeolocation ?
+//         'Error: The Geolocation service failed.' :
+//         'Error: Your browser doesn\'t support geolocation.');
+//     infoWindow.open(map);
+// }
 
 function drawMarkers(map, markersData) {
     $(markersData).each(function(i) {
         let coords = markersData[i]['coords'].split(',');
-        let position = new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0]))
+        let position = new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0]));
         let marker = new google.maps.Marker({
             map: map,
             position: position,
@@ -263,14 +269,18 @@ function drawMarkers(map, markersData) {
 
             // Fill the bottom info block
             let data = markersData[i];
-            console.log(data);
             $info.find('#title').text(data['title']);
             $info.find('#subtitle').text(data['subtitle']);
             $info.find('#description').html(data['description']);
 
             if (!$info.hasClass('open')) {
-                $info.addClass('minified');
+                transitionInfoToState('minified');
                 map.panTo(position);
+                if (map.zoom < 13) {
+                    map.setZoom(13);
+                }
+            } else {
+                $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
             }
 
         });
@@ -283,7 +293,16 @@ function transitionInfoToState(state) {
     switch (state) {
         case 'closed':
             $info.removeClass('open').removeClass('minified');
-            $info.css('height', 0)
+            $info.css('height', 0);
+            break;
+        case 'minified':
+            $info.removeClass('open').addClass('minified');
+            $info.css('height', $('#tap-area').outerHeight());
+            break;
+        case 'open':
+            $info.addClass('open');
+            $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
+            break;
     }
 }
 
