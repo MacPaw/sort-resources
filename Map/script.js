@@ -166,8 +166,13 @@ function initMap() {
     });
 
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
-        var xmlDoc = new DOMParser().parseFromString(data,'text/xml');
-        console.log(xmlDoc);
+        // Get link to the synced kml file
+        let xmlDoc = new DOMParser().parseFromString(data,'text/xml');
+        let link = $(xmlDoc).find('href').text();
+        $.get(link, function(data) {
+            let kmlData = new DOMParser().parseFromString(data,'text/xml');
+            console.log(kmlData);
+        })
     });
 
 
