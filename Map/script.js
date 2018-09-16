@@ -165,15 +165,19 @@ function initMap() {
         ]
     });
 
-    var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/mad-data.kml', {
+    map.addListener('click', function(event) {
+
+    });
+
+    var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/mad-data.kmz', {
         suppressInfoWindows: true,
         preserveViewport: false,
         map: map
     });
 
     kmlLayer.addListener('click', function(event) {
-        console.log(event);
         document.getElementById('info').innerHTML = event.featureData.description;
         document.getElementById('info').style.display = 'block';
+        map.panTo(event.latLng);
     });
 }
