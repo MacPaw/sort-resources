@@ -15,12 +15,12 @@ html, body {
     right: 0;
     height: 0;
     background: white;
-    transition: height 0.3s;
+    transition: height 0.3s ease-out;
     -webkit-transition: height 0.3s ease-out;
     -moz-transition: height 0.3s ease-out;
-    box-shadow: 0 -1px 4px rgba(0,0,0,0.2) ease-out;
-    -webkit-box-shadow: 0 -1px 4px rgba(0,0,0,0.2) ease-out;
-    -moz-box-shadow: 0 -1px 4px rgba(0,0,0,0.2) ease-out;
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
 }
 
 #info.minified {
