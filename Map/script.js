@@ -165,22 +165,28 @@ function initMap() {
         ]
     });
 
+    // Parse the KML file and draw markers
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
-        let xmlDoc = new DOMParser().parseFromString(data,'text/xml');
-        console.log(xmlDoc);
+        var markersData = [];
+        let kmlData = new DOMParser().parseFromString(data,'text/xml');
+        let folders = $(kmlData).find('Folder');
+        folders.each(function(i) {
+            let placemarks = $(folders[i]).find('Placemark');
+            placemarks.each(function(j) {
+                markersData.push({
+                    'id': j,
+                    'title': $(folders[i]).find('name').text(),
+                    'subtitle': $(placemarks[j]).find('name').text(),
+                    'description': $(placemarks[j]).find('description').text(),
+                    'coords': $(placemarks[j]).find('Point coordinates').text().trim()
+                });
+            });
+        });
+
+        drawMarkers(map, markersData);
     });
 
+}
 
-    //
-    // var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kmz', {
-    //     suppressInfoWindows: true,
-    //     preserveViewport: false,
-    //     map: map
-    // });
-    //
-    // kmlLayer.addListener('click', function(event) {
-    //     document.getElementById('info').innerHTML = event.featureData.description;
-    //     document.getElementById('info').style.display = 'block';
-    //     map.panTo(event.latLng);
-    // });
+function drawMarkers(map, markersData) {
 }
