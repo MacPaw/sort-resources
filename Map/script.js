@@ -296,7 +296,13 @@ function transitionInfoToState(state) {
             $info.css('height', 0);
             break;
         case 'minified':
-            $info.removeClass('open').addClass('minified');
+            if ($info.hasClass('open')) {
+                $info.removeClass('open').addClass('closing');
+                setTimeout(function() {
+                    $info.removeClass('closing');
+                }, 500);
+            }
+            $info.addClass('minified');
             $info.css('height', $('#tap-area').outerHeight());
             break;
         case 'open':

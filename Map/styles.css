@@ -16,9 +16,9 @@ html, body {
     height: 0;
     background: white;
     transition: height 0.3s;
-    -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+    -webkit-transition: height 0.3s ease-out;
+    -moz-transition: height 0.3s ease-out;
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.2) ease-out;
 }
 
 #info.minified {
@@ -60,14 +60,11 @@ html, body {
 
 #info-arrow {
     position: absolute;
-    width: 10px;
-    height: 5px;
+    width: 12px;
+    height: 8px;
     top: 30px;
     right: 40px;
     background: url("arrow.png") no-repeat center;
-    transition: transform 0.2s ease-out 0.3s;
-    -webkit-transition: transform 0.2s ease-out 0.3s;
-    -moz-transition: transform 0.2s ease-out 0.3s;
     background-size: cover;
 }
 
@@ -75,4 +72,16 @@ html, body {
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
+    transition: transform 0.2s ease-out 0.3s;
+    -webkit-transition: transform 0.2s ease-out 0.3s;
+    -moz-transition: transform 0.2s ease-out 0.3s;
+}
+
+#info.closing #info-arrow {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transition: transform 0.2s ease-out 0.3s;
+    -webkit-transition: transform 0.2s ease-out 0.3s;
+    -moz-transition: transform 0.2s ease-out 0.3s;
 }
