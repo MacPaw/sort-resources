@@ -185,10 +185,12 @@ function initMap() {
         folders.each(function(i) {
             let placemarks = $(folders[i]).find('Placemark');
             placemarks.each(function(j) {
+                let descr = $(placemarks[j]).find('description').text();
+
                 markersData.push({
                     'title': $(folders[i]).find('>:first-child').text(),
                     'subtitle': $(placemarks[j]).find('name').text(),
-                    'description': $(placemarks[j]).find('description').text(),
+                    'description': descr.replace('<br/><br />', '<br/>'),
                     'coords': $(placemarks[j]).find('Point coordinates').text().trim()
                 });
             });
@@ -215,6 +217,8 @@ function initMap() {
         }
         return false;
     });
+
+    var GeoMarker = new GeolocationMarker(map);
 
     // infoWindow = new google.maps.InfoWindow;
     //
