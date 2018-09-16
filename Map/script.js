@@ -203,7 +203,7 @@ function initMap() {
         $('#info').removeClass('minified').removeClass('open');
     });
 
-    $('#tap-area').on('touchend', function() {
+    $('#tap-area').on('touchend', function(e) {
         e.preventDefault();
         e.stopPropagation();
         $('#info').toggleClass('open');
