@@ -8,7 +8,7 @@ var markersData, activeMarker,
         anchor: new google.maps.Point(23, 23),
         size: new google.maps.Size(46, 46),
         url: 'Map/marker-active.svg'
-    }
+    };
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -201,6 +201,7 @@ function initMap() {
     map.addListener('click', function(e) {
         activeMarker.setIcon(icon);
         activeMarker = null;
+        $('#info').removeClass('minified').removeClass('open');
     });
 
 }
@@ -208,19 +209,27 @@ function initMap() {
 function drawMarkers(map, markersData) {
     $(markersData).each(function(i) {
         let coords = markersData[i]['coords'].split(',');
+        let position = new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0]))
         let marker = new google.maps.Marker({
             map: map,
-            position: new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0])),
+            position: position,
             icon: icon
         });
 
         // Handle marker click
         marker.addListener('click', function() {
+            let $info = $('#info');
+
             if (activeMarker != null) {
                 activeMarker.setIcon(icon);
             }
             marker.setIcon(activeIcon);
             activeMarker = marker;
+            map.panTo(position);
+
+            if (!$info.hasClass('open')) {
+                $info.addClass('minified');
+            }
         });
 
     });
