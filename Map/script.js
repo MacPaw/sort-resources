@@ -197,7 +197,7 @@ function initMap() {
         drawMarkers(map, markersData);
     });
 
-    map.addListener('click', function(e) {
+    map.addListener('touchend', function(e) {
         activeMarker.setIcon(icon);
         activeMarker = null;
         $('#info').removeClass('minified').removeClass('open');
@@ -249,7 +249,7 @@ function drawMarkers(map, markersData) {
         });
 
         // Handle marker click
-        marker.addListener('click', function() {
+        marker.addListener('touchend', function() {
             let $info = $('#info');
 
             if (activeMarker != null) {
