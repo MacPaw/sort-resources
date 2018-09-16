@@ -1,6 +1,6 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 50.42815655828419, lng: 30.451624502816117},
+        center: {lat: 50.456342579672736, lng: 30.54443421505789},
         zoom: 12,
         disableDefaultUI: true,
         styles: [
@@ -189,4 +189,27 @@ function initMap() {
 }
 
 function drawMarkers(map, markersData) {
+    $(markersData).each(function(i) {
+        let coords = markersData[i]['coords'].split(',');
+        let marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0])),
+            icon: {
+                anchor: new google.maps.Point(9, 9),
+                size: new google.maps.Size(18,17),
+                url: 'Map/marker.svg'
+            }
+        });
+        marker.addListener('click', function() {
+            handleMarkerClick(markersData[i]['id']);
+        });
+    });
 }
+
+function handleMarkerClick(id) {
+
+}
+
+$(function() {
+    initMap();
+});
