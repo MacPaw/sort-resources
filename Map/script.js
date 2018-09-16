@@ -1,3 +1,15 @@
+var markersData, activeMarker,
+    icon = {
+        anchor: new google.maps.Point(9, 9),
+        size: new google.maps.Size(18, 17),
+        url: 'Map/marker.svg'
+    },
+    activeIcon = {
+        anchor: new google.maps.Point(23, 23),
+        size: new google.maps.Size(46, 46),
+        url: 'Map/marker-active.svg'
+    }
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 50.456342579672736, lng: 30.54443421505789},
@@ -167,7 +179,7 @@ function initMap() {
 
     // Parse the KML file and draw markers
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
-        var markersData = [];
+        markersData = [];
         let kmlData = new DOMParser().parseFromString(data,'text/xml');
         let folders = $(kmlData).find('Folder');
         folders.each(function(i) {
@@ -186,6 +198,11 @@ function initMap() {
         drawMarkers(map, markersData);
     });
 
+    map.addListener('click', function(e) {
+        activeMarker.setIcon(icon);
+        activeMarker = null;
+    });
+
 }
 
 function drawMarkers(map, markersData) {
@@ -194,20 +211,19 @@ function drawMarkers(map, markersData) {
         let marker = new google.maps.Marker({
             map: map,
             position: new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0])),
-            icon: {
-                anchor: new google.maps.Point(9, 9),
-                size: new google.maps.Size(18,17),
-                url: 'Map/marker.svg'
-            }
+            icon: icon
         });
+
+        // Handle marker click
         marker.addListener('click', function() {
-            handleMarkerClick(markersData[i]['id']);
+            if (activeMarker != null) {
+                activeMarker.setIcon(icon);
+            }
+            marker.setIcon(activeIcon);
+            activeMarker = marker;
         });
+
     });
-}
-
-function handleMarkerClick(id) {
-
 }
 
 $(function() {
