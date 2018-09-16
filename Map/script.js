@@ -165,19 +165,22 @@ function initMap() {
         ]
     });
 
-    map.addListener('click', function(event) {
-
+    $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
+        var xmlDoc = new DOMParser().parseFromString(data,'text/xml');
+        console.log(xmlDoc);
     });
 
-    var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kmz', {
-        suppressInfoWindows: true,
-        preserveViewport: false,
-        map: map
-    });
 
-    kmlLayer.addListener('click', function(event) {
-        document.getElementById('info').innerHTML = event.featureData.description;
-        document.getElementById('info').style.display = 'block';
-        map.panTo(event.latLng);
-    });
+    //
+    // var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kmz', {
+    //     suppressInfoWindows: true,
+    //     preserveViewport: false,
+    //     map: map
+    // });
+    //
+    // kmlLayer.addListener('click', function(event) {
+    //     document.getElementById('info').innerHTML = event.featureData.description;
+    //     document.getElementById('info').style.display = 'block';
+    //     map.panTo(event.latLng);
+    // });
 }
