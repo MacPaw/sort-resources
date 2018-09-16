@@ -169,7 +169,7 @@ function initMap() {
 
     });
 
-    var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/mad-data.kmz', {
+    var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kmz', {
         suppressInfoWindows: true,
         preserveViewport: false,
         map: map
