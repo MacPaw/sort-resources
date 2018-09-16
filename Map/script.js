@@ -165,7 +165,7 @@ function initMap() {
         ]
     });
 
-    var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/poi.kmz', {
+    var kmlLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/mad-data.kml', {
         suppressInfoWindows: true,
         preserveViewport: false,
         map: map
