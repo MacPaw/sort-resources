@@ -197,14 +197,17 @@ function initMap() {
         drawMarkers(map, markersData);
     });
 
-    map.addListener('touchend', function(e) {
+    map.addListener('click', function(e) {
         activeMarker.setIcon(icon);
         activeMarker = null;
         $('#info').removeClass('minified').removeClass('open');
     });
 
     $('#tap-area').on('touchend', function() {
+        e.preventDefault();
+        e.stopPropagation();
         $('#info').toggleClass('open');
+        return false;
     });
 
     infoWindow = new google.maps.InfoWindow;
@@ -249,7 +252,7 @@ function drawMarkers(map, markersData) {
         });
 
         // Handle marker click
-        marker.addListener('touchend', function() {
+        marker.addListener('click', function() {
             let $info = $('#info');
 
             if (activeMarker != null) {
