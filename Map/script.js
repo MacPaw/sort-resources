@@ -186,8 +186,7 @@ function initMap() {
             let placemarks = $(folders[i]).find('Placemark');
             placemarks.each(function(j) {
                 markersData.push({
-                    'id': j,
-                    'title': $(folders[i]).find('name').text(),
+                    'title': $(folders[i]).find('>:first-child').text(),
                     'subtitle': $(placemarks[j]).find('name').text(),
                     'description': $(placemarks[j]).find('description').text(),
                     'coords': $(placemarks[j]).find('Point coordinates').text().trim()
@@ -204,6 +203,39 @@ function initMap() {
         $('#info').removeClass('minified').removeClass('open');
     });
 
+    $('#tap-area').click(function() {
+        $('#info').toggleClass('open');
+    });
+
+    infoWindow = new google.maps.InfoWindow;
+
+    // Try HTML5 geolocation.
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Location found.');
+            infoWindow.open(map);
+            map.setCenter(pos);
+        }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+        });
+    } else {
+        // Browser doesn't support Geolocation
+        handleLocationError(false, infoWindow, map.getCenter());
+    }
+}
+
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+    infoWindow.setPosition(pos);
+    infoWindow.setContent(browserHasGeolocation ?
+        'Error: The Geolocation service failed.' :
+        'Error: Your browser doesn\'t support geolocation.');
+    infoWindow.open(map);
 }
 
 function drawMarkers(map, markersData) {
@@ -225,14 +257,31 @@ function drawMarkers(map, markersData) {
             }
             marker.setIcon(activeIcon);
             activeMarker = marker;
-            map.panTo(position);
+
+            // Fill the bottom info block
+            let data = markersData[i];
+            console.log(data);
+            $info.find('#title').text(data['title']);
+            $info.find('#subtitle').text(data['subtitle']);
+            $info.find('#description').html(data['description']);
 
             if (!$info.hasClass('open')) {
                 $info.addClass('minified');
+                map.panTo(position);
             }
+
         });
 
     });
+}
+
+function transitionInfoToState(state) {
+    let $info = $('#info');
+    switch (state) {
+        case 'closed':
+            $info.removeClass('open').removeClass('minified');
+            $info.css('height', 0)
+    }
 }
 
 $(function() {
