@@ -227,6 +227,7 @@ function initMap() {
             $('#location-center').addClass('loading');
             geoMarker.addListener('position_changed', function() {
                 map.panTo(geoMarker.getPosition());
+                geoMarker.unbindAll();
                 $('#location-center').removeClass('loading');
             })
         } else {
