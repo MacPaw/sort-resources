@@ -219,8 +219,16 @@ function initMap() {
     });
 
     $('#location-center').on('touchend', function() {
+        if ($(this).hasClass('loading')) {
+            return false;
+        }
         if(geoMarker == undefined || !geoMarker.getPosition()) {
             initGeoMarker(map);
+            $('#location-center').addClass('loading');
+            geoMarker.addListener('position_changed', function() {
+                map.panTo(geoMarker.getPosition());
+                $('#location-center').removeClass('loading');
+            })
         } else {
             map.panTo(geoMarker.getPosition());
             if (map.zoom < 12) {
@@ -267,9 +275,7 @@ function drawMarkers(map, markersData) {
             } else {
                 $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
             }
-
         });
-
     });
 }
 

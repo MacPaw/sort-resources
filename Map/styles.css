@@ -130,7 +130,7 @@ html, body {
     background-size: cover;
 }
 
-#location-center:active {
+#location-center:active, #location-center.loading {
     opacity: 0.7;
     -webkit-transition: none;
     -moz-transition: none;
