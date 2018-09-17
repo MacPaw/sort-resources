@@ -305,7 +305,7 @@ function initGeoMarker(map) {
         fillOpacity: 0.2,
         strokeColor: '#448AFF',
         strokeOpacity: 0.4,
-        strokeWeight: 1
+        strokeWeight: 1.5
     });
 }
 
