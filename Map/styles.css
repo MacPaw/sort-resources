@@ -66,7 +66,7 @@ html, body {
     height: 8px;
     top: 30px;
     right: 40px;
-    background: url("arrow.png") no-repeat center;
+    background: url("images/arrow.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -125,7 +125,7 @@ html, body {
     margin-top: -11px;
     width: 22px;
     height: 22px;
-    background: url("center.png") no-repeat center;
+    background: url("images/center.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
