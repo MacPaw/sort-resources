@@ -202,9 +202,11 @@ function initMap() {
     });
 
     // Map click
-    map.addListener('click', function(e) {
-        activeMarker.setIcon(icon);
-        activeMarker = null;
+    map.addListener('click', function() {
+        if (activeMarker != null) {
+            activeMarker.setIcon(icon);
+            activeMarker = null;
+        }
         transitionInfoToState('closed');
     });
 
