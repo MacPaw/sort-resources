@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <script src="Map/jquery.js"></script>
     <script>
+        window.onerror = function(error) {
+            alert(error); // Fire when errors occur. Just a test, not always do this.
+        };
+
         function findGetParameter(parameterName) {
             var result = null,
                 tmp = [];
