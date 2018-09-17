@@ -208,48 +208,27 @@ function initMap() {
 
     // Info block top part touch
     $('#tap-area').on('touchend', function(e) {
-        e.preventDefault();
         e.stopPropagation();
         if ($('#info').hasClass('open')) {
             transitionInfoToState('minified');
         } else if ($('#info').hasClass('minified')) {
             transitionInfoToState('open');
         }
-        return false;
     });
 
-    var GeoMarker = new GeolocationMarker(map);
+    var geoMarker = new GeolocationMarker(map);
+    geoMarker.setCircleOptions({
+        fillColor: '#448AFF',
+        fillOpacity: 0.2,
+        strokeColor: '#448AFF',
+        strokeOpacity: 0.4,
+        strokeWeight: 1
+    });
 
-    // infoWindow = new google.maps.InfoWindow;
-    //
-    // // Try HTML5 geolocation.
-    // if (navigator.geolocation) {
-    //     navigator.geolocation.getCurrentPosition(function(position) {
-    //         var pos = {
-    //             lat: position.coords.latitude,
-    //             lng: position.coords.longitude
-    //         };
-    //
-    //         infoWindow.setPosition(pos);
-    //         infoWindow.setContent('Location found.');
-    //         infoWindow.open(map);
-    //         map.setCenter(pos);
-    //     }, function() {
-    //         handleLocationError(true, infoWindow, map.getCenter());
-    //     });
-    // } else {
-    //     // Browser doesn't support Geolocation
-    //     handleLocationError(false, infoWindow, map.getCenter());
-    // }
+    $('#location-center').on('touchend', function() {
+        map.panTo(geoMarker.getPosition());
+    });
 }
-
-// function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-//     infoWindow.setPosition(pos);
-//     infoWindow.setContent(browserHasGeolocation ?
-//         'Error: The Geolocation service failed.' :
-//         'Error: Your browser doesn\'t support geolocation.');
-//     infoWindow.open(map);
-// }
 
 function drawMarkers(map, markersData) {
     $(markersData).each(function(i) {

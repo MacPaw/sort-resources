@@ -67,6 +67,7 @@ html, body {
     top: 30px;
     right: 40px;
     background: url("arrow.png") no-repeat center;
+    -webkit-background-size: cover;
     background-size: cover;
 }
 
@@ -86,4 +87,34 @@ html, body {
     transition: transform 0.2s ease-out 0.3s;
     -webkit-transition: transform 0.2s ease-out 0.3s;
     -moz-transition: transform 0.2s ease-out 0.3s;
+}
+
+#location-center {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 4px  rgba(0,0,0,0.2);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    top: -72px;
+    right: 15px;
+}
+
+#location-center:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -11px;
+    margin-top: -11px;
+    width: 22px;
+    height: 22px;
+    background: url("center.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
