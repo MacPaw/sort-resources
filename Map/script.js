@@ -1,5 +1,5 @@
 var markersData, activeMarker, geoMarker,
-    icon, activeIcon;
+    icon, activeIcon, ubsIcon, ubsActiveIcon;
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -178,6 +178,16 @@ function initMap() {
         size: new google.maps.Size(46, 46),
         url: 'Map/marker-active.svg'
     };
+    ubsIcon = {
+        anchor: new google.maps.Point(9, 9),
+        size: new google.maps.Size(18, 17),
+        url: 'Map/ubs-marker.svg'
+    };
+    ubsActiveIcon = {
+        anchor: new google.maps.Point(23, 23),
+        size: new google.maps.Size(46, 46),
+        url: 'Map/ubs-marker-active.svg'
+    };
 
     // Parse the KML file and draw markers
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
@@ -190,6 +200,8 @@ function initMap() {
                 var descr = $(placemarks[j]).find('description').text();
 
                 markersData.push({
+                    'icon': i === 0 ? ubsIcon : icon,
+                    'activeIcon': i === 0 ? ubsActiveIcon : activeIcon,
                     'title': $(folders[i]).find('>:first-child').text(),
                     'subtitle': $(placemarks[j]).find('name').text(),
                     'description': descr.replace('<br/><br />', '<br/>'),
@@ -204,7 +216,7 @@ function initMap() {
     // Map click
     map.addListener('click', function() {
         if (activeMarker != null) {
-            activeMarker.setIcon(icon);
+            activeMarker.showDefaultIcon();
         }
         activeMarker = null;
         transitionInfoToState('closed');
@@ -230,9 +242,7 @@ function initMap() {
             $('#location-center').addClass('loading');
         } else {
             map.panTo(geoMarker.getPosition());
-            if (map.zoom < 12) {
-                map.setZoom(12);
-            }
+            zoomMap(map);
         }
 
         return false;
@@ -254,9 +264,9 @@ function drawMarkers(map, markersData) {
             var $info = $('#info');
 
             if (activeMarker != null) {
-                activeMarker.setIcon(icon);
+                activeMarker.setIcon(markersData[i]['icon']);
             }
-            marker.setIcon(activeIcon);
+            marker.setIcon(markersData[i]['activeIcon']);
             activeMarker = marker;
 
             // Fill the bottom info block
@@ -268,14 +278,22 @@ function drawMarkers(map, markersData) {
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
                 map.panTo(position);
-                if (map.zoom < 13) {
-                    map.setZoom(13);
-                }
+                zoomMap(map);
             } else {
                 $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
             }
         });
+
+        marker.showDefaultIcon = function() {
+            marker.setIcon(markersData[i]['icon']);
+        }
     });
+}
+
+function zoomMap(map) {
+    if (map.zoom < 13) {
+        map.setZoom(13);
+    }
 }
 
 function transitionInfoToState(state) {
