@@ -198,15 +198,16 @@ function initMap() {
             var placemarks = $(folders[i]).find('Placemark');
             placemarks.each(function(j) {
                 var descr = $(placemarks[j]).find('description').text();
-
+                console.log('Folder: ' + i);
                 markersData.push({
-                    'icon': i === 0 ? ubsIcon : icon,
-                    'activeIcon': i === 0 ? ubsActiveIcon : activeIcon,
+                    'icon': i === 0 ? icon : ubsIcon,
+                    'activeIcon': i === 0 ? activeIcon : ubsActiveIcon,
                     'title': $(folders[i]).find('>:first-child').text(),
                     'subtitle': $(placemarks[j]).find('name').text(),
                     'description': descr.replace('<br/><br />', '<br/>'),
                     'coords': $(placemarks[j]).find('Point coordinates').text().trim()
                 });
+                console.log(i === 0 ? ubsIcon : icon, i === 0 ? ubsActiveIcon : activeIcon);
             });
         });
 
@@ -256,7 +257,7 @@ function drawMarkers(map, markersData) {
         var marker = new google.maps.Marker({
             map: map,
             position: position,
-            icon: icon
+            icon: markersData[i]['icon']
         });
 
         // Handle marker click
@@ -264,7 +265,7 @@ function drawMarkers(map, markersData) {
             var $info = $('#info');
 
             if (activeMarker != null) {
-                activeMarker.setIcon(markersData[i]['icon']);
+                activeMarker.showDefaultIcon();
             }
             marker.setIcon(markersData[i]['activeIcon']);
             activeMarker = marker;
