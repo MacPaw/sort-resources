@@ -1,14 +1,5 @@
-var markersData, activeMarker,
-    icon = {
-        anchor: new google.maps.Point(9, 9),
-        size: new google.maps.Size(18, 17),
-        url: 'Map/marker.svg'
-    },
-    activeIcon = {
-        anchor: new google.maps.Point(23, 23),
-        size: new google.maps.Size(46, 46),
-        url: 'Map/marker-active.svg'
-    };
+var markersData, activeMarker, geoMarker,
+    icon, activeIcon;
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -177,6 +168,17 @@ function initMap() {
         ]
     });
 
+    icon = {
+        anchor: new google.maps.Point(9, 9),
+        size: new google.maps.Size(18, 17),
+        url: 'Map/marker.svg'
+    };
+    activeIcon = {
+        anchor: new google.maps.Point(23, 23),
+        size: new google.maps.Size(46, 46),
+        url: 'Map/marker-active.svg'
+    };
+
     // Parse the KML file and draw markers
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
         markersData = [];
@@ -216,17 +218,17 @@ function initMap() {
         return false;
     });
 
-    var geoMarker = new GeolocationMarker(map);
-    geoMarker.setCircleOptions({
-        fillColor: '#448AFF',
-        fillOpacity: 0.2,
-        strokeColor: '#448AFF',
-        strokeOpacity: 0.4,
-        strokeWeight: 1
-    });
-
+    initGeoMarker(map);
     $('#location-center').on('touchend', function() {
-        map.panTo(geoMarker.getPosition());
+        if(!geoMarker.getPosition()) {
+            initGeoMarker(map);
+        } else {
+            map.panTo(geoMarker.getPosition());
+            if (map.zoom < 12) {
+                map.setZoom(12);
+            }
+        }
+
         return false;
     });
 }
@@ -284,7 +286,7 @@ function transitionInfoToState(state) {
                 $info.removeClass('open').addClass('closing');
                 setTimeout(function() {
                     $info.removeClass('closing');
-                }, 500);
+                }, 300);
             }
             $info.addClass('minified');
             $info.css('height', $('#tap-area').outerHeight());
@@ -296,6 +298,17 @@ function transitionInfoToState(state) {
     }
 }
 
-$(function() {
+function initGeoMarker(map) {
+    geoMarker = new GeolocationMarker(map);
+    geoMarker.setCircleOptions({
+        fillColor: '#448AFF',
+        fillOpacity: 0.2,
+        strokeColor: '#448AFF',
+        strokeOpacity: 0.4,
+        strokeWeight: 1
+    });
+}
+
+$(window).bind("load", function() {
     initMap();
 });
