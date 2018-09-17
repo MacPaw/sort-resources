@@ -182,12 +182,12 @@ function initMap() {
     // Parse the KML file and draw markers
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
         markersData = [];
-        let kmlData = new DOMParser().parseFromString(data,'text/xml');
-        let folders = $(kmlData).find('Folder');
+        var kmlData = new DOMParser().parseFromString(data,'text/xml');
+        var folders = $(kmlData).find('Folder');
         folders.each(function(i) {
-            let placemarks = $(folders[i]).find('Placemark');
+            var placemarks = $(folders[i]).find('Placemark');
             placemarks.each(function(j) {
-                let descr = $(placemarks[j]).find('description').text();
+                var descr = $(placemarks[j]).find('description').text();
 
                 markersData.push({
                     'title': $(folders[i]).find('>:first-child').text(),
@@ -239,9 +239,9 @@ function initMap() {
 
 function drawMarkers(map, markersData) {
     $(markersData).each(function(i) {
-        let coords = markersData[i]['coords'].split(',');
-        let position = new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0]));
-        let marker = new google.maps.Marker({
+        var coords = markersData[i]['coords'].split(',');
+        var position = new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0]));
+        var marker = new google.maps.Marker({
             map: map,
             position: position,
             icon: icon
@@ -249,7 +249,7 @@ function drawMarkers(map, markersData) {
 
         // Handle marker click
         marker.addListener('click', function() {
-            let $info = $('#info');
+            var $info = $('#info');
 
             if (activeMarker != null) {
                 activeMarker.setIcon(icon);
@@ -258,7 +258,7 @@ function drawMarkers(map, markersData) {
             activeMarker = marker;
 
             // Fill the bottom info block
-            let data = markersData[i];
+            var data = markersData[i];
             $info.find('#title').text(data['title']);
             $info.find('#subtitle').text(data['subtitle']);
             $info.find('#description').html(data['description']);
@@ -277,7 +277,7 @@ function drawMarkers(map, markersData) {
 }
 
 function transitionInfoToState(state) {
-    let $info = $('#info');
+    var $info = $('#info');
     switch (state) {
         case 'closed':
             $info.removeClass('open').removeClass('minified');
