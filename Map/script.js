@@ -205,8 +205,8 @@ function initMap() {
     map.addListener('click', function() {
         if (activeMarker != null) {
             activeMarker.setIcon(icon);
-            activeMarker = null;
         }
+        activeMarker = null;
         transitionInfoToState('closed');
     });
 
