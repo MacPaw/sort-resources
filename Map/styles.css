@@ -109,6 +109,10 @@ html, body {
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     top: -72px;
     right: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #location-center:after {

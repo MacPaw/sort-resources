@@ -218,9 +218,8 @@ function initMap() {
         return false;
     });
 
-    initGeoMarker(map);
     $('#location-center').on('touchend', function() {
-        if(!geoMarker.getPosition()) {
+        if(geoMarker == undefined || !geoMarker.getPosition()) {
             initGeoMarker(map);
         } else {
             map.panTo(geoMarker.getPosition());
@@ -305,7 +304,7 @@ function initGeoMarker(map) {
         fillOpacity: 0.2,
         strokeColor: '#448AFF',
         strokeOpacity: 0.4,
-        strokeWeight: 1.5
+        strokeWeight: 1
     });
 }
 
