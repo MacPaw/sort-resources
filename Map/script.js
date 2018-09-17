@@ -208,12 +208,12 @@ function initMap() {
 
     // Info block top part touch
     $('#tap-area').on('touchend', function(e) {
-        e.stopPropagation();
         if ($('#info').hasClass('open')) {
             transitionInfoToState('minified');
         } else if ($('#info').hasClass('minified')) {
             transitionInfoToState('open');
         }
+        return false;
     });
 
     var geoMarker = new GeolocationMarker(map);
@@ -227,6 +227,7 @@ function initMap() {
 
     $('#location-center').on('touchend', function() {
         map.panTo(geoMarker.getPosition());
+        return false;
     });
 }
 
