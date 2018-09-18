@@ -267,7 +267,7 @@ function drawMarkers(map, markersData) {
             var $info = $('#info');
 
             if (activeMarker != null) {
-                activeMarker.showDefaultIcon();
+                activeMarker.deactivate();
             }
             marker.setIcon(markersData[i]['activeIcon']);
             activeMarker = marker;
