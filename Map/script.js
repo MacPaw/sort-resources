@@ -171,22 +171,22 @@ function initMap() {
     icon = {
         anchor: new google.maps.Point(9, 9),
         size: new google.maps.Size(18, 17),
-        url: 'Map/images/marker.svg'
+        url: 'https://macpaw.github.io/sort-resources/Map/images/marker.svg'
     };
     activeIcon = {
         anchor: new google.maps.Point(23, 23),
         size: new google.maps.Size(46, 46),
-        url: 'Map/images/marker-active.svg'
+        url: 'https://macpaw.github.io/sort-resources/Map/images/marker-active.svg'
     };
     ubsIcon = {
         anchor: new google.maps.Point(9, 9),
         size: new google.maps.Size(18, 17),
-        url: 'Map/images/ubs-marker.svg'
+        url: 'https://macpaw.github.io/sort-resources/Map/images/ubs-marker.svg'
     };
     ubsActiveIcon = {
         anchor: new google.maps.Point(23, 23),
         size: new google.maps.Size(46, 46),
-        url: 'Map/images/ubs-marker-active.svg'
+        url: 'https://macpaw.github.io/sort-resources/Map/images/ubs-marker-active.svg'
     };
 
     // Parse the KML file and draw markers
