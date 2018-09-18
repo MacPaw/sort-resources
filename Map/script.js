@@ -277,8 +277,7 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            var coordsString = coords[1]+','+coords[0];
-            $description.html('<a href="geo:'+coordsString+'">Прокласти маршрут</a><br/><br/>' + $description.html());
+            $description.html('<a href="map://open?lat='+coords[1]+'&lng='+coords[0]+'">Прокласти маршрут</a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
@@ -309,6 +308,10 @@ function resetMap() {
     if (activeMarker != null) {
         activeMarker.deactivate();
     }
+}
+
+function openMapApp(point) {
+    window.location = "map://open?lat="+map.getCenter().lat
 }
 
 function transitionInfoToState(state) {
