@@ -200,7 +200,6 @@ function initMap() {
             var placemarks = $(folders[i]).find('Placemark');
             placemarks.each(function(j) {
                 var descr = $(placemarks[j]).find('description').text();
-                console.log('Folder: ' + i);
                 markersData.push({
                     'icon': i === 0 ? icon : ubsIcon,
                     'activeIcon': i === 0 ? activeIcon : ubsActiveIcon,
@@ -209,7 +208,6 @@ function initMap() {
                     'description': descr.replace('<br/><br />', '<br/>'),
                     'coords': $(placemarks[j]).find('Point coordinates').text().trim()
                 });
-                console.log(i === 0 ? ubsIcon : icon, i === 0 ? ubsActiveIcon : activeIcon);
             });
         });
 
