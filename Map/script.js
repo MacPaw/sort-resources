@@ -1,10 +1,12 @@
-var markersData, activeMarker, geoMarker,
-    icon, activeIcon, ubsIcon, ubsActiveIcon;
+var map, markersData, activeMarker, geoMarker,
+    icon, activeIcon, ubsIcon, ubsActiveIcon,
+    mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
+    defaultZoom = 10;
 
 function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 50.456342579672736, lng: 30.54443421505789},
-        zoom: 10,
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: mapCenter,
+        zoom: defaultZoom,
         disableDefaultUI: true,
         styles: [
             {
@@ -233,17 +235,18 @@ function initMap() {
         return false;
     });
 
+    // User location
     $('#location-center').on('touchend', function() {
         if ($(this).hasClass('loading')) {
             return false;
         }
 
-        if(geoMarker == undefined || !geoMarker.getPosition()) {
+        if(geoMarker === undefined || !geoMarker.getPosition()) {
             initGeoMarker(map);
             $('#location-center').addClass('loading');
         } else {
             map.panTo(geoMarker.getPosition());
-            zoomMap(map);
+            zoomInMap();
         }
 
         return false;
@@ -279,7 +282,7 @@ function drawMarkers(map, markersData) {
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
                 map.panTo(position);
-                zoomMap(map);
+                zoomInMap();
             } else {
                 $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
             }
@@ -291,10 +294,16 @@ function drawMarkers(map, markersData) {
     });
 }
 
-function zoomMap(map) {
+function zoomInMap() {
     if (map.zoom < 13) {
         map.setZoom(13);
     }
+}
+
+function resetMap() {
+    transitionInfoToState('closed');
+    map.panTo(mapCenter);
+    map.setZoom = defaultZoom;
 }
 
 function transitionInfoToState(state) {
