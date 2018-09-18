@@ -303,7 +303,7 @@ function zoomInMap() {
 function resetMap() {
     transitionInfoToState('closed');
     map.panTo(mapCenter);
-    map.setZoom = defaultZoom;
+    map.setZoom(defaultZoom);
 }
 
 function transitionInfoToState(state) {
