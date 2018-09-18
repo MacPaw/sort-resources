@@ -324,11 +324,8 @@ function transitionInfoToState(state) {
 function initGeoMarker(map) {
     geoMarker = new GeolocationMarker(map);
     geoMarker.setCircleOptions({
-        fillColor: '#448AFF',
-        fillOpacity: 0.2,
-        strokeColor: '#448AFF',
-        strokeOpacity: 0.4,
-        strokeWeight: 1
+        fillOpacity: 0,
+        strokeOpacity: 0
     });
 
     geoMarker.addListener('position_changed', function() {
