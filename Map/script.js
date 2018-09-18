@@ -277,7 +277,7 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            $description.html('<a href="sort://open?lat='+coords[1]+'&lng='+coords[0]+'">Прокласти маршрут</a><br/><br/>' + $description.html());
+            $description.html('<a href="sort://open?lat='+coords[1]+'&lng='+coords[0]+'&title='+data['subtitle']+'">Прокласти маршрут</a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
