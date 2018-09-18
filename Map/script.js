@@ -274,9 +274,13 @@ function drawMarkers(map, markersData) {
 
             // Fill the bottom info block
             var data = markersData[i];
+            var $description = $info.find('#description')
             $info.find('#title').text(data['title']);
             $info.find('#subtitle').text(data['subtitle']);
-            $info.find('#description').html(data['description']);
+            $description.html(data['description']);
+
+            var coordsString = coords[1]+','+coords[0];
+            $description.html('<a href="geo:'+coordsString+'"></a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
