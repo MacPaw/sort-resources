@@ -278,7 +278,7 @@ function drawMarkers(map, markersData) {
             $description.html(data['description']);
 
             var coordsString = coords[1]+','+coords[0];
-            $description.html('<a href="geo:'+coordsString+'"></a><br/><br/>' + $description.html());
+            $description.html('<a href="geo:'+coordsString+'">Прокласти маршрут</a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
