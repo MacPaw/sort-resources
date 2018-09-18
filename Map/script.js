@@ -219,9 +219,8 @@ function initMap() {
     // Map click
     map.addListener('click', function() {
         if (activeMarker != null) {
-            activeMarker.showDefaultIcon();
+            activeMarker.deactivate();
         }
-        activeMarker = null;
         transitionInfoToState('closed');
     });
 
@@ -288,8 +287,9 @@ function drawMarkers(map, markersData) {
             }
         });
 
-        marker.showDefaultIcon = function() {
+        marker.deactivate = function() {
             marker.setIcon(markersData[i]['icon']);
+            activeMarker = null
         }
     });
 }
@@ -304,6 +304,9 @@ function resetMap() {
     transitionInfoToState('closed');
     map.panTo(mapCenter);
     map.setZoom(defaultZoom);
+    if (activeMarker != null) {
+        activeMarker.deactivate();
+    }
 }
 
 function transitionInfoToState(state) {
