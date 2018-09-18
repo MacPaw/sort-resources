@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пункти прийому вторсировини</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script src="Map/jquery.js"></script>
+    <script>
+        function findGetParameter(parameterName) {
+            var result = null,
+                tmp = [];
+            var items = location.search.substr(1).split("&");
+            for (var index = 0; index < items.length; index++) {
+                tmp = items[index].split("=");
+                if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+            }
+            return result;
+        }
+
+        var script = document.createElement('script');
+        script.src = 'https://maps.googleapis.com/maps/api/js?key='+findGetParameter('key');
+        script.id = 'maps-script';
+        document.head.appendChild(script);
+        $(script).on('load', function() {
+            $.getScript('Map/SVGMarker.min.js');
+            $.getScript('Map/geolocation-marker.js');
+        });
+    </script>
+    <script src="Map/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="Map/styles.css"/>
+</head>
+<body>
+<div id="map"></div>
+<div id="info">
+    <div id="tap-area">
+        <div id="title"></div>
+        <div id="subtitle"></div>
+    </div>
+    <div id="description"></div>
+    <div id="info-arrow"></div>
+    <div id="location-center"></div>
+</div>
+</body>
+</html>
