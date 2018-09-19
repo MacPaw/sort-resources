@@ -284,17 +284,16 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            var client = findGetParameter('client') ,
+            var client = findGetParameter('client'),
                 link = '',
-                target = '';
+                onclick = '';
             if (client === 'ios') {
                 link = 'sort://open?lat='+coords[1]+'&lng='+coords[0]+'&title='+data['subtitle'] ;
             } else {
-                link = 'https://maps.google.com/maps?daddr='+coords[1]+','+coords[0];
-                target = ' target="_blank"';
+                onclick = ' onclick="openInNewWindow('+coords[1]+', '+coords[0]+'); return false;"'
             }
 
-            $description.html('<a href="'+link+'"'+target+'>Прокласти маршрут</a><br/><br/>' + $description.html());
+            $description.html('<a href="'+link+'"'+onclick+'>Прокласти маршрут</a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
@@ -310,6 +309,10 @@ function drawMarkers(map, markersData) {
             activeMarker = null
         }
     });
+}
+
+function openInNewWindow(lat, lng) {
+    window.open('https://maps.google.com/maps?daddr='+coords[1]+','+coords[0])
 }
 
 function zoomInMap() {
