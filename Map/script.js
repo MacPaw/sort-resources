@@ -166,6 +166,13 @@ function initMap() {
                         "color": "#ffffff"
                     }
                 ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels",
+                "stylers": [
+                    { "visibility": "off" }
+                ]
             }
         ]
     });
