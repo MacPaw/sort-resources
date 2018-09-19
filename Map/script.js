@@ -277,10 +277,10 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            var client = findGetParameter('client') ;
-            var link = '';
-            var target = '';
-            if client == 'ios' {
+            var client = findGetParameter('client') ,
+                link = '',
+                target = '';
+            if (client === 'ios') {
                 link = 'sort://open?lat='+coords[1]+'&lng='+coords[0]+'&title='+data['subtitle'] ;
             } else {
                 link = 'https://maps.google.com/maps?daddr='+coords[1]+','+coords[0];
