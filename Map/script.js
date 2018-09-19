@@ -284,11 +284,8 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            var client = findGetParameter('client');
-            if (client === 'ios') {
-                let link = 'sort://open?lat=' + coords[1] + '&lng=' + coords[0] + '&title=' + data['subtitle'];
-                $description.html('<a href="' + link + '"' + onclick + '>Прокласти маршрут</a><br/><br/>' + $description.html());
-            }
+            let link = 'sort://open?lat=' + coords[1] + '&lng=' + coords[0] + '&title=' + data['subtitle'];
+            $description.html('<a href="' + link + '"' + onclick + '>Прокласти маршрут</a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
