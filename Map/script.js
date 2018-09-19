@@ -310,10 +310,6 @@ function resetMap() {
     }
 }
 
-function openMapApp(point) {
-    window.location = "map://open?lat="+map.getCenter().lat
-}
-
 function transitionInfoToState(state) {
     var $info = $('#info');
     switch (state) {
