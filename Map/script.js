@@ -277,7 +277,17 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            $description.html('<a href="sort://open?lat='+coords[1]+'&lng='+coords[0]+'&title='+data['subtitle']+'">Прокласти маршрут</a><br/><br/>' + $description.html());
+            let client = findGetParameter('client') ;
+            var link = '';
+            var target = '';
+            if client == 'ios' {
+                link = 'sort://open?lat='+coords[1]+'&lng='+coords[0]+'&title='+data['subtitle'] ;
+            } else {
+                link = 'https://maps.google.com/maps?daddr='+coords[1]+','+coords[0];
+                target = ' target="_blank"';
+            }
+
+            $description.html('<a href="'+link+'"'+target+'>Прокласти маршрут</a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
                 transitionInfoToState('minified');
