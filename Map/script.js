@@ -1,3 +1,5 @@
+"use strict";
+
 var map, markersData, activeMarker, geoMarker,
     icon, activeIcon, ubsIcon, ubsActiveIcon,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
