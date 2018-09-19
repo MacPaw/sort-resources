@@ -277,7 +277,7 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            let client = findGetParameter('client') ;
+            var client = findGetParameter('client') ;
             var link = '';
             var target = '';
             if client == 'ios' {
