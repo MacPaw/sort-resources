@@ -249,7 +249,10 @@ function initMap() {
         }
 
         var client = findGetParameter('client');
-        if (client === "android") {
+        if (client === "ios") {
+            $button.addClass('loading');
+            window.location = "sort://update-location";
+        } else {
             if (browserGeoMarker === undefined || !browserGeoMarker.getPosition()) {
                 initBrowserGeoMarker(map);
                 $button.addClass('loading');
@@ -257,9 +260,6 @@ function initMap() {
                 map.panTo(browserGeoMarker.getPosition());
                 zoomInMap();
             }
-        } else {
-            $button.addClass('loading');
-            window.location = "sort://update-location";
         }
 
         return false;
@@ -277,9 +277,7 @@ function initBrowserGeoMarker(map) {
         if ($('#location-center').hasClass('loading')) {
             map.panTo(browserGeoMarker.getPosition());
             $('#location-center').removeClass('loading');
-            if (map.zoom < 12) {
-                map.setZoom(12);
-            }
+            zoomInMap();
         }
     });
 }
@@ -382,7 +380,7 @@ function drawUserLocation(lat, lng) {
         });
     }
 
-    if (lat !== undefined && lng !== undefined) {
+    if (lat !== undefined || lng !== undefined) {
         customGeoMarker.setPosition({lat: lat, lng: lng});
     }
 }
