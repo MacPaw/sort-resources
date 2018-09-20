@@ -183,8 +183,7 @@ function initMap() {
     var initialUserPosition = findGetParameter('coord');
     if (initialUserPosition != null) {
         var ll = initialUserPosition.split(',');
-        console.log(ll);
-        drawUserLocation(ll[0], ll[1]);
+        drawUserLocation(parseFloat(ll[0]), parseFloat(ll[1]));
     }
 
     icon = {
@@ -381,7 +380,6 @@ function drawUserLocation(lat, lng) {
     }
 
     if (lat !== undefined || lng !== undefined) {
-        console.log({lat: lat, lng: lng});
         var location = {lat: lat, lng: lng};
         customGeoMarker.setPosition(location);
         map.panTo(location);
