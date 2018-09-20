@@ -381,6 +381,7 @@ function drawUserLocation(lat, lng) {
     }
 
     if (lat !== undefined || lng !== undefined) {
+        console.log({lat: lat, lng: lng});
         var location = {lat: lat, lng: lng};
         customGeoMarker.setPosition(location);
         map.panTo(location);
