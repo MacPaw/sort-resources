@@ -1,10 +1,11 @@
+"use strict";
+
 var map, markersData, activeMarker, geoMarker,
     icon, activeIcon, ubsIcon, ubsActiveIcon,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
     defaultZoom = 10;
 
 function initMap() {
-    alert('initMap() called');
     map = new google.maps.Map(document.getElementById('map'), {
         center: mapCenter,
         zoom: defaultZoom,
@@ -285,7 +286,7 @@ function drawMarkers(map, markersData) {
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
 
-            let link = 'sort://open?lat=' + coords[1] + '&lng=' + coords[0] + '&title=' + data['subtitle'];
+            var link = 'sort://open?lat=' + coords[1] + '&lng=' + coords[0] + '&title=' + data['subtitle'];
             $description.html('<a href="' + link + '"' + onclick + '>Прокласти маршрут</a><br/><br/>' + $description.html());
 
             if (!$info.hasClass('open')) {
@@ -362,10 +363,5 @@ function initGeoMarker(map) {
 }
 
 $(window).bind("load", function() {
-    alert('did load');
     initMap();
 });
-
-window.onerror = function(error) {
-    alert(error); // Fire when errors occur. Just a test, not always do this.
-};
