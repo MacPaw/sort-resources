@@ -275,7 +275,7 @@ function initBrowserGeoMarker(map) {
 
     browserGeoMarker.addListener('position_changed', function() {
         if ($('#location-center').hasClass('loading')) {
-            map.panTo(geoMarker.getPosition());
+            map.panTo(browserGeoMarker.getPosition());
             $('#location-center').removeClass('loading');
             if (map.zoom < 12) {
                 map.setZoom(12);
@@ -306,7 +306,7 @@ function drawMarkers(markersData) {
 
             // Fill the bottom info block
             var data = markersData[i];
-            var $description = $info.find('#description')
+            var $description = $info.find('#description');
             $info.find('#title').text(data['title']);
             $info.find('#subtitle').text(data['subtitle']);
             $description.html(data['description']);
