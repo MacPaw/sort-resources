@@ -2,6 +2,7 @@
 
 var map, markersData, activeMarker, browserGeoMarker, customGeoMarker,
     icon, activeIcon, ubsIcon, ubsActiveIcon,
+    appVersion, client,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
     defaultZoom = 10;
 
@@ -200,6 +201,9 @@ function initMap() {
         url: 'https://macpaw.github.io/sort-resources/Map/images/ubs-marker-active.svg'
     };
 
+    appVersion = findGetParameter('version');
+    client = findGetParameter('client');
+
     // Parse the KML file and draw markers
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
         markersData = [];
@@ -248,11 +252,10 @@ function initMap() {
             return false;
         }
 
-        //
-        // if (client === "ios") {
-        //     $button.addClass('loading');
-        //     window.location = "sort://update-location";
-        // } else {
+        if (client === "ios" && appVersion === '1.0') {
+            $button.addClass('loading');
+            window.location = "sort://update-location";
+        } else {
             if (browserGeoMarker === undefined || !browserGeoMarker.getPosition()) {
                 initBrowserGeoMarker(map);
                 $button.addClass('loading');
@@ -260,7 +263,7 @@ function initMap() {
                 map.panTo(browserGeoMarker.getPosition());
                 zoomInMap();
             }
-        // }
+        }
 
         return false;
     });
