@@ -183,6 +183,7 @@ function initMap() {
     var initialUserPosition = findGetParameter('coord');
     if (initialUserPosition != null) {
         var ll = initialUserPosition.split(',');
+        console.log(ll);
         drawUserLocation(ll[0], ll[1]);
     }
 
@@ -253,18 +254,11 @@ function initMap() {
 
     // User location
     $('#location-center').on('touchend', function() {
-        var $button = $(this);
-        if ($button.hasClass('loading')) {
-            return false;
-        }
-
         if (client === "ios" && appVersion === '1.0') {
-            $button.addClass('loading');
             window.location = "sort://update-location";
         } else {
             if (browserGeoMarker === undefined || !browserGeoMarker.getPosition()) {
                 initBrowserGeoMarker(map);
-                $button.addClass('loading');
             } else {
                 map.panTo(browserGeoMarker.getPosition());
                 zoomInMap();
@@ -283,11 +277,8 @@ function initBrowserGeoMarker(map) {
     });
 
     browserGeoMarker.addListener('position_changed', function() {
-        if ($('#location-center').hasClass('loading')) {
-            map.panTo(browserGeoMarker.getPosition());
-            $('#location-center').removeClass('loading');
-            zoomInMap();
-        }
+        map.panTo(browserGeoMarker.getPosition());
+        zoomInMap();
     });
 }
 
@@ -394,7 +385,6 @@ function drawUserLocation(lat, lng) {
         customGeoMarker.setPosition(location);
         map.panTo(location);
         zoomInMap();
-        $('#location-center').removeClass('loading');
     }
 }
 
