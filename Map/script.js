@@ -378,8 +378,8 @@ function drawUserLocation(lat, lng) {
                 anchor: new google.maps.Point(9, 9),
                 size: new google.maps.Size(18, 17),
                 url: 'https://macpaw.github.io/sort-resources/Map/images/user-marker.svg'
-            };
-        })
+            }
+        });
     }
 
     if (lat !== undefined && lng !== undefined) {
