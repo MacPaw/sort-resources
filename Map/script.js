@@ -1,6 +1,6 @@
 "use strict";
 
-var map, markersData, activeMarker, geoMarker,
+var map, markersData, activeMarker, browserGeoMarker, customGeoMarker,
     icon, activeIcon, ubsIcon, ubsActiveIcon,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
     defaultZoom = 10;
@@ -220,7 +220,7 @@ function initMap() {
             });
         });
 
-        drawMarkers(map, markersData);
+        drawMarkers(markersData);
     });
 
     // Map click
@@ -243,23 +243,48 @@ function initMap() {
 
     // User location
     $('#location-center').on('touchend', function() {
-        if ($(this).hasClass('loading')) {
+        var $button = $(this);
+        if ($button.hasClass('loading')) {
             return false;
         }
 
-        if(geoMarker === undefined || !geoMarker.getPosition()) {
-            initGeoMarker(map);
-            $('#location-center').addClass('loading');
+        var client = findGetParameter('client');
+        if (client === "android") {
+            if (browserGeoMarker === undefined || !browserGeoMarker.getPosition()) {
+                initBrowserGeoMarker(map);
+                $button.addClass('loading');
+            } else {
+                map.panTo(browserGeoMarker.getPosition());
+                zoomInMap();
+            }
         } else {
-            map.panTo(geoMarker.getPosition());
-            zoomInMap();
+            $button.addClass('loading');
+            window.location = "sort://update-location";
         }
 
         return false;
     });
 }
 
-function drawMarkers(map, markersData) {
+function initBrowserGeoMarker(map) {
+    browserGeoMarker = new GeolocationMarker(map);
+    browserGeoMarker.setCircleOptions({
+        fillOpacity: 0,
+        strokeOpacity: 0
+    });
+
+    browserGeoMarker.addListener('position_changed', function() {
+        if ($('#location-center').hasClass('loading')) {
+            map.panTo(geoMarker.getPosition());
+            $('#location-center').removeClass('loading');
+            if (map.zoom < 12) {
+                map.setZoom(12);
+            }
+        }
+    });
+}
+
+function drawMarkers(markersData) {
     $(markersData).each(function(i) {
         var coords = markersData[i]['coords'].split(',');
         var position = new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0]));
@@ -344,22 +369,22 @@ function transitionInfoToState(state) {
     }
 }
 
-function initGeoMarker(map) {
-    geoMarker = new GeolocationMarker(map);
-    geoMarker.setCircleOptions({
-        fillOpacity: 0,
-        strokeOpacity: 0
-    });
+function drawUserLocation(lat, lng) {
+    if (customGeoMarker === undefined) {
+        customGeoMarker = new google.maps.Marker({
+            map: map,
+            position: {lat: 0, lng: 0},
+            icon: {
+                anchor: new google.maps.Point(9, 9),
+                size: new google.maps.Size(18, 17),
+                url: 'https://macpaw.github.io/sort-resources/Map/images/user-marker.svg'
+            };
+        })
+    }
 
-    geoMarker.addListener('position_changed', function() {
-        if ($('#location-center').hasClass('loading')) {
-            map.panTo(geoMarker.getPosition());
-            $('#location-center').removeClass('loading');
-            if (map.zoom < 12) {
-                map.setZoom(12);
-            }
-        }
-    });
+    if (lat !== undefined && lng !== undefined) {
+        customGeoMarker.setPosition({lat: lat, lng: lng});
+    }
 }
 
 $(window).bind("load", function() {
