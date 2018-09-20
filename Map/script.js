@@ -384,7 +384,10 @@ function drawUserLocation(lat, lng) {
     }
 
     if (lat !== undefined || lng !== undefined) {
-        customGeoMarker.setPosition({lat: lat, lng: lng});
+        var location = {lat: lat, lng: lng};
+        customGeoMarker.setPosition(location);
+        map.panTo(location);
+        zoomInMap();
     }
 }
 
