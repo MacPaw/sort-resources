@@ -248,11 +248,11 @@ function initMap() {
             return false;
         }
 
-        var client = findGetParameter('client');
-        if (client === "ios") {
-            $button.addClass('loading');
-            window.location = "sort://update-location";
-        } else {
+        //
+        // if (client === "ios") {
+        //     $button.addClass('loading');
+        //     window.location = "sort://update-location";
+        // } else {
             if (browserGeoMarker === undefined || !browserGeoMarker.getPosition()) {
                 initBrowserGeoMarker(map);
                 $button.addClass('loading');
@@ -260,7 +260,7 @@ function initMap() {
                 map.panTo(browserGeoMarker.getPosition());
                 zoomInMap();
             }
-        }
+        // }
 
         return false;
     });
