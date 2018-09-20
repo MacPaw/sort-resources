@@ -4,6 +4,7 @@ var map, markersData, activeMarker, geoMarker,
     defaultZoom = 10;
 
 function initMap() {
+    alert('initMap() called');
     map = new google.maps.Map(document.getElementById('map'), {
         center: mapCenter,
         zoom: defaultZoom,
@@ -303,10 +304,6 @@ function drawMarkers(map, markersData) {
     });
 }
 
-function openInNewWindow(lat, lng) {
-    window.open('https://maps.google.com/maps?daddr='+coords[1]+','+coords[0])
-}
-
 function zoomInMap() {
     if (map.zoom < 13) {
         map.setZoom(13);
@@ -365,6 +362,7 @@ function initGeoMarker(map) {
 }
 
 $(window).bind("load", function() {
+    alert('did load');
     initMap();
 });
 
