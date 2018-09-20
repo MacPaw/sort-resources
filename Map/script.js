@@ -388,6 +388,7 @@ function drawUserLocation(lat, lng) {
         customGeoMarker.setPosition(location);
         map.panTo(location);
         zoomInMap();
+        $('#location-center').removeClass('loading');
     }
 }
 
