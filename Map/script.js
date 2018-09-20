@@ -367,3 +367,7 @@ function initGeoMarker(map) {
 $(window).bind("load", function() {
     initMap();
 });
+
+window.onerror = function(error) {
+    alert(error); // Fire when errors occur. Just a test, not always do this.
+};
