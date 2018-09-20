@@ -180,6 +180,12 @@ function initMap() {
         ]
     });
 
+    var initialUserPosition = findGetParameter('coord');
+    if (initialUserPosition != null) {
+        var ll = initialUserPosition.split(',');
+        drawUserLocation(ll[0], ll[1]);
+    }
+
     icon = {
         anchor: new google.maps.Point(9, 9),
         size: new google.maps.Size(18, 17),
