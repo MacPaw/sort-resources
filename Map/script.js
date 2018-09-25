@@ -278,6 +278,7 @@ function initBrowserGeoMarker(map) {
     browserGeoMarker.addListener('position_changed', function() {
         map.panTo(browserGeoMarker.getPosition());
         zoomInMap();
+        browserGeoMarker.removeListener('position_changed');
     });
 }
 
