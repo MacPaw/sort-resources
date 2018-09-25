@@ -2,21 +2,21 @@
   "providers": [
       {
       "id": "universal",
-      "version": "0.09",
+      "version": "0.0.9",
       "compatibleVersion": "0.1",
       "location": "universal.json",
       "name": "Універсальні правила"
     },
     {
       "id": "ukraina_bez_smittya",
-      "version": "0.09",
+      "version": "0.0.9",
       "compatibleVersion": "0.1",
       "location": "ubs.json",
       "name": "Україна без сміття"
     },
     {
       "id": "kmvr",
-      "version": "0.09",
+      "version": "0.0.9",
       "compatibleVersion": "0.1",
       "location": "kmvr.json",
       "name": "Київміськвторресурси"
