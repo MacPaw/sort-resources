@@ -1,4 +1,4 @@
-<?xml version="1.2" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Сортуй Map</name>
@@ -526,7 +526,7 @@
       <Placemark>
         <name>вул. Саперно-Слобідська, 25
 </name>
-        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 17:00–21:00<br>Сб–Нд: 10:00–16:00<br>Пн: вихідний]]></description>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 14:00–20:00<br>Сб–Нд: 10:00–14:00<br>Пн: вихідний]]></description>
         <styleUrl>#icon-1850-097138</styleUrl>
         <Point>
           <coordinates>
