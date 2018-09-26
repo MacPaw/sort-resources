@@ -1,6 +1,7 @@
 "use strict";
 
-var map, markersData, activeMarker, browserGeoMarker, customGeoMarker,
+var map, markersData, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
+    customGeoMarker,
     icon, activeIcon, ubsIcon, ubsActiveIcon,
     appVersion, client,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
@@ -180,6 +181,7 @@ function initMap() {
         ]
     });
 
+    browserMarkerNeedsCentering = false;
     var initialUserPosition = findGetParameter('coord');
     if (initialUserPosition != null) {
         var ll = initialUserPosition.split(',');
@@ -268,16 +270,20 @@ function initMap() {
     });
 }
 
-function initBrowserGeoMarker(map) {
+function initBrowserGeoMarker() {
     browserGeoMarker = new GeolocationMarker(map);
     browserGeoMarker.setCircleOptions({
         fillOpacity: 0,
         strokeOpacity: 0
     });
+    browserMarkerNeedsCentering = true;
 
     browserGeoMarker.addListener('position_changed', function() {
-        map.panTo(browserGeoMarker.getPosition());
-        zoomInMap();
+        if (browserMarkerNeedsCentering) {
+            map.panTo(browserGeoMarker.getPosition());
+            zoomInMap();
+            browserMarkerNeedsCentering = false
+        }
     });
 }
 
