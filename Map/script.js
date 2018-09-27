@@ -388,7 +388,7 @@ function drawUserLocation(lat, lng, accuracy) {
     }
 
     if (lat !== undefined || lng !== undefined) {
-        var location = {lat: lat, lng: lng};
+        var location = new google.maps.LatLng(lat, lng);
         customGeoMarker.setPosition(location);
         map.panTo(location);
         zoomInMap();
@@ -410,7 +410,7 @@ function drawUserLocation(lat, lng, accuracy) {
                 });
             } else {
                 customAccuracyMarker.setPosition(location);
-                customAccuracyMarker.setIcon(icon)
+                customAccuracyMarker.setIcon(icon);
             }
         }
     }
