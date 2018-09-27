@@ -410,6 +410,7 @@ function drawUserLocation(lat, lng, accuracy) {
                     zIndex: 0,
                     icon: icon
                 });
+                customAccuracyMarker.setPosition(position);
             }
             customAccuracyMarker.accuracy = accuracy;
 
