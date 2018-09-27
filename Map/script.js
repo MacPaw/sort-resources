@@ -1,7 +1,7 @@
 "use strict";
 
 var map, markersData, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
-    customGeoMarker,
+    customGeoMarker, customAccuracyMarker,
     icon, activeIcon, ubsIcon, ubsActiveIcon,
     appVersion, client,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
@@ -184,8 +184,8 @@ function initMap() {
     browserMarkerNeedsCentering = false;
     var initialUserPosition = findGetParameter('coord');
     if (initialUserPosition != null) {
-        var ll = initialUserPosition.split(',');
-        drawUserLocation(parseFloat(ll[0]), parseFloat(ll[1]));
+        var locationItems = initialUserPosition.split(',');
+        drawUserLocation(parseFloat(locationItems[0]), parseFloat(locationItems[1]), parseFloat(locationItems[2]));
     }
 
     icon = {
@@ -294,7 +294,8 @@ function drawMarkers(markersData) {
         var marker = new google.maps.Marker({
             map: map,
             position: position,
-            icon: markersData[i]['icon']
+            icon: markersData[i]['icon'],
+            zIndex: i+10
         });
 
         // Handle marker click
@@ -372,11 +373,12 @@ function transitionInfoToState(state) {
     }
 }
 
-function drawUserLocation(lat, lng) {
+function drawUserLocation(lat, lng, accuracy) {
     if (customGeoMarker === undefined) {
         customGeoMarker = new google.maps.Marker({
             map: map,
             position: {lat: 0, lng: 0},
+            zIndex: 1,
             icon: {
                 anchor: new google.maps.Point(9, 9),
                 size: new google.maps.Size(18, 17),
@@ -390,6 +392,25 @@ function drawUserLocation(lat, lng) {
         customGeoMarker.setPosition(location);
         map.panTo(location);
         zoomInMap();
+
+        if (accuracy !== undefined) {
+            var accuracyDiameter = accuracy * 2;
+            if (customAccuracyMarker === undefined) {
+                customAccuracyMarker = new google.maps.Marker({
+                    map: map,
+                    position: location,
+                    zIndex: 0,
+                    icon: {
+                        anchor: new google.maps.Point(accuracy, accuracy),
+                        scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
+                        url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
+                    }
+                });
+            } else {
+                customAccuracyMarker.setPosition(location);
+                customAccuracyMarker.setScale(accuracyDiameter, accuracyDiameter);
+            }
+        }
     }
 }
 
