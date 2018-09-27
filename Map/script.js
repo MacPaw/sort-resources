@@ -395,21 +395,22 @@ function drawUserLocation(lat, lng, accuracy) {
 
         if (accuracy !== undefined) {
             var scale = getScale(location);
-            var accuracyDiameter = 1500 / scale;
+            var accuracyDiameter = accuracy / scale;
             if (customAccuracyMarker === undefined) {
                 customAccuracyMarker = new google.maps.Marker({
                     map: map,
                     position: location,
                     zIndex: 0,
                     icon: {
-                        anchor: new google.maps.Point(accuracy, accuracy),
-                        scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
+                        anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
+                        size: new google.maps.Size(accuracyDiameter, accuracyDiameter),
                         url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
                     }
                 });
             } else {
                 customAccuracyMarker.setPosition(location);
-                customAccuracyMarker.setScale(accuracyDiameter, accuracyDiameter);
+                customAccuracyMarker.icon.anchor = new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2);
+                customAccuracyMarker.icon.size = new google.maps.Size(accuracyDiameter, accuracyDiameter);
             }
         }
     }
