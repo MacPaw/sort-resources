@@ -260,7 +260,7 @@ function initMap() {
 
     // User location
     $('#location-center').on('touchend', function() {
-        if (client === "ios" && appVersion === '1.0') {
+        if (client === "ios") {
             window.location = "sort://update-location";
         } else {
             if (browserGeoMarker === undefined || !browserGeoMarker.getPosition()) {
