@@ -396,21 +396,21 @@ function drawUserLocation(lat, lng, accuracy) {
         if (accuracy !== undefined) {
             var scale = getScale(location);
             var accuracyDiameter = accuracy / scale;
+            var icon = {
+                anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
+                size: new google.maps.Size(accuracyDiameter, accuracyDiameter),
+                url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
+            };
             if (customAccuracyMarker === undefined) {
                 customAccuracyMarker = new google.maps.Marker({
                     map: map,
                     position: location,
                     zIndex: 0,
-                    icon: {
-                        anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
-                        size: new google.maps.Size(accuracyDiameter, accuracyDiameter),
-                        url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
-                    }
+                    icon: icon
                 });
             } else {
                 customAccuracyMarker.setPosition(location);
-                customAccuracyMarker.icon.anchor = new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2);
-                customAccuracyMarker.icon.size = new google.maps.Size(accuracyDiameter, accuracyDiameter);
+                customAccuracyMarker.setIcon(icon)
             }
         }
     }
