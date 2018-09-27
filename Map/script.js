@@ -394,7 +394,8 @@ function drawUserLocation(lat, lng, accuracy) {
         zoomInMap();
 
         if (accuracy !== undefined) {
-            var accuracyDiameter = accuracy * 2;
+            var scale = getScale(location);
+            var accuracyDiameter = 1500 / scale;
             if (customAccuracyMarker === undefined) {
                 customAccuracyMarker = new google.maps.Marker({
                     map: map,
@@ -412,6 +413,11 @@ function drawUserLocation(lat, lng, accuracy) {
             }
         }
     }
+}
+
+function getScale(latLng) {
+    var zoom = map.zoom + 1;
+    return 156543.03392 * Math.cos(latLng.lat() * Math.PI / 180) / Math.pow(2, zoom)
 }
 
 $(window).bind("load", function() {
