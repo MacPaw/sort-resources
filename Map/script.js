@@ -398,7 +398,7 @@ function drawUserLocation(lat, lng, accuracy) {
             var accuracyDiameter = accuracy / scale;
             var icon = {
                 anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
-                size: new google.maps.Size(accuracyDiameter, accuracyDiameter),
+                scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
                 url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
             };
             if (customAccuracyMarker === undefined) {
