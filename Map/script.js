@@ -398,6 +398,10 @@ function drawUserLocation(lat, lng, accuracy) {
         map.panTo(position);
         zoomInMap();
 
+        if (customAccuracyMarker !== undefined) {
+            customAccuracyMarker.setPosition(position);
+        }
+
         if (accuracy !== undefined) {
             if (customAccuracyMarker === undefined) {
                 customAccuracyMarker = new google.maps.Marker({
@@ -408,7 +412,6 @@ function drawUserLocation(lat, lng, accuracy) {
                 });
             }
             customAccuracyMarker.accuracy = accuracy;
-            customAccuracyMarker.setPosition(position);
 
             drawAccuracy();
         }
