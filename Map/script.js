@@ -243,6 +243,11 @@ function initMap() {
         transitionInfoToState('closed');
     });
 
+    // Map did zoom
+    map.addListener('zoom_changed', function() {
+        drawAccuracy();
+    });
+
     // Info block top part touch
     $('#tap-area').on('touchend', function(e) {
         if ($('#info').hasClass('open')) {
@@ -388,31 +393,39 @@ function drawUserLocation(lat, lng, accuracy) {
     }
 
     if (lat !== undefined || lng !== undefined) {
-        var location = new google.maps.LatLng(lat, lng);
-        customGeoMarker.setPosition(location);
-        map.panTo(location);
+        var position = new google.maps.LatLng(lat, lng);
+        customGeoMarker.setPosition(position);
+        map.panTo(position);
         zoomInMap();
 
         if (accuracy !== undefined) {
-            var scale = getScale(location);
-            var accuracyDiameter = accuracy / scale;
-            var icon = {
-                anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
-                scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
-                url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
-            };
             if (customAccuracyMarker === undefined) {
                 customAccuracyMarker = new google.maps.Marker({
                     map: map,
-                    position: location,
+                    position: {lat: 0, lng: 0},
                     zIndex: 0,
                     icon: icon
                 });
-            } else {
-                customAccuracyMarker.setPosition(location);
-                customAccuracyMarker.setIcon(icon);
             }
+            customAccuracyMarker.accuracy = accuracy;
+            customAccuracyMarker.setPosition(position);
+
+            drawAccuracy();
         }
+    }
+}
+
+function drawAccuracy() {
+    if (customAccuracyMarker !== undefined) {
+        var position = customAccuracyMarker.getPosition();
+        var scale = getScale(position);
+        var accuracyDiameter = customAccuracyMarker.accuracy / scale;
+        var icon = {
+            anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
+            scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
+            url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
+        };
+        customAccuracyMarker.setIcon(icon);
     }
 }
 
