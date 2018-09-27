@@ -340,8 +340,8 @@ function drawMarkers(markersData) {
 }
 
 function zoomInMap() {
-    if (map.zoom < 13) {
-        map.setZoom(13);
+    if (map.zoom < 15) {
+        map.setZoom(15);
     }
 }
 
