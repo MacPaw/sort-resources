@@ -46,6 +46,15 @@ function initMap() {
                 ]
             },
             {
+                "featureType": "administrative.country",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#93d6d4"
+                    }
+                ]
+            },
+            {
                 "featureType": "administrative.land_parcel",
                 "elementType": "labels.text.fill",
                 "stylers": [
