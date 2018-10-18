@@ -40,7 +40,8 @@
         "1.4",
         "3.9.8",
         "3.9.4",
-        "3.9.2"
+        "3.9.2",
+        "2.4.6"
       ],
       "wasteType": null,
       "hint": null
@@ -393,7 +394,8 @@
         "2.4.4",
         "2.4.5",
         "2.4.6",
-        "2.4.7"
+        "2.4.7",
+        "2.4.8"
       ],
       "wasteType": null,
       "hint": null
@@ -492,12 +494,24 @@
     },
     {
       "id": "2.1.1",
-      "name": "PET пляшка",
+      "name": "PET пляшка прозора",
       "icon": "2.1.1",
       "iconURL": "",
       "keywords": ["пляшка, прозора, напій, пиво, кольорова пляшка, бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат"],
       "wasteType": [
         "plastic"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "2.1.10",
+      "name": "PET пляшка непрозора, кольорова",
+      "icon": "2.1.1",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_plastic_ubs"
       ],
       "hint": null,
       "children": null
@@ -576,10 +590,22 @@
     },
     {
       "id": "2.1.8",
-      "name": "Пляшка біла, непрозора",
+      "name": "PET пляшка непрозора, біла",
       "icon": "2.1.8",
       "iconURL": "",
-      "keywords": ["пляшка, бутилка, бутылка, молоко, йогурт, кефір, кефир, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, bottle, 5, 05, PP, ПП, полипропилен"],
+      "keywords": [""],
+      "wasteType": [
+        "other_plastic_ubs"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "2.1.9",
+      "name": "HDPE пляшка непрозора, біла",
+      "icon": "2.1.8",
+      "iconURL": "",
+      "keywords": [""],
       "wasteType": [
         "other_plastic_ubs"
       ],
@@ -588,7 +614,7 @@
     },
     {
       "id": "2.2.1",
-      "name": "Пакет «маєчка»",
+      "name": "Пластиковий пакет",
       "icon": "2.2.1",
       "iconURL": "",
       "keywords": ["пакування, упаковка, маечка, паковання, атб, bmw, bag, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ"],
@@ -647,13 +673,25 @@
       "children": null
     },
     {
+      "id": "2.2.6",
+      "name": "Пакет з-під молока",
+      "icon": "2.2.6",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_plastic_ubs"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
       "id": "2.3.1",
       "name": "Контейнер прозорий",
       "icon": "2.3.1",
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат"],
       "wasteType": [
-        "mixed"
+        "other_plastic_ubs"
       ],
       "hint": null,
       "children": null
@@ -675,7 +713,7 @@
     },
     {
       "id": "2.3.3",
-      "name": "Контейнер-горнятко",
+      "name": "Стаканчик з-під сметани/йогурту",
       "icon": "2.3.3",
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ",
@@ -683,7 +721,7 @@
         "Одноразовий посуд"
       ],
       "wasteType": [
-        "mixed"
+        "other_plastic_ubs"
       ],
       "hint": null,
       "children": null
@@ -698,7 +736,7 @@
         "Одноразовий посуд"
       ],
       "wasteType": [
-        "mixed"
+        "other_plastic_ubs"
       ],
       "hint": null,
       "children": null
