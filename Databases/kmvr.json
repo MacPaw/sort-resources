@@ -743,7 +743,7 @@
     },
     {
       "id": "2.4.1",
-      "name": "Пластикове горнятко РР5",
+      "name": "Пластиковий стаканчик 5 PP",
       "icon": "2.4.1",
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, поліпропілен, полипропилен, 05"],
@@ -755,12 +755,12 @@
     },
     {
       "id": "2.4.2",
-      "name": "Інші пластикові горнятка",
+      "name": "Інші пластикові стаканчики",
       "icon": "2.4.2",
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup"],
       "wasteType": [
-        "mixed"
+        "other_plastic_ubs"
       ],
       "hint": null,
       "children": null
@@ -821,6 +821,18 @@
       "keywords": ["пакування, упаковка, паковання, тарілка, чашка, стакан, горнятко, виделка, ложка, ніж, прибори, тарелка, вилка, миска"],
       "wasteType": [
         "plastic"
+      ],
+      "hint": null,
+      "children": null
+    },
+     {
+      "id": "2.4.8",
+      "name": "Пластикова кришка на стаканчик",
+      "icon": "2.4.8",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_plastic_ubs"
       ],
       "hint": null,
       "children": null
@@ -928,7 +940,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, зубна паста, джем, згущенка, згущене молоко, космо, помада, крем, гель, скраб, пенка, пінка"],
       "wasteType": [
-        "plastic"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -959,7 +971,7 @@
     },
     {
       "id": "2.5.12",
-      "name": "Пластик #3, #6 і #7",
+      "name": "Пластик з маркуванням 3, 7",
       "icon": "2.5.12",
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, 3, 03, PVC, V, поливинилхлорид, ПВХ, полівенілхлорид, 6, 06, PS, ПС, полистирол, полістирол, пінопласт, пенопласт, 7, 07, O, OTHER, полікарбонат,  PC"],
@@ -1043,7 +1055,7 @@
     },
     {
       "id": "2.8.1",
-      "name": "Вушні палички",
+      "name": "Ватні палички пластикові",
       "icon": "2.8.1",
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, вушні, бавовняні, ушная палочка"],
@@ -1067,7 +1079,7 @@
     },
     {
       "id": "2.8.3",
-      "name": "Підгузки",
+      "name": "Підгузки, прокладки",
       "icon": "2.8.3",
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, прокладки, тампон, прокладка"],
@@ -1271,12 +1283,19 @@
       "name": "Деревина",
       "icon": "3.9",
       "iconURL": "",
-      "keywords": ["дерев'яна паличка, палички, дерево, палочка, пакування, упаковка, паковання, 50, FOR, NW"],
-      "wasteType": [
-        "other_wood"
+      "keywords": [],
+      "children": [
+        "3.9.1",
+        "3.9.2",
+        "3.9.3",
+        "3.9.4",
+        "3.9.5",
+        "3.9.6",
+        "3.9.7",
+        "3.9.8"
       ],
-      "hint": null,
-      "children": null
+      "wasteType": null,
+      "hint": null
     },
     {
       "id": "3.2.1",
@@ -1471,6 +1490,102 @@
       "children": null
     },
     {
+      "id": "3.9.1",
+      "name": "Пробка з-під вина коркова",
+      "icon": "3.9.1",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "corks"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "3.9.2",
+      "name": "Дерев'яна паличка для кави",
+      "icon": "3.9.2",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_wood"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "3.9.3",
+      "name": "Кошик дерев'яний",
+      "icon": "3.9.3",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_wood"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "3.9.4",
+      "name": "Палички для суші",
+      "icon": "3.9.4",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_wood"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "3.9.5",
+      "name": "Палички для суші",
+      "icon": "2.8.1",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "wood_qtips"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "3.9.6",
+      "name": "Бамбуковий килимок для суші",
+      "icon": "3.9.6",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_wood"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "3.9.7",
+      "name": "Бамбукова зубна щітка",
+      "icon": "2.8.6",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "wood_brush"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "3.9.8",
+      "name": "Дерев'яні одноразові прибори",
+      "icon": "1.2",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "other_wood"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
       "id": "4.1",
       "name": "Скляна пляшка",
       "icon": "4.1",
@@ -1491,7 +1606,8 @@
       "children": [
         "4.2.1",
         "4.2.2",
-        "4.2.3"
+        "4.2.3",
+        "4.2.4"
       ],
       "wasteType": null,
       "hint": null
@@ -1581,6 +1697,18 @@
       "children": null
     },
     {
+      "id": "4.10",
+      "name": "Дзеркало",
+      "icon": "4.10",
+      "iconURL": "",
+      "keywords": ["духи, ароматична вода, туалетна вода, perfume"],
+      "wasteType": [
+        "mixed"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
       "id": "4.2.1",
       "name": "Лампа розжарювання",
       "icon": "4.2.1",
@@ -1617,13 +1745,25 @@
       "children": null
     },
     {
+      "id": "4.2.4",
+      "name": "Люмінесцентна лампа",
+      "icon": "4.2.4",
+      "iconURL": "",
+      "keywords": ["лед, діодна, диод"],
+      "wasteType": [
+        "other_lamp_tube"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
       "id": "5.1",
       "name": "Бляшанка",
       "icon": "5.1",
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, жерстяна банка, метал, консерва, тушонка, згущенка, згущене молоко, горошок, жерсть, can"],
       "wasteType": [
-        "metal"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1725,6 +1865,18 @@
       "children": null
     },
     {
+      "id": "5.10",
+      "name": "Металева каністра",
+      "icon": "2.1.3",
+      "iconURL": "",
+      "keywords": ["метал, срібляста, свечка, плаваюча"],
+      "wasteType": [
+        "mixed"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
       "id": "8.1",
       "name": "Електроприлад",
       "icon": "8.1",
@@ -1804,6 +1956,18 @@
       "keywords": ["пігулки, таблетки, краплі, сироп, порошок, капли, капсули, капсулы"],
       "wasteType": [
         "other_drugs"
+      ],
+      "hint": null,
+      "children": null
+    }
+    {
+      "id": "8.9",
+      "name": "Гумові рукавички",
+      "icon": "8.9",
+      "iconURL": "",
+      "keywords": [""],
+      "wasteType": [
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1956,8 +2120,38 @@
     },
     {
       "id": "other_wood",
+      "title": "Вироби з дерева",
+      "hint": "Дрібні дерев'яні вироби можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. ",
+      "icon": "finalRed"
+    }
+    {
+      "id": "tetrapak",
       "title": "Збирай окремо",
-      "hint": "Дерев'яний пакувальний матеріал у невеликій кількості можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>.",
+      "hint": "Промий від залишків рідини, висуши, стисни. Кришки не знімай.",
+      "icon": "finalRed"
+    }
+    {
+      "id": "corks",
+      "title": "Вироби з дерева",
+      "hint": "Коркові пробки з-під вина здавай разом із дерев'яним пакувальним матеріалом до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Пробки з пластику не приймаються.",
+      "icon": "finalRed"
+    }
+    {
+      "id": "wood_brush",
+      "title": "Вироби з дерева",
+      "hint": "Ручку від бамбукової зубної щітки можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Щетинки не переробляються, - відокремлюй їх. ",
+      "icon": "finalRed"
+    }
+    {
+      "id": "wood_qtips",
+      "title": "Вироби з дерева",
+      "hint": "Зніми в палички вату, а бамбукову основу передай до  <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a> разом із іншими дерев'яними виробами.",
+      "icon": "finalRed"
+    }
+    {
+      "id": "other_lamp_tube",
+      "title": "Утилізуй відповідально!",
+      "hint": "Відпрацьовані люмінесцентні лампи віддавай на утилізацію до  <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічних інвестицій»</a>. Графік уточнюй.",
       "icon": "finalRed"
     }
   ]
