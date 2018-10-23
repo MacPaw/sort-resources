@@ -676,7 +676,7 @@
       "id": "2.2.6",
       "name": "Пакет з-під молока",
       "icon": "2.2.6",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.6.png",
       "keywords": ["подушечка, молоко, кефір, кефир, сметана, ряжанка"],
       "wasteType": [
         "plastic_bag"
@@ -1483,7 +1483,7 @@
       "id": "3.9.1",
       "name": "Коркова пробка з-під вина",
       "icon": "3.9.1",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
         "corks"
@@ -1495,7 +1495,7 @@
       "id": "3.9.2",
       "name": "Дерев'яна паличка для кави",
       "icon": "3.9.2",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.2.png",
       "keywords": ["одноразовий посуд, деревина, кава, паличка, дерево, дерев'яна паличка, палочка, кофе, деревянная, мішалочка"],
       "wasteType": [
         "wood"
@@ -1507,7 +1507,7 @@
       "id": "3.9.3",
       "name": "Кошик дерев'яний",
       "icon": "3.9.3",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
       "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка"],
       "wasteType": [
         "wood"
@@ -1519,7 +1519,7 @@
       "id": "3.9.4",
       "name": "Палички для суші",
       "icon": "3.9.4",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.4.png",
       "keywords": ["одноразовий посуд, деревина, китайські, дерев'яні, палочки, деревянные, суши, китайские"],
       "wasteType": [
         "wood"
@@ -1543,7 +1543,7 @@
       "id": "3.9.6",
       "name": "Бамбуковий килимок",
       "icon": "3.9.6",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.6.png",
       "keywords": ["деревина, коврик, салфетка, суші, суши"],
       "wasteType": [
         "wood"
@@ -1690,7 +1690,7 @@
       "id": "4.10",
       "name": "Дзеркало",
       "icon": "4.10",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/4.10.png",
       "keywords": ["зеркало"],
       "wasteType": [
         "mixed"
@@ -1738,7 +1738,7 @@
       "id": "4.2.4",
       "name": "Люмінесцентна лампа",
       "icon": "4.2.4",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/4.2.4.png",
       "keywords": ["довга, длинная, трубка, люминесцентная, ртутна, енерго"],
       "wasteType": [
         "other_lamp_tube"
@@ -1954,7 +1954,7 @@
       "id": "8.9",
       "name": "Гумові рукавички",
       "icon": "8.9",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.9.png",
       "keywords": ["перчатки, резиновые, господарські, хозяйственные"],
       "wasteType": [
         "mixed"
