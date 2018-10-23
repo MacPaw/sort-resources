@@ -20,6 +20,13 @@
       "compatibleVersion": "0.1",
       "location": "kmvr.json",
       "name": "Київміськвторресурси"
+    },
+     {
+      "id": "vtorma",
+      "version": "1.0.1",
+      "compatibleVersion": "0.1",
+      "location": "vtorma.json",
+      "name": "ВТОРМА юа"
     }
   ],
   "popularSearchRequests": [
