@@ -2,30 +2,41 @@
   "providers": [
       {
       "id": "universal",
-      "version": "0.0.9",
+      "version": "1.1",
       "compatibleVersion": "0.1",
       "location": "universal.json",
       "name": "Універсальні правила"
     },
     {
       "id": "ukraina_bez_smittya",
-      "version": "0.0.9",
+      "version": "1.1",
       "compatibleVersion": "0.1",
       "location": "ubs.json",
       "name": "Україна без сміття"
     },
     {
       "id": "kmvr",
-      "version": "0.0.9",
+      "version": "1.1",
       "compatibleVersion": "0.1",
       "location": "kmvr.json",
       "name": "Київміськвторресурси"
+    },
+     {
+      "id": "vtorma",
+      "version": "1.1",
+      "compatibleVersion": "0.1",
+      "location": "vtorma.json",
+      "name": "ВТОРМА юа"
     }
   ],
   "popularSearchRequests": [
     "Одноразовий посуд",
+    "PET",
+    "PS",
     "Паперовий стаканчик",
     "Tetra Pak",
+    "01",
+    "05",
     "Серветки і рушники",
     "Харчові контейнери",
     "Пакет «маєчка»",

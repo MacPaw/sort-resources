@@ -1,6 +1,7 @@
 "use strict";
 
-var map, markersData, activeMarker, browserGeoMarker, customGeoMarker,
+var map, markersData, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
+    customGeoMarker, customAccuracyMarker,
     icon, activeIcon, ubsIcon, ubsActiveIcon,
     appVersion, client,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
@@ -41,6 +42,15 @@ function initMap() {
                 "stylers": [
                     {
                         "color": "#f5f5f5"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.country",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#93d6d4"
                     }
                 ]
             },
@@ -180,10 +190,11 @@ function initMap() {
         ]
     });
 
+    browserMarkerNeedsCentering = false;
     var initialUserPosition = findGetParameter('coord');
     if (initialUserPosition != null) {
-        var ll = initialUserPosition.split(',');
-        drawUserLocation(parseFloat(ll[0]), parseFloat(ll[1]));
+        var locationItems = initialUserPosition.split(',');
+        drawUserLocation(parseFloat(locationItems[0]), parseFloat(locationItems[1]), parseFloat(locationItems[2]));
     }
 
     icon = {
@@ -241,6 +252,11 @@ function initMap() {
         transitionInfoToState('closed');
     });
 
+    // Map did zoom
+    map.addListener('zoom_changed', function() {
+        drawAccuracy();
+    });
+
     // Info block top part touch
     $('#tap-area').on('touchend', function(e) {
         if ($('#info').hasClass('open')) {
@@ -253,7 +269,7 @@ function initMap() {
 
     // User location
     $('#location-center').on('touchend', function() {
-        if (client === "ios" && appVersion === '1.0') {
+        if (client === "ios") {
             window.location = "sort://update-location";
         } else {
             if (browserGeoMarker === undefined || !browserGeoMarker.getPosition()) {
@@ -268,16 +284,20 @@ function initMap() {
     });
 }
 
-function initBrowserGeoMarker(map) {
+function initBrowserGeoMarker() {
     browserGeoMarker = new GeolocationMarker(map);
     browserGeoMarker.setCircleOptions({
         fillOpacity: 0,
         strokeOpacity: 0
     });
+    browserMarkerNeedsCentering = true;
 
     browserGeoMarker.addListener('position_changed', function() {
-        map.panTo(browserGeoMarker.getPosition());
-        zoomInMap();
+        if (browserMarkerNeedsCentering) {
+            map.panTo(browserGeoMarker.getPosition());
+            zoomInMap();
+            browserMarkerNeedsCentering = false
+        }
     });
 }
 
@@ -288,7 +308,8 @@ function drawMarkers(markersData) {
         var marker = new google.maps.Marker({
             map: map,
             position: position,
-            icon: markersData[i]['icon']
+            icon: markersData[i]['icon'],
+            zIndex: i+10
         });
 
         // Handle marker click
@@ -366,11 +387,12 @@ function transitionInfoToState(state) {
     }
 }
 
-function drawUserLocation(lat, lng) {
+function drawUserLocation(lat, lng, accuracy) {
     if (customGeoMarker === undefined) {
         customGeoMarker = new google.maps.Marker({
             map: map,
             position: {lat: 0, lng: 0},
+            zIndex: 1,
             icon: {
                 anchor: new google.maps.Point(9, 9),
                 size: new google.maps.Size(18, 17),
@@ -380,11 +402,49 @@ function drawUserLocation(lat, lng) {
     }
 
     if (lat !== undefined || lng !== undefined) {
-        var location = {lat: lat, lng: lng};
-        customGeoMarker.setPosition(location);
-        map.panTo(location);
+        var position = new google.maps.LatLng(lat, lng);
+        customGeoMarker.setPosition(position);
+        map.panTo(position);
         zoomInMap();
+
+        if (customAccuracyMarker !== undefined) {
+            customAccuracyMarker.setPosition(position);
+        }
+
+        if (accuracy !== undefined) {
+            if (customAccuracyMarker === undefined) {
+                customAccuracyMarker = new google.maps.Marker({
+                    map: map,
+                    position: {lat: 0, lng: 0},
+                    zIndex: 0,
+                    icon: icon
+                });
+                customAccuracyMarker.setPosition(position);
+            }
+            customAccuracyMarker.accuracy = accuracy;
+
+            drawAccuracy();
+        }
     }
+}
+
+function drawAccuracy() {
+    if (customAccuracyMarker !== undefined) {
+        var position = customAccuracyMarker.getPosition();
+        var scale = getScale(position);
+        var accuracyDiameter = customAccuracyMarker.accuracy / scale;
+        var icon = {
+            anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
+            scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
+            url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
+        };
+        customAccuracyMarker.setIcon(icon);
+    }
+}
+
+function getScale(latLng) {
+    var zoom = map.zoom + 1;
+    return 156543.03392 * Math.cos(latLng.lat() * Math.PI / 180) / Math.pow(2, zoom)
 }
 
 $(window).bind("load", function() {
