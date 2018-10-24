@@ -4,7 +4,7 @@
     <title>Пункти прийому вторсировини</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <script src="Map/jquery.js"></script>
+    <script src="https://macpaw.github.io/sort-resources/Map/jquery.js"></script>
     <script>
         function findGetParameter(parameterName) {
             var result = null,
@@ -22,8 +22,8 @@
         script.id = 'maps-script';
         document.head.appendChild(script);
         $(script).on('load', function() {
-            $.getScript('Map/SVGMarker.min.js');
-            $.getScript('Map/geolocation-marker.js');
+            $.getScript('https://macpaw.github.io/sort-resources/Map/SVGMarker.min.js');
+            $.getScript('https://macpaw.github.io/sort-resources/Map/geolocation-marker.js');
         });
     </script>
     <script src="Map/script.js"></script>
