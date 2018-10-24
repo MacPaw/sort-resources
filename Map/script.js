@@ -2,7 +2,7 @@
 
 var map, markersData, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
     customGeoMarker, customAccuracyMarker,
-    icon, activeIcon, ubsIcon, ubsActiveIcon,
+    icon, activeIcon, redIcon, redActiveIcon,
     appVersion, client,
     mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
     defaultZoom = 10;
@@ -207,15 +207,15 @@ function initMap() {
         size: new google.maps.Size(46, 46),
         url: 'https://macpaw.github.io/sort-resources/Map/images/marker-active.svg'
     };
-    ubsIcon = {
+    redIcon = {
         anchor: new google.maps.Point(9, 9),
         size: new google.maps.Size(18, 17),
-        url: 'https://macpaw.github.io/sort-resources/Map/images/ubs-marker.svg'
+        url: 'https://macpaw.github.io/sort-resources/Map/images/red-marker.svg'
     };
-    ubsActiveIcon = {
+    redActiveIcon = {
         anchor: new google.maps.Point(23, 23),
         size: new google.maps.Size(46, 46),
-        url: 'https://macpaw.github.io/sort-resources/Map/images/ubs-marker-active.svg'
+        url: 'https://macpaw.github.io/sort-resources/Map/images/red-marker-active.svg'
     };
 
     appVersion = findGetParameter('version');
@@ -231,8 +231,8 @@ function initMap() {
             placemarks.each(function(j) {
                 var descr = $(placemarks[j]).find('description').text();
                 markersData.push({
-                    'icon': i === 0 ? icon : ubsIcon,
-                    'activeIcon': i === 0 ? activeIcon : ubsActiveIcon,
+                    'icon': i === 2 ? redIcon : icon,
+                    'activeIcon': i === 2 ? redActiveIcon : activeIcon,
                     'title': $(folders[i]).find('>:first-child').text(),
                     'subtitle': $(placemarks[j]).find('name').text(),
                     'description': descr.replace('<br/><br />', '<br/>'),

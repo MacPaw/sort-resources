@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.2" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Сортуй Map</name>
@@ -40,6 +40,16 @@
     <Folder>
       <name>Пункт прийому «Київміськвторресурси»</name>
       <Placemark>
+        <name>вулиця Ямська, 6/31</name>
+        <description><![CDATA[Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380952860079">(095) 286‒00‒79</a>, <a href="tel:+380445176564">(044) 517‒65‒64</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            50.427290,30.509960
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>проспект Петра Григоренка, 25В</name>
         <description><![CDATA[Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Пт: 8:00–17:00<br>Сб-Пн: Вихідні<br>Тел.: <a href="tel:+380952860079">(095) 286‒00‒79</a>, <a href="tel:+380445176564">(044) 517‒65‒64</a>]]></description>
         <styleUrl>#icon-1850-097138</styleUrl>
@@ -80,16 +90,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Лісовий проспект, 43</name>
-        <description><![CDATA[Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 8:00–17:00<br>Нд, Пн: Вихідні<br>Тел.: <a href="tel:+380952860079">(095) 286‒00‒79</a>, <a href="tel:+380445176564">(044) 517‒65‒64</a>]]></description>
-        <styleUrl>#icon-1850-097138</styleUrl>
-        <Point>
-          <coordinates>
-            30.6421599,50.4854726,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>вулиця Михайла Грушевського, 6</name>
         <description><![CDATA[Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380952860079">(095) 286‒00‒79</a>, <a href="tel:+380445176564">(044) 517‒65‒64</a>]]></description>
         <styleUrl>#icon-1850-097138</styleUrl>
@@ -116,16 +116,6 @@
         <Point>
           <coordinates>
             30.78835,50.499874,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>вулиця Оболонська, 34</name>
-        <description><![CDATA[Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 8:00–17:00<br>Нд, Пн: Вихідні<br>Тел.: <a href="tel:+380952860079">(095) 286‒00‒79</a>, <a href="tel:+380445176564">(044) 517‒65‒64</a>]]></description>
-        <styleUrl>#icon-1850-097138</styleUrl>
-        <Point>
-          <coordinates>
-            30.510149,50.471858,0
           </coordinates>
         </Point>
       </Placemark>
@@ -524,9 +514,8 @@
     <Folder>
       <name>Станція «Україна без сміття»</name>
       <Placemark>
-        <name>вул. Саперно-Слобідська, 25
-</name>
-        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 14:00–20:00<br>Сб–Нд: 10:00–14:00<br>Пн: вихідний]]></description>
+        <name>вул. Саперно-Слобідська, 25</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 14:00–20:00<br>Сб–Нд: 10:00–14:00<br>Пн: Вихідний]]></description>
         <styleUrl>#icon-1850-097138</styleUrl>
         <Point>
           <coordinates>
@@ -535,13 +524,145 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>вул. П. Калнишевського, 2
-</name>
+        <name>вул. П. Калнишевського, 2</name>
         <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 17:00–21:00<br>Сб, Нд: 10:00–16:00<br>Пн: Вихідний]]></description>
         <styleUrl>#icon-1850-097138</styleUrl>
         <Point>
           <coordinates>
             30.4656445,50.519384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+     <Folder>
+      <name>Пункт прийому «ВТОРМА юа»</name>
+      <Placemark>
+        <name>вул. Київська, 161 (ринок «Нива», р-н «Розвилка»)</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Сб: 8:00–17:00<br>Нд: 8:00–15:00<br>Пн: Вихідний<br>Тел.: <a href="tel:+380674101119">(067) 410-11-19</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.772380,50.500520
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Анатолія Луценка, 22</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Сб: 8:00–17:00<br>Нд: Вихідний<br>Тел.: <a href="tel:+380674101119">(067) 410-11-19</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.754170,50.490290
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Київська, 298б</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 8:00–15:00<br>Нд: Вихідний<br>Тел.: <a href="tel:+380674101119">(067) 410-11-19</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.78172,50.51213
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>бул. Незалежності, 11а</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 8:00–17:00<br>Сб, Нд: 8:00–15:00<br>Пн: Вихідний<br>Тел.: <a href="tel:+380674101119">(067) 410-11-19</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.79786,50.51559
+          </coordinates>
+        </Point>
+      </Placemark>
+       <Placemark>
+        <name>вул. Короленка, 72 (територія ринку)</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 8:00–17:00<br>Сб, Нд: 7:00–14:00<br>Пн: Вихідний<br>Тел.: <a href="tel:+380674101119">(067) 410-11-19</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.791,50.52279
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>бул. Незалежності, 30</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380979474482">(097) 947-44-82</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            30.82945,50.53305
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Леваневського, 95а</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380689730970">(‎068) 973-09-70</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+           30.18691,49.78383
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Широка, 1а</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380975535998">(097) 553-59-98</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            31.26069,51.50574
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Березанська, 108</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380675052112">(067) 505-21-12</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            31.90578,51.06685
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Дружби Народів, 8</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380505108747">(050) 510-87-47</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            32.38331,50.55897
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Домобудівельна, 11</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380502158285">(050) 215-82-85</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            32.55779,46.62842
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Широка,1б</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380966243358">(096) 624-33-58</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            23.97963,49.84254
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>вул. Космонавтів, 91</name>
+        <description><![CDATA[Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br>Тел.: <a href="tel:+380993380402">(099) 338-04-02</a>]]></description>
+        <styleUrl>#icon-1850-097138</styleUrl>
+        <Point>
+          <coordinates>
+            32.081451,46.969882
           </coordinates>
         </Point>
       </Placemark>
