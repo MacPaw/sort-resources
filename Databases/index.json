@@ -1,29 +1,29 @@
 {
   "providers": [
-      {
+    {
       "id": "universal",
-      "version": "1.1",
+      "version": "1.1.1",
       "compatibleVersion": "0.1",
       "location": "universal.json",
       "name": "Універсальні правила"
     },
     {
       "id": "ukraina_bez_smittya",
-      "version": "1.1",
+      "version": "1.1.1",
       "compatibleVersion": "0.1",
       "location": "ubs.json",
       "name": "Україна без сміття"
     },
     {
       "id": "kmvr",
-      "version": "1.1",
+      "version": "1.1.1",
       "compatibleVersion": "0.1",
       "location": "kmvr.json",
       "name": "Київміськвторресурси"
     },
-     {
+    {
       "id": "vtorma",
-      "version": "1.1",
+      "version": "1.1.1",
       "compatibleVersion": "0.1",
       "location": "vtorma.json",
       "name": "ВТОРМА юа"
