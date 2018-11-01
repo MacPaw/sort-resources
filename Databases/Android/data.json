@@ -1,6 +1,6 @@
 {
   "globals": {
-    "version": "0.7",
+    "version": "0.8",
     "compatibleVersion": "0.3"
   },
   "providers": [
@@ -2581,7 +2581,7 @@
           "iconURL": "",
           "keywords": ["пакування, упаковка, паковання, пенопласт, 6, 06, PS"],
           "wasteType": [
-            "styrofoamf"
+            "styrofoam"
           ],
           "hint": null,
           "children": null
