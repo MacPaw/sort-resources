@@ -3,7 +3,7 @@
     {
       "id": "ukraina_bez_smittya",
       "locationName": "Станція «Україна без сміття»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_ubs", "other_wood"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood"]
     },
     {
       "id": "kmvr",
@@ -13,7 +13,17 @@
     {
       "id": "vtorma",
       "locationName": "Пункт прийому «ВТОРМА юа»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "other_tyre", "tetrapak", "styrofoam", "plastic_can_vtorma", "cards"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam", "plastic_can_vtorma", "cards"]
+    },
+    {
+      "id": "isort",
+      "locationName": "Пункт прийому «Я Сортую»",
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam"]
+    },
+    {
+      "id": "pryhysty_paket",
+      "locationName": "Пункт прийому «Прихисти пакет»",
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "corks"]
     }
   ],
 
