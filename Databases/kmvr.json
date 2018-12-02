@@ -623,7 +623,7 @@
       "id": "2.1.11",
       "name": "Кришечка від PET пляшки",
       "icon": "2.1.11",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.1.11.png",
       "keywords": ["кришка, крышечка, 2, 02, HDPE"],
       "wasteType": [
         "plastic"
@@ -1151,7 +1151,7 @@
       "id": "2.8.8",
       "name": "Бахіли",
       "icon": "2.8.8",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.8.8.png",
       "keywords": ["поліетилен, бахилы"],
       "wasteType": [
         "other_ubs"
@@ -1187,7 +1187,7 @@
       "id": "2.9.3",
       "name": "Компакт диск",
       "icon": "2.9.3",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.9.3.png",
       "keywords": ["CD, DVD"],
       "wasteType": [
         "mixed"
@@ -2009,7 +2009,7 @@
       "id": "8.10",
       "name": "Поролон",
       "icon": "8.10",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.10.png",
       "keywords": ["губка, мочалка"],
       "wasteType": [
         "mixed"
@@ -2021,7 +2021,7 @@
       "id": "8.11",
       "name": "Взуття",
       "icon": "8.11",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.11.png",
       "keywords": ["обувь, кожа, шкіра"],
       "wasteType": [
         "shoes"
