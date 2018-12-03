@@ -1,62 +1,37 @@
 "use strict";
 
-var map, markersData, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
+$(window).bind("load", function() {
+    initMap();
+});
+
+// ----------------------- Global vars -----------------------
+
+var map, allMarkers, allMarkersBounds, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
     customGeoMarker, customAccuracyMarker,
-    icon, activeIcon,
     appVersion, client,
-    mapCenter = {lat: 50.456342579672736, lng: 30.54443421505789},
     defaultZoom = 10;
+
+// ----------------------- Map init -----------------------
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        center: mapCenter,
         zoom: defaultZoom,
         disableDefaultUI: true,
         styles: mapStyles
     });
 
-    browserMarkerNeedsCentering = false;
-    var initialUserPosition = findGetParameter('coord');
-    if (initialUserPosition != null) {
-        var locationItems = initialUserPosition.split(',');
-        drawUserLocation(parseFloat(locationItems[0]), parseFloat(locationItems[1]), parseFloat(locationItems[2]));
-    }
-
-    icon = {
-        anchor: new google.maps.Point(9, 9),
-        size: new google.maps.Size(18, 17),
-        url: 'https://macpaw.github.io/sort-resources/Map/images/marker.svg'
-    };
-    activeIcon = {
-        anchor: new google.maps.Point(23, 23),
-        size: new google.maps.Size(46, 46),
-        url: 'https://macpaw.github.io/sort-resources/Map/images/marker-active.svg'
-    };
-
     appVersion = findGetParameter('version');
     client = findGetParameter('client');
 
-    // Parse the KML file and draw markers
-    $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.kml', function(data) {
-        markersData = [];
-        var kmlData = new DOMParser().parseFromString(data,'text/xml');
-        var folders = $(kmlData).find('Folder');
-        folders.each(function(i) {
-            var placemarks = $(folders[i]).find('Placemark');
-            placemarks.each(function(j) {
-                var descr = $(placemarks[j]).find('description').text();
-                markersData.push({
-                    'icon': icon,
-                    'activeIcon': activeIcon,
-                    'title': $(folders[i]).find('>:first-child').text(),
-                    'subtitle': $(placemarks[j]).find('name').text(),
-                    'description': descr.replace('<br/><br />', '<br/>'),
-                    'coords': $(placemarks[j]).find('Point coordinates').text().trim()
-                });
-            });
-        });
-
-        drawMarkers(markersData);
+    loadMapData(function() {
+        browserMarkerNeedsCentering = false;
+        var initialUserPosition = findGetParameter('coord');
+        if (initialUserPosition != null) {
+            var locationItems = initialUserPosition.split(',');
+            drawUserLocation(parseFloat(locationItems[0]), parseFloat(locationItems[1]), parseFloat(locationItems[2]));
+        } else {
+            map.fitBounds(allMarkersBounds);
+        }
     });
 
     // Map click
@@ -99,6 +74,107 @@ function initMap() {
     });
 }
 
+// ----------------------- Helper functions -----------------------
+
+function loadMapData(callback) {
+
+    $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.json', function(data) {
+
+        allMarkers = [];
+        allMarkersBounds = new google.maps.LatLngBounds();
+        var operatorsData = data['operators'],
+            locationsData = data['locationData'];
+
+        for (var i in locationsData) {
+            var group = locationsData[i];
+
+            // Name of the location based on the operator
+            var locationName = operatorsData.filter(obj => {
+                return obj['id'] === group['operator']
+            })[0]['locationName'];
+
+            for (var j in group['locations']) {
+                var location = group['locations'][j];
+                if (location['isHidden'] == 1)
+                    continue;
+
+                // Icon
+                var stringCoords = location['coordinates'].split(','),
+                    latLng = new google.maps.LatLng(parseFloat(stringCoords[0]), parseFloat(stringCoords[1])),
+                    isMobile = (location['isMobile'] == 1),
+                    icon = {
+                        anchor: new google.maps.Point(9, 9),
+                        size: new google.maps.Size(18, 17),
+                        url: 'https://macpaw.github.io/sort-resources/Map/images/marker.svg'
+                    },
+                    activeIcon = {
+                        anchor: new google.maps.Point(23, 23),
+                        size: new google.maps.Size(46, 46),
+                        url: 'https://macpaw.github.io/sort-resources/Map/images/' +
+                            (isMobile ? 'mobile-' : '') +
+                            'marker-active.svg'
+                    };
+
+                // Init google maps object
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: latLng,
+                    icon: icon,
+                    zIndex: 10
+                });
+
+                // Store for later use
+                marker.inactiveIcon = icon;
+                marker.activeIcon = activeIcon;
+                marker.isMobile = isMobile;
+                marker.name = locationName === undefined ? "" : locationName;
+                marker.address = location['address'] === undefined ? "" : location['address'];
+                marker.description = location['description'] === undefined ? "" : location['description'];
+
+                marker.addListener('click', function() {
+                    var $info = $('#info');
+
+                    if (activeMarker != null) {
+                        activeMarker.deactivate();
+                    }
+                    this.setIcon(this.activeIcon);
+                    activeMarker = this;
+
+                    // Fill the bottom info block
+                    var $description = $info.find('#description');
+                    $info.find('#title').text(this.name);
+                    $info.find('#subtitle').text(this.address);
+
+                    if (!this.isMobile) {
+                        var link = 'sort://open?lat=' + this.position.lat() + '&lng=' + this.position.lng() + '&title=' + this.address;
+                        $description.html('<a href="' + link + '">Прокласти маршрут</a><br/><br/>' + this.description);
+                    } else {
+                        $description.html(this.description);
+                    }
+
+                    if (!$info.hasClass('open')) {
+                        transitionInfoToState('minified');
+                        map.panTo(this.position);
+                        zoomInMap();
+                    } else {
+                        $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
+                    }
+                });
+
+                marker.deactivate = function() {
+                    this.setIcon(this.inactiveIcon);
+                    activeMarker = null
+                };
+
+                allMarkers[location['coordinates']] = marker;
+                allMarkersBounds.extend(marker.position);
+            }
+        }
+
+        callback();
+    }, 'json');
+}
+
 function initBrowserGeoMarker() {
     browserGeoMarker = new GeolocationMarker(map);
     browserGeoMarker.setCircleOptions({
@@ -116,66 +192,15 @@ function initBrowserGeoMarker() {
     });
 }
 
-function drawMarkers(markersData) {
-    $(markersData).each(function(i) {
-        var coords = markersData[i]['coords'].split(',');
-        var position = new google.maps.LatLng(parseFloat(coords[1]), parseFloat(coords[0]));
-        var marker = new google.maps.Marker({
-            map: map,
-            position: position,
-            icon: markersData[i]['icon'],
-            zIndex: i+10
-        });
-
-        // Handle marker click
-        marker.addListener('click', function() {
-            var $info = $('#info');
-
-            if (activeMarker != null) {
-                activeMarker.deactivate();
-            }
-            marker.setIcon(markersData[i]['activeIcon']);
-            activeMarker = marker;
-
-            // Fill the bottom info block
-            var data = markersData[i];
-            var $description = $info.find('#description');
-            $info.find('#title').text(data['title']);
-            $info.find('#subtitle').text(data['subtitle']);
-            $description.html(data['description']);
-
-            var link = 'sort://open?lat=' + coords[1] + '&lng=' + coords[0] + '&title=' + data['subtitle'];
-            $description.html('<a href="' + link + '"' + onclick + '>Прокласти маршрут</a><br/><br/>' + $description.html());
-
-            if (!$info.hasClass('open')) {
-                transitionInfoToState('minified');
-                map.panTo(position);
-                zoomInMap();
-            } else {
-                $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
-            }
-        });
-
-        marker.deactivate = function() {
-            marker.setIcon(markersData[i]['icon']);
-            activeMarker = null
-        }
-    });
-}
-
 function zoomInMap() {
     if (map.zoom < 13) {
         map.setZoom(13);
     }
 }
 
-function resetMap() {
-    transitionInfoToState('closed');
-    map.panTo(mapCenter);
-    map.setZoom(defaultZoom);
-    if (activeMarker != null) {
-        activeMarker.deactivate();
-    }
+function getScale(latLng) {
+    var zoom = map.zoom + 1;
+    return 156543.03392 * Math.cos(latLng.lat() * Math.PI / 180) / Math.pow(2, zoom)
 }
 
 function transitionInfoToState(state) {
@@ -201,6 +226,22 @@ function transitionInfoToState(state) {
             break;
     }
 }
+
+function drawAccuracy() {
+    if (customAccuracyMarker !== undefined) {
+        var position = customAccuracyMarker.getPosition();
+        var scale = getScale(position);
+        var accuracyDiameter = customAccuracyMarker.accuracy / scale;
+        var icon = {
+            anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
+            scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
+            url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
+        };
+        customAccuracyMarker.setIcon(icon);
+    }
+}
+
+// ----------------------- Used by clients -----------------------
 
 function drawUserLocation(lat, lng, accuracy) {
     if (customGeoMarker === undefined) {
@@ -243,25 +284,10 @@ function drawUserLocation(lat, lng, accuracy) {
     }
 }
 
-function drawAccuracy() {
-    if (customAccuracyMarker !== undefined) {
-        var position = customAccuracyMarker.getPosition();
-        var scale = getScale(position);
-        var accuracyDiameter = customAccuracyMarker.accuracy / scale;
-        var icon = {
-            anchor: new google.maps.Point(accuracyDiameter/2, accuracyDiameter/2),
-            scaledSize: new google.maps.Size(accuracyDiameter, accuracyDiameter),
-            url: 'https://macpaw.github.io/sort-resources/Map/images/precision.svg'
-        };
-        customAccuracyMarker.setIcon(icon);
+function resetMap() {
+    transitionInfoToState('closed');
+    map.fitBounds(allMarkersBounds);
+    if (activeMarker != null) {
+        activeMarker.deactivate();
     }
 }
-
-function getScale(latLng) {
-    var zoom = map.zoom + 1;
-    return 156543.03392 * Math.cos(latLng.lat() * Math.PI / 180) / Math.pow(2, zoom)
-}
-
-$(window).bind("load", function() {
-    initMap();
-});
