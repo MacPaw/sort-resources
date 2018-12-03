@@ -20,8 +20,6 @@ function initMap() {
         styles: mapStyles
     });
 
-
-
     appVersion = findGetParameter('version');
     client = findGetParameter('client');
 
