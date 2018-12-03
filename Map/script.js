@@ -147,7 +147,7 @@ function loadMapData(callback) {
 
                     if (!this.isMobile) {
                         var link = 'sort://open?lat=' + this.position.lat() + '&lng=' + this.position.lng() + '&title=' + this.address;
-                        $description.html('<a href="' + link + '"' + onclick + '>Прокласти маршрут</a><br/><br/>' + this.description);
+                        $description.html('<a href="' + link + '">Прокласти маршрут</a><br/><br/>' + this.description);
                     } else {
                         $description.html(this.description);
                     }
