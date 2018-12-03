@@ -6,7 +6,7 @@ $(window).bind("load", function() {
 
 // ----------------------- Global vars -----------------------
 
-var map, allMarkers, allMarkesBounds, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
+var map, allMarkers, allMarkersBounds, activeMarker, browserGeoMarker, browserMarkerNeedsCentering,
     customGeoMarker, customAccuracyMarker,
     appVersion, client,
     defaultZoom = 10;
@@ -32,7 +32,7 @@ function initMap() {
             var locationItems = initialUserPosition.split(',');
             drawUserLocation(parseFloat(locationItems[0]), parseFloat(locationItems[1]), parseFloat(locationItems[2]));
         } else {
-            map.fitBounds(allMarkesBounds);
+            map.fitBounds(allMarkersBounds);
         }
     });
 
@@ -83,7 +83,7 @@ function loadMapData(callback) {
     $.get('https://raw.githubusercontent.com/MacPaw/sort-resources/master/Map/map-data.json', function(data) {
 
         allMarkers = [];
-        allMarkesBounds = new google.maps.LatLngBounds();
+        allMarkersBounds = new google.maps.LatLngBounds();
         var operatorsData = data['operators'],
             locationsData = data['locationData'];
 
@@ -167,7 +167,7 @@ function loadMapData(callback) {
                 };
 
                 allMarkers[location['coordinates']] = marker;
-                allMarkesBounds.extend(marker.position);
+                allMarkersBounds.extend(marker.position);
             }
         }
 
@@ -286,7 +286,7 @@ function drawUserLocation(lat, lng, accuracy) {
 
 function resetMap() {
     transitionInfoToState('closed');
-    map.fitBounds(allMarkesBounds);
+    map.fitBounds(allMarkersBounds);
     if (activeMarker != null) {
         activeMarker.deactivate();
     }
