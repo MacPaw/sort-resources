@@ -95,8 +95,6 @@ function loadMapData(callback) {
                 return obj['id'] === group['operator']
             })[0]['locationName'];
 
-            console.log(locationName);
-
             for (var j in group['locations']) {
                 var location = group['locations'][j];
                 if (location['isHidden'] == 1)
@@ -130,9 +128,10 @@ function loadMapData(callback) {
                 // Store for later use
                 marker.inactiveIcon = icon;
                 marker.activeIcon = activeIcon;
-                marker.name = locationName;
-                marker.address = location['address'];
-                marker.description = location['description'];
+                marker.isMobile = isMobile;
+                marker.name = locationName === undefined ? "" : locationName;
+                marker.address = location['address'] === undefined ? "" : location['address'];
+                marker.description = location['description'] === undefined ? "" : location['description'];
 
                 marker.addListener('click', function() {
                     var $info = $('#info');
@@ -141,7 +140,6 @@ function loadMapData(callback) {
                         activeMarker.deactivate();
                     }
                     this.setIcon(this.activeIcon);
-                    console.log(this);
                     activeMarker = this;
 
                     // Fill the bottom info block
@@ -149,8 +147,12 @@ function loadMapData(callback) {
                     $info.find('#title').text(this.name);
                     $info.find('#subtitle').text(this.address);
 
-                    var link = 'sort://open?lat=' + this.position.lat() + '&lng=' + this.position.lng() + '&title=' + this.address;
-                    $description.html('<a href="' + link + '"' + onclick + '>Прокласти маршрут</a><br/><br/>' + this.description);
+                    if (!this.isMobile) {
+                        var link = 'sort://open?lat=' + this.position.lat() + '&lng=' + this.position.lng() + '&title=' + this.address;
+                        $description.html('<a href="' + link + '"' + onclick + '>Прокласти маршрут</a><br/><br/>' + this.description);
+                    } else {
+                        $description.html(this.description);
+                    }
 
                     if (!$info.hasClass('open')) {
                         transitionInfoToState('minified');
