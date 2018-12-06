@@ -98,7 +98,6 @@ function loadMapData(callback) {
                 if (location['isHidden'] == 1)
                     continue;
 
-                // Icon
                 var stringCoords = location['coordinates'].split(','),
                     latLng = new google.maps.LatLng(parseFloat(stringCoords[0]), parseFloat(stringCoords[1])),
                     isMobile = (location['isMobile'] == 1),
@@ -131,7 +130,7 @@ function loadMapData(callback) {
                 marker.address = location['address'] === undefined ? "" : location['address'];
                 marker.description = location['description'] === undefined ? "" : location['description'];
 
-                marker.addListener('click', function() {
+                marker.activate = function() {
                     var $info = $('#info');
 
                     if (activeMarker != null) {
@@ -159,12 +158,16 @@ function loadMapData(callback) {
                     } else {
                         $info.css('height', $('#tap-area').outerHeight() + $('#description').outerHeight());
                     }
-                });
+                };
 
                 marker.deactivate = function() {
                     this.setIcon(this.inactiveIcon);
                     activeMarker = null
                 };
+
+                marker.addListener('click', function() {
+                    this.activate();
+                });
 
                 allMarkers[location['coordinates']] = marker;
                 allMarkersBounds.extend(marker.position);
@@ -289,5 +292,12 @@ function resetMap() {
     map.fitBounds(allMarkersBounds);
     if (activeMarker != null) {
         activeMarker.deactivate();
+    }
+}
+
+function activateMarker(coords) {
+    var marker = allMarkers[coords];
+    if (marker !== undefined) {
+        marker.activate();
     }
 }
