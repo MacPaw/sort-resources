@@ -100,8 +100,8 @@ function loadMapData(callback) {
             var group = locationsData[i];
 
             // Name of the location based on the operator
-            var locationName = operatorsData.filter(obj => {
-                return obj['id'] === group['operator']
+            var locationName = operatorsData.filter(function(obj) {
+                return obj['id'] === group['operator'];
             })[0]['locationName'];
 
             for (var j in group['locations']) {
