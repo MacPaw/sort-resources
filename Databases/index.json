@@ -41,6 +41,13 @@
       "compatibleVersion": "0.1",
       "location": "pryhysty_paket.json",
       "name": "Прихисти пакет"
+    },
+    {
+      "id": "glevaha",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "glevaha.json",
+      "name": "Чиста Глеваха"
     }
   ],
   "popularSearchRequests": [
