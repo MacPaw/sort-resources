@@ -878,7 +878,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, яйця, яйца, 6, 06, PS"],
       "wasteType": [
-        "mixed"
+        "egg_carton"
       ],
       "hint": null,
       "children": null
@@ -2232,7 +2232,7 @@
     {
       "id": "egg_carton",
       "title": "Збирай окремо",
-      !"hint": "Приймаються на переробку, можна спресувати.",
+      !"hint": "",
       "icon": "finalBlue"
     }
   ]
