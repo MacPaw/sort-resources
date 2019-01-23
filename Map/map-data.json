@@ -28,12 +28,12 @@
     {
       "id": "green_box",
       "locationName": "Пункт прийому «Зелена коробка»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "paper", "glass", "metal", "metal_posud", "tetrapak", "styrofoam", "plastic_2hdpe", "battery", "other_electro", "other_spray"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "paper", "glass", "metal", "metal_posud", "tetrapak", "styrofoam", "plastic_2hdpe", "battery", "other_electro", "other_spray", "paper_cup"]
     },
     {
       "id": "ecodbay",
       "locationName": "Пункт прийому «ECODBAY»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_posud", "tetrapak","zip_bag", "shoe_covers", "other_spray"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_posud", "tetrapak","zip_bag", "shoe_covers", "other_spray", "paper_cup"]
     }
   ],
 
