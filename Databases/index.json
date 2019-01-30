@@ -41,6 +41,20 @@
       "compatibleVersion": "0.1",
       "location": "pryhysty_paket.json",
       "name": "Прихисти пакет"
+    },
+    {
+      "id": "green_box",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "green_box.json",
+      "name": "Зелена коробка"
+    },
+    {
+      "id": "ecodbay",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "ecodbay.json",
+      "name": "ECODBAY"
     }
   ],
   "popularSearchRequests": [
