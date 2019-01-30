@@ -26,6 +26,11 @@
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_245", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "corks"]
     },
     {
+      "id": "glevaha",
+      "locationName": "Пункт прийому «Чиста Глеваха»",
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood", "paper_cup"]
+    },
+    {
       "id": "green_box",
       "locationName": "Пункт прийому «Зелена коробка»",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "paper", "glass", "metal", "metal_posud", "tetrapak", "styrofoam", "plastic_2hdpe", "battery", "other_electro", "other_spray", "paper_cup"]
@@ -409,6 +414,16 @@
         }
       ]
     },
+    {
+      "operator": "glevaha",
+      "locations": [
+        {
+          "address": "вул. Вокзальна, 18",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Нд: 11:00-13:00<br>Пн-Сб: уточнюй у оператора<br>Тел.: <a href=\"tel:+380932783503\">(093) 278-35-03</a>",
+          "coordinates": "50.253522,30.322381"
+        }
+      ]
+    },	
     {
       "operator": "green_box",
       "locations": [
