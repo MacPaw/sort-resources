@@ -1939,7 +1939,7 @@
       "iconURL": "",
       "keywords": ["гума, резина"],
       "wasteType": [
-        "danger"
+        "other_tyre"
       ],
       "hint": null,
       "children": null
@@ -2173,6 +2173,12 @@
       "title": "Збирай окремо",
       "hint": "Промий від залишків напоїв, висуши. Стаканчики з шаром фольги також приймаються.",
       "icon": "finalYellow"
+    },
+    {
+      "id": "other_tyre",
+      "title": "Відвези до пункту прийому",
+      "hint": "Здавай шини до <a href=\"https://www.facebook.com/Lvivspetskomuntrans/\">ЛКП «Львівспецкомунтранс»</a>. Візьми з собою документ, що підтверджує проживання в місті, — це обов’язкова вимога пункту збору.",
+      "icon": "finalRed"
     },
     {
       "id": "green_box",
