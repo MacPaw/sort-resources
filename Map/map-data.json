@@ -3,7 +3,7 @@
     {
       "id": "ukraina_bez_smittya",
       "locationName": "Станція «Україна без сміття»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood", "paper_cup"]
     },
     {
       "id": "kmvr",
@@ -18,7 +18,7 @@
     {
       "id": "isort",
       "locationName": "Пункт прийому «Я Сортую»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam", "paper_cup"]
     },
     {
       "id": "pryhysty_paket",
