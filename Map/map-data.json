@@ -3,7 +3,7 @@
     {
       "id": "ukraina_bez_smittya",
       "locationName": "Станція «Україна без сміття»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood", "paper_cup"]
     },
     {
       "id": "kmvr",
@@ -18,12 +18,27 @@
     {
       "id": "isort",
       "locationName": "Пункт прийому «Я Сортую»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam", "paper_cup"]
     },
     {
       "id": "pryhysty_paket",
       "locationName": "Пункт прийому «Прихисти пакет»",
-      "acceptedWasteTypes": ["plastic", "plastic_bag", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "corks"]
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_245", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "corks"]
+    },
+    {
+      "id": "glevaha",
+      "locationName": "Пункт прийому «Чиста Глеваха»",
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood", "paper_cup"]
+    },
+    {
+      "id": "green_box",
+      "locationName": "Пункт прийому «Зелена коробка»",
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "paper", "glass", "metal", "metal_posud", "tetrapak", "styrofoam", "plastic_2hdpe", "battery", "other_electro", "other_spray", "paper_cup"]
+    },
+    {
+      "id": "ecodbay",
+      "locationName": "Пункт прийому «ECODBAY»",
+      "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_posud", "tetrapak","zip_bag", "shoe_covers", "other_spray", "paper_cup"]
     }
   ],
 
@@ -396,6 +411,56 @@
           "description": "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Маршрут і графік виїздів уточнюй у оператора.<br>Тел.: <a href=\"tel:+3809951373607\">(095) 137-36-07</a>",
           "coordinates": "49.985009,36.276984",
           "isMobile": 1
+        }
+      ]
+    },
+    {
+      "operator": "glevaha",
+      "locations": [
+        {
+          "address": "вул. Вокзальна, 18",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Нд: 11:00-13:00<br>Пн-Сб: уточнюй у оператора<br>Тел.: <a href=\"tel:+380932783503\">(093) 278-35-03</a>",
+          "coordinates": "50.253522,30.322381"
+        }
+      ]
+    },	
+    {
+      "operator": "green_box",
+      "locations": [
+        {
+          "address": "вул. Заводська, 31",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Графік роботи уточнюй у оператора.<br>Тел.: <a href=\"tel:+380931176606\">(093) 117-66-06</a>",
+          "coordinates": "49.855286, 24.033569"
+        }
+      ]
+    },
+    {
+      "operator": "ecodbay",
+      "locations": [
+        {
+          "address": "вул. Данила Апостола, 16",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60</a>",
+          "coordinates": "49.831641, 23.939546"
+        },
+        {
+          "address": "вул. Персенківка, 2",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60</a>",
+          "coordinates": "49.808903, 24.029123"
+        },
+        {
+          "address": "вул. Будівельників, 3",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60</a>",
+          "coordinates": "49.366339, 24.141153"
+        },
+        {
+          "address": "вул. Міцкевича, 9",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60</a>",
+          "coordinates": "49.385554, 24.132830"
+        },
+        {
+          "address": "вул. Болоня, 40",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60</a>",
+          "coordinates": "49.524219, 23.971466"
         }
       ]
     }
