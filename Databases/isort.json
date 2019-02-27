@@ -571,12 +571,12 @@
     },
     {
       "id": "2.1.8",
-      "name": "PET пляшка непрозора, біла",
+      "name": "Пляшка біла з-під молочної продукції",
       "icon": "2.1.8",
       "iconURL": "",
-      "keywords": ["бутилка, бутылка, молоко, йогурт, кефір, кефир, bottle, белая, белый"],
+      "keywords": ["бутилка, бутылка, молоко, йогурт, кефір, кефир, bottle, белая, белый, PET, HDPE, 1, 01, 2, 02"],
       "wasteType": [
-        "pryhysty_paket"
+        "plastic_milk"
       ],
       "hint": null,
       "children": null
@@ -2256,6 +2256,12 @@
       "title": "Здавай іншому оператору",
       "hint": "Твій оператор не приймає цей тип сировини. Можна здати в пункт <a href=\"https://www.facebook.com/kharkivrecycling/\">«Прихисти пакет»</a>.",
       "icon": "finalRed"
+    },
+    {
+      "id": "plastic_milk",
+      "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
     }
   ]
 }
