@@ -528,7 +528,7 @@
       "iconURL": "",
       "keywords": ["пляшка, бутиль, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен"],
       "wasteType": [
-        "plastic_can_vtorma"
+        "plastic_can"
       ],
       "hint": null,
       "children": null
@@ -2241,6 +2241,12 @@
     },
     {
       "id": "plastic_oil",
+      "title": "Здавай як пластик",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_can",
       "title": "Здавай як пластик",
       "hint": "",
       "icon": "finalYellow"
