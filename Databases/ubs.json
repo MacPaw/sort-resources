@@ -588,7 +588,7 @@
       "iconURL": "",
       "keywords": ["ПЕТ, ПЭТ, желтая, жовта, черная, чорний, 1, 01, енергетик, энергетик"],
       "wasteType": [
-        "plastic"
+        "PET_colour"
       ],
       "hint": null,
       "children": null
@@ -2218,6 +2218,12 @@
     {
       "id": "plastic_milk",
       "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "PET_colour",
+      "title": "Здавай як пластик",
       "hint": "",
       "icon": "finalYellow"
     }
