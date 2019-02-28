@@ -539,7 +539,7 @@
       "iconURL": "",
       "keywords": ["бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен, ліки, лекарства"],
       "wasteType": [
-        "plastic"
+        "plastic_drugs"
       ],
       "hint": null,
       "children": null
@@ -2168,6 +2168,12 @@
     },
     {
       "id": "plastic_milk",
+      "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_drugs",
       "title": "Шукай маркування",
       "hint": "",
       "icon": "finalYellow"
