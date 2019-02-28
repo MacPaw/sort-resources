@@ -564,7 +564,7 @@
       "iconURL": "",
       "keywords": ["бутилка, бутылка, масло, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат"],
       "wasteType": [
-        "plastic"
+        "plastic_oil"
       ],
       "hint": null,
       "children": null
@@ -2196,6 +2196,12 @@
       "title": "Це ще можна носити?",
       "hint": "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, приймають на утилізацію <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічні інвестиції»</a> (графік уточнюй).",
       "icon": "finalRed"
+    },
+    {
+      "id": "plastic_oil",
+      "title": "Здавай як пластик",
+      "hint": "",
+      "icon": "finalYellow"
     }
   ]
 }

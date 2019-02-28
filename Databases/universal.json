@@ -564,7 +564,7 @@
       "iconURL": "",
       "keywords": ["бутилка, бутылка, масло, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат"],
       "wasteType": [
-        "plastic"
+        "plastic_oil"
       ],
       "hint": null,
       "children": null
@@ -2200,6 +2200,12 @@
     {
       "id": "plastic_milk",
       "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_oil",
+      "title": "Здавай як пластик",
       "hint": "",
       "icon": "finalYellow"
     }
