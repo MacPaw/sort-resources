@@ -516,7 +516,7 @@
       "iconURL": "",
       "keywords": ["пляшка, бутилка, побутова хімія, засіб для миття посуду, бутылка, бытовая химия, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен, bottle"],
       "wasteType": [
-        "plastic"
+        "plastic_wash"
       ],
       "hint": null,
       "children": null
@@ -550,9 +550,9 @@
       "name": "Пляшка з-під косметики",
       "icon": "2.1.5",
       "iconURL": "",
-      "keywords": ["бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен"],
+      "keywords": ["бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен, шампунь"],
       "wasteType": [
-        "plastic"
+        "plastic_wash"
       ],
       "hint": null,
       "children": null
@@ -2211,6 +2211,12 @@
     },
     {
       "id": "plastic_drugs",
+      "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_wash",
       "title": "Шукай маркування",
       "hint": "",
       "icon": "finalYellow"
