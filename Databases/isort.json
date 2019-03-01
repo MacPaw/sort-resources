@@ -624,7 +624,7 @@
       "iconURL": "",
       "keywords": ["кур'єрський пакет, доставка, курьерский, пакування, упаковка, паковання, bag, укрпошта"],
       "wasteType": [
-        "plastic_bag"
+        "post_bag"
       ],
       "hint": null,
       "children": null
@@ -2291,6 +2291,12 @@
       "id": "plastic_can",
       "title": "Здавай як пластик",
       "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "post_bag",
+      "title": "«Збирай окремо: поліетилен»",
+      "hint": "Це — пластик. Для зручності збирай його в окремий пакет.",
       "icon": "finalYellow"
     }
   ]
