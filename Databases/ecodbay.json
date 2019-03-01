@@ -719,7 +719,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сир, чорний контейнер, черный контейнер, творог, container, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 5, 05, PP, 6, 06, PS, харчові контейнери"],
       "wasteType": [
-        "mixed"
+        "plastic_container"
       ],
       "hint": null,
       "children": null
@@ -2210,6 +2210,12 @@
     },
     {
       "id": "yoghurt_cup",
+      "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_container",
       "title": "Шукай маркування",
       "hint": "",
       "icon": "finalYellow"
