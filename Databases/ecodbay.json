@@ -671,7 +671,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.6.png",
       "keywords": ["подушечка, молоко, кефір, кефир, сметана, ряжанка"],
       "wasteType": [
-        "plastic_bag"
+        "milk_bag"
       ],
       "hint": null,
       "children": null
@@ -2198,6 +2198,12 @@
     },
     {
       "id": "plastic_wrap",
+      "title": "«Збирай окремо: поліетилен»",
+      "hint": "Це — пластик. Для зручності збирай його в окремий пакет.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "milk_bag",
       "title": "«Збирай окремо: поліетилен»",
       "hint": "Це — пластик. Для зручності збирай його в окремий пакет.",
       "icon": "finalYellow"
