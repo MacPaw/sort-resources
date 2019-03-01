@@ -708,7 +708,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
-        "plastic"
+        "yoghurt_cup"
       ],
       "hint": null,
       "children": null
@@ -2267,6 +2267,12 @@
       "id": "plastic_blister",
       "title": "Здавай як пластик",
       "hint": "Пластик має бути чистим, хіба що з краплями води. Стисни міцніше, а на наліпки не зважай.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "yoghurt_cup",
+      "title": "Шукай маркування",
+      "hint": "",
       "icon": "finalYellow"
     }
   ]
