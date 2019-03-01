@@ -647,7 +647,7 @@
       "iconURL": "",
       "keywords": ["кур'єрський пакет, доставка, пакування, упаковка, пупирки, пупырки, пупыпышки, паковання, bubble, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ"],
       "wasteType": [
-        "plastic_bag"
+        "plastic_wrap"
       ],
       "hint": null,
       "children": null
@@ -2188,6 +2188,12 @@
       "id": "plastic_can",
       "title": "Здавай як пластик",
       "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_wrap",
+      "title": "«Збирай окремо: поліетилен»",
+      "hint": "Це — пластик. Для зручності збирай його в окремий пакет.",
       "icon": "finalYellow"
     }
   ]
