@@ -731,7 +731,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, поліпропілен, полипропилен, 05, 6, 06, PS, полістирол, полистирол"],
       "wasteType": [
-        "mixed"
+        "plastic_cup"
       ],
       "hint": null,
       "children": null
@@ -2204,6 +2204,12 @@
     },
     {
       "id": "plastic_container",
+      "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_cup",
       "title": "Шукай маркування",
       "hint": "",
       "icon": "finalYellow"
