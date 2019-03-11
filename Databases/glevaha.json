@@ -804,7 +804,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, 6, 06, PS, полістирол, полистирол, кришечка, крышечка, крышка, кава, кофе, горнятко"],
       "wasteType": [
-        "plastic"
+        "cup_cover"
       ],
       "hint": null,
       "children": null
@@ -2254,6 +2254,18 @@
     {
       "id": "plastic_container",
       "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_cup",
+      "title": "Здавай як пластик",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "cup_cover",
+      "title": "Здавай як пластик",
       "hint": "",
       "icon": "finalYellow"
     }
