@@ -1686,7 +1686,7 @@
       "iconURL": "",
       "keywords": ["скло, духи, ароматична вода, туалетна вода, perfume"],
       "wasteType": [
-        "glass"
+        "glass_perfume"
       ],
       "hint": null,
       "children": null
@@ -2333,6 +2333,12 @@
       "id": "glass_heat",
       "title": "Здавай як скло",
       "hint": "",
+      "icon": "finalGreen"
+    },
+    {
+      "id": "glass_perfume",
+      "title": "Здавай як скло",
+      "hint": "Скляну пляшку сполосни та відправляй на переробку, а розпилювач та кришечку доведеться викинути. ",
       "icon": "finalGreen"
     }
   ]
