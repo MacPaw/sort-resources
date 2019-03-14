@@ -1758,7 +1758,7 @@
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, жерстяна банка, метал, консерва, тушонка, згущенка, згущене молоко, горошок, жерсть, can, 40, Fe"],
       "wasteType": [
-        "metal"
+        "metal_can"
       ],
       "hint": null,
       "children": null
@@ -1770,7 +1770,7 @@
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, банкове пиво, кола, метал, пепсі, пепси, coca-cola, can, coke, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "metal"
+        "metal_alu"
       ],
       "hint": null,
       "children": null
@@ -1782,7 +1782,7 @@
       "iconURL": "",
       "keywords": ["метал, foil, metal, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "metal"
+        "foil"
       ],
       "hint": null,
       "children": null
@@ -1806,7 +1806,7 @@
       "iconURL": "",
       "keywords": ["консервація, кришка, крышка, 40, Fe"],
       "wasteType": [
-        "metal"
+        "metal_cap"
       ],
       "hint": null,
       "children": null
@@ -1854,7 +1854,7 @@
       "iconURL": "",
       "keywords": ["метал, срібляста, свечка, плаваюча, 41, Alu"],
       "wasteType": [
-        "metal"
+        "metal_candle"
       ],
       "hint": null,
       "children": null
@@ -1866,7 +1866,7 @@
       "iconURL": "",
       "keywords": ["контейнер, олія, оливки, масло, 40, Fe, канистра"],
       "wasteType": [
-        "metal"
+        "metal_kanistra"
       ],
       "hint": null,
       "children": null

@@ -1770,7 +1770,7 @@
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, банкове пиво, кола, метал, пепсі, пепси, coca-cola, can, coke, cola, fanta, sprite, pepsi, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "metal"
+        "metal_alu"
       ],
       "hint": null,
       "children": null
@@ -1782,7 +1782,7 @@
       "iconURL": "",
       "keywords": ["метал, foil, metal, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "metal"
+        "foil"
       ],
       "hint": null,
       "children": null

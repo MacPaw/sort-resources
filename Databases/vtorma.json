@@ -1758,7 +1758,7 @@
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, жерстяна банка, метал, консерва, тушонка, згущенка, згущене молоко, горошок, жерсть, can, 40, Fe"],
       "wasteType": [
-        "metal"
+        "metal_can"
       ],
       "hint": null,
       "children": null
@@ -1770,7 +1770,7 @@
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, банкове пиво, кола, метал, пепсі, пепси, coca-cola, can, coke, cola, fanta, sprite, pepsi, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "metal"
+        "metal_alu"
       ],
       "hint": null,
       "children": null
