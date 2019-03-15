@@ -1127,7 +1127,7 @@
       "iconURL": "",
       "keywords": ["стіл, стілець, комод, шафа, шкаф, стул, стол"],
       "wasteType": [
-        "plastic_2hdpe"
+        "plastic_mebli"
       ],
       "hint": null,
       "children": null
@@ -1139,7 +1139,7 @@
       "iconURL": "",
       "keywords": ["зберігання, контейнер, корзина, кошик, таз, миска, горщик, вазон, горшок"],
       "wasteType": [
-        "plastic_2hdpe"
+        "plastic_box"
       ],
       "hint": null,
       "children": null
@@ -2223,6 +2223,18 @@
     {
       "id": "plastic_marked",
       "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_mebli",
+      "title": "",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_box",
+      "title": "",
       "hint": "",
       "icon": "finalYellow"
     }
