@@ -792,7 +792,7 @@
       "iconURL": "",
       "keywords": ["тарілка, чашка, стакан, горнятко, виделка, ложка, ніж, прибори, тарелка, вилка, миска, 5, 05, PP"],
       "wasteType": [
-        "plastic"
+        "other_ubs"
       ],
       "hint": null,
       "children": null

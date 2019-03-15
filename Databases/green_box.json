@@ -767,7 +767,7 @@
       "iconURL": "",
       "keywords": ["виделка, ложка, ніж, столові прибори, вилка, нож"],
       "wasteType": [
-        "ecodbay"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -791,7 +791,7 @@
       "iconURL": "",
       "keywords": ["тарілка, чашка, стакан, горнятко, виделка, ложка, ніж, прибори, тарелка, вилка, миска, 5, 05, PP"],
       "wasteType": [
-        "plastic_2hdpe"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -2219,6 +2219,12 @@
       "title": "Здавай як метал",
       "hint": "Збирай лише чистий метал, залишивши, хіба що, етикетки. Спробуй стиснути залізяку сильніше!",
       "icon": "finalGrey"
+    },
+    {
+      "id": "plastic_marked",
+      "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
     }
   ]
 }
