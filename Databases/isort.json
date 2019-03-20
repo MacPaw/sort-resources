@@ -1491,7 +1491,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "reuse"
+        "corks"
       ],
       "hint": null,
       "children": null
@@ -2152,7 +2152,7 @@
     {
       "id": "corks",
       "title": "Збирай окремо: деревина",
-      "hint": "Коркові пробки з-під вина здавай разом із дерев'яним пакувальним матеріалом до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Пробки з пластику не приймаються.",
+      "hint": "Приймається лише ціле, чисте, сухе. Спакуй окремо, це передадуть тому, хто зможе цим скористатися.",
       "icon": "finalRed"
     },
     {
