@@ -1515,7 +1515,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
       "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка, шпон"],
       "wasteType": [
-        "wood"
+        "wood_basket"
       ],
       "hint": null,
       "children": null
@@ -2340,6 +2340,12 @@
       "title": "",
       "hint": "",
       "icon": "finalYellow"
+    },
+    {
+      "id": "wood_basket",
+      "title": "Збирай окремо: деревина",
+      "hint": "Дрібні дерев'яні вироби збирай окремо і принось на станцію сортування.",
+      "icon": "finalRed"
     }
   ]
 }

@@ -1515,7 +1515,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
       "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка, шпон"],
       "wasteType": [
-        "reuse"
+        "wood_basket"
       ],
       "hint": null,
       "children": null
@@ -2406,6 +2406,12 @@
       "title": "",
       "hint": "",
       "icon": "finalYellow"
+    },
+    {
+      "id": "wood_basket",
+      "title": "",
+      "hint": "",
+      "icon": "finalRed"
     }
   ]
 }
