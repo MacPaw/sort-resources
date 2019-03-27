@@ -1698,7 +1698,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/4.10.png",
       "keywords": ["зеркало"],
       "wasteType": [
-        "glass"
+        "mirror"
       ],
       "hint": null,
       "children": null
@@ -2412,6 +2412,12 @@
       "title": "",
       "hint": "",
       "icon": "finalRed"
+    },
+    {
+      "id": "mirror",
+      "title": "Здавай як скло",
+      "hint": "Твій оператор приймає дзеркало, в т.ч. бите. Збирай окремо від решти скла.",
+      "icon": "finalGreen"
     }
   ]
 }
