@@ -708,7 +708,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
-        "yoghurt_cup"
+        "yoghurt_cup_reuse"
       ],
       "hint": null,
       "children": null
@@ -2306,8 +2306,8 @@
       "icon": "finalRed"
     },
     {
-      "id": "yoghurt_cup",
-      "title": "Шукай маркування",
+      "id": "yoghurt_cup_reuse",
+      "title": "Збирай окремо",
       "hint": "",
       "icon": "finalYellow"
     },
