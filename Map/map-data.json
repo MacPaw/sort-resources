@@ -2,42 +2,50 @@
   "operators": [
     {
       "id": "ukraina_bez_smittya",
-      "locationName": "Станція «Україна без сміття»",
+      "locationType": "Станція",
+      "locationName": "Україна без сміття",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood", "paper_cup"]
     },
     {
       "id": "kmvr",
-      "locationName": "Пункт прийому «Київміськвторресурси»",
+      "locationType": "Пункт прийому",
+      "locationName": "Київміськвторресурси",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "other_kmvr", "other_tyre", "other_mattress", "tetrapak"]
     },
     {
       "id": "vtorma",
-      "locationName": "Пункт прийому «ВТОРМА юа»",
+      "locationType": "Пункт прийому",
+      "locationName": "ВТОРМА юа",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam", "plastic_can_vtorma", "cards"]
     },
     {
       "id": "isort",
-      "locationName": "Пункт прийому «Я Сортую»",
+      "locationType": "Пункт прийому",
+      "locationName": "Я Сортую",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "styrofoam", "paper_cup"]
     },
     {
       "id": "pryhysty_paket",
-      "locationName": "Пункт прийому «Прихисти пакет»",
+      "locationType": "Пункт прийому",
+      "locationName": "Прихисти пакет",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_245", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "tetrapak", "corks"]
     },
     {
       "id": "glevaha",
-      "locationName": "Пункт прийому «Чиста Глеваха»",
+      "locationType": "Пункт прийому",
+      "locationName": "Чиста Глеваха",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_aerosol", "metal_posud", "wood", "tetrapak", "corks", "wood_brush", "wood_qtips", "styrofoam", "other_clothing", "other_wood", "paper_cup"]
     },
     {
       "id": "green_box",
-      "locationName": "Пункт прийому «Зелена коробка»",
+      "locationType": "Пункт прийому",
+      "locationName": "Зелена коробка",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "paper", "glass", "metal", "metal_posud", "tetrapak", "styrofoam", "plastic_2hdpe", "battery", "other_electro", "other_spray", "paper_cup"]
     },
     {
       "id": "ecodbay",
-      "locationName": "Пункт прийому «ECODBAY»",
+      "locationType": "Пункт прийому",
+      "locationName": "ECODBAY",
       "acceptedWasteTypes": ["plastic", "plastic_bag", "plastic_bag2", "paper", "glass", "metal", "metal_posud", "tetrapak","zip_bag", "shoe_covers", "other_spray", "paper_cup"]
     }
   ],
