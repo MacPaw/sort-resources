@@ -346,7 +346,8 @@
         "2.1.4",
         "2.1.5",
         "2.1.7",
-        "2.1.11"
+        "2.1.11",
+        "2.1.12"
       ],
       "wasteType": null,
       "hint": null
@@ -601,6 +602,18 @@
       "keywords": ["кришка, крышечка, 2, 02, HDPE"],
       "wasteType": [
         "plastic"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "2.1.12",
+      "name": "Кришка від бутля з-під води",
+      "icon": "2.1.12",
+      "iconURL": "",
+      "keywords": ["пробка, 4, 04, LDPE, PELD, PE, кільце, аляска, бутильована вода, бак, кулер, кольцо, крышка"],
+      "wasteType": [
+        "green_box"
       ],
       "hint": null,
       "children": null
