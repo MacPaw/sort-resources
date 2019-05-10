@@ -182,7 +182,8 @@
         "4.2.1",
         "4.2.3",
         "4.2.4",
-        "3.9"
+        "3.9",
+        "8.12"
       ],
       "wasteType": null,
       "hint": null
@@ -1990,6 +1991,18 @@
       ],
       "hint": null,
       "children": null
+    },
+    {
+      "id": "8.12",
+      "name": "Будівельне сміття",
+      "icon": "8.12",
+      "iconURL": "",
+      "keywords": ["цегла, шпалери, ламінат, строительный мусор, кирпич, обои, ламинат, штукатурка"],
+      "wasteType": [
+        "construction"
+      ],
+      "hint": null,
+      "children": null
     }
   ],
   "wasteTypes": [
@@ -2406,6 +2419,12 @@
       "title": "Збирай окремо",
       "hint": "Твій оператор приймає дзеркало, в т.ч. бите. Збирай окремо від решти скла.",
       "icon": "finalGreen"
+    },
+    {
+      "id": "construction",
+      "title": "",
+      "hint": "",
+      "icon": "finalRed"
     }
   ]
 }
