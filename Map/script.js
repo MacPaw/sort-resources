@@ -100,9 +100,10 @@ function loadMapData(callback) {
             var group = locationsData[i];
 
             // Name of the location based on the operator
-            var locationName = operatorsData.filter(function(obj) {
+            var operator = operatorsData.filter(function(obj) {
                 return obj['id'] === group['operator'];
-            })[0]['locationName'];
+            })[0];
+            var locationName = operator['locationType'] + ' «' + operator['locationName'] + '»';
 
             for (var j in group['locations']) {
                 var location = group['locations'][j];
@@ -137,7 +138,7 @@ function loadMapData(callback) {
                 marker.inactiveIcon = icon;
                 marker.activeIcon = activeIcon;
                 marker.isMobile = isMobile;
-                marker.name = locationName === undefined ? "" : locationName;
+                marker.name = locationName;
                 marker.address = location['address'] === undefined ? "" : location['address'];
                 marker.description = location['description'] === undefined ? "" : location['description'];
 
