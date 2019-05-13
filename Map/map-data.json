@@ -2,42 +2,50 @@
   "operators": [
     {
       "id": "ukraina_bez_smittya",
-      "locationName": "Станція «Україна без сміття»",
+      "locationType": "Станція",
+      "locationName": "Україна без сміття",
       "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "milk_bag", "plastic_blister", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "cup_cover", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "paper", "egg_carton", "corks", "wood", "wood_qtips", "wood_brush", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing","other_electro"]
     },
     {
       "id": "kmvr",
-      "locationName": "Пункт прийому «Київміськвторресурси»",
+      "locationType": "Пункт прийому",
+      "locationName": "Київміськвторресурси",
       "acceptedWasteTypes": ["paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "paper", "egg_carton", "glass", "glass_perfume", "metal_alu", "tetrapak", "other_tyre", "other_mattress"]
     },
     {
       "id": "vtorma",
-      "locationName": "Пункт прийому «ВТОРМА юа»",
+      "locationType": "Пункт прийому",
+      "locationName": "ВТОРМА юа",
       "acceptedWasteTypes": ["paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_bag", "post_bag", "plastic_wrap", "zip_bag", "milk_bag", "styrofoam", "cards", "shoe_covers", "egg_carton", "glass", "metal_can", "metal_alu", "tetrapak"]
     },
     {
       "id": "isort",
-      "locationName": "Пункт прийому «Я Сортую»",
+      "locationType": "Пункт прийому",
+      "locationName": "Я Сортую",
       "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "post_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "milk_bag", "foam_container", "yoghurt_cup", "plastic_container", "plastic_cup", "styrofoam", "shoe_covers", "egg_carton", "corks", "wood_basket", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing"]
     },
     {
       "id": "pryhysty_paket",
-      "locationName": "Пункт прийому «Прихисти пакет»",
+      "locationType": "Пункт прийому",
+      "locationName": "Прихисти пакет",
       "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "post_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "shoe_covers", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "shoes"]
     },
     {
       "id": "glevaha",
-      "locationName": "Пункт прийому «Чиста Глеваха»",
+      "locationType": "Пункт прийому",
+      "locationName": "Чиста Глеваха",
       "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "milk_bag", "plastic_blister", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "cup_cover", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "egg_carton", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "other_electro", "shoes"]
     },
     {
       "id": "green_box",
-      "locationName": "Пункт прийому «Зелена коробка»",
+      "locationType": "Пункт прийому",
+      "locationName": "Зелена коробка",
       "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "styrofoam", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_kanistra", "tetrapak", "battery", "other_electro", "other_lamp_LED"]
     },
     {
       "id": "ecodbay",
-      "locationName": "Пункт прийому «ECODBAY»",
+      "locationType": "Пункт прийому",
+      "locationName": "ECODBAY",
       "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_milk", "plastic_bag", "post_bag", "plastic_bag2", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "plastic_box", "paper_chalk", "paper_fax", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak"]
     }
   ],
@@ -75,12 +83,14 @@
         {
           "address": "вулиця Ямська, 6/31",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн-Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.427290,30.509960"
+          "coordinates": "50.427290,30.509960",
+          "isHidden": 1
         },
         {
           "address": "проспект Петра Григоренка, 25В",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 7:00–15:00<br>Сб-Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.405634,30.635678"
+          "coordinates": "50.405634,30.635678",
+          "isHidden": 1
         },
         {
           "address": "вулиця Шкільна, 59",
@@ -120,7 +130,8 @@
         {
           "address": "вулиця Празька, 44",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 8:00–16:00<br>Нд, Пн: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4357431,30.64522"
+          "coordinates": "50.4357431,30.64522",
+          "isHidden": 1
         },
         {
           "address": "вулиця Курнатовського, 15",
@@ -165,27 +176,32 @@
         {
           "address": "вулиця Березняківська, 36",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4231677,30.5981812"
+          "coordinates": "50.4231677,30.5981812",
+          "isHidden": 1
         },
         {
           "address": "вулиця Миколи Василенка, 11",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Пт: 8:00–16:00<br>Сб–Пн: Вихідні<br>Тел.: <a href=\"tel:+380952860079\">(095) 286‒00‒79</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4454117,30.4213637"
+          "coordinates": "50.4454117,30.4213637",
+          "isHidden": 1
         },
         {
           "address": "Харківське шосе, 172",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4122515,30.6647164"
+          "coordinates": "50.4122515,30.6647164",
+          "isHidden": 1
         },
         {
           "address": "вулиця Ревуцького, 27",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Сб: 8:00–16:00<br>Нд, Пн: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4092494,30.6491022"
+          "coordinates": "50.4092494,30.6491022",
+          "isHidden": 1
         },
         {
           "address": "вулиця Горлівська, 38",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.421377,30.6472205"
+          "coordinates": "50.421377,30.6472205",
+          "isHidden": 1
         },
         {
           "address": "вулиця Тимофія Шамрила, 17",
@@ -200,22 +216,26 @@
         {
           "address": "проспект Космонавта Комарова, 40",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Пт: 8:00–16:00<br>Сб–Пн: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.437582,30.4135316"
+          "coordinates": "50.437582,30.4135316",
+          "isHidden": 1
         },
         {
           "address": "вулиця Виборзька, 41",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4481788,30.4447868"
+          "coordinates": "50.4481788,30.4447868",
+          "isHidden": 1
         },
         {
           "address": "вулиця Академіка Білецького, 3",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 8:00–16:00<br>Нд, Пн: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4312106,30.4210517"
+          "coordinates": "50.4312106,30.4210517",
+          "isHidden": 1
         },
         {
           "address": "вулиця Тульчинська, 7",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Пт: 7:45–15:45<br>Сб–Пн: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4852901,30.4798207"
+          "coordinates": "50.4852901,30.4798207",
+          "isHidden": 1
         },
         {
           "address": "проспект Свободи, 22",
@@ -225,7 +245,8 @@
         {
           "address": "вулиця Електриків, 26/10",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Сб: 9:00–17:00<br>Нд, Пн: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4765053,30.5326887"
+          "coordinates": "50.4765053,30.5326887",
+          "isHidden": 1
         },
         {
           "address": "вулиця Волоська, 19",
@@ -240,42 +261,50 @@
         {
           "address": "вулиця Маршала Малиновського, 25А",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.5027095,30.5030331"
+          "coordinates": "50.5027095,30.5030331",
+          "isHidden": 1
         },
         {
           "address": "проспект Героїв Сталінграду, 50",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 7:00–15:00<br>Нд, Пн: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.5231246,30.5164076"
+          "coordinates": "50.5231246,30.5164076",
+          "isHidden": 1
         },
         {
           "address": "Лісовий проспект, 21",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 8:00–17:00<br>Нд, Пн: Вихідні<br>Тел.: <a href=\"tel:+380952860079\">(095) 286‒00‒79</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4819929,30.63043"
+          "coordinates": "50.4819929,30.63043",
+          "isHidden": 1
         },
         {
           "address": "проспект Володимира Маяковського, 22",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 8:00–17:00<br>Нд, Пн: Вихідні<br>Тел.: <a href=\"tel:+380952860079\">(095) 286‒00‒79</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.506587,30.6086119"
+          "coordinates": "50.506587,30.6086119",
+          "isHidden": 1
         },
         {
           "address": "проспект Павла Тичини, 7",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4282008,30.600202"
+          "coordinates": "50.4282008,30.600202",
+          "isHidden": 1
         },
         {
           "address": "вулиця Русанівська Набережна, 8/1",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 7:30–15:30<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4376876,30.5931363"
+          "coordinates": "50.4376876,30.5931363",
+          "isHidden": 1
         },
         {
           "address": "вулиця Пожарського, 1",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4503881,30.6244392"
+          "coordinates": "50.4503881,30.6244392",
+          "isHidden": 1
         },
         {
           "address": "бульвар Перова, 8",
           "description": "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36</a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90</a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64</a>",
-          "coordinates": "50.4696524,30.5991286"
+          "coordinates": "50.4696524,30.5991286",
+          "isHidden": 1
         },
         {
           "address": "вулиця Митрополита Андрея Шептицького, 24",

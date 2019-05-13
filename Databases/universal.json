@@ -2087,12 +2087,6 @@
       "icon": "finalRed"
     },
     {
-      "id": "other_kmvr",
-      "title": "Переробка чи звалище?",
-      "hint": "Зазвичай цей тип пластику їде на сміттєзвалище, але його можна здати до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурів»</a>.",
-      "icon": "finalRed"
-    },
-    {
       "id": "other_lamp_eco",
       "title": "Утилізуй відповідально!",
       "hint": "Енергозберігаюча лампа містить небезпечну речовину – ртуть. Запакуй її надійно і залиш у контейнері <a href=\"https://www.facebook.com/Kyivcomunservice/\">КП «Київкомунсервіс»</a> або віддай до <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічних інвестицій»</a> (графік уточнюй).",

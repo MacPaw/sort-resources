@@ -25,8 +25,19 @@ function initMap() {
 
     loadMapData(function() {
         browserMarkerNeedsCentering = false;
+
+        // Activate a certain marker if needed
+        var activateMarkerCoords = findGetParameter('activateMarker');
+
+        // Center map on user location if needed
         var initialUserPosition = findGetParameter('coord');
-        if (initialUserPosition != null) {
+
+        if (activateMarkerCoords != null) {
+            var marker = allMarkers[activateMarkerCoords];
+            if (marker !== undefined) {
+                marker.activate();
+            }
+        } else if (initialUserPosition != null) {
             var locationItems = initialUserPosition.split(',');
             drawUserLocation(parseFloat(locationItems[0]), parseFloat(locationItems[1]), parseFloat(locationItems[2]));
         } else {
@@ -89,9 +100,10 @@ function loadMapData(callback) {
             var group = locationsData[i];
 
             // Name of the location based on the operator
-            var locationName = operatorsData.filter(obj => {
-                return obj['id'] === group['operator']
-            })[0]['locationName'];
+            var operator = operatorsData.filter(function(obj) {
+                return obj['id'] === group['operator'];
+            })[0];
+            var locationName = operator['locationType'] + ' «' + operator['locationName'] + '»';
 
             for (var j in group['locations']) {
                 var location = group['locations'][j];
@@ -126,7 +138,7 @@ function loadMapData(callback) {
                 marker.inactiveIcon = icon;
                 marker.activeIcon = activeIcon;
                 marker.isMobile = isMobile;
-                marker.name = locationName === undefined ? "" : locationName;
+                marker.name = locationName;
                 marker.address = location['address'] === undefined ? "" : location['address'];
                 marker.description = location['description'] === undefined ? "" : location['description'];
 
