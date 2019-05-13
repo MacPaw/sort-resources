@@ -453,6 +453,7 @@
         "2.7.1",
         "2.7.2",
         "2.7.3",
+        "2.7.6",
         "2.7.4",
         "2.5.8",
         "2.7.5"
@@ -1010,7 +1011,7 @@
       "iconURL": "",
       "keywords": ["канцтовари, гелева ручка, ручка"],
       "wasteType": [
-        "mixed"
+        "pen"
       ],
       "hint": null,
       "children": null
@@ -1035,6 +1036,18 @@
       "keywords": ["карандаш, пензлик, олівець, маркер, фломастер, гумка, резинка, ножиці, ножницы, кисточка"],
       "wasteType": [
         "mixed"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "2.7.6",
+      "name": "Фломастери і маркери",
+      "icon": "2.7.6",
+      "iconURL": "",
+      "keywords": ["канцтовари, marker, sharpie, centropen, ковпачок, колпачек"],
+      "wasteType": [
+        "marker"
       ],
       "hint": null,
       "children": null
@@ -2423,6 +2436,18 @@
     },
     {
       "id": "water_cap",
+      "title": "Збирай окремо",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "marker",
+      "title": "Збирай окремо",
+      "hint": "",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "pen",
       "title": "Збирай окремо",
       "hint": "",
       "icon": "finalYellow"
