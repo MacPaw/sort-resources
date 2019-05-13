@@ -615,7 +615,7 @@
       "iconURL": "",
       "keywords": ["пробка, 4, 04, LDPE, PELD, PE, кільце, аляска, бутильована вода, бак, кулер, кольцо, крышка"],
       "wasteType": [
-        "mixed"
+        "water_cap"
       ],
       "hint": null,
       "children": null
@@ -2307,6 +2307,12 @@
       "title": "",
       "hint": "",
       "icon": "finalRed"
+    },
+    {
+      "id": "water_cap",
+      "title": "Збирай окремо",
+      "hint": "Приймають лише чисті, сухі. Витягни прокладку з середини, зніми наліпку.",
+      "icon": "finalYellow"
     }
   ]
 }
