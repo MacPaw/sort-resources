@@ -212,7 +212,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, виделка, ложка, ніж, паличка, шпажка, столові, вилка, палочки, нож, utensils"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -303,7 +303,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бутерброд, сендвіч, бумажный, bag, паперовий пакет"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -639,7 +639,7 @@
       "iconURL": "",
       "keywords": ["кур'єрський пакет, доставка, курьерский, пакування, упаковка, паковання, bag, укрпошта"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -711,7 +711,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 6, 06, PS, полистирол, полістирол, пенопласт, харчові контейнери"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -759,7 +759,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, plate, тарелка, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -771,7 +771,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, спінений полістирол, стаканчик, лоточок, лоточек, 6, 06, PS"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -795,7 +795,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, трубочка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -831,7 +831,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, кетчуп, майонез, соус, згущенка, сгущенка, doypack"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -843,7 +843,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, батончик, солодощі, чіпси, насіння, морозиво, шоколад, конфета, семечки, горішки, сухарики, чипсы, 5, 05, PP"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -855,7 +855,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, яйця, яйца, 6, 06, PS"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -867,7 +867,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, сосиски, ковбаса, мʼясо, сир, вакумне, зберігання, сыр, пленка, плівка, овощи, овочі, морепродукти"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -891,7 +891,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, електроніка, техніка, PVC, корекс, электроника, гаджеты, гаджети, игрушка, тверде пластикове, тверда пластикова упаковка, батарейки, техника, твердая пластиковая упаковка, прозора тверда упаковка, прозрачная твердая упаковка, твердий прозорий пластик, твердый прозрачный пластик, 1, 01, PET, 6, 06, PS"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -903,7 +903,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, ліки, таблетки, пігулки, капсули, капсулы"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -915,7 +915,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, клейка стрічка, tape, лента, двосторонній, двусторонний"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -939,7 +939,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, масло, морозиво"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -951,7 +951,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, кава, чай, какао, кофе, мороженое, морозиво, батончик, солодощі, чіпси, насіння, шоколад, конфета, семечки, горішки, сухарі, чипсы, 11, 90, композиційне паковання, композиційна упаковка, 81, PapPet, 82, 83, 84, c/pap, 85, 86, 87, 88, 89, 90, 91, 92, 93, C/LDPE"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -963,7 +963,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, 3, 03, PVC, V, поливинилхлорид, ПВХ, полівенілхлорид, 7, 07, O, OTHER, полікарбонат,  PC"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -975,7 +975,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, запальничка, зажигалка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -987,7 +987,7 @@
       "iconURL": "",
       "keywords": ["канцтовари, папка, файл, тека, мультифора"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -999,7 +999,7 @@
       "iconURL": "",
       "keywords": ["банківська картка, кредитна картка, кредитка, візитівка, візитка, клієнтська картка, знижкова, скидочная"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1011,7 +1011,7 @@
       "iconURL": "",
       "keywords": ["канцтовари, гелева ручка, ручка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1023,7 +1023,7 @@
       "iconURL": "",
       "keywords": ["канцтовари, наліпка, наклейка, стикер, липучка, самоклейка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1035,7 +1035,7 @@
       "iconURL": "",
       "keywords": ["карандаш, пензлик, олівець, маркер, фломастер, гумка, резинка, ножиці, ножницы, кисточка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1047,7 +1047,7 @@
       "iconURL": "",
       "keywords": ["канцтовари, marker, sharpie, centropen, ковпачок, колпачек"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1059,7 +1059,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, вушні, бавовняні, ушная палочка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1095,7 +1095,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, туш, тіні, щіточка, пензлик, помада, кисточка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1107,7 +1107,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, щетка, счетка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1119,7 +1119,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, нить, нитка"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1131,7 +1131,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, станок, бритва, razor"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1179,7 +1179,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.9.3.png",
       "keywords": ["CD, DVD"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -2421,6 +2421,12 @@
       "title": "Шукай маркування",
       "hint": "",
       "icon": "finalYellow"
+    },
+    {
+      "id": "burn_ubs",
+      "title": "Не переробляється",
+      "hint": "",
+      "icon": "finalRed"
     }
   ]
 }
