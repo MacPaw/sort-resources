@@ -2415,6 +2415,12 @@
       "title": "Збирай окремо",
       "hint": "",
       "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_tube",
+      "title": "Шукай маркування",
+      "hint": "",
+      "icon": "finalYellow"
     }
   ]
 }
