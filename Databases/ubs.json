@@ -1283,7 +1283,7 @@
       "iconURL": "",
       "keywords": ["касовий чек, рахунок, счет"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1350,7 +1350,7 @@
       "iconURL": "",
       "keywords": ["прінтер, принтер, канцтовари, мелованная бумага, paper"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1362,7 +1362,7 @@
       "iconURL": "",
       "keywords": ["прінтер, принтер, канцтовари, бумага, paper"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1422,7 +1422,7 @@
       "iconURL": "",
       "keywords": ["запікання, папір, вощений папір, 22, PAP"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1458,7 +1458,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, пакування, упаковка, паковання, салат, коробка з-під лапші, лапша, локшина, коробка, контейнер, китайська їжа, wok, box, картон"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1494,7 +1494,7 @@
       "iconURL": "",
       "keywords": ["сирок, еколін, творог, десерт, эколин, обгортка, обертка, паковання, упаковка, паперова"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -1506,7 +1506,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, стік з-під кави, стік з-під чаю, кофе, чай, цукор"],
       "wasteType": [
-        "mixed"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
