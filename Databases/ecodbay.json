@@ -321,7 +321,7 @@
     {
       "id": "1.5.2",
       "name": "Паперовий контейнер",
-      "icon": "1.5.2",
+      "icon": "1.5.2_new",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/1.5.2.png",
       "keywords": ["одноразовий посуд, пакування, упаковка, паковання, салат, коробка з-під лапші, лапша, локшина, вок-бокс, вок, картон"],
       "wasteType": [
@@ -668,7 +668,7 @@
     {
       "id": "2.2.5",
       "name": "Zip-пакет",
-      "icon": "2.2.5",
+      "icon": "2.2.5_new",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.5.png",
       "keywords": ["зіп, лок, zip lock, пакет на замку, пакет-струна, гранола, bag, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, пакет для заморозки, заморожування, замораживания"],
       "wasteType": [
@@ -692,7 +692,7 @@
     {
       "id": "2.3.1",
       "name": "Контейнер-блістер",
-      "icon": "2.3.1",
+      "icon": "2.3.1_new",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, корекс, корэкс, 6, 06, PS"],
       "wasteType": [
@@ -716,7 +716,7 @@
     {
       "id": "2.3.3",
       "name": "Стаканчик з-під сметани/йогурту",
-      "icon": "2.3.3",
+      "icon": "2.3.3_new",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.3.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
@@ -740,7 +740,7 @@
     {
       "id": "2.4.1",
       "name": "Пластиковий одноразовий стаканчик",
-      "icon": "2.4.1",
+      "icon": "2.4.1_new",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.4.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, поліпропілен, полипропилен, 05, 6, 06, PS, полістирол, полистирол"],
       "wasteType": [
@@ -1252,7 +1252,7 @@
     {
       "id": "3.5",
       "name": "Видавнича продукція",
-      "icon": "3.5",
+      "icon": "3.5_new",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.5.png",
       "keywords": ["папір, газета, журнал, книга, листівка, картка, афіша, постер, флаер, флаєр, афиша, бумага, конверт, 21, PAP, 23, PBD, PPB"],
       "wasteType": [
