@@ -51,7 +51,7 @@
     },
     {
       "id": "green_box",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "compatibleVersion": "0.1",
       "location": "green_box.json",
       "name": "Зелена коробка"
