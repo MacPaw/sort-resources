@@ -1,7 +1,7 @@
 {
   "globals": {
     "id": "kmvr",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "compatibleVersion": "0.1",
     "name": "Київміськвторресурси",
     "description": "Підприємство «Київміськвторресурси» має велику мережу пунктів прийому у Києві та околицях. Оператор закуповує, заготовляє і первинно переробляє широкий спектр вторинної сировини і оновлює свій перелік щомісяця. За кожен прийнятий кілограм вторсировини підприємство виплачує певні кошти.\n\n<a href=\"http://kgvr.kiev.ua\">Перейти на сайт</a>",
@@ -324,7 +324,7 @@
       "id": "1.5.2",
       "name": "Паперовий контейнер",
       "icon": "1.5.2",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/1.5.2.png",
       "keywords": ["одноразовий посуд, пакування, упаковка, паковання, салат, коробка з-під лапші, лапша, локшина, вок-бокс, вок, картон"],
       "wasteType": [
         "mixed"
@@ -612,7 +612,7 @@
       "id": "2.1.12",
       "name": "Кришка від бутля з-під води",
       "icon": "2.1.12",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.1.12.png",
       "keywords": ["пробка, 4, 04, LDPE, PELD, PE, кільце, аляска, бутильована вода, бак, кулер, кольцо, крышка"],
       "wasteType": [
         "other_ubs"
@@ -672,7 +672,7 @@
       "id": "2.2.5",
       "name": "Zip-пакет",
       "icon": "2.2.5",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.5.png",
       "keywords": ["зіп, лок, zip lock, пакет на замку, пакет-струна, гранола, bag, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, пакет для заморозки, заморожування, замораживания"],
       "wasteType": [
         "other_ubs"
@@ -696,7 +696,7 @@
       "id": "2.3.1",
       "name": "Контейнер-блістер",
       "icon": "2.3.1",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, корекс, корэкс, 6, 06, PS"],
       "wasteType": [
         "other_ubs"
@@ -720,7 +720,7 @@
       "id": "2.3.3",
       "name": "Стаканчик з-під сметани/йогурту",
       "icon": "2.3.3",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.3.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
         "other_ubs"
@@ -744,7 +744,7 @@
       "id": "2.4.1",
       "name": "Пластиковий одноразовий стаканчик",
       "icon": "2.4.1",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.4.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, поліпропілен, полипропилен, 05, 6, 06, PS, полістирол, полистирол"],
       "wasteType": [
         "other_ubs"
@@ -1044,7 +1044,7 @@
       "id": "2.7.6",
       "name": "Фломастери і маркери",
       "icon": "2.7.6",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.7.6.png",
       "keywords": ["канцтовари, marker, sharpie, centropen, ковпачок, колпачек"],
       "wasteType": [
         "mixed"
@@ -1256,7 +1256,7 @@
       "id": "3.5",
       "name": "Видавнича продукція",
       "icon": "3.5",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.5.png",
       "keywords": ["папір, газета, журнал, книга, листівка, картка, афіша, постер, флаер, флаєр, афиша, бумага, конверт, 21, PAP, 23, PBD, PPB"],
       "wasteType": [
         "paper"
@@ -2022,7 +2022,7 @@
       "id": "8.12",
       "name": "Будівельне сміття",
       "icon": "8.12",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.12.png",
       "keywords": ["цегла, шпалери, ламінат, строительный мусор, кирпич, обои, ламинат, штукатурка"],
       "wasteType": [
         "construction"
