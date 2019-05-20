@@ -1,6 +1,6 @@
 {
   "globals": {
-    "version": "0.12",
+    "version": "0.13",
     "compatibleVersion": "0.3"
   },
   "providers": [
@@ -2102,12 +2102,6 @@
           "id": "other_ubs",
           "title": "Переробка чи звалище?",
           "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a>.",
-          "icon": "finalRed"
-        },
-        {
-          "id": "other_kmvr",
-          "title": "Переробка чи звалище?",
-          "hint": "Зазвичай цей тип пластику їде на сміттєзвалище, але його можна здати до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурів»</a>.",
           "icon": "finalRed"
         },
         {
@@ -4321,12 +4315,6 @@
           "id": "battery",
           "title": "Утилізуй відповідально!",
           "hint": "Одна пальчикова батарейка отруїть 20м2 рідного чорнозему. Краще віддавай її до <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічних інвестицій»</a> (графік уточнюй).",
-          "icon": "finalRed"
-        },
-        {
-          "id": "other_kmvr",
-          "title": "Переробка чи звалище?",
-          "hint": "Зазвичай цей тип пластику їде на сміттєзвалище, але його можна здати до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурів»</a>.",
           "icon": "finalRed"
         },
         {
@@ -6573,12 +6561,6 @@
           "icon": "finalRed"
         },
         {
-          "id": "other_kmvr",
-          "title": "Переробка чи звалище?",
-          "hint": "Зазвичай цей тип пластику їде на сміттєзвалище, але його можна здати до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурів»</a>.",
-          "icon": "finalRed"
-        },
-        {
           "id": "other_lamp_eco",
           "title": "Утилізуй відповідально!",
           "hint": "Енергозберігаюча лампа містить небезпечну речовину – ртуть. Запакуй її надійно і залиш у контейнері <a href=\"https://www.facebook.com/Kyivcomunservice/\">КП «Київкомунсервіс»</a> або віддай до <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічних інвестицій»</a> (графік уточнюй).",
@@ -8802,12 +8784,6 @@
           "id": "other_ubs",
           "title": "Переробка чи звалище?",
           "hint": "Зазвичай цей тип сировини їде на сміттєзвалище, але <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> може його прийняти.",
-          "icon": "finalRed"
-        },
-        {
-          "id": "other_kmvr",
-          "title": "Переробка чи звалище?",
-          "hint": "Зазвичай цей тип пластику їде на сміттєзвалище, але його можна здати до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурів»</a>.",
           "icon": "finalRed"
         },
         {
@@ -11063,12 +11039,6 @@
           "id": "other_ubs",
           "title": "Переробка чи звалище?",
           "hint": "Зазвичай цей тип сировини їде на сміттєзвалище, але <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> може його прийняти.",
-          "icon": "finalRed"
-        },
-        {
-          "id": "other_kmvr",
-          "title": "Переробка чи звалище?",
-          "hint": "Зазвичай цей тип пластику їде на сміттєзвалище, але його можна здати до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурів»</a>.",
           "icon": "finalRed"
         },
         {
@@ -13351,12 +13321,6 @@
           "icon": "finalRed"
         },
         {
-          "id": "other_kmvr",
-          "title": "Переробка чи звалище?",
-          "hint": "Зазвичай цей тип пластику їде на сміттєзвалище, але його можна здати до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурів»</a>.",
-          "icon": "finalRed"
-        },
-        {
           "id": "other_lamp_eco",
           "title": "Утилізуй відповідально!",
           "hint": "Енергозберігаюча лампа містить небезпечну речовину – ртуть. Запакуй її надійно і залиш у контейнері <a href=\"https://www.facebook.com/Kyivcomunservice/\">КП «Київкомунсервіс»</a> або віддай до <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічних інвестицій»</a> (графік уточнюй).",
@@ -14721,7 +14685,7 @@
         },
         {
           "id": "2.9.3",
-          "name": "Компакт диск",
+          "name": "Компакт-диск",
           "icon": "2.9.3",
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.9.3.png",
           "keywords": ["CD, DVD"],
@@ -17915,6 +17879,12 @@
           "title": "Здавай іншому оператору",
           "hint": "Твій оператор не приймає цей тип сировини. Можна здати до <a href=\"https://www.facebook.com/VTORMA.UA/\">«ВТОРМА юа»</a>.",
           "icon": "finalRed"
+        },
+        {
+          "id": "plastic_2hdpe",
+          "title": "Здавай як пластик",
+          "hint": "Приймається лише з маркуванням 02 HDPE, в чистому та сухому вигляді.",
+          "icon": "finalYellow"
         }
       ]
     },
@@ -19101,7 +19071,7 @@
         },
         {
           "id": "2.9.3",
-          "name": "Компакт диск",
+          "name": "Компакт-диск",
           "icon": "2.9.3",
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.9.3.png",
           "keywords": ["CD, DVD"],
