@@ -1528,7 +1528,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.2.png",
       "keywords": ["одноразовий посуд, деревина, кава, паличка, дерево, дерев'яна паличка, палочка, кофе, деревянная, мішалочка"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1540,7 +1540,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
       "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка, шпон"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1552,7 +1552,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.4.png",
       "keywords": ["одноразовий посуд, деревина, китайські, дерев'яні, палочки, деревянные, суши, китайские"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1564,7 +1564,7 @@
       "iconURL": "",
       "keywords": ["деревина, палочки, вушні, ушные, ватные, зубочистка"],
       "wasteType": [
-        "wood_qtips"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1576,7 +1576,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.6.png",
       "keywords": ["деревина, коврик, салфетка, суші, суши"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1588,7 +1588,7 @@
       "iconURL": "",
       "keywords": ["деревина, зубная щетка, дерев'яна, деревянная"],
       "wasteType": [
-        "wood_brush"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1600,7 +1600,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, деревина, виделка, ложка, ніж, вилка, приборы"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -2195,7 +2195,7 @@
     {
       "id": "paper_cup",
       "title": "Збирай окремо",
-      "hint": "Промий від залишків напоїв, висуши. Стаканчики з шаром фольги також приймаються.",
+      "hint": "Промий від залишків напоїв, висуши. Стаканчики з шаром фольги та відерця з-під поп-корну також приймаються.",
       "icon": "finalYellow"
     },
     {
@@ -2208,18 +2208,6 @@
       "id": "other_wood",
       "title": "Збирай окремо: деревина",
       "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> в Києві.",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_qtips",
-      "title": "Збирай окремо: деревина",
-      "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> в Києві (лише бамбукову основу, вату необхідно зняти).",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_brush",
-      "title": "Збирай окремо: деревина",
-      "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> в Києві (лише ручку, щетина не переробляється).",
       "icon": "finalRed"
     },
     {
