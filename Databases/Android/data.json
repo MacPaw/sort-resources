@@ -1,6 +1,6 @@
 {
   "globals": {
-    "version": "0.15",
+    "version": "0.16",
     "compatibleVersion": "0.3"
   },
   "providers": [
