@@ -49,10 +49,16 @@
       "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_milk", "plastic_bag", "post_bag", "plastic_bag2", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "plastic_box", "paper_chalk", "paper_fax", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak"]
     },
     {
-      "id": "rechi_help",
+      "id": "rechi_help_odesa",
       "locationType": "Контейнер",
       "locationName": "Речі, які допомагають",
       "acceptedWasteTypes": ["other_clothing"]
+    },
+    {
+      "id": "kims_odesa",
+      "locationType": "Пункт прийому поліетилену",
+      "locationName": "Хімчистка Kims",
+      "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag"]
     }
   ],
 
@@ -513,7 +519,7 @@
       ]
     },
     {
-      "operator": "rechi_help",
+      "operator": "rechi_help_odesa",
       "locations": [
         {
           "address": "вул. Грецька, 1а",
@@ -704,6 +710,56 @@
           "address": "вул. Михайла Грушевського, 39е",
           "description": "Контейнер для одягу та домашнього текстилю (БЦ \"Global ABC\").",
           "coordinates": "46.481818, 30.684932"
+        }
+      ]
+    },
+    {
+      "operator": "kims_odesa",
+      "locations": [
+        {
+          "address": "вул. Канатна, 55",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.472849, 30.747453"
+        },
+        {
+          "address": "Люстдорфська дорога, 5",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.452833, 30.729234"
+        },
+        {
+          "address": "вул. Академічна, 28",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.439861, 30.758060"
+        },
+        {
+          "address": "пр. Академіка Глушка, 14",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.399969, 30.724658"
+        },
+        {
+          "address": "вул. Рішельєвська, 27",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.477406, 30.740318"
+        },
+        {
+          "address": "вул. Грецька, 46",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.483224, 30.734742"
+        },
+        {
+          "address": "вул. Гастелло, 50",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.448176, 30.684019"
+        },
+        {
+          "address": "вул. Марсельська, 35",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.569829, 30.796240"
+        },
+        {
+          "address": "вул. Генуезька, 5",
+          "description": "Хімчистка Kims, пункт прийому поліетилену.",
+          "coordinates": "46.434554, 30.760830"
         }
       ]
     }
