@@ -154,7 +154,7 @@
       "iconURL": "",
       "keywords": ["акумулятор, li-ion, lithium, літій-іонний, батарейка, battery, Pb, 8, 08, Ni-Cd, NiCD,10, Ni-MH, NiMH, 11, 12, 13, SO(Z), 14, CZ, свинцево-кислотний акумулятор, лужна батарея, нікель-кадмієвий, нікель-метал-гідридний, літієва батарея, срібло-цинковий акумулятор, марганцево-цинкова батарея"],
       "wasteType": [
-        "tetrapak"
+        "battery"
       ],
       "hint": null,
       "children": null
@@ -210,7 +210,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, виделка, ложка, ніж, паличка, шпажка, столові, вилка, нож, utensils"],
       "wasteType": [
-        "tetrapak"
+        "mixed"
       ],
       "hint": null,
       "children": null
