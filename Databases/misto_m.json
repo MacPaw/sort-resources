@@ -1104,7 +1104,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, щетка, счетка"],
       "wasteType": [
-        "mixed"
+        "toothbrush"
       ],
       "hint": null,
       "children": null
@@ -2238,6 +2238,12 @@
       "title": "«Збирай із поліетиленом»",
       "hint": "Не забудь промити водою, висушити і витягнути резинку. Також поліетилен збирають <a href=\"https://www.facebook.com/kims.com.ua/\">мережа хімчисток KIMS</a> та проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
+    },
+    {
+      "id": "toothbrush",
+      "title": "Не переробляється",
+      "hint": "Переходь на світлу сторону — купуй бамбукову щітку! Стара пластикова опиниться на сміттєзвалищі, викидай її в загальний смітник.",
+      "icon": "finalBlack"
     }
   ]
 }
