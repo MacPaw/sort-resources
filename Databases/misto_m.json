@@ -1,9 +1,9 @@
 {"globals": {
-  "id": "green_house",
+  "id": "misto_m",
   "version": "1.0.0",
   "compatibleVersion": "0.1",
-  "name": "Зелений дім",
-  "description": "«Зелений дім» – Організовує еко-маршрути для збору відсортованих відходів у населення.\n\n<a href=\"/\">Перейти на сайт</a>",
+  "name": "Місто майбутнього",
+  "description": "«Місто майбутнього» – Організовує еко-маршрути для збору відсортованих відходів у населення.\n\n<a href=\"/\">Перейти на сайт</a>",
   "cities": "Одеса"
 },
   "wasteItems": [
@@ -2044,7 +2044,7 @@
     {
       "id": "plastic_bag",
       "title": "Збирай окремо: поліетилен",
-      "hint": "Приймаються на переробку — чисті, сухі, без наклейок. Також поліетилен збирають <a href=\"https://www.facebook.com/kims.com.ua/\">мережа хімчисток KIMS</a> та проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Приймаються на переробку — чисті, сухі, без наклейок. Також поліетилен збирають <a href=\"https://www.facebook.com/kims.com.ua/\"мережа хімчисток KIMS</a> та проект <a href=\"https://www.facebook.com/preciousplasticukraine/\"«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
@@ -2068,7 +2068,7 @@
     {
       "id": "battery",
       "title": "Утилізуй відповідально!",
-      "hint": "Одна пальчикова батарейка отруїть 20м2 рідного чорнозему. Краще здавай в бокси в магазинах Watsons або Епіцентр.",
+      "hint": "Здавай в бокси в магазинах Watsons або Епіцентр.",
       "icon": "finalRed"
     },
     {
@@ -2098,7 +2098,7 @@
     {
       "id": "tetrapak",
       "title": "Збирай окремо",
-      "hint": "У твоєму місті немає пунктів прийому цього виду паковання. Їх можна відправляти в «Зелений птах» (<a href=\"https://www.facebook.com/zeleniyptah/photos/a.1011517128903574/2166922510029691/?type=3&theater/\">деталі тут</a>).",
+      "hint": "У твоєму місті немає пунктів прийому цього виду паковання. Їх можна відправити в «Зелений птах» (<a href=\"https://www.facebook.com/zeleniyptah/photos/a.1011517128903574/2166922510029691/?type=3&theater/\">деталі тут</a>).",
       "icon": "finalRed"
     },
     {
@@ -2236,7 +2236,7 @@
     {
       "id": "shoe_covers",
       "title": "«Збирай із поліетиленом»",
-      "hint": "Приймаються на переробку — чисті, сухі, без наклейок. Також поліетилен збирають <a href=\"https://www.facebook.com/kims.com.ua/\">мережа хімчисток KIMS</a> та проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Не забудь промити водою, висушити і витягнути резинку. Також поліетилен збирають <a href=\"https://www.facebook.com/kims.com.ua/\">мережа хімчисток KIMS</a> та проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     }
   ]
