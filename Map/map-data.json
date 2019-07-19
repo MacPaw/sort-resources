@@ -64,7 +64,7 @@
       "id": "stusa_3",
       "locationType": "Пункт прийому",
       "locationName": "вул. Василя Стуса, 3",
-      "acceptedWasteTypes": []
+      "acceptedWasteTypes": ["paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "glass", "glass_perfume", "metal_can", "metal_alu", "styrofoam", "metal_kanistra", "plasti_marked", "plastic_box", "plastic_mebli"]
     },
     {
       "id": "rechi_help_odesa",
@@ -802,7 +802,7 @@
       "locations": [
         {
           "address": "вул. Василя Стуса, 3",
-          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380509050833\">(067) 905-08-33</a>",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Сб: 8:00–18:00<br>Нд: Вихідний<br>Тел.: <a href=\"tel:+380509050833\">(067) 905-08-33</a>",
           "coordinates": "46.464463, 30.688712"
         }
       ]
