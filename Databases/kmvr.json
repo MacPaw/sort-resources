@@ -1516,7 +1516,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "mixed"
+        "other_wood"
       ],
       "hint": null,
       "children": null
@@ -2250,6 +2250,12 @@
       "id": "construction",
       "title": "Утилізуй відповідально!",
       "hint": "Не викидай до загального контейнеру. Для вивозу на полігон викликай спеціальні служби.",
+      "icon": "finalRed"
+    },
+    {
+      "id": "other_wood",
+      "title": "Збирай окремо: деревина",
+      "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> на вул. Саперно-Слобідській.",
       "icon": "finalRed"
     }
   ]
