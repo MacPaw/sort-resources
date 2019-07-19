@@ -49,6 +49,24 @@
       "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_milk", "plastic_bag", "post_bag", "plastic_bag2", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "plastic_box", "paper_chalk", "paper_fax", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak"]
     },
     {
+      "id": "misto_m",
+      "locationType": "Мобільний пункт прийому",
+      "locationName": "Місто майбутнього",
+      "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_can", "plastic_drugs", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_candle", "metal_kanistra"]
+    },
+    {
+      "id": "green_house",
+      "locationType": "Контейнер",
+      "locationName": "Зелений дім",
+      "acceptedWasteTypes": ["paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "glass", "glass_perfume", "metal_can", "metal_alu"]
+    },
+    {
+      "id": "stusa_3",
+      "locationType": "Пункт прийому",
+      "locationName": "вул. Василя Стуса, 3",
+      "acceptedWasteTypes": []
+    },
+    {
       "id": "rechi_help_odesa",
       "locationType": "Контейнер",
       "locationName": "Речі, які допомагають",
@@ -521,6 +539,271 @@
           "address": "вул. Болоня, 40",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60</a>",
           "coordinates": "49.524219, 23.971466"
+        }
+      ]
+    },
+    {
+      "operator": "misto_m",
+      "locations": [
+        {
+          "description": "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал. Київський, Приморський, Малиновський райони.<br><br>Тел.: <a href=\"tel:+380938381833\">(093) 838-18-33</a>",
+          "coordinates": "46.437723, 30.745559",
+          "isMobile": 1
+        }
+      ]
+    },
+    {
+      "operator": "green_house",
+      "locations": [
+        {
+          "address": "Люстдорфська дорога, 52а",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.436403, 30.725464"
+        },
+        {
+          "address": "Люстдорфська дорога, 54а",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.435533, 30.725617"
+        },
+        {
+          "address": "Люстдорфська дорога, 58а",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.433358, 30.726277"
+        },
+        {
+          "address": "вул. Малиновського, 15",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.438837, 30.721282"
+        },
+        {
+          "address": "вул. Космонавтів, 8",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.436568, 30.722313"
+        },
+        {
+          "address": "вул. Космонавта Комарова, 10",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.422598, 30.717247"
+        },
+        {
+          "address": "вул. Варненська, 7а",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.427041, 30.720419"
+        },
+        {
+          "address": "вул. Варненська, 7/3",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.428699, 30.721388"
+        },
+        {
+          "address": "вул. Варненська, 7/4",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.428233, 30.722030"
+        },
+        {
+          "address": "вул. Героїв Крут, 1",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.427284, 30.724130"
+        },
+        {
+          "address": "вул. Героїв Крут, 2/4",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.428184, 30.723775"
+        },
+        {
+          "address": "вул. Варнерська, 2/3",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.431273, 30.722666"
+        },
+        {
+          "address": "вул. Шота Руставелі, 9",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.452627, 30.719166"
+        },
+        {
+          "address": "вул. Скворцова, 2",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.451086, 30.720530"
+        },
+        {
+          "address": "вул. Скворцова, 4а",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.450349, 30.719886"
+        },
+        {
+          "address": "вул. Малиновського, 18в",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.441796, 30.720576"
+        },
+        {
+          "address": "вул. Рекордна, 23",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.448075, 30.708686"
+        },
+        {
+          "address": "вул. Рекордна, 17",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.449038, 30.709990"
+        },
+        {
+          "address": "вул. Бреуса, 63/1",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.450769, 30.709614"
+        },
+        {
+          "address": "вул. Бреуса, 61/9",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.447535, 30.710789"
+        },
+        {
+          "address": "вул. Радісна, 23",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.441820, 30.695536"
+        },
+        {
+          "address": "вул.  Радісна, 3",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.441695, 30.701207"
+        },
+        {
+          "address": "вул. Радісна, 1",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.441791, 30.701990"
+        },
+        {
+          "address": "вул. Іцхака Рабіна, 6",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.439340, 30.702091"
+        },
+        {
+          "address": "вул. Іцхака Рабіна, 29",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.433854, 30.699853"
+        },
+        {
+          "address": "вул. Генерала Петрова, 41",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.431752, 30.703867"
+        },
+        {
+          "address": "вул. Героїв Крут, 40",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.436540, 30.707510"
+        },
+        {
+          "address": "вул. Рекордна, 68",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.444642, 30.704274"
+        },
+        {
+          "address": "вул. Ріхтера, 2в",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.444191, 30.703366"
+        },
+        {
+          "address": "вул. Ріхтера, 130",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.452250, 30.683653"
+        },
+        {
+          "address": "вул. Ріхтера, 144/1",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.454211, 30.682991"
+        },
+        {
+          "address": "вул. Ріхтера, 146",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.454812, 30.683449"
+        },
+        {
+          "address": "вул. Гастелло, 1а",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.445862, 30.683257"
+        },
+        {
+          "address": "вул. Центральний аеропорт, 5",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.447191, 30.683249"
+        },
+        {
+          "address": "вул. Полтавська, 10",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.444944, 30.688816"
+        },
+        {
+          "address": "вул. Космонавтів, 64",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.424867, 30.705706"
+        },
+        {
+          "address": "вул. Генерала Петрова, 31",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.430655, 30.707188"
+        },
+        {
+          "address": "вул. Івана та Юрія Лип, 27",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.429066, 30.704386"
+        },
+        {
+          "address": "вул. Івана та Юрія Лип, 39",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.426889, 30.701952"
+        },
+        {
+          "address": "вул. Івана та Юрія Лип, 60",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.428314, 30.701797"
+        },
+        {
+          "address": "вул. Івана та Юрія Лип, 74",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.429965, 30.699595"
+        },
+        {
+          "address": "вул. Івана та Юрія Лип, 74а",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.430764, 30.700292"
+        },
+        {
+          "address": "вул. Івана та Юрія Лип, 74б",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.431261, 30.700683"
+        },
+        {
+          "address": "вул. Вишневського, 11/3",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.428402, 30.697686"
+        },
+        {
+          "address": "вул. Вишневського, 5",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.427573, 30.699408"
+        },
+        {
+          "address": "вул. Іцхака Рабіна, 47",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.431346, 30.697510"
+        },
+        {
+          "address": "вул. Вишневського. 13/1",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.429810, 30.697926"
+        },
+        {
+          "address": "вул. Іцхака Рабіна, 61",
+          "description": "Контейнер «Зелений дім»",
+          "coordinates": "46.430773, 30.697500"
+        }
+      ]
+    },
+    {
+      "operator": "stusa_3",
+      "locations": [
+        {
+          "address": "вул. Василя Стуса, 3",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380509050833\">(067) 905-08-33</a>",
+          "coordinates": "46.464463, 30.688712"
         }
       ]
     },
