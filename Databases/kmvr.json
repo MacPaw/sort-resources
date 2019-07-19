@@ -1516,7 +1516,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "corks"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1528,7 +1528,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.2.png",
       "keywords": ["одноразовий посуд, деревина, кава, паличка, дерево, дерев'яна паличка, палочка, кофе, деревянная, мішалочка"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1540,7 +1540,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
       "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка, шпон"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1552,7 +1552,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.4.png",
       "keywords": ["одноразовий посуд, деревина, китайські, дерев'яні, палочки, деревянные, суши, китайские"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1564,7 +1564,7 @@
       "iconURL": "",
       "keywords": ["деревина, палочки, вушні, ушные, ватные, зубочистка"],
       "wasteType": [
-        "wood_qtips"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1576,7 +1576,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.6.png",
       "keywords": ["деревина, коврик, салфетка, суші, суши"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1588,7 +1588,7 @@
       "iconURL": "",
       "keywords": ["деревина, зубная щетка, дерев'яна, деревянная"],
       "wasteType": [
-        "wood_brush"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1600,7 +1600,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, деревина, виделка, ложка, ніж, вилка, приборы"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -2169,33 +2169,9 @@
       "icon": "finalRed"
     },
     {
-      "id": "other_wood",
-      "title": "Збирай окремо: деревина",
-      "hint": "Дрібні дерев'яні вироби можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. ",
-      "icon": "finalRed"
-    },
-    {
       "id": "tetrapak",
       "title": "Збирай окремо",
       "hint": "Промий від залишків рідини, висуши, стисни. Кришки не знімай.",
-      "icon": "finalRed"
-    },
-    {
-      "id": "corks",
-      "title": "Збирай окремо: деревина",
-      "hint": "Коркові пробки з-під вина здавай разом із дерев'яним пакувальним матеріалом до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Пробки з пластику не приймаються.",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_brush",
-      "title": "Збирай окремо: деревина",
-      "hint": "Ручку від бамбукової зубної щітки можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Щетинки не переробляються, відокремлюй їх. ",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_qtips",
-      "title": "Збирай окремо: деревина",
-      "hint": "Зніми з палички вату, а бамбукову основу передай до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a> разом із іншими дерев'яними виробами.",
       "icon": "finalRed"
     },
     {
