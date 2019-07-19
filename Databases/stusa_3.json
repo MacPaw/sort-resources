@@ -1152,7 +1152,7 @@
       "iconURL": "",
       "keywords": ["стіл, стілець, комод, шафа, шкаф, стул, стол"],
       "wasteType": [
-        "plastic_marked"
+        "plastic_mebli"
       ],
       "hint": null,
       "children": null
@@ -1164,7 +1164,7 @@
       "iconURL": "",
       "keywords": ["зберігання, контейнер, корзина, кошик, таз, миска, горщик, вазон, горшок"],
       "wasteType": [
-        "plastic_marked"
+        "plastic_box"
       ],
       "hint": null,
       "children": null
@@ -2183,6 +2183,18 @@
       "id": "plastic_marked",
       "title": "Шукай маркування",
       "hint": "Приймається пластик із маркуванням 02 HDPE (PE) та 05 PP. Можеш також здавати його в проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише чистий та сухий.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_box",
+      "title": "Шукай маркування",
+      "hint": "Твій оператор приймає на переробку пластикові ящики з-під м'яса, риби тощо (крім сіточок з-під цитрусових). Пластик має бути чистим.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_mebli",
+      "title": "Шукай маркування",
+      "hint": "Твій оператор приймає на переробку пластикові вуличні меблі. Пластик має бути чистим.",
       "icon": "finalYellow"
     },
     {
