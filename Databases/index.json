@@ -69,6 +69,27 @@
       "compatibleVersion": "0.1",
       "location": "cuv.json",
       "name": "Центр управління відходами"
+    },
+    {
+      "id": "misto_m",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "cuv.json",
+      "name": "Місто майбутнього"
+    },
+    {
+      "id": "green_house",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "cuv.json",
+      "name": "Зелений дім"
+    },
+    {
+      "id": "stusa_3",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "cuv.json",
+      "name": "Пункт прийому на Стуса, 3"
     }
   ],
   "popularSearchRequests": [
