@@ -74,21 +74,21 @@
       "id": "misto_m",
       "version": "1.0.0",
       "compatibleVersion": "0.1",
-      "location": "cuv.json",
+      "location": "misto_m.json",
       "name": "Місто майбутнього"
     },
     {
       "id": "green_house",
       "version": "1.0.0",
       "compatibleVersion": "0.1",
-      "location": "cuv.json",
+      "location": "green_house.json",
       "name": "Зелений дім"
     },
     {
       "id": "stusa_3",
       "version": "1.0.0",
       "compatibleVersion": "0.1",
-      "location": "cuv.json",
+      "location": "stusa_3.json",
       "name": "Пункт прийому на Стуса, 3"
     }
   ],
