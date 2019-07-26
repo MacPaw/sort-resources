@@ -2044,7 +2044,7 @@
     {
       "id": "plastic_bag",
       "title": "Збирай окремо: поліетилен",
-      "hint": "Твій оператор не приймає поліетилен. Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Твій оператор не приймає поліетилен. Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), в <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
@@ -2116,7 +2116,7 @@
     {
       "id": "paper_cup",
       "title": "Збирай окремо",
-      "hint": "Твій оператор не приймає цей вид відходів. Промий від залишків напоїв, висуши, та здай до <a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>, <a href=\"https://www.facebook.com/forcityod/\">4City</a>, <a href=\"https://www.facebook.com/ImpactHubOdessa/\">Impact Hub Odesa</a> або <a href=\"https://www.facebook.com/time2livedobro/\">«Добрый обед. Время жить»</a>. Стаканчики з шаром фольги, відерця з-під поп-корну також приймаються.",
+      "hint": "Твій оператор не приймає цей вид відходів. Промий від залишків напоїв, висуши та здай до <a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>, <a href=\"https://www.facebook.com/forcityod/\">4City</a>, <a href=\"https://www.facebook.com/ImpactHubOdessa/\">Impact Hub Odesa</a> або <a href=\"https://www.facebook.com/time2livedobro/\">«Добрый обед. Время жить»</a>. Стаканчики з шаром фольги, відерця з-під поп-корну також приймаються.",
       "icon": "finalYellow"
     },
     {
@@ -2134,13 +2134,13 @@
     {
       "id": "plastic_drugs",
       "title": "Шукай маркування",
-      "hint": "Приймаються пластикові ємності з маркуванням 01 PET та 02 HDPE. Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор знімий, вони не переробляються. Пляшки з маркуванням 02 HDPE та 05 PP також приймає проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Приймаються пластикові ємності з маркуванням 01 PET та 02 HDPE. Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор зніми, вони не переробляються. Пляшки з маркуванням 02 HDPE та 05 PP також приймає проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_wash",
       "title": "Шукай маркування",
-      "hint": "Приймаються пластикові ємності з маркуванням 01 PET та 02 HDPE. Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор знімий, вони не переробляються. Пляшки з маркуванням 02 HDPE та 05 PP також приймає проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Приймаються пластикові ємності з маркуванням 01 PET та 02 HDPE. Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор зніми, вони не переробляються. Пляшки з маркуванням 02 HDPE та 05 PP також приймає проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
@@ -2152,7 +2152,7 @@
     {
       "id": "plastic_wrap",
       "title": "Збирай окремо: поліетилен",
-      "hint": "Твій оператор не приймає цей вид вторсировини. Здавай до <a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>, у <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише в чистому та сухому вигляді.",
+      "hint": "Твій оператор не приймає цей вид вторсировини. Здавай до <a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>, у <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише в чистому та сухому вигляді.",
       "icon": "finalYellow"
     },
     {
@@ -2176,7 +2176,7 @@
     {
       "id": "plastic_marked",
       "title": "Шукай маркування",
-      "hint": "Пластик із маркуванням 02 HDPE, 04 LDPE та 05 PP здавай іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише чистий та сухий.",
+      "hint": "Пластик із маркуванням 02 HDPE, 04 LDPE та 05 PP здавай оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише чистий та сухий.",
       "icon": "finalYellow"
     },
     {
@@ -2194,19 +2194,19 @@
     {
       "id": "yoghurt_cup",
       "title": "Шукай маркування",
-      "hint": "Стаканчики з маркування 05 PP здавай іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або в проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Від PS-стаканчиків, а також від стаканчиків без маркування, краще відмовитися, оскільки їх шанси бути переробленими дуже малі. Термозбіжну етикетку знімай та викидай, картонну збирай із макулатурою.",
+      "hint": "Стаканчики з маркування 05 PP здавай оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Від PS-стаканчиків і стаканчиків без маркування краще відмовитися, оскільки їхні шанси на переробку дуже малі. Термозбіжну етикетку знімай та викидай, картонну — збирай із макулатурою.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_container",
       "title": "Шукай маркування",
-      "hint": "Контейнери з маркуванням 05 PP здавай іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише чисті та сухі. Від PS-контейнерів, а також від контейнерів без маркування, краще відмовитися, оскільки їх шанси бути переробленими дуже малі.",
+      "hint": "Контейнери з маркуванням 05 PP здавай оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише чисті та сухі. Від PS-контейнерів і контейнерів без маркування краще відмовитися, оскільки їхні шанси на переробку дуже малі.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_cup",
       "title": "Шукай маркування",
-      "hint": "Стаканчики з маркуванням 05 PP здавай іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>), лише чисті та сухі. Від PS-стаканчиків, а також від стаканчиків без маркування, краще відмовитися, оскільки їх шанси бути переробленими дуже малі. Пластик із маркуванням 05 PP також приймає проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Стаканчики з маркуванням 05 PP здавай оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>), лише чисті та сухі. Від PS-стаканчиків і стаканчиків без маркування краще відмовитися, оскільки їхні шанси на переробку дуже малі. Пластик із маркуванням 05 PP також приймає проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
