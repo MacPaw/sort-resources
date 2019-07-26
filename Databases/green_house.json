@@ -2044,7 +2044,7 @@
     {
       "id": "plastic_bag",
       "title": "Збирай окремо: поліетилен",
-      "hint": "Твій оператор не приймає поліетилен. Можеш здавати іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">Місто майбутнього</a>) або в пунктах <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> чи в проект <a href=\"https://www.facebook.com/preciousplasticukraine/\"«Дорогоцінний пластик»</a>.",
+      "hint": "Твій оператор не приймає поліетилен (05 PP). Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
@@ -2062,11 +2062,11 @@
     {
       "id": "battery",
       "title": "Утилізуй відповідально!",
-      "hint": "Здавай в бокси в магазинах Watsons або Епіцентр.",
+      "hint": "Здавай в бокси в магазинах Watsons або «Епіцентр».",
       "icon": "finalRed"
     },
     {
-      "id": "other_lamp_incand",
+      "id": "other_lamp_incand",x
       "title": "Переходь на LED лампи :)",
       "hint": "Лампи розжарювання не приймаються на переробку. Викидай у загальний смітник.",
       "icon": "finalRed"
@@ -2074,19 +2074,19 @@
     {
       "id": "other_mattress",
       "title": "Віддай на добру справу",
-      "hint": "Матрас в хорошому стані передай благодійним організаціям. Старі та брудні матраси можуть стати в нагоді притулкам для тварин.",
+      "hint": "Матрас в хорошому стані передай благодійним організаціям. Старі та брудні матраси можуть стати в пригоді притулкам для тварин.",
       "icon": "finalRed"
     },
     {
       "id": "other_clothing",
       "title": "Це ще можна носити?",
-      "hint": "Одяг та текстиль в будь-якому стані залишай в контейнерах <a href=\"https://www.google.com/maps/d/u/0/viewer?mid=1QSm7MSzUEnerjzjJTE804jJaJqLFjcb9&hl=ru&ll=46.47146632708758%2C30.75287752148745&z=11/\">ГО «Речі, які допомагають»</a>. Крім білизни, купальників, шкарпеток, колгот. Непридатне для носіння перероблять та продадуть як вторсировину, речі в хорошому стані передадуть нужденним, новий одяг продадуть в благодійному магазині «Добробутик». Весь прибуток направляється на допомогу пацієнтам дитячих лікарень м. Одеса.",
+      "hint": "Одяг та текстиль у будь-якому стані залишай в контейнерах <a href=\"https://www.google.com/maps/d/u/0/viewer?mid=1QSm7MSzUEnerjzjJTE804jJaJqLFjcb9&hl=ru&ll=46.47146632708758%2C30.75287752148745&z=11/\">ГО «Речі, які допомагають»</a>. Крім білизни, купальників, шкарпеток, колгот. Непридатне для носіння перероблять та продадуть як вторсировину, речі в хорошому стані передадуть нужденним, новий одяг продадуть в благодійному магазині «Добробутик». Увесь прибуток направляється на допомогу пацієнтам дитячих лікарень м. Одеса.",
       "icon": "finalRed"
     },
     {
       "id": "other_oils",
       "title": "Віддай на СТО",
-      "hint": "Відпрацьовані автомобільні оливи можуть стати у нагоді на найближчій СТО. Віддай їх професіоналам.",
+      "hint": "Відпрацьовані автомобільні оливи можуть стати в пригоді на найближчій СТО. Віддай їх професіоналам.",
       "icon": "finalRed"
     },
     {
@@ -2110,13 +2110,13 @@
     {
       "id": "shoes",
       "title": "Це ще можна носити?",
-      "hint": "Взуття в доброму стані передавай <a href=\"https://cherrytea.od.ua/receiver/\">благодійним організаціям</a>. Взуття в ідеальному стані можеш занести в <a href=\"https://www.facebook.com/Dobrobutik/\">Добробутик\"</a>. Його продадуть, а прибуток спрямують на допомогу пацієнтам дитячих лікарень м. Одеси. Старе та пошкоджене взуття ‒ викидай.",
+      "hint": "Взуття в доброму стані передавай <a href=\"https://cherrytea.od.ua/receiver/\">благодійним організаціям</a>. Взуття в ідеальному стані можеш занести в <a href=\"https://www.facebook.com/Dobrobutik/\">«Добробутик»</a>. Його продадуть, а прибуток спрямують на допомогу пацієнтам дитячих лікарень м. Одеси. Старе та пошкоджене взуття викидай.",
       "icon": "finalRed"
     },
     {
       "id": "paper_cup",
       "title": "Збирай окремо",
-      "hint": "Твій оператор не приймає цей вид відходів. Можеш здавати в <a href=\"https://www.facebook.com/mistom.org/\">Місто майбутнього</a> або до <a href=\"https://www.facebook.com/forcityod/\">4City</a>, <a href=\"https://www.facebook.com/ImpactHubOdessa/\">Impact Hub Odesa</a>, <a href=\"https://www.facebook.com/time2livedobro/\">Добрый обед. Время жить</a>. Промий від залишків напоїв, висуши. Стаканчики з шаром фольги, відерця з-під поп-корну також приймаються.",
+      "hint": "Твій оператор не приймає цей вид відходів. Промий від залишків напоїв, висуши, та здай до <a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>, <a href=\"https://www.facebook.com/forcityod/\">4City</a>, <a href=\"https://www.facebook.com/ImpactHubOdessa/\">Impact Hub Odesa</a> або <a href=\"https://www.facebook.com/time2livedobro/\">«Добрый обед. Время жить»</a>. Стаканчики з шаром фольги, відерця з-під поп-корну також приймаються.",
       "icon": "finalYellow"
     },
     {
@@ -2152,7 +2152,7 @@
     {
       "id": "plastic_wrap",
       "title": "Збирай окремо: поліетилен",
-      "hint": "Твій оператор не приймає цей вид вторсировини. Здавай в <a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>, <a href=\"https://www.facebook.com/kims.com.ua/\"мережу хімчисток KIMS</a> чи проект <a href=\"https://www.facebook.com/preciousplasticukraine/\"«Дорогоцінний пластик»</a>. Лише в чистому та сухому вигляді.",
+      "hint": "Твій оператор не приймає цей вид вторсировини. Здавай в <a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>, <a href=\"https://www.facebook.com/kims.com.ua/\">мережу хімчисток KIMS</a> або проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише в чистому та сухому вигляді.",
       "icon": "finalYellow"
     },
     {
@@ -2176,7 +2176,7 @@
     {
       "id": "plastic_marked",
       "title": "Шукай маркування",
-      "hint": "Пластик із маркуванням 02 HDPE, 04 LDPE та 05 PP здавай іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\"«Дорогоцінний пластик»</a>. Лише чистий та сухий.",
+      "hint": "Пластик із маркуванням 02 HDPE, 04 LDPE та 05 PP здавай іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>) або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише чистий та сухий.",
       "icon": "finalYellow"
     },
     {
@@ -2188,7 +2188,7 @@
     {
       "id": "zip_bag",
       "title": "Збирай із поліетиленом",
-      "hint": "Твій оператор не приймає цей вид вторсировини. Здавай в <a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>, <a href=\"https://www.facebook.com/kims.com.ua/\">мережу хімчисток KIMS</a> чи проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Відріж пластикову застібку, вимий та висуши.",
+      "hint": "Твій оператор не приймає цей вид вторсировини. Відріж пластикову застібку, вимий, висуши та здавай до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
@@ -2212,7 +2212,7 @@
     {
       "id": "shoe_covers",
       "title": "«Збирай із поліетиленом»",
-      "hint": "Твій оператор не приймає поліетилен. Можеш здавати іншому оператору (<a href=\"https://www.facebook.com/mistom.org/\">Місто майбутнього</a>) або в пунктах <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> чи в проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Не забудь промити водою, висушити і витягнути резинку.",
+      "hint": "Твій оператор не приймає поліетилен (05 PP). Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Не забудь промити водою, висушити і витягнути резинку.",
       "icon": "finalYellow"
     },
     {
