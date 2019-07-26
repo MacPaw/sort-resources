@@ -2044,7 +2044,7 @@
     {
       "id": "plastic_bag",
       "title": "Збирай окремо: поліетилен",
-      "hint": "Твій оператор не приймає поліетилен (05 PP). Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Твій оператор не приймає поліетилен. Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
@@ -2152,7 +2152,7 @@
     {
       "id": "plastic_wrap",
       "title": "Збирай окремо: поліетилен",
-      "hint": "Твій оператор не приймає цей вид вторсировини. Здавай в <a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>, <a href=\"https://www.facebook.com/kims.com.ua/\">мережу хімчисток KIMS</a> або проект <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише в чистому та сухому вигляді.",
+      "hint": "Твій оператор не приймає цей вид вторсировини. Здавай до <a href=\"https://www.facebook.com/mistom.org/\">«Місто майбутнього»</a>, у <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Лише в чистому та сухому вигляді.",
       "icon": "finalYellow"
     },
     {
@@ -2188,7 +2188,7 @@
     {
       "id": "zip_bag",
       "title": "Збирай із поліетиленом",
-      "hint": "Твій оператор не приймає цей вид вторсировини. Відріж пластикову застібку, вимий, висуши та здавай до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
+      "hint": "Твій оператор не приймає цей вид вторсировини. Відріж пластикову застібку, вимий, висуши та здавай до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), у <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>.",
       "icon": "finalYellow"
     },
     {
@@ -2212,7 +2212,7 @@
     {
       "id": "shoe_covers",
       "title": "«Збирай із поліетиленом»",
-      "hint": "Твій оператор не приймає поліетилен (05 PP). Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Не забудь промити водою, висушити і витягнути резинку.",
+      "hint": "Твій оператор не приймає поліетилен. Здавай його до (<a href=\"https://www.facebook.com/mistom.org/\">«Міста майбутнього»</a>), у <a href=\"https://www.facebook.com/kims.com.ua/\">мережі хімчисток KIMS</a> або проекту <a href=\"https://www.facebook.com/preciousplasticukraine/\">«Дорогоцінний пластик»</a>. Не забудь промити водою, висушити і витягнути резинку.",
       "icon": "finalYellow"
     },
     {
