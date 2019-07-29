@@ -1,7 +1,7 @@
 {
   "globals": {
     "id": "kmvr",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "compatibleVersion": "0.1",
     "name": "Київміськвторресурси",
     "description": "Підприємство «Київміськвторресурси» має велику мережу пунктів прийому у Києві та околицях. Оператор закуповує, заготовляє і первинно переробляє широкий спектр вторинної сировини і оновлює свій перелік щомісяця. За кожен прийнятий кілограм вторсировини підприємство виплачує певні кошти.\n\n<a href=\"http://kgvr.kiev.ua\">Перейти на сайт</a>",
@@ -1105,7 +1105,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, щетка, счетка"],
       "wasteType": [
-        "mixed"
+        "toothbrush"
       ],
       "hint": null,
       "children": null
@@ -1516,7 +1516,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "corks"
+        "other_wood"
       ],
       "hint": null,
       "children": null
@@ -1528,7 +1528,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.2.png",
       "keywords": ["одноразовий посуд, деревина, кава, паличка, дерево, дерев'яна паличка, палочка, кофе, деревянная, мішалочка"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1540,7 +1540,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
       "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка, шпон"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1552,7 +1552,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.4.png",
       "keywords": ["одноразовий посуд, деревина, китайські, дерев'яні, палочки, деревянные, суши, китайские"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1564,7 +1564,7 @@
       "iconURL": "",
       "keywords": ["деревина, палочки, вушні, ушные, ватные, зубочистка"],
       "wasteType": [
-        "wood_qtips"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1576,7 +1576,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.6.png",
       "keywords": ["деревина, коврик, салфетка, суші, суши"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1588,7 +1588,7 @@
       "iconURL": "",
       "keywords": ["деревина, зубная щетка, дерев'яна, деревянная"],
       "wasteType": [
-        "wood_brush"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1600,7 +1600,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, деревина, виделка, ложка, ніж, вилка, приборы"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1985,7 +1985,7 @@
       "name": "Вироби з гуми",
       "icon": "8.9",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.9.png",
-      "keywords": ["перчатки, резиновые, господарські, хозяйственные, рукавички, кулька, шарик, прокладка, надувна"],
+      "keywords": ["перчатки, резиновые, господарські, хозяйственные, рукавички, кулька, шарик, прокладка, надувна, презерватив, гумові, резинові, латексні, резиновые, латексные"],
       "wasteType": [
         "mixed"
       ],
@@ -1997,7 +1997,7 @@
       "name": "Поролон",
       "icon": "8.10",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.10.png",
-      "keywords": ["губка, мочалка"],
+      "keywords": ["губка, мочалка, спонж, паралон"],
       "wasteType": [
         "mixed"
       ],
@@ -2169,33 +2169,9 @@
       "icon": "finalRed"
     },
     {
-      "id": "other_wood",
-      "title": "Збирай окремо: деревина",
-      "hint": "Дрібні дерев'яні вироби можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. ",
-      "icon": "finalRed"
-    },
-    {
       "id": "tetrapak",
       "title": "Збирай окремо",
       "hint": "Промий від залишків рідини, висуши, стисни. Кришки не знімай.",
-      "icon": "finalRed"
-    },
-    {
-      "id": "corks",
-      "title": "Збирай окремо: деревина",
-      "hint": "Коркові пробки з-під вина здавай разом із дерев'яним пакувальним матеріалом до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Пробки з пластику не приймаються.",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_brush",
-      "title": "Збирай окремо: деревина",
-      "hint": "Ручку від бамбукової зубної щітки можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Щетинки не переробляються, відокремлюй їх. ",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_qtips",
-      "title": "Збирай окремо: деревина",
-      "hint": "Зніми з палички вату, а бамбукову основу передай до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a> разом із іншими дерев'яними виробами.",
       "icon": "finalRed"
     },
     {
@@ -2219,25 +2195,25 @@
     {
       "id": "plastic_oil",
       "title": "Здавай як пластик",
-      "hint": "",
+      "hint": "Промий пляшку від залишків олії з миючим засобом і теплою водою. Ідеально чисто може не вийти, але більшість олії таким чином змиється. Етикетку та кришку залишай на пляшці.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_drugs",
       "title": "Шукай маркування",
-      "hint": "",
+      "hint": "Приймаються лише пластикові ємності з маркуванням 02 HDPE (на дні мають шов у вигляді лінії). Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор знімай, — вони не переробляються. На станції «Україна без сміття» можеш також здати на переробку пляшки з маркуванням 01 PET та 05 PP, а пляшки без маркування, дозатори та розпилювачі — на безпечне високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_wash",
       "title": "Шукай маркування",
-      "hint": "",
+      "hint": "Приймаються лише пластикові ємності з маркуванням 02 HDPE (на дні мають шов у вигляді лінії). Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор знімай, вони не переробляються. Пляшки з маркуванням 01 PET та 05 PP здавай на переробку на станції «України без сміття», пляшки без маркування, а також дозатори та розпилювачі — на безпечне високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_can",
       "title": "Здавай як пластик",
-      "hint": "",
+      "hint": "Вимий від залишків рідини, просуши, стисни. Етикетки можеш не знімати.",
       "icon": "finalYellow"
     },
     {
@@ -2260,14 +2236,14 @@
     },
     {
       "id": "plastic_mebli",
-      "title": "",
-      "hint": "",
+      "title": "Здавай як пластик",
+      "hint": "Твій оператор приймає на переробку пластикові меблі з маркуванням 02 HDPE та 05 PP. Пластик має бути чистим.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_box",
-      "title": "",
-      "hint": "",
+      "title": "Здавай як пластик",
+      "hint": "Твій оператор приймає на переробку пластикові меблі з маркуванням 02 HDPE та 05 PP. Пластик має бути чистим.",
       "icon": "finalYellow"
     },
     {
@@ -2275,6 +2251,18 @@
       "title": "Утилізуй відповідально!",
       "hint": "Не викидай до загального контейнеру. Для вивозу на полігон викликай спеціальні служби.",
       "icon": "finalRed"
+    },
+    {
+      "id": "other_wood",
+      "title": "Збирай окремо: деревина",
+      "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> на вул. Саперно-Слобідській.",
+      "icon": "finalRed"
+    },
+    {
+      "id": "toothbrush",
+      "title": "Не переробляється",
+      "hint": "Переходь на світлу сторону — купуй бамбукову щітку! А стару пластикову здавай на безпечне високотемпературне спалювання «Україні без сміття» (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
+      "icon": "finalBlack"
     }
   ]
 }
