@@ -299,12 +299,16 @@ function drawUserLocation(lat, lng, accuracy) {
     }
 }
 
-function resetMap() {
-    transitionInfoToState('closed');
-    map.fitBounds(allMarkersBounds);
+function deactivateCurrentMarker() {
     if (activeMarker != null) {
         activeMarker.deactivate();
     }
+}
+
+function resetMap() {
+    transitionInfoToState('closed');
+    map.fitBounds(allMarkersBounds);
+    deactivateCurrentMarker();
 }
 
 function activateMarker(coords) {
