@@ -56,7 +56,7 @@
     },
     {
       "id": "green_house",
-      "locationType": "Контейнер",
+      "locationType": "Контейнер для скла, металу, пластику",
       "locationName": "Зелений дім",
       "acceptedWasteTypes": ["paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "glass", "glass_perfume", "metal_can", "metal_alu"]
     },
