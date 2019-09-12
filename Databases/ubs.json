@@ -745,7 +745,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.4.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, 05, поліпропілен, полипропилен, 6, 06, PS, полістирол, полистирол"],
       "wasteType": [
-        "plastic_cup"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -2280,12 +2280,6 @@
       "id": "plastic_container",
       "title": "Шукай маркування",
       "hint": "Приймаються на переробку контейнери з-під продуктів харчування з маркуванням 05 PP та 06 PS. Лише чисті, сухі.  Пластик без маркування здавай на безпечне високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
-      "icon": "finalYellow"
-    },
-    {
-      "id": "plastic_cup",
-      "title": "Шукай маркування",
-      "hint": "Приймаються стаканчики з маркуванням 05 PP та 06 PS. Лише чисті та сухі. Стаканчики без маркування можеш здати на безпечне високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>). ",
       "icon": "finalYellow"
     },
     {
