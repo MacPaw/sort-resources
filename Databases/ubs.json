@@ -721,7 +721,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.3.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
-        "yoghurt_cup"
+        "ubs_burn"
       ],
       "hint": null,
       "children": null
