@@ -302,13 +302,13 @@ function drawUserLocation(lat, lng, accuracy) {
 function deactivateCurrentMarker() {
     if (activeMarker != null) {
         activeMarker.deactivate();
+        transitionInfoToState('closed');
     }
 }
 
 function resetMap() {
-    transitionInfoToState('closed');
-    map.fitBounds(allMarkersBounds);
     deactivateCurrentMarker();
+    map.fitBounds(allMarkersBounds);
 }
 
 function activateMarker(coords) {
