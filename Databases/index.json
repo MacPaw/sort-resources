@@ -2,91 +2,91 @@
   "providers": [
     {
       "id": "universal",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "compatibleVersion": "0.1",
       "location": "universal.json",
       "name": "Універсальні правила"
     },
     {
       "id": "ukraina_bez_smittya",
-      "version": "1.3.3",
+      "version": "1.3.4",
       "compatibleVersion": "0.1",
       "location": "ubs.json",
       "name": "Україна без сміття"
     },
     {
       "id": "kmvr",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "compatibleVersion": "0.1",
       "location": "kmvr.json",
       "name": "Київміськвторресурси"
     },
     {
       "id": "vtorma",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "compatibleVersion": "0.1",
       "location": "vtorma.json",
       "name": "ВТОРМА юа"
     },
     {
       "id": "isort",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "compatibleVersion": "0.1",
       "location": "isort.json",
       "name": "Я Сортую"
     },
     {
       "id": "pryhysty_paket",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "compatibleVersion": "0.1",
       "location": "pryhysty_paket.json",
       "name": "Прихисти пакет"
     },
     {
       "id": "glevaha",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "compatibleVersion": "0.1",
       "location": "glevaha.json",
       "name": "Чиста Глеваха"
     },
     {
       "id": "green_box",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "compatibleVersion": "0.1",
       "location": "green_box.json",
       "name": "Зелена коробка"
     },
     {
       "id": "ecodbay",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "compatibleVersion": "0.1",
       "location": "ecodbay.json",
       "name": "ECODBAY"
     },
     {
       "id": "cuv",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "compatibleVersion": "0.1",
       "location": "cuv.json",
       "name": "Центр управління відходами"
     },
     {
       "id": "misto_m",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "compatibleVersion": "0.1",
       "location": "misto_m.json",
       "name": "Місто майбутнього"
     },
     {
       "id": "green_house",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "compatibleVersion": "0.1",
       "location": "green_house.json",
       "name": "Зелений дім"
     },
     {
       "id": "stusa_3",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "compatibleVersion": "0.1",
       "location": "stusa_3.json",
       "name": "Пункт прийому на Стуса, 3"
