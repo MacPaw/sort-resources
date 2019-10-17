@@ -65,7 +65,7 @@
     },
     {
       "id": "cuv",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "compatibleVersion": "0.1",
       "location": "cuv.json",
       "name": "Центр управління відходами"
