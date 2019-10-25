@@ -9,14 +9,14 @@
     },
     {
       "id": "ukraina_bez_smittya",
-      "version": "1.3.4",
+      "version": "1.3.5",
       "compatibleVersion": "0.1",
       "location": "ubs.json",
       "name": "Україна без сміття"
     },
     {
       "id": "kmvr",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "compatibleVersion": "0.1",
       "location": "kmvr.json",
       "name": "Київміськвторресурси"
@@ -44,7 +44,7 @@
     },
     {
       "id": "glevaha",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "compatibleVersion": "0.1",
       "location": "glevaha.json",
       "name": "Чиста Глеваха"
@@ -65,7 +65,7 @@
     },
     {
       "id": "cuv",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "compatibleVersion": "0.1",
       "location": "cuv.json",
       "name": "Центр управління відходами"
