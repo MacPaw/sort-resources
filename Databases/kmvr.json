@@ -1,7 +1,7 @@
 {
   "globals": {
     "id": "kmvr",
-    "version": "1.2.2",
+    "version": "1.3.3",
     "compatibleVersion": "0.1",
     "name": "Київміськвторресурси",
     "description": "Підприємство «Київміськвторресурси» має велику мережу пунктів прийому у Києві та околицях. Оператор закуповує, заготовляє і первинно переробляє широкий спектр вторинної сировини і оновлює свій перелік щомісяця. За кожен прийнятий кілограм вторсировини підприємство виплачує певні кошти.\n\n<a href=\"http://kgvr.kiev.ua\">Перейти на сайт</a>",
@@ -182,7 +182,8 @@
         "4.2.1",
         "4.2.3",
         "4.2.4",
-        "3.9"
+        "3.9",
+        "8.12"
       ],
       "wasteType": null,
       "hint": null
@@ -195,7 +196,6 @@
       "keywords": [],
       "children": [
         "2.4.1",
-        "2.4.2",
         "1.1.1",
         "2.4.3",
         "1.1.2",
@@ -314,7 +314,7 @@
       "iconURL": "",
       "keywords": ["фольга, одноразовий посуд, пакування, упаковка, паковання, запікання, foil, металевий, алюмінієвий, алюміній"],
       "wasteType": [
-        "metal"
+        "foil"
       ],
       "hint": null,
       "children": null
@@ -323,7 +323,7 @@
       "id": "1.5.2",
       "name": "Паперовий контейнер",
       "icon": "1.5.2",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/1.5.2.png",
       "keywords": ["одноразовий посуд, пакування, упаковка, паковання, салат, коробка з-під лапші, лапша, локшина, вок-бокс, вок, картон"],
       "wasteType": [
         "mixed"
@@ -333,7 +333,7 @@
     },
     {
       "id": "2.1",
-      "name": "Пляшки",
+      "name": "Пляшки та кришки",
       "icon": "2.1",
       "iconURL": "",
       "keywords": [],
@@ -341,14 +341,13 @@
         "2.1.1",
         "2.1.10",
         "2.1.8",
-        "2.1.9",
         "2.1.2",
         "2.1.3",
         "2.1.4",
         "2.1.5",
-        "2.1.6",
         "2.1.7",
-        "2.1.11"
+        "2.1.11",
+        "2.1.12"
       ],
       "wasteType": null,
       "hint": null
@@ -393,7 +392,6 @@
       "keywords": [],
       "children": [
         "2.4.1",
-        "2.4.2",
         "2.4.3",
         "2.4.4",
         "2.4.5",
@@ -453,6 +451,7 @@
         "2.7.1",
         "2.7.2",
         "2.7.3",
+        "2.7.6",
         "2.7.4",
         "2.5.8",
         "2.7.5"
@@ -518,7 +517,7 @@
       "iconURL": "",
       "keywords": ["пляшка, бутилка, побутова хімія, засіб для миття посуду, бутылка, бытовая химия, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен, bottle"],
       "wasteType": [
-        "plastic"
+        "plastic_wash"
       ],
       "hint": null,
       "children": null
@@ -530,7 +529,7 @@
       "iconURL": "",
       "keywords": ["пляшка, бутиль, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен"],
       "wasteType": [
-        "plastic"
+        "plastic_can"
       ],
       "hint": null,
       "children": null
@@ -542,7 +541,7 @@
       "iconURL": "",
       "keywords": ["бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен, ліки, лекарства"],
       "wasteType": [
-        "plastic"
+        "plastic_drugs"
       ],
       "hint": null,
       "children": null
@@ -552,21 +551,9 @@
       "name": "Пляшка з-під косметики",
       "icon": "2.1.5",
       "iconURL": "",
-      "keywords": ["бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен"],
+      "keywords": ["бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен, шампунь"],
       "wasteType": [
-        "plastic"
-      ],
-      "hint": null,
-      "children": null
-    },
-    {
-      "id": "2.1.6",
-      "name": "Спрей",
-      "icon": "2.1.6",
-      "iconURL": "",
-      "keywords": ["пляшка, бутилка, пульверизатор, розприскувач, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, LDPE, 4, spray, 04, 5, 05, PP, ПП, полипропилен, розпилювач"],
-      "wasteType": [
-        "other_spray"
+        "plastic_wash"
       ],
       "hint": null,
       "children": null
@@ -578,29 +565,17 @@
       "iconURL": "",
       "keywords": ["бутилка, бутылка, масло, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат"],
       "wasteType": [
-        "plastic"
+        "plastic_oil"
       ],
       "hint": null,
       "children": null
     },
     {
       "id": "2.1.8",
-      "name": "PET пляшка непрозора, біла",
+      "name": "Пляшка з-під молочної продукції",
       "icon": "2.1.8",
       "iconURL": "",
-      "keywords": ["бутилка, бутылка, молоко, йогурт, кефір, кефир, bottle, белая, белый"],
-      "wasteType": [
-        "other_ubs"
-      ],
-      "hint": null,
-      "children": null
-    },
-    {
-      "id": "2.1.9",
-      "name": "HDPE пляшка непрозора, біла",
-      "icon": "2.1.8",
-      "iconURL": "",
-      "keywords": ["белая, белый, 2, 02, кефір, молоко, йогурт, PEHD,  бутылка, кефир"],
+      "keywords": ["бутилка, бутылка, молоко, йогурт, кефір, кефир, bottle, белая, белый, PET, HDPE, 1, 01, 2, 02"],
       "wasteType": [
         "other_ubs"
       ],
@@ -627,6 +602,18 @@
       "keywords": ["кришка, крышечка, 2, 02, HDPE"],
       "wasteType": [
         "plastic"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
+      "id": "2.1.12",
+      "name": "Кришка від бутля з-під води",
+      "icon": "2.1.12",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.1.12.png",
+      "keywords": ["пробка, 4, 04, LDPE, PELD, PE, кільце, аляска, бутильована вода, бак, кулер, кольцо, крышка"],
+      "wasteType": [
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -683,7 +670,7 @@
       "id": "2.2.5",
       "name": "Zip-пакет",
       "icon": "2.2.5",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.5.png",
       "keywords": ["зіп, лок, zip lock, пакет на замку, пакет-струна, гранола, bag, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, пакет для заморозки, заморожування, замораживания"],
       "wasteType": [
         "other_ubs"
@@ -707,7 +694,7 @@
       "id": "2.3.1",
       "name": "Контейнер-блістер",
       "icon": "2.3.1",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, корекс, корэкс, 6, 06, PS"],
       "wasteType": [
         "other_ubs"
@@ -731,7 +718,7 @@
       "id": "2.3.3",
       "name": "Стаканчик з-під сметани/йогурту",
       "icon": "2.3.3",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.3.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
         "other_ubs"
@@ -741,10 +728,10 @@
     },
     {
       "id": "2.3.4",
-      "name": "Контейнер непрозорий",
+      "name": "Інші контейнери",
       "icon": "2.3.4",
       "iconURL": "",
-      "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сир, чорний контейнер, черный контейнер, творог, container, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 5, 05, PP, 6, 06, PS, харчові контейнери"],
+      "keywords": ["пакування, упаковка, паковання, сир, творог, оселедець, селедка, морепродукти, морепродукты, container, 5, 05, PP, 6, 06, PS, харчові контейнери, сендвіч, сендвич"],
       "wasteType": [
         "other_ubs"
       ],
@@ -753,22 +740,10 @@
     },
     {
       "id": "2.4.1",
-      "name": "Пластиковий стаканчик PP 5",
+      "name": "Пластиковий одноразовий стаканчик",
       "icon": "2.4.1",
-      "iconURL": "",
-      "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, поліпропілен, полипропилен, 05"],
-      "wasteType": [
-        "other_ubs"
-      ],
-      "hint": null,
-      "children": null
-    },
-    {
-      "id": "2.4.2",
-      "name": "Пластиковий стаканчик PS 6",
-      "icon": "2.4.2",
-      "iconURL": "",
-      "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, 6, 06, PS, полістирол, полистирол"],
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.4.1.png",
+      "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, поліпропілен, полипропилен, 05, 6, 06, PS, полістирол, полистирол"],
       "wasteType": [
         "other_ubs"
       ],
@@ -777,7 +752,7 @@
     },
     {
       "id": "2.4.3",
-      "name": "Пластикова тарілка",
+      "name": "Пластикова одноразова тарілка",
       "icon": "2.4.3",
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, plate, тарелка, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ"],
@@ -830,7 +805,7 @@
       "iconURL": "",
       "keywords": ["тарілка, чашка, стакан, горнятко, виделка, ложка, ніж, прибори, тарелка, вилка, миска, 5, 05, PP"],
       "wasteType": [
-        "plastic"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -948,7 +923,7 @@
       "name": "Пластиковий тюбик",
       "icon": "2.5.9",
       "iconURL": "",
-      "keywords": ["пакування, упаковка, паковання, зубна паста, джем, згущенка, згущене молоко, космо, помада, крем, гель, скраб, пенка, пінка, 7, 07"],
+      "keywords": ["пакування, упаковка, паковання, зубна паста, джем, згущенка, згущене молоко, космо, помада, крем, гель, скраб, пенка, пінка, 7, 07, LDPE, PELD, PE, 4, 04, C/LDPE"],
       "wasteType": [
         "mixed"
       ],
@@ -1064,6 +1039,18 @@
       "children": null
     },
     {
+      "id": "2.7.6",
+      "name": "Фломастери і маркери",
+      "icon": "2.7.6",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.7.6.png",
+      "keywords": ["канцтовари, marker, sharpie, centropen, ковпачок, колпачек"],
+      "wasteType": [
+        "mixed"
+      ],
+      "hint": null,
+      "children": null
+    },
+    {
       "id": "2.8.1",
       "name": "Ватні палички пластикові",
       "icon": "2.8.1",
@@ -1118,7 +1105,7 @@
       "iconURL": "",
       "keywords": ["гігієнічні і медичні предмети, щетка, счетка"],
       "wasteType": [
-        "mixed"
+        "toothbrush"
       ],
       "hint": null,
       "children": null
@@ -1166,7 +1153,7 @@
       "iconURL": "",
       "keywords": ["стіл, стілець, комод, шафа, шкаф, стул, стол"],
       "wasteType": [
-        "plastic"
+        "plastic_mebli"
       ],
       "hint": null,
       "children": null
@@ -1178,7 +1165,7 @@
       "iconURL": "",
       "keywords": ["зберігання, контейнер, корзина, кошик, таз, миска, горщик, вазон, горшок"],
       "wasteType": [
-        "plastic"
+        "plastic_box"
       ],
       "hint": null,
       "children": null
@@ -1267,7 +1254,7 @@
       "id": "3.5",
       "name": "Видавнича продукція",
       "icon": "3.5",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.5.png",
       "keywords": ["папір, газета, журнал, книга, листівка, картка, афіша, постер, флаер, флаєр, афиша, бумага, конверт, 21, PAP, 23, PBD, PPB"],
       "wasteType": [
         "paper"
@@ -1529,7 +1516,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "corks"
+        "other_wood"
       ],
       "hint": null,
       "children": null
@@ -1541,7 +1528,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.2.png",
       "keywords": ["одноразовий посуд, деревина, кава, паличка, дерево, дерев'яна паличка, палочка, кофе, деревянная, мішалочка"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1553,7 +1540,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
       "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка, шпон"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1565,7 +1552,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.4.png",
       "keywords": ["одноразовий посуд, деревина, китайські, дерев'яні, палочки, деревянные, суши, китайские"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1577,7 +1564,7 @@
       "iconURL": "",
       "keywords": ["деревина, палочки, вушні, ушные, ватные, зубочистка"],
       "wasteType": [
-        "wood_qtips"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1589,7 +1576,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.6.png",
       "keywords": ["деревина, коврик, салфетка, суші, суши"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1601,7 +1588,7 @@
       "iconURL": "",
       "keywords": ["деревина, зубная щетка, дерев'яна, деревянная"],
       "wasteType": [
-        "wood_brush"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1613,7 +1600,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, деревина, виделка, ложка, ніж, вилка, приборы"],
       "wasteType": [
-        "other_wood"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1724,7 +1711,7 @@
       "iconURL": "",
       "keywords": ["скло, духи, ароматична вода, туалетна вода, perfume"],
       "wasteType": [
-        "glass"
+        "glass_perfume"
       ],
       "hint": null,
       "children": null
@@ -1808,7 +1795,7 @@
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, банкове пиво, кола, метал, пепсі, пепси, coca-cola, can, coke, cola, fanta, sprite, pepsi, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "metal"
+        "metal_alu"
       ],
       "hint": null,
       "children": null
@@ -1820,7 +1807,7 @@
       "iconURL": "",
       "keywords": ["метал, foil, metal, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "metal"
+        "foil"
       ],
       "hint": null,
       "children": null
@@ -1998,7 +1985,7 @@
       "name": "Вироби з гуми",
       "icon": "8.9",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.9.png",
-      "keywords": ["перчатки, резиновые, господарські, хозяйственные, рукавички, кулька, шарик, прокладка, надувна"],
+      "keywords": ["перчатки, резиновые, господарські, хозяйственные, рукавички, кулька, шарик, прокладка, надувна, презерватив, гумові, резинові, латексні, резиновые, латексные"],
       "wasteType": [
         "mixed"
       ],
@@ -2010,7 +1997,7 @@
       "name": "Поролон",
       "icon": "8.10",
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.10.png",
-      "keywords": ["губка, мочалка"],
+      "keywords": ["губка, мочалка, спонж, паралон"],
       "wasteType": [
         "mixed"
       ],
@@ -2028,13 +2015,25 @@
       ],
       "hint": null,
       "children": null
+    },
+    {
+      "id": "8.12",
+      "name": "Будівельне сміття",
+      "icon": "8.12",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.12.png",
+      "keywords": ["цегла, шпалери, ламінат, строительный мусор, кирпич, обои, ламинат, штукатурка"],
+      "wasteType": [
+        "construction"
+      ],
+      "hint": null,
+      "children": null
     }
   ],
   "wasteTypes": [
     {
       "id": "mixed",
       "title": "Не переробляється",
-      "hint": "На жаль, це опиниться на сміттєзвалищі. Спробуй зменшити обсяг споживання або взагалі відмовитись.",
+      "hint": "Кидай у загальний контейнер, це поїде на сміттєзвалище :( Якщо можеш, зменши споживання або відмовся.",
       "icon": "finalBlack"
     },
     {
@@ -2066,12 +2065,6 @@
       "title": "Здавай як скло",
       "hint": "Варто сполоснути. Етикетки не зривай, а кришечки збирай разом із металом або пластиком.",
       "icon": "finalGreen"
-    },
-    {
-      "id": "metal",
-      "title": "Здавай як метал",
-      "hint": "Збирай лише чистий метал, залишивши, хіба що, етикетки. Спробуй стиснути залізяку сильніше!",
-      "icon": "finalGrey"
     },
     {
       "id": "metal_aerosol",
@@ -2114,12 +2107,6 @@
       "title": "Утилізуй відповідально!",
       "hint": "Обережно: шприци — це небезпечні відходи. Звертайся до <a href=\"https://www.facebook.com/ecological.recycling.technology/\">«Екологічних переробних технологій»</a> для утилізації.",
       "icon": "finalRed"
-    },
-    {
-      "id": "other_spray",
-      "title": "Розбери на частини",
-      "hint": "Ємність від спрею відсортовуй до пластику, а от розприскувач доведеться викинути або перевикористати.",
-      "icon": "finalYellow"
     },
     {
       "id": "other_thermometer",
@@ -2170,33 +2157,9 @@
       "icon": "finalRed"
     },
     {
-      "id": "other_wood",
-      "title": "Збирай окремо: деревина",
-      "hint": "Дрібні дерев'яні вироби можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. ",
-      "icon": "finalRed"
-    },
-    {
       "id": "tetrapak",
       "title": "Збирай окремо",
       "hint": "Промий від залишків рідини, висуши, стисни. Кришки не знімай.",
-      "icon": "finalRed"
-    },
-    {
-      "id": "corks",
-      "title": "Збирай окремо: деревина",
-      "hint": "Коркові пробки з-під вина здавай разом із дерев'яним пакувальним матеріалом до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Пробки з пластику не приймаються.",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_brush",
-      "title": "Збирай окремо: деревина",
-      "hint": "Ручку від бамбукової зубної щітки можна здати до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a>. Щетинки не переробляються, відокремлюй їх. ",
-      "icon": "finalRed"
-    },
-    {
-      "id": "wood_qtips",
-      "title": "Збирай окремо: деревина",
-      "hint": "Зніми з палички вату, а бамбукову основу передай до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a> разом із іншими дерев'яними виробами.",
       "icon": "finalRed"
     },
     {
@@ -2216,6 +2179,78 @@
       "title": "Це ще можна носити?",
       "hint": "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, приймають на утилізацію <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічні інвестиції»</a> (графік уточнюй).",
       "icon": "finalRed"
+    },
+    {
+      "id": "plastic_oil",
+      "title": "Здавай як пластик",
+      "hint": "Промий пляшку від залишків олії з миючим засобом і теплою водою. Ідеально чисто може не вийти, але більшість олії таким чином змиється. Етикетку та кришку залишай на пляшці.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_drugs",
+      "title": "Шукай маркування",
+      "hint": "Приймаються лише пластикові ємності з маркуванням 02 HDPE (на дні мають шов у вигляді лінії). Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор знімай, — вони не переробляються. На станції «Україна без сміття» можеш здати на переробку пляшки з маркуванням 01 PET, а пляшки 05 PP, без маркування, дозатори та розпилювачі — на високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_wash",
+      "title": "Шукай маркування",
+      "hint": "Приймаються лише пластикові ємності з маркуванням 02 HDPE (на дні мають шов у вигляді лінії). Промий, висуши, стисни. Етикетку та кришку лишай на пляшці. Розпилювач або дозатор знімай, вони не переробляються. Пляшки з маркуванням 01 PET здавай на переробку на станції «України без сміття», а пляшки 05 PP, без маркування, дозатори та розпилювачі — на високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_can",
+      "title": "Здавай як пластик",
+      "hint": "Вимий від залишків рідини, просуши, стисни. Етикетки можеш не знімати.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "glass_perfume",
+      "title": "Здавай як скло",
+      "hint": "Скляну пляшку сполосни та відправляй на переробку, а розпилювач та кришечку доведеться викинути. ",
+      "icon": "finalGreen"
+    },
+    {
+      "id": "metal_alu",
+      "title": "Здавай як метал",
+      "hint": "Збирай лише чистий метал, залишивши, хіба що, етикетки. Спробуй стиснути залізяку сильніше!",
+      "icon": "finalGrey"
+    },
+    {
+      "id": "foil",
+      "title": "Здавай як метал",
+      "hint": "Збирай лише чистий метал, залишивши, хіба що, етикетки. Спробуй стиснути залізяку сильніше!",
+      "icon": "finalGrey"
+    },
+    {
+      "id": "plastic_mebli",
+      "title": "Здавай як пластик",
+      "hint": "Твій оператор приймає на переробку пластикові меблі з маркуванням 02 HDPE та 05 PP. Пластик має бути чистим.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_box",
+      "title": "Здавай як пластик",
+      "hint": "Твій оператор приймає на переробку пластикові меблі з маркуванням 02 HDPE та 05 PP. Пластик має бути чистим.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "construction",
+      "title": "Утилізуй відповідально!",
+      "hint": "Не викидай до загального контейнеру. Для вивозу на полігон викликай спеціальні служби.",
+      "icon": "finalRed"
+    },
+    {
+      "id": "other_wood",
+      "title": "Збирай окремо: деревина",
+      "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> на вул. Саперно-Слобідській.",
+      "icon": "finalRed"
+    },
+    {
+      "id": "toothbrush",
+      "title": "Не переробляється",
+      "hint": "Переходь на світлу сторону — купуй бамбукову щітку! А стару пластикову здавай на високотемпературне спалювання «Україні без сміття» (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
+      "icon": "finalBlack"
     }
   ]
 }
