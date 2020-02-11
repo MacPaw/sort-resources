@@ -83,6 +83,12 @@
       "locationType": "Майстерня проекту",
       "locationName": "Дорогоцінний пластик",
       "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag", "yoghurt_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_cup", "plastic_container", "plastic_marked", "plastic_mebli", "plastic_box"]
+    },
+    {
+      "id": "metro_mariupol",
+      "locationType": "Пункт прийому",
+      "locationName": "МЕТРО",
+      "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag", "yoghurt_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_cup", "plastic_container", "plastic_marked", "plastic_mebli", "plastic_box"]
     }
   ],
 
@@ -1079,6 +1085,16 @@
           "address": "вул. Олександра Невського, 57",
           "description": "Студія творчого проекту, пункт прийому пластику 02 HDPE, 04 LDPE, 05 PP.<br>Тел.: <a href=\"tel:+380679106601\">(067) 910-66-01</a>",
           "coordinates": "46.411560, 30.729253"
+        }
+      ]
+    },
+    {
+      "operator": "metro_mariupol",
+      "locations": [
+        {
+          "address": "вул. Олександра Невського, 57",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "47.117755, 37.503258"
         }
       ]
     }
