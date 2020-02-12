@@ -89,6 +89,12 @@
       "locationType": "Пункт прийому",
       "locationName": "МЕТРО",
       "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag", "yoghurt_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_cup", "plastic_container", "plastic_marked", "plastic_mebli", "plastic_box"]
+    },
+    {
+      "id": "metro_kyiv",
+      "locationType": "Пункт прийому",
+      "locationName": "МЕТРО",
+      "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag", "yoghurt_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_cup", "plastic_container", "plastic_marked", "plastic_mebli", "plastic_box"]
     }
   ],
 
@@ -1097,9 +1103,49 @@
       "operator": "metro_mariupol",
       "locations": [
         {
-          "address": "вул. Олександра Невського, 57",
+          "address": "Запорізьке шосе, 4",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
-          "coordinates": "47.117755, 37.503258"
+          "coordinates": "47.117603, 37.503664"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "Кільцева дорога, 1в",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.378466, 30.442024"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "просп. П. Григоренка, 43",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.390750, 30.641146"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "просп. С. Бандери, 26в",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.486529, 30.516683"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "вул. С. Лифаря, 2а",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.511227, 30.623958"
         }
       ]
     }
