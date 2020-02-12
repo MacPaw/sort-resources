@@ -90,6 +90,20 @@
       "compatibleVersion": "0.1",
       "location": "stusa_3.json",
       "name": "Пункт прийому на Стуса, 3"
+    },
+    {
+      "id": "metro_mariupol",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "metro_mariupol.json",
+      "name": "МЕТРО Маріуполь"
+    },
+    {
+      "id": "metro_kyiv",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "metro_kyiv.json",
+      "name": "МЕТРО Київ"
     }
   ],
   "popularSearchRequests": [
