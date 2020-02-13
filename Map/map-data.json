@@ -88,13 +88,13 @@
       "id": "metro_mariupol",
       "locationType": "Пункт прийому",
       "locationName": "МЕТРО",
-      "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag", "yoghurt_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_cup", "plastic_container", "plastic_marked", "plastic_mebli", "plastic_box"]
+      "acceptedWasteTypes": ["tetrapak", "paper", "plastic", "glass", "metal_can", "metal_alu", "plastic_can", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_container", "plastic_marked", "plastic_box"]
     },
     {
       "id": "metro_kyiv",
       "locationType": "Пункт прийому",
       "locationName": "МЕТРО",
-      "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag", "yoghurt_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_cup", "plastic_container", "plastic_marked", "plastic_mebli", "plastic_box"]
+      "acceptedWasteTypes": ["tetrapak", "paper", "plastic", "glass", "metal_can", "metal_alu", "plastic_can", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_container", "plastic_marked", "plastic_box"]
     }
   ],
 
