@@ -100,7 +100,7 @@
     },
     {
       "id": "metro_kyiv",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "compatibleVersion": "0.1",
       "location": "metro_kyiv.json",
       "name": "METRO Київ"
