@@ -96,14 +96,14 @@
       "version": "1.0.0",
       "compatibleVersion": "0.1",
       "location": "metro_mariupol.json",
-      "name": "МЕТРО Маріуполь"
+      "name": "METRO Маріуполь"
     },
     {
       "id": "metro_kyiv",
       "version": "1.0.0",
       "compatibleVersion": "0.1",
       "location": "metro_kyiv.json",
-      "name": "МЕТРО Київ"
+      "name": "METRO Київ"
     }
   ],
   "popularSearchRequests": [
