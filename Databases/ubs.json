@@ -2172,7 +2172,7 @@
       "id": "styrofoam",
       "title": "Збирай окремо",
       "hint": "Приймається на переробку, окрім пінопластових лотків і контейнерів.",
-      "icon": "finalRed"
+      "icon": "finalYellow"
     },
     {
       "id": "shoe_covers",
