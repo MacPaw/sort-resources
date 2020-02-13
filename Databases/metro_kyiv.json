@@ -266,7 +266,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, кавовий, склянка, стаканчик, cup, кава, кофе, паперове горнятко"],
       "wasteType": [
-        "paper_cup"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -314,7 +314,7 @@
       "iconURL": "",
       "keywords": ["фольга, одноразовий посуд, пакування, упаковка, паковання, запікання, foil, металевий, алюмінієвий, алюміній"],
       "wasteType": [
-        "foil"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -436,7 +436,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, пенопласт, 6, 06, PS, полістирол, полистирол, спінений, вспененный, лоток"],
       "wasteType": [
-        "styrofoam"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -541,7 +541,7 @@
       "iconURL": "",
       "keywords": ["бутилка, бутылка, bottle, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, 5, 05, PP, ПП, полипропилен, ліки, лекарства"],
       "wasteType": [
-        "plastic_drugs"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -613,7 +613,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.1.12.png",
       "keywords": ["пробка, 4, 04, LDPE, PELD, PE, кільце, аляска, бутильована вода, бак, кулер, кольцо, крышка"],
       "wasteType": [
-        "water_cap"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -625,7 +625,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, маечка, паковання, атб, bmw, bag, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, поліетилен, полиэтилен"],
       "wasteType": [
-        "plastic_bag"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -649,7 +649,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, макарони, крупа, каша, пластівці, хлебцы, хлібці, гречка, рис, bag, 5, 05, PP, ПП, полипропилен, поліпропілен, сухі сніданки, сухий сніданок, цукор, шуршун, крупы, крупи"],
       "wasteType": [
-        "plastic_bag2"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -661,7 +661,7 @@
       "iconURL": "",
       "keywords": ["кур'єрський пакет, доставка, пакування, упаковка, пупирки, пупырки, пупыпышки, паковання, bubble, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ"],
       "wasteType": [
-        "plastic_wrap"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -673,7 +673,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.5.png",
       "keywords": ["зіп, лок, zip lock, пакет на замку, пакет-струна, гранола, bag, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, пакет для заморозки, заморожування, замораживания"],
       "wasteType": [
-        "zip_bag"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -685,7 +685,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.6.png",
       "keywords": ["подушечка, молоко, кефір, кефир, сметана, ряжанка"],
       "wasteType": [
-        "milk_bag"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -697,7 +697,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, корекс, корэкс, 6, 06, PS"],
       "wasteType": [
-        "plastic_blister"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -781,7 +781,7 @@
       "iconURL": "",
       "keywords": ["виделка, ложка, ніж, столові прибори, вилка, нож"],
       "wasteType": [
-        "plastic_marked"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -817,7 +817,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, 6, 06, PS, полістирол, полистирол, кришечка, крышечка, крышка, кава, кофе, горнятко"],
       "wasteType": [
-        "cup_cover"
+        "burn_ubs"
       ],
       "hint": null,
       "children": null
@@ -877,7 +877,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, стрейч, 5, 05, PP, ПП, полипропилен, поліпропілен, 4, 04, LDPE, PELD, пакувальна"],
       "wasteType": [
-        "plastic_wrap"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1141,7 +1141,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.8.8.png",
       "keywords": ["поліетилен, бахилы"],
       "wasteType": [
-        "shoe_covers"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1153,7 +1153,7 @@
       "iconURL": "",
       "keywords": ["стіл, стілець, комод, шафа, шкаф, стул, стол"],
       "wasteType": [
-        "plastic_mebli"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1384,7 +1384,7 @@
       "iconURL": "",
       "keywords": ["шредер, бумага, paper, 21"],
       "wasteType": [
-        "paper"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1468,7 +1468,7 @@
       "iconURL": "",
       "keywords": ["зберігання, пакування, упаковка, паковання, яйця, бумажный лоток"],
       "wasteType": [
-        "egg_carton"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1516,7 +1516,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "corks"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1588,7 +1588,7 @@
       "iconURL": "",
       "keywords": ["деревина, зубная щетка, дерев'яна, деревянная"],
       "wasteType": [
-        "mixed"
+        "bamboo_toothbrush"
       ],
       "hint": null,
       "children": null
@@ -1699,7 +1699,7 @@
       "iconURL": "",
       "keywords": ["розбите, уламки, уламок, стекло, осколки"],
       "wasteType": [
-        "glass"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1711,7 +1711,7 @@
       "iconURL": "",
       "keywords": ["скло, духи, ароматична вода, туалетна вода, perfume"],
       "wasteType": [
-        "glass_perfume"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1807,7 +1807,7 @@
       "iconURL": "",
       "keywords": ["метал, foil, metal, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "foil"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1819,7 +1819,7 @@
       "iconURL": "",
       "keywords": ["спрей, розприскувач, метал, пляшка, бутилка, дезодорант, антиперспірант, антиперспирант, дезодорант, лак, піна, баллон, пінка, пенка, spray, ліки, хьюмер, гель для гоління"],
       "wasteType": [
-        "metal_aerosol"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1831,7 +1831,7 @@
       "iconURL": "",
       "keywords": ["консервація, кришка, крышка, 40, Fe"],
       "wasteType": [
-        "metal_cap"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1843,7 +1843,7 @@
       "iconURL": "",
       "keywords": ["каструля, сковорідка, пательня, казан, миска, столові прибори, кастрюля, ложка, виделка, ніж, черпак, дуршлак, половник, 40, Fe, 41, Alu"],
       "wasteType": [
-        "metal_posud"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1879,7 +1879,7 @@
       "iconURL": "",
       "keywords": ["метал, срібляста, свечка, плаваюча, 41, Alu"],
       "wasteType": [
-        "metal_candle"
+        "other_ubs"
       ],
       "hint": null,
       "children": null
@@ -1927,7 +1927,7 @@
       "iconURL": "",
       "keywords": ["гума, резина"],
       "wasteType": [
-        "other_tyre"
+        "danger"
       ],
       "hint": null,
       "children": null
