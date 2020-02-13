@@ -83,6 +83,18 @@
       "locationType": "Майстерня проекту",
       "locationName": "Дорогоцінний пластик",
       "acceptedWasteTypes": ["plastic_bag", "plastic_wrap", "shoe_covers", "zip_bag", "yoghurt_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_cup", "plastic_container", "plastic_marked", "plastic_mebli", "plastic_box"]
+    },
+    {
+      "id": "metro_mariupol",
+      "locationType": "Пункт прийому",
+      "locationName": "МЕТРО",
+      "acceptedWasteTypes": ["tetrapak", "paper", "plastic", "glass", "metal_can", "metal_alu", "plastic_can", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_container", "plastic_marked", "plastic_box"]
+    },
+    {
+      "id": "metro_kyiv",
+      "locationType": "Пункт прийому",
+      "locationName": "МЕТРО",
+      "acceptedWasteTypes": ["tetrapak", "paper", "plastic", "glass", "metal_can", "metal_alu", "plastic_can", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_container", "plastic_marked", "plastic_box"]
     }
   ],
 
@@ -491,9 +503,14 @@
           "coordinates": "49.986681,36.235723"
         },
         {
-          "address": "вул. Сергія Єсеніна, 16",
+          "address": "вул. Вєсніна, 16",
           "description": "Екохаб, пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Графік роботи уточнюй у оператора.<br>Тел.: <a href=\"tel:+380951373607\">(095) 137-36-07</a>",
-          "coordinates": "50.031068, 36.226321"
+          "coordinates": "50.012055, 36.252076"
+        },
+        {
+          "address": "Салтівське шосе, 161",
+          "description": "Екохаб, пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Графік роботи уточнюй у оператора.<br>Тел.: <a href=\"tel:+380951373607\">(095) 137-36-07</a>",
+          "coordinates": "49.986172, 36.330644"
         },
         {
           "description": "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Маршрут і графік виїздів уточнюй у оператора.<br>Тел.: <a href=\"tel:+3809951373607\">(095) 137-36-07</a>",
@@ -1079,6 +1096,56 @@
           "address": "вул. Олександра Невського, 57",
           "description": "Студія творчого проекту, пункт прийому пластику 02 HDPE, 04 LDPE, 05 PP.<br>Тел.: <a href=\"tel:+380679106601\">(067) 910-66-01</a>",
           "coordinates": "46.411560, 30.729253"
+        }
+      ]
+    },
+    {
+      "operator": "metro_mariupol",
+      "locations": [
+        {
+          "address": "Запорізьке шосе, 4",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "47.117603, 37.503664"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "Кільцева дорога, 1в",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.378466, 30.442024"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "просп. П. Григоренка, 43",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.390750, 30.641146"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "просп. С. Бандери, 26в",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.486529, 30.516683"
+        }
+      ]
+    },
+    {
+      "operator": "metro_kyiv",
+      "locations": [
+        {
+          "address": "вул. С. Лифаря, 2а",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
+          "coordinates": "50.511227, 30.623958"
         }
       ]
     }
