@@ -104,6 +104,13 @@
       "compatibleVersion": "0.1",
       "location": "metro_kyiv.json",
       "name": "METRO Київ"
+    },
+    {
+      "id": "eco_patrul",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "eco_patrul.json",
+      "name": "Екопатруль"
     }
   ],
   "popularSearchRequests": [
