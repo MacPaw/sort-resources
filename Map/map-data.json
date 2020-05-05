@@ -95,6 +95,12 @@
       "locationType": "Пункт прийому",
       "locationName": "МЕТРО",
       "acceptedWasteTypes": ["tetrapak", "paper", "plastic", "glass", "metal_can", "metal_alu", "plastic_can", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_container", "plastic_marked", "plastic_box"]
+    },
+    {
+      "id": "eco_patrul",
+      "locationType": "Мобільний пункт прийому",
+      "locationName": "Екопатруль",
+      "acceptedWasteTypes": []
     }
   ],
 
@@ -1146,6 +1152,16 @@
           "address": "вул. С. Лифаря, 2а",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.",
           "coordinates": "50.511227, 30.623958"
+        }
+      ]
+    },
+    {
+      "operator": "eco_patrul",
+      "locations": [
+        {
+          "description": "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал. Їздить довихідних. Точний графік та мапи маршрутів шукай на facebook сторінці оператора. <br><br>Тел.: <a href=\"tel:+380985412572\">(098) 541-25-72</a>",
+          "coordinates": "48.463914, 35.048142",
+          "isMobile": 1
         }
       ]
     }
