@@ -40,7 +40,7 @@
       "id": "green_box",
       "locationType": "Пункт прийому",
       "locationName": "Зелена коробка",
-      "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "styrofoam", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_kanistra", "tetrapak", "battery", "other_electro", "other_lamp_LED", "water_cap"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "styrofoam", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_kanistra", "tetrapak", "battery", "other_electro", "other_lamp_LED", "water_cap", "zip_bag", "shoe_covers"]
     },
     {
       "id": "ecodbay",
@@ -100,7 +100,7 @@
       "id": "eco_patrul",
       "locationType": "Мобільний пункт прийому",
       "locationName": "Екопатруль",
-      "acceptedWasteTypes": []
+      "acceptedWasteTypes": ["paper_chalk", "paper", "PET_clear", "plastic_cap", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_posud", "tetrapak", "water_cap", "plastic_cup", "yoghurt_cup", "plastic_blister", "plastic_container", "zip_bag", "cup_cover", "egg_carton"]
     }
   ],
 
