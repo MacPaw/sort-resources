@@ -2072,12 +2072,6 @@
       "icon": "finalRed"
     },
     {
-      "id": "other_ubs",
-      "title": "Переробка чи звалище?",
-      "hint": "Зазвичай цей тип сировини їде на сміттєзвалище, але <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> може його прийняти.",
-      "icon": "finalRed"
-    },
-    {
       "id": "lamp_ecobus",
       "title": "Утилізуй відповідально!",
       "hint": "Енергоощадні та люмінесцентні лампи приймає ДП «Боднарівка» (<a href=\"https://bodnarivkaeko.lviv.ua/index.php/nashi-posluhy/dlia-naselennia/\">графік стоянок мобільного пункту «Еко-бус»</a>). Щоб лампа в дорозі не розбилась, надійно запакуй її.",
