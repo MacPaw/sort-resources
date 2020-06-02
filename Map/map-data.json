@@ -101,6 +101,42 @@
       "locationType": "Мобільний пункт прийому",
       "locationName": "Екопатруль",
       "acceptedWasteTypes": ["paper_chalk", "paper", "PET_clear", "plastic_cap", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_posud", "tetrapak", "water_cap", "plastic_cup", "yoghurt_cup", "plastic_blister", "plastic_container", "zip_bag", "cup_cover", "egg_carton"]
+    },
+    {
+      "id": "silpo_dp",
+      "locationType": "Станція сортування",
+      "locationName": "SilpoRecycling",
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+    },
+    {
+      "id": "silpo_zp",
+      "locationType": "Станція сортування",
+      "locationName": "SilpoRecycling",
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+    },
+    {
+      "id": "silpo_kyiv",
+      "locationType": "Станція сортування",
+      "locationName": "SilpoRecycling",
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+    },
+    {
+      "id": "silpo_lviv",
+      "locationType": "Станція сортування",
+      "locationName": "SilpoRecycling",
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+    },
+    {
+      "id": "silpo_odesa",
+      "locationType": "Станція сортування",
+      "locationName": "SilpoRecycling",
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+    },
+    {
+      "id": "silpo_kharkiv",
+      "locationType": "Станція сортування",
+      "locationName": "SilpoRecycling",
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
     }
   ],
 
@@ -1162,6 +1198,86 @@
           "description": "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал. Виїзди відбуваються в суботу та неділю. Точний графік та мапи маршрутів шукай на facebook сторінці оператора. <br><br>Тел.: <a href=\"tel:+380985412572\">(098) 541-25-72</a>",
           "coordinates": "48.463914, 35.048142",
           "isMobile": 1
+        }
+      ]
+    },
+    {
+      "operator": "silpo_dp",
+      "locations": [
+        {
+          "address": "вул. Кондратюка, 4",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com/silporecycling/",
+          "coordinates": "48.484741, 34.921479"
+        }
+      ]
+    },
+    {
+      "operator": "silpo_zp",
+      "locations": [
+        {
+          "address": "вул. Хортицьке шосе, 30А",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com/silporecycling/",
+          "coordinates": "47.830277, 35.016161"
+        }
+      ]
+    },
+    {
+      "operator": "silpo_kyiv",
+      "locations": [
+        {
+          "address": "вул. Теодора Драйзера, 8",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Вт-Пт: 15:00–20:00<br>Сб, Нд: 8:30-20:00<br>обід: 14:00-15:00<br>Пн: Вихідний<br>www.facebook.com/silporecycling/",
+          "coordinates": "50.502490, 30.604701"
+        }
+      ]
+    },
+    {
+      "operator": "silpo_kyiv",
+      "locations": [
+        {
+          "address": "вул. Здолбунівська, 4",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Вт-Пт: 17:00–20:30<br>Сб, Нд: 10:00-15:30<br>Пн: Вихідний<br>www.facebook.com/silporecycling/",
+          "coordinates": "50.417430, 30.617935"
+        }
+      ]
+    },
+    {
+      "operator": "silpo_kyiv",
+      "locations": [
+        {
+          "address": "вул. Петра Калнишевського, 2",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Нд: 8:30–20:00<br>обід: 14:00-15:00<br>www.facebook.com/silporecycling/",
+          "coordinates": "50.519911, 30.465147"
+        }
+      ]
+    },
+    {
+      "operator": "silpo_lviv",
+      "locations": [
+        {
+          "address": "вул. Наукова, 35А",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 8:30-20:00<br>обід: 14:00-15:00<br>www.facebook.com/silporecycling/",
+          "coordinates": "49.803191, 23.997252"
+        }
+      ]
+    },
+    {
+      "operator": "silpo_odesa",
+      "locations": [
+        {
+          "address": "вул. С. Палія, 93А",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com/silporecycling/",
+          "coordinates": "46.575756, 30.797773"
+        }
+      ]
+    },
+    {
+      "operator": "silpo_kharkiv",
+      "locations": [
+        {
+          "address": "вул. Академіка Павлова, 44Б",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Нд: 8:30–20:00<br>обід: 14:00-15:00<br>www.facebook.com/silporecycling/",
+          "coordinates": "49.990999, 36.290159"
         }
       ]
     }
