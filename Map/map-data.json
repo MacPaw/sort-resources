@@ -118,13 +118,13 @@
       "id": "silpo_kyiv",
       "locationType": "Станція сортування",
       "locationName": "SilpoRecycling",
-      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak", "metal_can", "metal_aerosol", "metal_cap"]
     },
     {
       "id": "silpo_lviv",
       "locationType": "Станція сортування",
       "locationName": "SilpoRecycling",
-      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak", "metal_can", "metal_aerosol", "metal_cap"]
     },
     {
       "id": "silpo_odesa",
@@ -136,7 +136,7 @@
       "id": "silpo_kharkiv",
       "locationType": "Станція сортування",
       "locationName": "SilpoRecycling",
-      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak"]
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak", "metal_can", "metal_aerosol", "metal_cap"]
     }
   ],
 
