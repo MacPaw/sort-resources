@@ -314,7 +314,7 @@
       "iconURL": "",
       "keywords": ["фольга, одноразовий посуд, пакування, упаковка, паковання, запікання, foil, металевий, алюмінієвий, алюміній"],
       "wasteType": [
-        "mixed"
+        "foil"
       ],
       "hint": null,
       "children": null
@@ -625,7 +625,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, маечка, паковання, атб, bmw, bag, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, поліетилен, полиэтилен"],
       "wasteType": [
-        "mixed"
+        "plastic_bag"
       ],
       "hint": null,
       "children": null
@@ -661,7 +661,7 @@
       "iconURL": "",
       "keywords": ["кур'єрський пакет, доставка, пакування, упаковка, пупирки, пупырки, пупыпышки, паковання, bubble, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ"],
       "wasteType": [
-        "mixed"
+        "plastic_wrap"
       ],
       "hint": null,
       "children": null
@@ -673,7 +673,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.5.png",
       "keywords": ["зіп, лок, zip lock, пакет на замку, пакет-струна, гранола, bag, 4, 04, LDPE, PEBD, PE-LD, PELD, ПВД, ПЭНП, ПВТ, пакет для заморозки, заморожування, замораживания"],
       "wasteType": [
-        "mixed"
+        "zip_bag"
       ],
       "hint": null,
       "children": null
@@ -685,7 +685,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.2.6.png",
       "keywords": ["подушечка, молоко, кефір, кефир, сметана, ряжанка"],
       "wasteType": [
-        "mixed"
+        "milk_bag"
       ],
       "hint": null,
       "children": null
@@ -721,7 +721,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.3.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
-        "mixed"
+        "yoghurt_cub"
       ],
       "hint": null,
       "children": null
@@ -733,7 +733,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, сир, творог, оселедець, селедка, морепродукти, морепродукты, container, 5, 05, PP, 6, 06, PS, харчові контейнери, сендвіч, сендвич"],
       "wasteType": [
-        "mixed"
+        "plastic_container"
       ],
       "hint": null,
       "children": null
@@ -745,7 +745,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.4.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, 05, поліпропілен, полипропилен, 6, 06, PS, полістирол, полистирол"],
       "wasteType": [
-        "mixed"
+        "plastic_cup"
       ],
       "hint": null,
       "children": null
@@ -781,7 +781,7 @@
       "iconURL": "",
       "keywords": ["виделка, ложка, ніж, столові прибори, вилка, нож"],
       "wasteType": [
-        "mixed"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -805,7 +805,7 @@
       "iconURL": "",
       "keywords": ["тарілка, чашка, стакан, горнятко, виделка, ложка, ніж, прибори, тарелка, вилка, миска, 5, 05, PP"],
       "wasteType": [
-        "mixed"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -1141,7 +1141,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.8.8.png",
       "keywords": ["поліетилен, бахилы"],
       "wasteType": [
-        "mixed"
+        "shoe_covers"
       ],
       "hint": null,
       "children": null
@@ -1153,7 +1153,7 @@
       "iconURL": "",
       "keywords": ["стіл, стілець, комод, шафа, шкаф, стул, стол"],
       "wasteType": [
-        "mixed"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -1165,7 +1165,7 @@
       "iconURL": "",
       "keywords": ["зберігання, контейнер, корзина, кошик, таз, миска, горщик, вазон, горшок"],
       "wasteType": [
-        "mixed"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -1675,7 +1675,7 @@
       "iconURL": "",
       "keywords": ["подвійний стакан, каструля, форма для запікання, склянка, заварник, посуд з мікрохвильовки"],
       "wasteType": [
-        "mixed"
+        "glass_heat"
       ],
       "hint": null,
       "children": null
@@ -1807,7 +1807,7 @@
       "iconURL": "",
       "keywords": ["метал, foil, metal, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "mixed"
+        "foil"
       ],
       "hint": null,
       "children": null
@@ -1855,7 +1855,7 @@
       "iconURL": "",
       "keywords": ["паста, метал, крем, 41, Alu, алюміній, алюминий"],
       "wasteType": [
-        "mixed"
+        "metal_tube"
       ],
       "hint": null,
       "children": null
@@ -1867,7 +1867,7 @@
       "iconURL": "",
       "keywords": ["краски, метал, лаки, paint, 40, Fe"],
       "wasteType": [
-        "mixed"
+        "metal_paint"
       ],
       "hint": null,
       "children": null
@@ -1879,7 +1879,7 @@
       "iconURL": "",
       "keywords": ["метал, срібляста, свечка, плаваюча, 41, Alu"],
       "wasteType": [
-        "mixed"
+        "metal_candle"
       ],
       "hint": null,
       "children": null
@@ -1915,7 +1915,7 @@
       "iconURL": "",
       "keywords": ["градусник, ртуть"],
       "wasteType": [
-        "danger"
+        "other_thermometer"
       ],
       "hint": null,
       "children": null
@@ -1927,7 +1927,7 @@
       "iconURL": "",
       "keywords": ["гума, резина"],
       "wasteType": [
-        "danger"
+        "other_tyre"
       ],
       "hint": null,
       "children": null
@@ -2045,19 +2045,19 @@
     {
       "id": "glass",
       "title": "Здавай як скло",
-      "hint": "Варто сполоснути. Етикетки залишай, кришечки знімай. Пластикові кришечки з маркуванням 02 HDPE збирай разом із пластиком, а металеві приймає <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a>.",
+      "hint": "Варто сполоснути. Етикетки залишай, пластикові та металеві кришечки збирай окремо, вони також приймаються.",
       "icon": "finalGreen"
     },
     {
       "id": "battery",
       "title": "Утилізуй відповідально!",
-      "hint": "Здавай в бокси в магазинах «Епіцентр» та «Нова лінія». Ці мережі співпрацюють із проектом <a href=\"https://www.facebook.com/batareiky/\">«Батарейки, здавайтеся»</a> та гарантують переробку зібраних батарейок. Не більше 20 штук за один раз.",
+      "hint": "Батарейки можна здати в пунктах прийому по місту, боксах в магазинах «Епіцентр» та «Нова лінія», а також до ДП «Боднарівка». Графік стоянок «Еко-буса» та адреси пунктів <a href=\"https://bodnarivkaeko.lviv.ua/index.php/nashi-posluhy/dlia-naselennia/\">дивись тут</a>.",
       "icon": "finalRed"
     },
     {
       "id": "other_lamp_eco",
       "title": "Утилізуй відповідально!",
-      "hint": "Така лампа містить небезпечну речовину – ртуть, вона потребує спеціальної утилізації. Ми ще шукаємо, де такі відходи приймають у твоєму місті. Нерозбиті лампи краще надійно запакувати та зберігати, поки не з'явиться можливість правильно утилізувати.",
+      "hint": "Енергоощадні та люмінесцентні лампи приймає ДП «Боднарівка» (<a href=\"https://bodnarivkaeko.lviv.ua/index.php/nashi-posluhy/dlia-naselennia/\">графік стоянок мобільного пункту «Еко-бус»</a>). Щоб лампа в дорозі не розбилась, надійно запакуй її.",
       "icon": "finalRed"
     },
     {
@@ -2075,7 +2075,7 @@
     {
       "id": "other_clothing",
       "title": "Це ще можна носити?",
-      "hint": "Якщо речі виглядають непогано, віднеси їх до благодійного магазину <a href=\"https://www.facebook.com/daridobrozp/\">«Дари Добро»</a>, представництва <a href=\"https://www.facebook.com/RedCrossUkraine/\">«Червоного Хреста»</a> або інших благодійних організацій. Ганчір'я викидай :(",
+      "hint": "Одяг у гарному стані (чистий, цілий) приймає спільнота взаємодопомоги «Емаус-Оселя». Шукай найближчий контейнер для збору речей <a href=\"http://emaus-oselya.org/ua/?page_id=3666&fbclid=IwAR2dDZOILEoXzQsInE5L5xD9DNPiG_BBKtmVrAa0TcuxrbdJAQpWtMkLapM/\">на сайті</a>. Ганчір'я викидай :(",
       "icon": "finalRed"
     },
     {
@@ -2087,13 +2087,13 @@
     {
       "id": "other_electro",
       "title": "Збирай окремо",
-      "hint": "Електроніка та побутова техніка потребують спеціальної утилізації. На жаль, у твоєму місті такі відходи не приймають. Можна передати поштою до <a href=\"https://www.facebook.com/WasteManagementCenter/\">«Центру управління відходами»</a> або спробувати віддати через безкоштовні оголошення.",
+      "hint": "Електроніку та дрібну побутову техніку приймають на переробку <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a> та <a href=\"https://www.facebook.com/KOLO.Lemberg/\">«Платформа KOLO»</a>. Також невеликі пристрої та дрібну електроніку можна передати поштою до <a href=\"https://www.facebook.com/WasteManagementCenter/\">«Центру управління відходами»</a>.",
       "icon": "finalRed"
     },
     {
       "id": "other_lamp_led",
       "title": "Збирай окремо",
-      "hint": "Це — електронні відходи, що потребують спеціальної утилізації. На жаль, у твоєму місті такі відходи не приймають. Можна передати поштою до <a href=\"https://www.facebook.com/WasteManagementCenter/\">«Центру управління відходами»</a>.",
+      "hint": "LED лампи приймають на переробку <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a> та <a href=\"https://www.facebook.com/KOLO.Lemberg/\">«Платформа KOLO»</a>.",
       "icon": "finalRed"
     },
     {
@@ -2105,13 +2105,13 @@
     {
       "id": "other_lamp_tube",
       "title": "Утилізуй відповідально!",
-      "hint": "Така лампа містить небезпечну речовину – ртуть, вона потребує спеціальної утилізації. Ми ще шукаємо, де такі відходи приймають у твоєму місті. Нерозбиті лампи краще надійно запакувати та зберігати, поки не з'явиться можливість правильно утилізувати.",
+      "hint": "Енергоощадні та люмінесцентні лампи приймає ДП «Боднарівка» (<a href=\"https://bodnarivkaeko.lviv.ua/index.php/nashi-posluhy/dlia-naselennia/\">графік стоянок мобільного пункту «Еко-бус»</a>). Щоб лампа в дорозі не розбилась, надійно запакуй її.",
       "icon": "finalRed"
     },
     {
       "id": "shoes",
       "title": "Це ще можна носити?",
-      "hint": "Якщо взуття в хорошому стані, передай його благодійним організаціям (наприклад, до благодійного магазину <a href=\"https://www.facebook.com/daridobrozp//\">«Дари Добро»</a>). Те, що не придатне для подальшого носіння, викидай.",
+      "hint": "Взуття у гарному стані приймає спільнота взаємодопомоги «Емаус-Оселя». Шукай найближчий контейнер для збору речей <a href=\"http://emaus-oselya.org/ua/?page_id=3666&fbclid=IwAR2dDZOILEoXzQsInE5L5xD9DNPiG_BBKtmVrAa0TcuxrbdJAQpWtMkLapM/\">на сайті</a>. Непридатне для носіння викидай.",
       "icon": "finalRed"
     },
     {
@@ -2176,14 +2176,14 @@
     },
     {
       "id": "metal_kanistra",
-      "title": "Здавай як метал",
-      "hint": "Твій оператор не приймає металеві каністри, проте ними може зацікавитись найближчий пункт прийому металобрухту.",
+      "title": "Здавай іншому оператору",
+      "hint": "Це приймають <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a>. Звільни від вмісту, промий, закрути кришкою.",
       "icon": "finalBlack"
     },
     {
       "id": "construction",
       "title": "Утилізуй відповідально!",
-      "hint": "Не викидай до загального контейнеру. Для вивозу на полігон викликай спеціальні служби.",
+      "hint": "Не викидай до загального контейнеру. Цеглу, плитку, штукатурку без сторонніх домішок здавай до <a href=\"https://www.facebook.com/Lvivspetskomuntrans/\">ЛКП «Львівспецкомунтранс»</a>. Візьми з собою документ, що підтверджує проживання в місті, — це обов’язкова вимога пункту збору. Для іншого будівельного сміття викликай спеціальну службу, що вивезе його на полігон.",
       "icon": "finalRed"
     },
     {
@@ -2244,6 +2244,114 @@
       "id": "glass_perfume",
       "title": "Здавай як скло",
       "hint": "Скляну пляшку сполосни та відправляй на переробку, а розпилювач та кришечку доведеться викинути.",
+      "icon": "finalGreen"
+    },
+    {
+      "id": "glass_heat",
+      "title": "Здавай іншому оператору",
+      "hint": "Жаростійке скло, у т.ч. бите, приймає <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a>. Лише чисте та сухе, окремо від іншого скла.",
+      "icon": "finalGreen"
+    },
+    {
+      "id": "foil",
+      "title": "Здавай іншому оператору",
+      "hint": "Чисту фольгу без залишків їжі та жиру приймає <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a>. Спресуй для компактності. Зверни увагу: фольга з шаром паперу (наприклад, від шоколаду) не приймається. Для перевірки стисни фольгу в руці: та, що підлягає переробці, залишиться зім'ятою.",
+      "icon": "finalGrey"
+    },
+    {
+      "id": "metal_tube",
+      "title": "Здавай іншому оператору",
+      "hint": "Металеві тюбики приймають <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a>. Максимально звільни тюбик від вмісту, за можливості промий, стисни.",
+      "icon": "finalGrey"
+    },
+    {
+      "id": "metal_paint",
+      "title": "Здавай іншому оператору",
+      "hint": "Банки з-під фарби приймає <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a>. Банка має бути пустою, накритою кришкою. Етикетку можеш не знімати.",
+      "icon": "finalGrey"
+    },
+    {
+      "id": "metal_candle",
+      "title": "Здавай іншому оператору",
+      "hint": "Гільзи з-під свічок-таблеток приймає <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a>. Лише чисті, без залишків свічки. Спресуй для компактності. Збирай окремо.",
+      "icon": "finalGrey"
+    },
+    {
+      "id": "plastic_bag",
+      "title": "Здавай іншому оператору",
+      "hint": "Поліетилен приймають <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a>. Лише чистий, сухий, без наклейок. Для зручності збирай в окремий пакет.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "zip_bag",
+      "title": "Здавай іншому оператору",
+      "hint": "Здавай в <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелену коробку»</a>. Вимий, висуши, відріж або зніми наліпки, відріж пластикову застібку. ",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "shoe_covers",
+      "title": "Здавай іншому оператору",
+      "hint": "Здавай в <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелену коробку»</a>. Вимий, висуши, витягни резинку. Збирай разом із поліетиленом.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "milk_bag",
+      "title": "Здавай іншому оператору",
+      "hint": "Поліетиленові пакети з-під молочних продуктів, чорні всередині, приймає <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a>. Обов'язково розріж, гарно промий та висуши. Для зручності збирай в окремий пакет.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_cup",
+      "title": "Здавай іншому оператору",
+      "hint": "Стаканчики з маркуванням 05 PP здавай в <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелену коробку»</a>. Лише чисті та сухі. Стаканчиків з маркуванням 06 PS та без маркування уникай, їх шанси потрапити на переробку дуже малі.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_container",
+      "title": "Здавай іншому оператору",
+      "hint": "Контейнери з маркуванням 05 PP здавай в <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелену коробку»</a>. Лише чисті та сухі. Контейнерів з маркуванням 06 PS та без маркування уникай, їх шанси потрапити на переробку дуже малі.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_marked",
+      "title": "Здавай іншому оператору",
+      "hint": "Пластик із маркуванням 02 HDPE, 04 LDPE та 05 PP приймають <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a>. Лише чистий та сухий, без наклейок.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "yoghurt_cup",
+      "title": "Здавай іншому оператору",
+      "hint": "Стаканчики з маркуванням 05 PP приймають <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a>. Лише чисті та сухі. Термозбіжну етикетку знімай та викидай, картонну збирай із макулатурою. А від PS-стаканчиків й стаканчиків без маркування краще відмовитися, оскільки їх шанси бути переробленими дуже малі.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "water_cap",
+      "title": "Здавай іншому оператору",
+      "hint": "Такі кришки виготовлені з пластику з маркуванням 04 LDPE, їх приймає <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a>. Лише чисті та сухі. Витягни прокладку з середини, зніми наліпку, збирай разом із пляшками від пляшок.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "other_thermometer",
+      "title": "Утилізуй відповідально!",
+      "hint": "Ртутний термометр потребує спеціальних умов утилізації. Запакуй його надійно та передай до ДП «Боднарівка» (<a href=\"https://bodnarivkaeko.lviv.ua/index.php/nashi-posluhy/dlia-naselennia/\">графік стоянок «Еко-буса»</a>) або в <a href=\"https://city-adm.lviv.ua/lmr/office/upravlinnia-z-pytan-nadvychainykh-sytuatsii-ta-tsyvilnoho-zakhystu-naselennia/\">Управління з питань надзвичайних ситуацій</a>.",
+      "icon": "finalRed"
+    },
+    {
+      "id": "other_tyre",
+      "title": "Відвези до пункту прийому",
+      "hint": "Здавай шини до <a href=\"https://www.facebook.com/Lvivspetskomuntrans/\">ЛКП «Львівспецкомунтранс»</a>. Візьми з собою документ, що підтверджує проживання в місті, — це обов’язкова вимога пункту збору.",
+      "icon": "finalRed"
+    },
+    {
+      "id": "",
+      "title": "Здавай іншому оператору",
+      "hint": "",
+      "icon": "finalGreen"
+    },
+    {
+      "id": "",
+      "title": "Здавай іншому оператору",
+      "hint": "",
       "icon": "finalGreen"
     }
   ]
