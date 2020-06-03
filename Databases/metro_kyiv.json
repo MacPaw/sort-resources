@@ -1,7 +1,7 @@
 {
   "globals": {
     "id": "metro_kyiv",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "compatibleVersion": "0.1",
     "name": "METRO Київ",
     "description": "Компанія METRO створює спеціалізовані пункти сортування відходів — METRO Waste Collection Point, де клієнти торговельного центру можуть передати на переробку відходи паковання. У планах — облаштування таких пунктів у всіх магазинах мережі.",
@@ -1900,8 +1900,8 @@
     {
       "id": "8.13",
       "name": "Харчові відходи",
-      "icon": "",
-      "iconURL": "",
+      "icon": "8.13",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.13.png",
       "keywords": ["компост, органіка, органика, еда, пищевые отходы, хлеб, овощи, фрукти, хліб, овочі, фрукти, очистки, чай, кава, кофе, шкурки, шкірка, шкірки"],
       "wasteType": [
         "compost"
