@@ -722,7 +722,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.3.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
-        "yoghurt_cub"
+        "yoghurt_cup"
       ],
       "hint": null,
       "children": null
@@ -1900,8 +1900,8 @@
     {
       "id": "8.13",
       "name": "Харчові відходи",
-      "icon": "",
-      "iconURL": "",
+      "icon": "8.13",
+      "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.13.png",
       "keywords": ["компост, органіка, органика, еда, пищевые отходы, хлеб, овощи, фрукти, хліб, овочі, фрукти, очистки, чай, кава, кофе, шкурки, шкірка, шкірки"],
       "wasteType": [
         "compost"
@@ -2354,18 +2354,6 @@
       "title": "Відвези до пункту прийому",
       "hint": "Здавай шини до <a href=\"https://www.facebook.com/Lvivspetskomuntrans/\">ЛКП «Львівспецкомунтранс»</a>. Візьми з собою документ, що підтверджує проживання в місті, — це обов’язкова вимога пункту збору.",
       "icon": "finalRed"
-    },
-    {
-      "id": "",
-      "title": "Здавай іншому оператору",
-      "hint": "",
-      "icon": "finalGreen"
-    },
-    {
-      "id": "",
-      "title": "Здавай іншому оператору",
-      "hint": "",
-      "icon": "finalGreen"
     },
     {
       "id": "compost",
