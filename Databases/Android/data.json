@@ -1,6 +1,6 @@
 {
   "globals": {
-    "version": "0.23",
+    "version": "0.24",
     "compatibleVersion": "0.3"
   },
   "providers": [
@@ -2619,7 +2619,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/1.5.2.png",
           "keywords": ["одноразовий посуд, пакування, упаковка, паковання, салат, коробка з-під лапші, лапша, локшина, вок-бокс, вок, картон"],
           "wasteType": [
-            "mixed"
+            "paper_container"
           ],
           "hint": null,
           "children": null
@@ -3038,7 +3038,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.4.1.png",
           "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, 05, поліпропілен, полипропилен, 6, 06, PS, полістирол, полистирол"],
           "wasteType": [
-            "burn_ubs"
+            "plastic_cup"
           ],
           "hint": null,
           "children": null
@@ -3821,7 +3821,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.2.png",
           "keywords": ["одноразовий посуд, деревина, кава, паличка, дерево, дерев'яна паличка, палочка, кофе, деревянная, мішалочка"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -3833,7 +3833,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.3.png",
           "keywords": ["деревина, корзинка, деревянная, дерево, пакування, упаковка, шпон"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -3845,7 +3845,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.4.png",
           "keywords": ["одноразовий посуд, деревина, китайські, дерев'яні, палочки, деревянные, суши, китайские"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -3857,7 +3857,7 @@
           "iconURL": "",
           "keywords": ["деревина, палочки, вушні, ушные, ватные, зубочистка"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -3869,7 +3869,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.6.png",
           "keywords": ["деревина, коврик, салфетка, суші, суши"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -3893,7 +3893,7 @@
           "iconURL": "",
           "keywords": ["одноразовий посуд, деревина, виделка, ложка, ніж, вилка, приборы"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -4148,7 +4148,7 @@
           "iconURL": "",
           "keywords": ["паста, метал, крем, 41, Alu, алюміній, алюминий"],
           "wasteType": [
-            "mixed"
+            "metal_tube"
           ],
           "hint": null,
           "children": null
@@ -4193,7 +4193,7 @@
           "id": "8.13",
           "name": "Харчові відходи",
           "icon": "8.13",
-          "iconURL": "",
+          "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.13.png",
           "keywords": ["компост, органіка, органика, еда, пищевые отходы, хлеб, овощи, фрукти, хліб, овочі, фрукти, очистки, чай, кава, кофе, шкурки, шкірка, шкірки"],
           "wasteType": [
             "compost"
@@ -4292,7 +4292,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.9.png",
           "keywords": ["перчатки, резиновые, господарські, хозяйственные, рукавички, кулька, шарик, прокладка, надувна, презерватив"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -4304,7 +4304,7 @@
           "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/8.10.png",
           "keywords": ["губка, мочалка, спонж, паралон"],
           "wasteType": [
-            "mixed"
+            "burn_ubs"
           ],
           "hint": null,
           "children": null
@@ -4428,7 +4428,7 @@
         {
           "id": "other_clothing",
           "title": "Це ще можна носити?",
-          "hint": "Якщо одяг не соромно вдягти, передай його до благодійного магазину <a href=\"https://www.facebook.com/laskastore/\">«Ласка»</a> або іншим благодійним організаціям. Ганчір'я приймають для подальшої переробки в мережі магазинів H&M.",
+          "hint": "Якщо одяг не соромно вдягти, передай його до благодійного магазину <a href=\"https://www.facebook.com/laskastore/\">«Ласка»</a> або іншим благодійним організаціям. Ганчір'я приймається на високотемпратурне спалювання в перші вихідні кожного місяця. Його також приймають для подальшої переробки в мережі магазинів H&M.",
           "icon": "finalRed"
         },
         {
@@ -4488,7 +4488,7 @@
         {
           "id": "shoes",
           "title": "Це ще можна носити?",
-          "hint": "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, приймають на утилізацію <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічні інвестиції»</a> (графік уточнюй).",
+          "hint": "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, можеш здати на утилізацію на станції (в перші вихідні кожного місяця) або в <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічні інвестиції»</a> (графік уточнюй).",
           "icon": "finalRed"
         },
         {
@@ -4572,7 +4572,7 @@
         {
           "id": "glass_perfume",
           "title": "Здавай як скло",
-          "hint": "Скляну пляшку сполосни та відправляй на переробку. Розпилювач та кришечку здавай на високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
+          "hint": "Скляну пляшку сполосни та відправляй на переробку. Розпилювач та кришечку здавай на високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>). Фарбоване, біле та матове скло не приймається.",
           "icon": "finalGreen"
         },
         {
@@ -4706,6 +4706,24 @@
           "title": "Це можна компостувати",
           "hint": "На звалищі харчові відходи змішуються зі сміттям та починають гнити, виділяючи шкідливий газ ментан. Компостування ж перетворює їх на корисні добрива для ґрунту. Як компостувати в домашніх умовах — <a href=\"https://bit.ly/3enqkyx\">читай тут</a>.",
           "icon": "finalRed"
+        },
+        {
+          "id": "plastic_cup",
+          "title": "Шукай маркування",
+          "hint": "На переробку приймаються стаканчики з маркуванням 05 PP, лише в чистому та сухому вигляді. Стаканчики з маркуванням 01 PET, 06 PS, а також без маркування, приймаються на високотемпературне спалювання (<a href=\"https://www.facebook.com/sortuj/photos/a.1962412470516471/2222564607834588/?type=3&theater/\">деталі тут</a>).",
+          "icon": "finalYellow"
+        },
+        {
+          "id": "paper_container",
+          "title": "Збирай окремо",
+          "hint": "Чисті та сухі паперові контейнери з глянцевою поверхнею приймаються на переробку. На станції збирай їх разом із одноразовими паперовими стаканчиками.",
+          "icon": "finalYellow"
+        },
+        {
+          "id": "metal_tube",
+          "title": "Здавай як метал",
+          "hint": "Приймаються на переробку алюмінієві тюбики. Максимально звільни від вмісту і стисни. Пластикову кришечку сортуй згідно маркування.",
+          "icon": "finalGrey"
         }
       ]
     },
