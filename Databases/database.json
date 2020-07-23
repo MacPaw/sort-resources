@@ -1,6 +1,6 @@
 {
   "globals" : {
-    "version" : "2.0.6",
+    "version" : "2.0.7",
     "compatible_version" : "2.0"
   },
   "waste_items" : [
@@ -2678,6 +2678,15 @@
     {
       "map_filter" : null,
       "action_title" : "Збирай окремо",
+      "id" : "paper_container",
+      "recommendation" : "Чисті та сухі паперові контейнери з глянцевою поверхнею приймаються на переробку. На станції збирай їх разом із одноразовими паперовими стаканчиками.",
+      "icon_url" : null,
+      "icon" : "finalYellow",
+      "name" : "paper_container"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Збирай окремо",
       "id" : "paper_cup",
       "recommendation" : "Промий від залишків напоїв, висуши. Стаканчики з шаром фольги та відерця з-під поп-корну також приймаються.",
       "icon_url" : null,
@@ -2778,7 +2787,7 @@
       "map_filter" : null,
       "action_title" : "Шукай маркування",
       "id" : "plastic_cup",
-      "recommendation" : "Приймаються стаканчики з маркуванням 05 PP та 06 PS. Лише чисті та сухі.",
+      "recommendation" : "На переробку приймаються стаканчики з маркуванням 05 PP, лише в чистому та сухому вигляді. Стаканчики з маркуванням 01 PET, 06 PS, а також без маркування, приймаються на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">деталі тут<\/a>).",
       "icon_url" : null,
       "icon" : "finalYellow",
       "name" : "plastic_cup"
@@ -3483,6 +3492,13 @@
           "recommendation" : "Збирай лише чисту фольгу, без залишків їжі та жиру. Спресуй для компактності. Зверни увагу: фольга з шаром паперу (наприклад, від шоколаду) не приймається. Для перевірки стисни фольгу в руці: та, що підлягає переробці, залишиться зім'ятою."
         },
         {
+          "waste_item_id" : "1.5.2",
+          "waste_containers" : [
+            "paper_container"
+          ],
+          "recommendation" : null
+        },
+        {
           "waste_item_id" : "2.6",
           "waste_containers" : [
             "styrofoam"
@@ -3632,7 +3648,7 @@
         {
           "waste_item_id" : "2.4.1",
           "waste_containers" : [
-            "burn_ubs"
+            "plastic_cup"
           ],
           "recommendation" : null
         },
@@ -4015,9 +4031,51 @@
           "recommendation" : "Твій оператор приймає натуральні коркові пробки. Пробки з пластику приймаються лише на високотемпературне спалювання."
         },
         {
+          "waste_item_id" : "3.9.2",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.9.3",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.9.4",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.9.5",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.9.6",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : null
+        },
+        {
           "waste_item_id" : "3.9.7",
           "waste_containers" : [
             "bamboo_toothbrush"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.9.8",
+          "waste_containers" : [
+            "burn_ubs"
           ],
           "recommendation" : null
         },
@@ -4047,7 +4105,7 @@
           "waste_containers" : [
             "glass_perfume"
           ],
-          "recommendation" : "Скляну пляшку сполосни та відправляй на переробку. Розпилювач та кришечку здавай на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">деталі тут<\/a>)."
+          "recommendation" : "Скляну пляшку сполосни та відправляй на переробку. Розпилювач та кришечку здавай на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">деталі тут<\/a>). Фарбоване, біле та матове скло не приймається."
         },
         {
           "waste_item_id" : "4.2.1",
@@ -4120,6 +4178,13 @@
           "recommendation" : null
         },
         {
+          "waste_item_id" : "5.7",
+          "waste_containers" : [
+            "metal_tube"
+          ],
+          "recommendation" : "Приймаються на переробку алюмінієві тюбики. Максимально звільни від вмісту і стисни. Пластикову кришечку сортуй згідно маркування."
+        },
+        {
           "waste_item_id" : "5.9",
           "waste_containers" : [
             "metal_candle"
@@ -4166,7 +4231,7 @@
           "waste_containers" : [
             "other_clothing"
           ],
-          "recommendation" : "Якщо одяг не соромно вдягти, передай його до благодійного магазину <a href=\"https:\/\/www.facebook.com\/laskastore\/\">«Ласка»<\/a> або іншим благодійним організаціям. Ганчір'я приймають для подальшої переробки в мережі магазинів H&M."
+          "recommendation" : "Якщо одяг не соромно вдягти, передай його до благодійного магазину <a href=\"https:\/\/www.facebook.com\/laskastore\/\">«Ласка»<\/a> або іншим благодійним організаціям. Ганчір'я приймається на високотемпратурне спалювання в перші вихідні кожного місяця. Його також приймають для подальшої переробки в мережі магазинів H&M."
         },
         {
           "waste_item_id" : "8.6",
@@ -4190,11 +4255,25 @@
           "recommendation" : null
         },
         {
+          "waste_item_id" : "8.9",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "8.10",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : null
+        },
+        {
           "waste_item_id" : "8.11",
           "waste_containers" : [
             "shoes"
           ],
-          "recommendation" : "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, приймають на утилізацію <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> (графік уточнюй)."
+          "recommendation" : "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, можеш здати на утилізацію на станції (в перші вихідні кожного місяця) або в <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> (графік уточнюй)."
         },
         {
           "waste_item_id" : "8.12",
@@ -6486,7 +6565,7 @@
           "waste_containers" : [
             "plastic_cup"
           ],
-          "recommendation" : null
+          "recommendation" : "Приймаються стаканчики з маркуванням 05 PP та 06 PS. Лише чисті та сухі."
         },
         {
           "waste_item_id" : "2.4.5",
