@@ -1,7 +1,7 @@
 {
   "globals": {
     "id": "metro_kyiv",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "compatibleVersion": "0.1",
     "name": "METRO Київ",
     "description": "Компанія METRO створює спеціалізовані пункти сортування відходів — METRO Waste Collection Point, де клієнти торговельного центру можуть передати на переробку відходи паковання. У планах — облаштування таких пунктів у всіх магазинах мережі.",
@@ -782,7 +782,7 @@
       "iconURL": "",
       "keywords": ["виделка, ложка, ніж, столові прибори, вилка, нож"],
       "wasteType": [
-        "other_ubs"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
