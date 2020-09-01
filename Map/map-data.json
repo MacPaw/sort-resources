@@ -4,55 +4,55 @@
       "id": "ukraina_bez_smittya",
       "locationType": "Станція",
       "locationName": "Україна без сміття",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "plastic_blister", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "cup_cover", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "paper", "egg_carton", "corks", "wood", "wood_qtips", "wood_brush", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing","other_electro", "plastic_tube", "water_cap"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "paper", "egg_carton", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_electro", "plastic_tube", "water_cap", "plastic_cap", "PET_clear", "metal_tube", "post_bag", "paper_container", "burn_ubs"]
     },
     {
       "id": "kmvr",
       "locationType": "Пункт прийому",
       "locationName": "Київміськвторресурси",
-      "acceptedWasteTypes": ["paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "paper", "egg_carton", "glass", "glass_perfume", "metal_alu", "tetrapak", "other_tyre", "other_mattress"]
+      "acceptedWasteTypes": ["paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "egg_carton", "glass", "glass_perfume", "metal_alu", "tetrapak", "other_tyre", "other_mattress", "plastic_box", "plastic_mebli"]
     },
     {
       "id": "vtorma",
       "locationType": "Пункт прийому",
       "locationName": "ВТОРМА юа",
-      "acceptedWasteTypes": ["paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_bag", "post_bag", "plastic_wrap", "zip_bag", "milk_bag", "styrofoam", "cards", "shoe_covers", "egg_carton", "glass", "metal_can", "metal_alu", "tetrapak"]
+      "acceptedWasteTypes": ["paper", "plastic", "plastic_can", "plastic_oil", "plastic_bag", "post_bag", "plastic_wrap", "zip_bag", "milk_bag", "styrofoam", "cards", "shoe_covers", "egg_carton", "glass", "metal_can", "metal_alu", "tetrapak", "plastic_mebli", "plastic_box", "plastic_marked", "water_cap"]
     },
     {
       "id": "isort",
       "locationType": "Пункт прийому",
       "locationName": "Я Сортую",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "post_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "milk_bag", "foam_container", "yoghurt_cup", "plastic_container", "plastic_cup", "styrofoam", "shoe_covers", "egg_carton", "corks", "wood_basket", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "post_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "milk_bag", "foam_container", "yoghurt_cup", "plastic_container", "plastic_cup", "styrofoam", "shoe_covers", "egg_carton", "corks", "wood_basket", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "mirror", "plastic_marked", "plastic_mebli", "plastic_box", "water_cap"]
     },
     {
       "id": "pryhysty_paket",
       "locationType": "Пункт прийому",
       "locationName": "Прихисти пакет",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "post_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "shoe_covers", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "shoes", "pen", "marker", "water_cap", "plastic_tube"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "post_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "shoe_covers", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "shoes", "pen", "marker", "water_cap", "plastic_tube", "plastic_bag2", "plastic_marked", "plastic_mebli", "plastic_box"]
     },
     {
       "id": "glevaha",
       "locationType": "Пункт прийому",
       "locationName": "Чиста Глеваха",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "plastic_blister", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "cup_cover", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "egg_carton", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "other_electro", "shoes", "plastic_tube", "water_cap"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "egg_carton", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "shoes", "plastic_tube", "water_cap", "battery"]
     },
     {
       "id": "green_box",
       "locationType": "Пункт прийому",
       "locationName": "Зелена коробка",
-      "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "styrofoam", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_kanistra", "tetrapak", "battery", "other_electro", "other_lamp_LED", "water_cap", "zip_bag", "shoe_covers"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "styrofoam", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_kanistra", "tetrapak", "battery", "other_electro", "water_cap", "zip_bag", "shoe_covers", "post_bag", "plastic_cup", "plastic_container", "yoghurt_cup"]
     },
     {
       "id": "ecodbay",
       "locationType": "Пункт прийому",
       "locationName": "ECODBAY",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_milk", "plastic_bag", "post_bag", "plastic_bag2", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "plastic_box", "paper_chalk", "paper_fax", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_milk", "plastic_bag", "post_bag", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "plastic_box", "paper_chalk", "paper_fax", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak"]
     },
     {
       "id": "misto_m",
       "locationType": "Мобільний пункт прийому",
       "locationName": "Місто майбутнього",
-      "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_can", "plastic_drugs", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_candle", "metal_kanistra"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "plastic", "plastic_can", "plastic_drugs", "plastic_wash", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "shoe_covers", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_candle", "metal_kanistra", "plastic_mebli", "plastic_box"]
     },
     {
       "id": "green_house",
@@ -100,7 +100,7 @@
       "id": "eco_patrul",
       "locationType": "Мобільний пункт прийому",
       "locationName": "Екопатруль",
-      "acceptedWasteTypes": ["paper_chalk", "paper", "PET_clear", "plastic_cap", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_posud", "tetrapak", "water_cap", "plastic_cup", "yoghurt_cup", "plastic_blister", "plastic_container", "zip_bag", "cup_cover", "egg_carton"]
+      "acceptedWasteTypes": ["paper_chalk", "paper", "PET_clear", "plastic_cap", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_wrap", "plastic_marked", "plastic_bag", "plastic_mebli", "plastic_box", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_posud", "tetrapak", "water_cap", "plastic_cup", "yoghurt_cup", "plastic_blister", "plastic_container", "zip_bag", "cup_cover", "egg_carton", "metal_kanistra", "plastic_bag2", "post_bag", "milk_bag"]
     },
     {
       "id": "silpo_dp",
@@ -1218,6 +1218,11 @@
           "address": "вул. Хортицьке шосе, 30А",
           "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com/silporecycling/",
           "coordinates": "47.830277, 35.016161"
+        },
+        {
+          "address": "вул. Перемоги, 64",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com/silporecycling/",
+          "coordinates": "47.835638, 35.122082"
         }
       ]
     },
