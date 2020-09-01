@@ -1,7 +1,7 @@
 {
   "globals": {
     "id": "silpo_kyiv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "compatibleVersion": "0.1",
     "name": "SilpoRecycling Київ",
     "description": "Станції SilpoRecycling — проєкт мережі супермаркетів «Сільпо», що дозволяє здавати на переробку вторсировину та отримувати додаткові бали на карту «Власний Рахунок».\n\n<a href=\"https://www.facebook.com/silporecycling\">Перейти на сайт</a>",
