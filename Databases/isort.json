@@ -1,7 +1,7 @@
 {
   "globals": {
     "id": "isort",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "compatibleVersion": "0.1",
     "name": "Я Сортую",
     "description": "ГО «Я Сортую» забезпечує роботу мобільної станції сортування в м. Харків, займається проведенням тематичних лекцій, майстеркласів з апсайклінгу і ресайклінгу, а також надає послуги з налагодження роздільного збору та вивезення вторсировини для офісів.\n\n<a href=\"https://yasortuyu.com.ua/\">Перейти на сайт</a>",
@@ -738,7 +738,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.3.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, сметана, йогурт, желе, container, cup, 02, 2, HDPE, PE-HD, PEHD, ПНД, ПЭВП, ПНТ, ПЕВЩ, ряжанка, 5, 05, 6, 06, PS, PP, харчові контейнери"],
       "wasteType": [
-        "yoghurt_cup_reuse"
+        "yoghurt_cup"
       ],
       "hint": null,
       "children": null
@@ -762,7 +762,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.4.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, горнятко, стаканчик, cup, PP, 5, поліпропілен, полипропилен, 05, 6, 06, PS, полістирол, полистирол"],
       "wasteType": [
-        "yoghurt_cup_reuse"
+        "plastic_cup"
       ],
       "hint": null,
       "children": null
@@ -2157,7 +2157,7 @@
     },
     {
       "id": "corks",
-      "title": "Збирай окремо: деревина",
+      "title": "Збирай окремо",
       "hint": "Твій оператор приймає цілі, чисті, сухі коркові пробки для творчих проектів.",
       "icon": "finalRed"
     },
@@ -2270,7 +2270,13 @@
       "icon": "finalRed"
     },
     {
-      "id": "yoghurt_cup_reuse",
+      "id": "yoghurt_cup",
+      "title": "Збирай окремо",
+      "hint": "Для доброї справи приймаються стаканчики об'ємом від 200 мл незалежно від маркування, лише цілі та чисті.",
+      "icon": "finalYellow"
+    },
+    {
+      "id": "plastic_cup",
       "title": "Збирай окремо",
       "hint": "Для доброї справи приймаються стаканчики об'ємом від 200 мл незалежно від маркування, лише цілі та чисті.",
       "icon": "finalYellow"
