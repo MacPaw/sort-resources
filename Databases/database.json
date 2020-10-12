@@ -1,6 +1,6 @@
 {
   "globals" : {
-    "version" : "2.0.8",
+    "version" : "2.0.9",
     "compatible_version" : "2.0"
   },
   "waste_items" : [
@@ -40,7 +40,8 @@
         "3.9.8",
         "3.9.4",
         "3.9.2",
-        "2.4.6"
+        "2.4.6",
+        "2.4.8"
       ],
       "recommendation" : null,
       "icon_url" : null,
@@ -210,7 +211,8 @@
         "1.1.1",
         "2.4.3",
         "1.1.2",
-        "2.4.4"
+        "2.4.4",
+        "2.4.8"
       ],
       "recommendation" : null,
       "icon_url" : null,
@@ -381,9 +383,11 @@
         "2.2.1",
         "2.2.2",
         "2.2.3",
+        "2.5.5",
         "2.2.4",
         "2.2.5",
-        "2.2.6"
+        "2.2.6",
+        "2.2.7"
       ],
       "recommendation" : null,
       "icon_url" : null,
@@ -722,6 +726,18 @@
       "icon_url" : "https:\/\/raw.githubusercontent.com\/MacPaw\/sort-resources\/master\/Icons\/Items\/2.2.6.png",
       "icon" : "2.2.6",
       "name" : "Пакет з-під молока"
+    },
+    {
+      "id" : "2.2.7",
+      "keywords" : "пакування, упаковка, паковання, пластівці, хлебцы, хлібці, bag, 5, 05, PP, ПП, полипропилен, поліпропілен, сухі сніданки, сухий сніданок, шуршун, цукерки, конфеты, горішки, орешки, арахіс, арахис, чіпси, чипсы, драже, snack, candy, chips",
+      "waste_types" : [
+
+      ],
+      "children" : null,
+      "recommendation" : null,
+      "icon_url" : null,
+      "icon" : "2.2.3",
+      "name" : "Пакет з-під цукерок і снеків"
     },
     {
       "id" : "2.3.1",
@@ -3438,7 +3454,7 @@
           "waste_containers" : [
             "tetrapak"
           ],
-          "recommendation" : null
+          "recommendation" : "Промий від залишків рідини, висуши, стисни. Кришки не знімай. Трубочки та пакетики від порційних напоїв промий та склади всередину."
         },
         {
           "waste_item_id" : "7",
@@ -3605,6 +3621,13 @@
           "waste_item_id" : "2.2.6",
           "waste_containers" : [
             "milk_bag"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "plastic_bag2"
           ],
           "recommendation" : null
         },
@@ -4415,9 +4438,9 @@
         {
           "waste_item_id" : "2.2.3",
           "waste_containers" : [
-            "other_ubs"
+            "burn_ubs"
           ],
-          "recommendation" : null
+          "recommendation" : "Можна здати на високотемпературне спалювання на станції «Україна без сміття». В чистому та сухому вигляді. <a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">Деталі тут<\/a>."
         },
         {
           "waste_item_id" : "2.2.4",
@@ -4439,6 +4462,13 @@
             "other_ubs"
           ],
           "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : "Можна здати на високотемпературне спалювання на станції «Україна без сміття». В чистому та сухому вигляді. <a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">Деталі тут<\/a>."
         },
         {
           "waste_item_id" : "2.3.1",
@@ -5363,6 +5393,13 @@
           "recommendation" : "Приймаються поліетиленові пакети з-під молочних продуктів, чорні всередині. Обов'язково розріж, гарно промий та висуши. Для зручності збирай в окремий пакет."
         },
         {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "plastic_bag2"
+          ],
+          "recommendation" : "«Шуршик» — це пакети з-під круп, снеків, що сильно шуршать і при розтягуванні рвуться (маркування — 05 PP або відсутнє). Твій оператор приймає лише прозорі пластикові пакети з принтом (з-під круп, цукру, макаронних виробів, хлібу). Лише чисті, сухі, без залишків вмісту. Пакети з-під хлібу збирай окремо від іншого шуршику. Переробка «шуршику» ускладнена, спробуй знайти альтернативу."
+        },
+        {
           "waste_item_id" : "2.3.2",
           "waste_containers" : [
             "foam_container"
@@ -5804,7 +5841,7 @@
           "waste_containers" : [
             "tetrapak"
           ],
-          "recommendation" : "Промий від залишків рідини, висуши, стисни. Кришки та горловини знімай та збирай окремо."
+          "recommendation" : "Промий від залишків рідини, висуши, стисни. Щоб паковання при транспортування не розсипалось, збери його в коробку або склади стопкою та перев'яжи мотузкою. Кришки та горловини знімай та збирай окремо."
         },
         {
           "waste_item_id" : "7",
@@ -5952,6 +5989,13 @@
             "milk_bag"
           ],
           "recommendation" : "Приймаються поліетиленові пакети з-під молочних продуктів, чорні всередині. Обов'язково розріж, гарно промий та висуши. Для зручності збирай в окремий пакет."
+        },
+        {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "plastic_bag2"
+          ],
+          "recommendation" : "«Шуршик» — це пакети з-під круп, снеків, що сильно шуршать і при розтягуванні рвуться (маркування — 05 PP або відсутнє). Вони не переробляється, але твій оператор приймає їх для апсайклінг-проєкту. Чисті, сухі, порізані на шматки близько 2*3 см. Оскільки така вторсировина не є ресурсоцінною, її приймають з доплатою для компенсації вартості транспортування."
         },
         {
           "waste_item_id" : "2.3.2",
@@ -8131,6 +8175,13 @@
           "recommendation" : null
         },
         {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "cuv_plastic_bag2"
+          ],
+          "recommendation" : null
+        },
+        {
           "waste_item_id" : "2.3.1",
           "waste_containers" : [
             "cuv_plastic_cup"
@@ -8645,6 +8696,13 @@
           "recommendation" : "Відріж пластикову застібку, вимий та висуши. Здавай своєму оператору, в <a href=\"https:\/\/www.facebook.com\/kims.com.ua\/\">мережі хімчисток KIMS<\/a> або проекту <a href=\"https:\/\/www.facebook.com\/preciousplasticukraine\/\">«Дорогоцінний пластик»<\/a>."
         },
         {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "plastic_bag2"
+          ],
+          "recommendation" : "«Шуршик» — це пакети з-під круп, снеків, що сильно шуршать і при розтягуванні рвуться (маркування — 05 PP або відсутнє). Без срібного шару всередині. Для зручності збирай в окремий пакет. Пакети з-під хлібу — теж «шуршик». Приймається лише чистий, сухий."
+        },
+        {
           "waste_item_id" : "2.3.3",
           "waste_containers" : [
             "yoghurt_cup"
@@ -9103,6 +9161,13 @@
           "recommendation" : "Твій оператор не приймає цей вид вторсировини. Відріж пластикову застібку, вимий, висуши та здавай до (<a href=\"https:\/\/www.facebook.com\/mistom.org\/\">«Міста майбутнього»<\/a>), у <a href=\"https:\/\/www.facebook.com\/kims.com.ua\/\">мережі хімчисток KIMS<\/a> або проекту <a href=\"https:\/\/www.facebook.com\/preciousplasticukraine\/\">«Дорогоцінний пластик»<\/a>."
         },
         {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "misto_m"
+          ],
+          "recommendation" : null
+        },
+        {
           "waste_item_id" : "2.3.3",
           "waste_containers" : [
             "yoghurt_cup"
@@ -9559,6 +9624,13 @@
             "zip_bag"
           ],
           "recommendation" : "Твій оператор не приймає цей вид вторсировини. Здавай до <a href=\"https:\/\/www.facebook.com\/mistom.org\/\">«Міста майбутнього»<\/a>, у <a href=\"https:\/\/www.facebook.com\/kims.com.ua\/\">мережі хімчисток KIMS<\/a> або проекту <a href=\"https:\/\/www.facebook.com\/preciousplasticukraine\/\">«Дорогоцінний пластик»<\/a>. Відріж пластикову застібку, вимий та висуши."
+        },
+        {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "misto_m"
+          ],
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.3.3",
@@ -10391,6 +10463,13 @@
             "other_ubs"
           ],
           "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "burn_ubs"
+          ],
+          "recommendation" : "Можна здати на на високотемпературне спалювання на станції «Україна без сміття». В чистому та сухому вигляді. <a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">Деталі тут<\/a>."
         },
         {
           "waste_item_id" : "2.3.1",
