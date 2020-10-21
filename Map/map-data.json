@@ -137,6 +137,12 @@
       "locationType": "Станція сортування",
       "locationName": "SilpoRecycling",
       "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak", "metal_can", "metal_aerosol", "metal_cap"]
+    },
+    {
+      "id": "rada",
+      "locationType": "Пункт прийому",
+      "locationName": "Рада",
+      "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak", "metal_can", "metal_aerosol", "metal_cap"]
     }
   ],
 
@@ -1283,6 +1289,16 @@
           "address": "вул. Академіка Павлова, 44Б",
           "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Нд: 8:30–20:00<br>обід: 14:00-15:00<br>www.facebook.com/silporecycling/",
           "coordinates": "49.990999, 36.290159"
+        }
+      ]
+    },
+    {
+      "operator": "rada",
+      "locations": [
+        {
+          "address": "",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Нд: 8:30–20:00<br>обід: 14:00-15:00<br>www.facebook.com/environmentalSPERADA",
+          "coordinates": ""
         }
       ]
     }

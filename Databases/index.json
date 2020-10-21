@@ -153,6 +153,13 @@
       "compatibleVersion": "0.1",
       "location": "silpo_kharkiv.json",
       "name": "SilpoRecycling Харків"
+    },
+    {
+      "id": "rada",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "rada.json",
+      "name": "Екологічне підприємство Рада"
     }
   ],
   "popularSearchRequests": [
