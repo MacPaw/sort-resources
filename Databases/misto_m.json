@@ -2128,7 +2128,7 @@
       "id": "tetrapak",
       "title": "Збирай окремо",
       "hint": "Паковання типу Tetra Pak, Elopak, Pure-Pak здавай на станцію <a href=\"https://www.facebook.com/silporecycling/\">«SilpoRecycling»</a>. Промий, висуши, стисни. Кришки можеш не знімати.",
-      "icon": "finalRed"
+      "icon": "finalYellow"
     },
     {
       "id": "styrofoam",

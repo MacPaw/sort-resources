@@ -137,6 +137,12 @@
       "locationType": "Станція сортування",
       "locationName": "SilpoRecycling",
       "acceptedWasteTypes": ["paper_cup", "PET_clear", "plastic_wash", "plastic_drugs", "plastic_oil", "plastic_milk", "plastic_can", "plastic_cap", "plastic_wrap", "paper", "glass", "glass_perfume", "metal_alu", "tetrapak", "metal_can", "metal_aerosol", "metal_cap"]
+    },
+    {
+      "id": "rada",
+      "locationType": "Пункт прийому",
+      "locationName": "Рада",
+      "acceptedWasteTypes": ["PET_clear", "plastic_oil", "plastic_cap", "paper", "glass", "glass_perfume", "glass_broken", "metal_alu", "metal_can"]
     }
   ],
 
@@ -1254,6 +1260,66 @@
           "address": "вул. Академіка Павлова, 44Б",
           "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 8:30-20:00<br>обід: 14:00-15:00<br>www.facebook.com/silporecycling/",
           "coordinates": "49.990999, 36.290159"
+        }
+      ]
+    },
+    {
+      "operator": "rada",
+      "locations": [
+        {
+          "address": "вул. Леніна (базар)",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.643712, 29.934338"
+        },
+        {
+          "address": "вул. Вокзальна, 73",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.550562, 30.220778"
+        },
+        {
+          "address": "вул. Нове Шосе (біля буд. 17)",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.551606, 30.208373"
+        },
+        {
+          "address": "вул. Курортна, 11",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.537445, 30.171171"
+        },
+        {
+          "address": "вул. Свято-Покровська (базар)",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.566817, 30.270695"
+        },
+        {
+          "address": "вул. Хмельницького, 2",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.575582, 30.207491"
+        },
+        {
+          "address": "вул. 9-та лінія (район школи №3)",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.538344, 30.258500"
+        },
+        {
+          "address": "вул. Миру, 16",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.533558, 30.235193"
+        },
+        {
+          "address": "вул. Підгірна, 6",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.512443, 30.253912"
+        },
+        {
+          "address": "вул. Лермонтова, 23",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.520289, 30.218189"
+        },
+        {
+          "address": "вул. Залізнична, 2 (базар)",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
+          "coordinates": "50.489513, 30.332440"
         }
       ]
     }
