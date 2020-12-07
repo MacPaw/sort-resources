@@ -160,6 +160,13 @@
       "compatibleVersion": "0.1",
       "location": "rada.json",
       "name": "Екологічне підприємство «Рада»"
+    },
+    {
+      "id": "ekomisto_izmail",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "ekomisto_izmail.json",
+      "name": "Екомісто Ізмаїл"
     }
   ],
   "popularSearchRequests": [
