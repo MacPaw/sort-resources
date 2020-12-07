@@ -142,7 +142,7 @@
     },
     {
       "id": "silpo_odesa",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "compatibleVersion": "0.1",
       "location": "silpo_odesa.json",
       "name": "SilpoRecycling Одеса"
@@ -160,6 +160,13 @@
       "compatibleVersion": "0.1",
       "location": "rada.json",
       "name": "Екологічне підприємство «Рада»"
+    },
+    {
+      "id": "ekomisto_izmail",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "ekomisto_izmail.json",
+      "name": "Екомісто Ізмаїл"
     }
   ],
   "popularSearchRequests": [
