@@ -142,7 +142,7 @@
     },
     {
       "id": "silpo_odesa",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "compatibleVersion": "0.1",
       "location": "silpo_odesa.json",
       "name": "SilpoRecycling Одеса"
