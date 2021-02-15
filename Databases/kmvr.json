@@ -2128,7 +2128,7 @@
     {
       "id": "other_syringe",
       "title": "Утилізуй відповідально!",
-      "hint": "Обережно: шприци — це небезпечні відходи. Звертайся до <a href=\"https://www.facebook.com/ecological.recycling.technology/\">«Екологічних переробних технологій»</a> для утилізації.",
+      "hint": "Обережно: шприци для ін'єкцій — небезпечні відходи. <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічні інвестиції»</a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https://www.facebook.com/sortuj/\">нашу сторінку</a>, щоб не пропустити наступну.",
       "icon": "finalRed"
     },
     {
@@ -2164,7 +2164,7 @@
     {
       "id": "other_drugs",
       "title": "Утилізуй відповідально!",
-      "hint": "Ліки небезпечні для природи, тож здавай їх до <a href=\"https://www.facebook.com/ecological.recycling.technology/\">«Екологічних переробних технологій»</a> (графік уточнюй).",
+      "hint": "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічні інвестиції»</a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https://www.facebook.com/sortuj/\">нашу сторінку</a>, щоб не пропустити наступну.",
       "icon": "finalRed"
     },
     {
