@@ -1,6 +1,6 @@
 {
   "globals" : {
-    "version" : "2.2.0",
+    "version" : "2.2.1",
     "compatible_version" : "2.0"
   },
   "waste_items" : [
@@ -1005,7 +1005,7 @@
     },
     {
       "id" : "2.5.12",
-      "keywords" : "пакування, упаковка, паковання, 3, 03, PVC, V, поливинилхлорид, ПВХ, полівенілхлорид, 7, 07, O, OTHER, полікарбонат,  PC",
+      "keywords" : "пакування, упаковка, паковання, 3, 03, PVC, V, поливинилхлорид, ПВХ, полівенілхлорид, 7, 07, O, OTHER, полікарбонат,  PC, бутель, бутыль, вода",
       "waste_types" : [
 
       ],
@@ -2108,6 +2108,15 @@
   "waste_containers" : [
     {
       "map_filter" : null,
+      "action_title" : "Шукай маркування",
+      "id" : "07_ubs",
+      "recommendation" : "Приймаються на переробку вироби з маркуванням 07 PC (бутлі з-під води та інші). Інший пластик з маркуванням 03 та 07 приймається лише на високотемпературне спалювання(<a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">деталі тут<\/a>).",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "07_ubs"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Здавай як пластик",
       "id" : "PET_clear",
       "recommendation" : "Приймаються прозорі, блакитні, зелені та коричневі пляшки з-під напоїв. Промий, висуши, стисни. Етикетки залишай, кришки знімай та сортуй окремо. На станції пляшки необхідно буде розкласти в контейнери за кольором. Спортивні кришечки від води приймають разом із дозаторами та розпилювачами (уточнюй у консультантів).",
@@ -2159,6 +2168,15 @@
       "icon_url" : null,
       "icon" : "finalRed",
       "name" : "cards"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Збирай окремо",
+      "id" : "cd",
+      "recommendation" : "Приймаються на переробку компакт-диски без коробок. На станції складай їх в окремий контейнер. Коробки від дисків приймається лише на високотемпературне спалювання(<a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/a.1962412470516471\/2222564607834588\/?type=3&theater\/\">деталі тут<\/a>).",
+      "icon_url" : null,
+      "icon" : "finalYellow",
+      "name" : "cd"
     },
     {
       "map_filter" : null,
@@ -2569,7 +2587,7 @@
       "map_filter" : null,
       "action_title" : "Утилізуй відповідально!",
       "id" : "other_drugs",
-      "recommendation" : "Ліки небезпечні для природи, тож здавай їх до <a href=\"https:\/\/www.facebook.com\/ecological.recycling.technology\/\">«Екологічних переробних технологій»<\/a> (графік уточнюй).",
+      "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. Наразі така можливість є лише у Києві: <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Якщо не можеш передати через знайомих, спакуй та залиш чекати кращих часів (особливо це стосується антибіотиків та інших сильнодіючих препаратів).",
       "icon_url" : null,
       "icon" : "finalRed",
       "name" : "other_drugs"
@@ -2641,7 +2659,7 @@
       "map_filter" : null,
       "action_title" : "Утилізуй відповідально!",
       "id" : "other_syringe",
-      "recommendation" : "Обережно: шприци — це небезпечні відходи. Звертайся до <a href=\"https:\/\/www.facebook.com\/ecological.recycling.technology\/\">«Екологічних переробних технологій»<\/a> для утилізації.",
+      "recommendation" : "Шприци для ін'єкцій — небезпечні відходи. Наразі можливість для їхньої утилізації є лише у Києві: <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Якщо не можеш передати через знайомих, спакуй та залиш чекати кращих часів (особливо це стосується шприців від антибіотиків та інших сильнодіючих препаратів).",
       "icon_url" : null,
       "icon" : "finalRed",
       "name" : "other_syringe"
@@ -3797,7 +3815,7 @@
         {
           "waste_item_id" : "2.5.12",
           "waste_containers" : [
-            "burn_ubs"
+            "07_ubs"
           ],
           "recommendation" : null
         },
@@ -3862,7 +3880,7 @@
           "waste_containers" : [
             "other_syringe"
           ],
-          "recommendation" : null
+          "recommendation" : "Обережно: шприци для ін'єкцій — небезпечні відходи, їх треба здавати на утилізацію. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "2.8.4",
@@ -3916,7 +3934,7 @@
         {
           "waste_item_id" : "2.9.3",
           "waste_containers" : [
-            "burn_ubs"
+            "cd"
           ],
           "recommendation" : null
         },
@@ -4275,7 +4293,7 @@
           "waste_containers" : [
             "other_drugs"
           ],
-          "recommendation" : null
+          "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "8.9",
@@ -4540,7 +4558,7 @@
           "waste_containers" : [
             "other_syringe"
           ],
-          "recommendation" : null
+          "recommendation" : "Обережно: шприци для ін'єкцій — небезпечні відходи. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "2.8.5",
@@ -4827,7 +4845,7 @@
           "waste_containers" : [
             "other_drugs"
           ],
-          "recommendation" : null
+          "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "8.11",
@@ -6228,14 +6246,14 @@
           "waste_containers" : [
             "glass"
           ],
-          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай. Пластикові кришечки з маркуванням 02 HDPE також приймаються. Металеві твій оператор не приймає, але здавати їх на станцію <a href=\"https:\/\/www.facebook.com\/silporecycling\/\">«SilpoRecycling»<\/a>. Бите скло збирай окремо."
+          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай. Металеві кришечки та пластикові з маркуванням 02 HDPE також приймаються. Бите скло збирай окремо."
         },
         {
           "waste_item_id" : "4.3",
           "waste_containers" : [
             "glass"
           ],
-          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай. Пластикові кришечки з маркуванням 02 HDPE також приймаються. Металеві твій оператор не приймає, але здавати їх на станцію <a href=\"https:\/\/www.facebook.com\/silporecycling\/\">«SilpoRecycling»<\/a>. Бите скло збирай окремо."
+          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай. Металеві кришечки та пластикові з маркуванням 02 HDPE також приймаються. Бите скло збирай окремо."
         },
         {
           "waste_item_id" : "4.6",
@@ -6249,7 +6267,7 @@
           "waste_containers" : [
             "glass"
           ],
-          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай. Пластикові кришечки з маркуванням 02 HDPE також приймаються. Металеві твій оператор не приймає, але здавати їх на станцію <a href=\"https:\/\/www.facebook.com\/silporecycling\/\">«SilpoRecycling»<\/a>. Бите скло збирай окремо."
+          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай. Металеві кришечки та пластикові з маркуванням 02 HDPE також приймаються. Бите скло збирай окремо."
         },
         {
           "waste_item_id" : "4.9",
@@ -6333,7 +6351,7 @@
           "waste_containers" : [
             "metal_posud"
           ],
-          "recommendation" : null
+          "recommendation" : "Збирай чистим, але спробуй спочатку віддати через безкоштовні оголошення або передай до <a href=\"https:\/\/www.facebook.com\/RedCrossUkraine\/\">«Червоного Хреста»<\/a> чи в Екохаб на вул. Малопанасівській, 22."
         },
         {
           "waste_item_id" : "5.7",
@@ -6658,7 +6676,7 @@
           "waste_containers" : [
             "other_syringe"
           ],
-          "recommendation" : "Обережно: шприци — це небезпечні відходи. У Києві їх можна здати до <a href=\"https:\/\/www.facebook.com\/ecological.recycling.technology\/\">«Екологічних переробних технологій»<\/a> для утилізації."
+          "recommendation" : "Обережно: шприци для ін'єкцій — небезпечні відходи. У Київі <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "2.8.5",
@@ -6945,7 +6963,7 @@
           "waste_containers" : [
             "other_drugs"
           ],
-          "recommendation" : "Ліки небезпечні для природи. В Києві їх можна здати до <a href=\"https:\/\/www.facebook.com\/ecological.recycling.technology\/\">«Екологічних переробних технологій»<\/a> (графік уточнюй)."
+          "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. У Києві <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "8.11",
@@ -7011,7 +7029,7 @@
           "waste_containers" : [
             "styrofoam"
           ],
-          "recommendation" : "Твій оператор тимчасово припиняє прийому пінопласту. Слідкуй за оновленнями."
+          "recommendation" : "Пакувальний та будівельний пінопласт приймається та переробляється в наповнювач для бескаркасних меблів. Лише в чистому вигляді. Пінопластові лотки з-під харчових продуктів не приймаються."
         },
         {
           "waste_item_id" : "2.1.1",
@@ -7539,9 +7557,9 @@
         {
           "waste_item_id" : "2.6",
           "waste_containers" : [
-            "green_box"
+            "styrofoam"
           ],
-          "recommendation" : null
+          "recommendation" : "Пакувальний та будівельний пінопласт приймає «Зелена коробка». Лише в чистому вигляді. Здавай на вул. Заводська, 31 та вул. Наукова, 35а. Пінопластові лотки з-під харчових продуктів не приймаються."
         },
         {
           "waste_item_id" : "2.1.1",
@@ -8258,7 +8276,7 @@
           "waste_containers" : [
             "other_syringe"
           ],
-          "recommendation" : "Збирай окремо. Уточни, чи в твоєму офісі ведеться збір медичних відходів, або здавай їх до <a href=\"https:\/\/www.facebook.com\/ecological.recycling.technology\/\">«Екологічних переробних технологій»<\/a> (графік уточнюй)."
+          "recommendation" : "Збирай окремо. Уточни, чи в твоєму офісі ведеться збір медичних відходів, або здавай їх в <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a>."
         },
         {
           "waste_item_id" : "2.8.5",
@@ -8545,7 +8563,7 @@
           "waste_containers" : [
             "other_drugs"
           ],
-          "recommendation" : "Ліки небезпечні для природи. Уточни, чи в твоєму офісі ведеться збір медичних відходів, або здавай їх до <a href=\"https:\/\/www.facebook.com\/ecological.recycling.technology\/\">«Екологічних переробних технологій»<\/a> (графік уточнюй)."
+          "recommendation" : "Ліки небезпечні для природи. Уточни, чи в твоєму офісі ведеться збір медичних відходів, або здавай їх в <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a>."
         },
         {
           "waste_item_id" : "8.11",
@@ -10702,7 +10720,7 @@
           "waste_containers" : [
             "other_syringe"
           ],
-          "recommendation" : null
+          "recommendation" : "Обережно: шприци для ін'єкцій — небезпечні відходи. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "2.8.4",
@@ -11066,7 +11084,7 @@
           "waste_containers" : [
             "other_drugs"
           ],
-          "recommendation" : null
+          "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "8.11",
@@ -12737,7 +12755,7 @@
           "waste_containers" : [
             "other_syringe"
           ],
-          "recommendation" : null
+          "recommendation" : "Обережно: шприци для ін'єкцій — небезпечні відходи. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "2.8.4",
@@ -13024,7 +13042,7 @@
           "waste_containers" : [
             "other_drugs"
           ],
-          "recommendation" : null
+          "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "8.11",
@@ -13084,6 +13102,13 @@
             "foil"
           ],
           "recommendation" : "Чисту фольгу без залишків їжі та жиру приймає <a href=\"https:\/\/www.facebook.com\/ecodbay\/\">«ECODBAY»<\/a>. Спресуй для компактності. Зверни увагу: фольга з шаром паперу (наприклад, від шоколаду) не приймається. Для перевірки стисни фольгу в руці: та, що підлягає переробці, залишиться зім'ятою."
+        },
+        {
+          "waste_item_id" : "2.6",
+          "waste_containers" : [
+            "styrofoam"
+          ],
+          "recommendation" : "Пакувальний та будівельний пінопласт приймається та переробляється в наповнювач для бескаркасних меблів. Лише в чистому вигляді. Пінопластові лотки з-під харчових продуктів не приймаються."
         },
         {
           "waste_item_id" : "2.1.1",
@@ -14658,7 +14683,7 @@
           "waste_containers" : [
             "other_syringe"
           ],
-          "recommendation" : null
+          "recommendation" : "Обережно: шприци для ін'єкцій — небезпечні відходи. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "2.8.5",
@@ -14938,7 +14963,7 @@
           "waste_containers" : [
             "other_drugs"
           ],
-          "recommendation" : null
+          "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
         },
         {
           "waste_item_id" : "8.11",
