@@ -167,6 +167,13 @@
       "compatibleVersion": "0.1",
       "location": "ekomisto_izmail.json",
       "name": "Екомісто Ізмаїл"
+    },
+    {
+      "id": "shuttle",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "shuttle.json",
+      "name": "Shuttle"
     }
   ],
   "popularSearchRequests": [
