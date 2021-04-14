@@ -143,6 +143,12 @@
       "locationType": "Пункт/контейнер",
       "locationName": "Екомісто Ізмаїл",
       "acceptedWasteTypes": ["tetrapak", "paper", "paper_chalk", "paper_fax", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_alu", "metal_cap", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "styrofoam", "water_cap"]
+    },
+    {
+      "id": "shuttle",
+      "locationType": "Сортувальна станція",
+      "locationName": "Shuttle",
+      "acceptedWasteTypes": ["tetrapak", "paper", "paper_chalk", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_paint", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "paper_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_bag", "plastic_bag2","plastic_bag2_wrap", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_cup", "plastic_blister", "foam_container", "plastic_container", "cup_cover", "plastic_marked", "yoghurt_cup", "plastic_tube", "water_cap", "cd", "other_clothing"]
     }
   ],
 
@@ -1545,6 +1551,16 @@
           "address": "вул. Шевченка, 120",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00-17:00<br>Сб-Вс: Вихідні<br>Обід: 12:00-13:00<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07</a>, <a href=\"tel:+380980037366\">(098) 003-73-66</a>, <a href=\"tel:+380680226622\">(068) 022-66-22</a>.",
           "coordinates": "45.3753443, 28.8158546"
+        }
+      ]
+    },
+    {
+      "operator": "shuttle",
+      "locations": [
+        {
+          "address": "вул. Юності, 9",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Чт: 16:00–19:00<br>Сб: 15:00-18:00<br>Графік може змінюватись, уточнюй.<br>, Тел.: <a href=\"tel:+380680009999\">(068) 000-99-99</a>",
+          "coordinates": "49.232423, 28.418207"
         }
       ]
     }
