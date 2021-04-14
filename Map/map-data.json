@@ -19,12 +19,6 @@
       "acceptedWasteTypes": ["paper", "plastic", "plastic_can", "plastic_oil", "plastic_bag", "post_bag", "plastic_wrap", "zip_bag", "milk_bag", "styrofoam", "cards", "shoe_covers", "egg_carton", "glass", "metal_can", "metal_alu", "tetrapak", "plastic_mebli", "plastic_box", "plastic_marked", "water_cap"]
     },
     {
-      "id": "isort",
-      "locationType": "Пункт прийому",
-      "locationName": "Я Сортую",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "post_bag", "plastic_bag2", "plastic_wrap", "zip_bag", "milk_bag", "foam_container", "yoghurt_cup", "plastic_container", "plastic_cup", "styrofoam", "shoe_covers", "egg_carton", "corks", "wood_basket", "glass", "glass_heat", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_tube", "metal_paint", "metal_candle", "metal_kanistra", "tetrapak", "other_clothing", "mirror", "plastic_marked", "plastic_mebli", "plastic_box", "water_cap"]
-    },
-    {
       "id": "pryhysty_paket",
       "locationType": "Пункт прийому",
       "locationName": "Прихисти пакет",
@@ -536,18 +530,6 @@
         }
       ]
     },
-
-    {
-      "operator": "isort",
-      "locations": [
-        {
-          "description": "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Маршрут і графік виїздів уточнюй у оператора.<br>Тел.: <a href=\"tel:+380991714916\">(099) 171-49-16</a>",
-          "coordinates": "49.981579,36.274760",
-          "isMobile": 1
-        }
-      ]
-    },
-
     {
       "operator": "pryhysty_paket",
       "locations": [
