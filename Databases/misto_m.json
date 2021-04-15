@@ -2104,7 +2104,7 @@
       "id": "other_lamp_incand",
       "title": "Переходь на LED лампи :)",
       "hint": "Лампи розжарювання не приймаються на переробку. Викидай у загальний смітник.",
-      "icon": "finalRed"
+      "icon": "finalBlack"
     },
     {
       "id": "other_mattress",

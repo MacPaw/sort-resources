@@ -29,13 +29,6 @@
       "name": "ВТОРМА юа"
     },
     {
-      "id": "isort",
-      "version": "1.1.9",
-      "compatibleVersion": "0.1",
-      "location": "isort.json",
-      "name": "Я Сортую"
-    },
-    {
       "id": "pryhysty_paket",
       "version": "1.1.8",
       "compatibleVersion": "0.1",
@@ -167,6 +160,13 @@
       "compatibleVersion": "0.1",
       "location": "ekomisto_izmail.json",
       "name": "Екомісто Ізмаїл"
+    },
+    {
+      "id": "shuttle",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "shuttle.json",
+      "name": "Shuttle"
     }
   ],
   "popularSearchRequests": [
