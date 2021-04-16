@@ -2117,7 +2117,7 @@
       "id": "other_lamp_incand",
       "title": "Переходь на LED лампи :)",
       "hint": "Лампи розжарювання не приймаються на переробку. Викидай у загальний смітник.",
-      "icon": "finalRed"
+      "icon": "finalBlack"
     },
     {
       "id": "other_syringe",
@@ -2129,12 +2129,6 @@
       "id": "other_thermometer",
       "title": "Дбайливо спакуй окремо",
       "hint": "Ртутний термометр потребує спеціалізованої переробки. Запакуй його надійно і залиш у контейнері <a href=\"https://www.facebook.com/Kyivcomunservice/\">КП «Київкомунсервіс»</a> або віддай до <a href=\"https://www.facebook.com/EkolohichniInvestytsiyi/\">«Екологічних інвестицій»</a> (графік уточнюй).",
-      "icon": "finalRed"
-    },
-    {
-      "id": "other_tyre",
-      "title": "Відвези до пункту прийому",
-      "hint": "Якщо найближчим часом не плануєш революцій, здавай шини до <a href=\"https://www.facebook.com/kgvr.com.ua/\">«Київміськвторресурсів»</a>.",
       "icon": "finalRed"
     },
     {
