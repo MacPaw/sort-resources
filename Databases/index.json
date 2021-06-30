@@ -167,6 +167,13 @@
       "compatibleVersion": "0.1",
       "location": "shuttle.json",
       "name": "Shuttle"
+    },
+    {
+      "id": "ecola",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "ecola.json",
+      "name": "Ecola & Plastic Club"
     }
   ],
   "popularSearchRequests": [
