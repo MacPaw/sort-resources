@@ -1716,7 +1716,7 @@
       "iconURL": "",
       "keywords": ["розбите, уламки, уламок, стекло, осколки"],
       "wasteType": [
-        "glass"
+        "glass_broken"
       ],
       "hint": null,
       "children": null
