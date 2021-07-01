@@ -1,6 +1,6 @@
 {
   "globals" : {
-    "version" : "2.2.4",
+    "version" : "2.3.0",
     "compatible_version" : "2.0"
   },
   "waste_items" : [
