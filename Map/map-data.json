@@ -130,7 +130,13 @@
       "id": "shuttle",
       "locationType": "Сортувальна станція",
       "locationName": "Shuttle",
-      "acceptedWasteTypes": ["tetrapak", "paper", "paper_chalk", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_paint", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "paper_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_bag", "plastic_bag2","plastic_bag2_wrap", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_cup", "plastic_blister", "foam_container", "plastic_container", "cup_cover", "plastic_marked", "yoghurt_cup", "plastic_tube", "water_cap", "cd", "other_clothing"]
+      "acceptedWasteTypes": ["tetrapak", "paper", "paper_chalk", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_paint", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "paper_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_bag", "plastic_bag2", "plastic_bag2_wrap", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_cup", "plastic_blister", "foam_container", "plastic_container", "cup_cover", "plastic_marked", "yoghurt_cup", "plastic_tube", "water_cap", "cd", "other_clothing"]
+    },
+    {
+      "id": "ecola",
+      "locationType": "Вивезення вторсировини",
+      "locationName": "Ecola & Plastic Club",
+      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap"]
     }
   ],
 
@@ -1266,8 +1272,33 @@
       "locations": [
         {
           "address": "вул. Юності, 9",
-          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Чт: 16:00–19:00<br>Сб: 15:00-18:00<br>Графік може змінюватись, уточнюй.<br>, Тел.: <a href=\"tel:+380680009999\">(068) 000-99-99</a>",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Чт: 16:00–19:00<br>Сб: 15:00-18:00<br>Графік може змінюватись, уточнюй.<br>Тел.: <a href=\"tel:+380680009999\">(068) 000-99-99</a>",
           "coordinates": "49.232423, 28.418207"
+        }
+      ]
+    },
+    {
+      "operator": "ecola",
+      "locations": [
+        {
+          "address": "вул. Новопирогівська, 50",
+          "description": "Пункт прийому Ecola: пластик, скло, папір, метал, тетрапак.<br><br>Графік уточнюй за телефоном <a href=\"tel:+380985588638\">(098) 558-86-38</a>",
+          "coordinates": "50.362834, 30.555234"
+        },
+        {
+          "description": "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовляй вивезення через <a href=\"https://t.me/EcolaAssistBot\">чат-бот</a>",
+          "coordinates": "50.433126, 30.426488",
+          "isMobile": 1
+        },
+        {
+          "description": "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовлення вивезення через <a href=\"https://t.me/EcolaAssistBot\">чат-бот</a>",
+          "coordinates": "50.421554, 30.638121",
+          "isMobile": 1
+        },
+        {
+          "address": "вул. Липинського, 3",
+          "description": "Гараж Plastic Club: пластик, скло, папір, метал, тетрапак.<br><br>Сб, нд: 11:00–18:00<br>Графік може змінюватись, перевір на сторінці @plastic.club",
+          "coordinates": "50.449035, 30.508647"
         }
       ]
     }
