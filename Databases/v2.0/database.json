@@ -1,6 +1,6 @@
 {
   "globals" : {
-    "version" : "2.2.3",
+    "version" : "2.2.4",
     "compatible_version" : "2.0"
   },
   "waste_items" : [
@@ -2150,6 +2150,15 @@
       "icon_url" : null,
       "icon" : "finalRed",
       "name" : "battery"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Не переробляється",
+      "id" : "burn",
+      "recommendation" : "Цей вид відходів твій оператор приймає лише на високотемпературне спалювання. В чистому та сухому вигляді. Якщо можеш, спробуй зменшити споживання або відмовитись.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "burn"
     },
     {
       "map_filter" : null,
@@ -5368,7 +5377,7 @@
           "waste_containers" : [
             "plastic_wash"
           ],
-          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 01 PET (на дні мають об'ємну крапку), 02 HDPE (на дні мають шов у вигляді лінії) та 05 PP. Промий, висуши, стисни. Етикетку зніми, кришку залишай. Розпилювачі та дозатори не переробляються, їх доведеться викинути або перевикористати."
+          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 02 HDPE (на дні мають шов у вигляді лінії) та 05 PP. Промий, висуши, стисни. Етикетку зніми, кришку залишай. Розпилювачі та дозатори не переробляються, їх доведеться викинути або перевикористати."
         },
         {
           "waste_item_id" : "2.1.3",
@@ -5382,14 +5391,14 @@
           "waste_containers" : [
             "plastic_drugs"
           ],
-          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 01 PET (на дні мають об'ємну крапку), 02 HDPE (на дні мають шов у вигляді лінії) та 05 PP. Промий, висуши, стисни. Етикетку зніми, кришку залишай. Розпилювачі та дозатори не переробляються, їх доведеться викинути або перевикористати."
+          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 02 HDPE (на дні мають шов у вигляді лінії) та 05 PP. Промий, висуши, стисни. Етикетку зніми, кришку залишай. Розпилювачі та дозатори не переробляються, їх доведеться викинути або перевикористати."
         },
         {
           "waste_item_id" : "2.1.5",
           "waste_containers" : [
             "plastic_wash"
           ],
-          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 01 PET (на дні мають об'ємну крапку), 02 HDPE (на дні мають шов у вигляді лінії) та 05 PP. Промий, висуши, стисни. Етикетку зніми, кришку залишай. Розпилювачі та дозатори не переробляються, їх доведеться викинути або перевикористати."
+          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 02 HDPE (на дні мають шов у вигляді лінії) та 05 PP. Промий, висуши, стисни. Етикетку зніми, кришку залишай. Розпилювачі та дозатори не переробляються, їх доведеться викинути або перевикористати."
         },
         {
           "waste_item_id" : "2.1.7",
@@ -5523,6 +5532,13 @@
             "plastic_tube"
           ],
           "recommendation" : "Приймаються на переробку тюбики з маркуванням 04 LDPE, C\/LDPE. Не приймаються з маркуванням 07 та С\/O. Щодо тюбиків без маркування — уточнюй у консультантів станції. Розріж тюбик, вимий, висуши. Кришку сортуй відповідно до маркування."
+        },
+        {
+          "waste_item_id" : "2.7.2",
+          "waste_containers" : [
+            "cards"
+          ],
+          "recommendation" : "Приймаються на переробку дисконтні та інші пластикові картки, що не мають магнітної стрічки та металевого шару (об’ємні срібні цифри чи літери)."
         },
         {
           "waste_item_id" : "2.7.3",
@@ -15566,9 +15582,9 @@
         {
           "waste_item_id" : "4.8",
           "waste_containers" : [
-            "glass"
+            "glass_broken"
           ],
-          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай та сортуй окремо."
+          "recommendation" : "Приймаються як розбиті пляшки та банки, так і бите віконне скло. Проте збирати їх треба окремо та в чистому вигляді."
         },
         {
           "waste_item_id" : "4.9",
@@ -15755,6 +15771,800 @@
       ],
       "name" : "Shuttle",
       "description" : "Shuttle — учнівська станція глибокого сортування вторсировини. Має пункт прийому у Вінниці, де відвідувачі сортують поруч із консультантами.\n\n<a href=\"https:\/\/www.facebook.com\/shuttle.eco\">Перейти на сайт<\/a>"
+    },
+    {
+      "id" : "ecola",
+      "cities" : [
+        "Київ"
+      ],
+      "sorting_rules" : [
+        {
+          "waste_item_id" : "6",
+          "waste_containers" : [
+            "tetrapak"
+          ],
+          "recommendation" : "Приаймається паковання типу Tetra Pak, Elopak, Pure-Pak. Розкрий усі кутики та гарно промий від залишків рідини. Висуши, стисни, закрути кришкою."
+        },
+        {
+          "waste_item_id" : "7",
+          "waste_containers" : [
+            "battery"
+          ],
+          "recommendation" : "Здавай в бокси в магазинах «Епіцентр», «Нова лінія», «Leroy Merlin», «JYSK» та на заправках «WOG». Ці мережі співпрацюють із проектом <a href=\"https:\/\/www.facebook.com\/batareiky\/\">«Батарейки, здавайтеся»<\/a> та гарантують переробку зібраних батарейок. Не більше 20 штук за один раз."
+        },
+        {
+          "waste_item_id" : "1.2",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "1.1.1",
+          "waste_containers" : [
+            "paper_cup"
+          ],
+          "recommendation" : "Твій оператор приймає цей вид відходів лише на високотемпературне спалювання. На переробку можеш здати до «України без сміття». Лише чисті та сухі. Стаканчики з шаром фольги та відерця з-під поп-корну теж приймаються."
+        },
+        {
+          "waste_item_id" : "1.3.1",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "1.3.2",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "1.5.1",
+          "waste_containers" : [
+            "foil"
+          ],
+          "recommendation" : "Твій оператор не приймає цей вид відходів, але його приймає «України без сміття». Лише в чистому та сухому вигляді, без залишків жиру та їжі. Спресуй для компактності."
+        },
+        {
+          "waste_item_id" : "2.6",
+          "waste_containers" : [
+            "styrofoam"
+          ],
+          "recommendation" : "Твій оператор приймає цей вид відходів лише на високотемпературне спалювання. На переробку можеш здати до «України без сміття». Лише в чистому та сухому вигляді."
+        },
+        {
+          "waste_item_id" : "2.1.1",
+          "waste_containers" : [
+            "PET_clear"
+          ],
+          "recommendation" : "Приймаються прозорі безколірні, а також коричневі, зелені, блакитні пляшки з-під напоїв. Вимий, висуши, стисни. Якщо етикетка закриває більше половини пляшки, знімай її та віддавай на високотемпературне спалювання."
+        },
+        {
+          "waste_item_id" : "2.1.2",
+          "waste_containers" : [
+            "plastic_wash"
+          ],
+          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 02 HDPE (на дні також мають шов у вигляді лінії), 04 LDPE та 05 PP. Промий, висуши, стисни. Етикетку знімай, якщо вона покриває половину пляшки чи більше. Здавай її на високотемпературне спалювання разом із немаркованими кришками та дозаторами."
+        },
+        {
+          "waste_item_id" : "2.1.3",
+          "waste_containers" : [
+            "plastic_can"
+          ],
+          "recommendation" : "Твій оператор приймає пластикові каністри. Вимий від залишків рідини, просуши, стисни. Етикетку та кришку можеш не знімати."
+        },
+        {
+          "waste_item_id" : "2.1.4",
+          "waste_containers" : [
+            "plastic_drugs"
+          ],
+          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 02 HDPE (на дні також мають шов у вигляді лінії), 04 LDPE та 05 PP. Промий, висуши, стисни. Етикетку знімай, якщо вона покриває половину пляшки чи більше. Здавай її на високотемпературне спалювання разом із немаркованими кришками та дозаторами."
+        },
+        {
+          "waste_item_id" : "2.1.5",
+          "waste_containers" : [
+            "plastic_wash"
+          ],
+          "recommendation" : "Приймаються на переробку пластикові ємності з маркуванням 02 HDPE (на дні також мають шов у вигляді лінії), 04 LDPE та 05 PP. Промий, висуши, стисни. Етикетку знімай, якщо вона покриває половину пляшки чи більше. Здавай її на високотемпературне спалювання разом із немаркованими кришками та дозаторами."
+        },
+        {
+          "waste_item_id" : "2.1.7",
+          "waste_containers" : [
+            "plastic_oil"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.1.8",
+          "waste_containers" : [
+            "plastic_milk"
+          ],
+          "recommendation" : "Пляшки з-під молочної продукції мають маркування 01 PET або 02 HDPE. Твій оператор приймає прозорі PET-пляшки та білі HDPE-пляшки. Білий PET-пластик приймає <a href=\"https:\/\/www.facebook.com\/NowasteUkraine\/\">«Україна без сміття»<\/a>, проте він менш ресурсоцінний, тож такої тари краще уникати. Пляшку промий, висуши, стисни. Кришку та етикетку можеш залишити. Зверни увагу: пляшка з PET на дні має об'ємну крапку, а пляшка з HDPE — шов у вигляді лінії."
+        },
+        {
+          "waste_item_id" : "2.1.10",
+          "waste_containers" : [
+            "PET_colour"
+          ],
+          "recommendation" : "Твій оператор приймає цей вид відохдів лише на високотемпературне спалювання. На переробку можеш здати на станції «Україна без сміття»."
+        },
+        {
+          "waste_item_id" : "2.1.11",
+          "waste_containers" : [
+            "plastic_cap"
+          ],
+          "recommendation" : "Приймаються лише чисті, сухі. Збирай окремо від іншого пластику."
+        },
+        {
+          "waste_item_id" : "2.1.12",
+          "waste_containers" : [
+            "water_cap"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.2.1",
+          "waste_containers" : [
+            "plastic_bag"
+          ],
+          "recommendation" : "Приймаються на переробку прозорі та кольорові пакети, лише чисті та сухі. Поліетиленові пакети — це малі та великі пакети з супермаркетів та інші схожі на дотик. Можуть мати маркування 04 LDPE (наприклад, від побутової техніки). Наклейки та скотч необхідно зрізати, їх можна здавати на високотемпературне спалювання."
+        },
+        {
+          "waste_item_id" : "2.2.2",
+          "waste_containers" : [
+            "post_bag"
+          ],
+          "recommendation" : "Приймаються на переробку чисті, сухі, без залишків скотчу. Також можеш здавати у відділеннях «Нової пошти»."
+        },
+        {
+          "waste_item_id" : "2.2.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.2.4",
+          "waste_containers" : [
+            "plastic_wrap"
+          ],
+          "recommendation" : "Приймається плівка з бульбашками та пакувальна стрейч-плівка. Без залишків скотчу, чиста, не жирна."
+        },
+        {
+          "waste_item_id" : "2.2.5",
+          "waste_containers" : [
+            "zip_bag"
+          ],
+          "recommendation" : "Необхідно відрізати пластикову застібку. Також не забудь вимити та висушити."
+        },
+        {
+          "waste_item_id" : "2.2.6",
+          "waste_containers" : [
+            "milk_bag"
+          ],
+          "recommendation" : "Приймаються поліетиленові пакети з-під молочних продуктів, чорні всередині. Обов'язково розріж, гарно промий та висуши. Для зручності збирай в окремий пакет."
+        },
+        {
+          "waste_item_id" : "2.2.7",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.3.1",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.3.2",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.3.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.3.4",
+          "waste_containers" : [
+            "plastic_container"
+          ],
+          "recommendation" : "Приймаються пластикові контейнери зі щільного пластику з маркуванням 02 HDPE, 05 PP (на переробку) та 01 PET, 06 PS (на високотемпературне спалювання). Лише чисті та сухі."
+        },
+        {
+          "waste_item_id" : "2.4.1",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.4.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.4.4",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.4.5",
+          "waste_containers" : [
+            "plastic_marked"
+          ],
+          "recommendation" : "Приймаються вироби зі щільного пластику з маркуванням 02 HDPE (PE), 04 LDPE (PE), 05 PP. Лише чисті та сухі."
+        },
+        {
+          "waste_item_id" : "2.4.6",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.4.7",
+          "waste_containers" : [
+            "plastic_marked"
+          ],
+          "recommendation" : "Приймаються вироби зі щільного пластику з маркуванням 02 HDPE (PE), 04 LDPE (PE), 05 PP. Лише чисті та сухі."
+        },
+        {
+          "waste_item_id" : "2.4.8",
+          "waste_containers" : [
+            "cup_cover"
+          ],
+          "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків лише на високотемпературне спалювання. Чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+        },
+        {
+          "waste_item_id" : "2.5.1",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.2",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.4",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.5",
+          "waste_containers" : [
+            "plastic_wrap"
+          ],
+          "recommendation" : "Приймається плівка з бульбашками та пакувальна стрейч-плівка. Без залишків скотчу, чиста, не жирна."
+        },
+        {
+          "waste_item_id" : "2.5.6",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.7",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.8",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.9",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.10",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.11",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.12",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.5.13",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.7.1",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.7.2",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.7.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.7.4",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.7.5",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.7.6",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.8.1",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.8.2",
+          "waste_containers" : [
+            "other_syringe"
+          ],
+          "recommendation" : "Обережно: шприци для ін'єкцій — небезпечні відходи, їх треба здавати на утилізацію. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору медичних відходів. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
+        },
+        {
+          "waste_item_id" : "2.8.4",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.8.5",
+          "waste_containers" : [
+            "toothbrush"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.8.6",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.8.7",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.8.8",
+          "waste_containers" : [
+            "shoe_covers"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "2.9.1",
+          "waste_containers" : [
+            "plastic_marked"
+          ],
+          "recommendation" : "Приймаються вироби зі щільного пластику з маркуванням 02 HDPE (PE), 04 LDPE (PE), 05 PP. Лише чисті та сухі."
+        },
+        {
+          "waste_item_id" : "2.9.2",
+          "waste_containers" : [
+            "plastic_marked"
+          ],
+          "recommendation" : "Приймаються вироби зі щільного пластику з маркуванням 02 HDPE (PE), 04 LDPE (PE), 05 PP. Лише чисті та сухі."
+        },
+        {
+          "waste_item_id" : "2.9.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.5",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.6",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.7",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.1",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.2",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.4",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.5",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.6",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.7",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.2.9",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.3.1",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.3.2",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.3.3",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.3.4",
+          "waste_containers" : [
+            "egg_carton"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.3.5",
+          "waste_containers" : [
+            "paper"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.4.1",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.4.2",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "3.9.7",
+          "waste_containers" : [
+            "bamboo_toothbrush"
+          ],
+          "recommendation" : "бамбукова щітка краща за пластикову, оскільки розкладається швидше. Крім того, ручку такої щітки можна <a href=\"https:\/\/bit.ly\/3enqkyx\">компостувати<\/a>."
+        },
+        {
+          "waste_item_id" : "4.1",
+          "waste_containers" : [
+            "glass"
+          ],
+          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай та сортуй окремо."
+        },
+        {
+          "waste_item_id" : "4.3",
+          "waste_containers" : [
+            "glass"
+          ],
+          "recommendation" : "Варто сполоснути. Етикетки залишай, кришечки знімай та сортуй окремо."
+        },
+        {
+          "waste_item_id" : "4.8",
+          "waste_containers" : [
+            "glass_broken"
+          ],
+          "recommendation" : "Приймаються як розбиті пляшки та банки, так і бите віконне скло. Проте збирати їх треба окремо та в чистому вигляді."
+        },
+        {
+          "waste_item_id" : "4.9",
+          "waste_containers" : [
+            "glass_perfume"
+          ],
+          "recommendation" : "Скляну пляшку сполосни та відправляй на переробку, а розпилювач та кришечку можеш віддати на високотемпературне спалювання."
+        },
+        {
+          "waste_item_id" : "4.2.1",
+          "waste_containers" : [
+            "other_lamp_incand"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "4.2.2",
+          "waste_containers" : [
+            "other_lamp_eco"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "4.2.3",
+          "waste_containers" : [
+            "other_lamp_led"
+          ],
+          "recommendation" : "LED лампи приймають на переробку в <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічних інвестиціях»<\/a> (графік уточнюй)."
+        },
+        {
+          "waste_item_id" : "4.2.4",
+          "waste_containers" : [
+            "other_lamp_tube"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "5.1",
+          "waste_containers" : [
+            "metal_can"
+          ],
+          "recommendation" : "Приймаються жерстяні консервні бляшанки. Промий від залишків їжі, висуши, спробуй стиснути. Паперову етикетку можеш залишити."
+        },
+        {
+          "waste_item_id" : "5.2",
+          "waste_containers" : [
+            "metal_alu"
+          ],
+          "recommendation" : "Приймаються алюмінієві бляшанки. Промий водою, стисни міцніше."
+        },
+        {
+          "waste_item_id" : "5.3",
+          "waste_containers" : [
+            "foil"
+          ],
+          "recommendation" : "Твій оператор не приймає цей вид відходів, але його приймає «України без сміття». Лише в чистому та сухому вигляді, без залишків жиру та їжі. Спресуй для компактності."
+        },
+        {
+          "waste_item_id" : "5.4",
+          "waste_containers" : [
+            "metal_aerosol"
+          ],
+          "recommendation" : "Твій оператор не приймає цей вид відходів, але його приймає «Україна без сміття»: аерозолі — на переробку (крім балонів з-під фарби, монтажної піни та газових), кришки — на високотемпературне спалювання."
+        },
+        {
+          "waste_item_id" : "5.5",
+          "waste_containers" : [
+            "metal_cap"
+          ],
+          "recommendation" : "Збирай кришки від скляних банок та пляшок, консервації. Лише чисті та сухі. Гумові ущільнювачі виймай та викидай."
+        },
+        {
+          "waste_item_id" : "5.6",
+          "waste_containers" : [
+            "metal_posud"
+          ],
+          "recommendation" : "Приймається лише чистий та сухий."
+        },
+        {
+          "waste_item_id" : "5.9",
+          "waste_containers" : [
+            "metal_candle"
+          ],
+          "recommendation" : "Твій оператор не приймає цей вид відходів. Можеш здати до «України без сміття». Лише чисті, без залишків свічки. Спресуй для компактності."
+        },
+        {
+          "waste_item_id" : "5.10",
+          "waste_containers" : [
+            "metal_kanistra"
+          ],
+          "recommendation" : "Звільни від вмісту, промий, закрути кришкою."
+        },
+        {
+          "waste_item_id" : "8.13",
+          "waste_containers" : [
+            "compost"
+          ],
+          "recommendation" : "На звалищі харчові відходи змішуються зі сміттям та починають гнити, виділяючи шкідливий газ ментан. Компостування ж перетворює їх на корисні добрива для ґрунту. Як компостувати в домашніх умовах — <a href=\"https:\/\/bit.ly\/3enqkyx\">читай тут<\/a>. Або користуйся послугою «УБС компост» від «України без сміття»."
+        },
+        {
+          "waste_item_id" : "8.1",
+          "waste_containers" : [
+            "other_electro"
+          ],
+          "recommendation" : "Різноманітну побутову техніку та електроніку приймають на переробку та утилізацію у <a href=\"https:\/\/www.facebook.com\/WasteManagementCenter\/\">«Центрі управління відходами»<\/a>. Також можна спробувати віддати комусь через безкоштовні оголошення."
+        },
+        {
+          "waste_item_id" : "8.2",
+          "waste_containers" : [
+            "other_thermometer"
+          ],
+          "recommendation" : "Ртутний термометр потребує спеціальної утилізації. Цілий зовні термометр запакуй надійно і залиш у контейнері <a href=\"https:\/\/www.facebook.com\/Kyivcomunservice\/\">КП «Київкомунсервіс»<\/a> або віддай до <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічних інвестицій»<\/a> (графік уточнюй). Якщо термометр розбився, швидко збери його разом із ртуттю в скляну банку, заповнену водою, щільно закрий кришкою та зателефонуй в 101."
+        },
+        {
+          "waste_item_id" : "8.3",
+          "waste_containers" : [
+            "other_tyre"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "8.4",
+          "waste_containers" : [
+            "other_clothing"
+          ],
+          "recommendation" : "Якщо одяг не соромно вдягти, передай його до благодійного магазину <a href=\"https:\/\/www.facebook.com\/laskastore\/\">«Ласка»<\/a> або іншим благодійним організаціям. Ганчір'я твій оператор приймає на високотемпературне спалювання. Його також приймають для подальшої переробки в мережі магазинів H&M."
+        },
+        {
+          "waste_item_id" : "8.6",
+          "waste_containers" : [
+            "other_oils"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "8.7",
+          "waste_containers" : [
+            "other_mattress"
+          ],
+          "recommendation" : "Матрац в хорошому стані передай благодійним організаціям. Старі та брудні матраци можуть стати в пригоді притулкам для тварин."
+        },
+        {
+          "waste_item_id" : "8.8",
+          "waste_containers" : [
+            "other_drugs"
+          ],
+          "recommendation" : "Ліки небезпечні для природи, їм необхідна спеціальна утилізація. <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> регулярно проводять акції зі збору ліків. Підпишісь на <a href=\"https:\/\/www.facebook.com\/sortuj\/\">нашу сторінку<\/a>, щоб не пропустити наступну."
+        },
+        {
+          "waste_item_id" : "8.9",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "8.10",
+          "waste_containers" : [
+            "burn"
+          ],
+          "recommendation" : null
+        },
+        {
+          "waste_item_id" : "8.11",
+          "waste_containers" : [
+            "shoes"
+          ],
+          "recommendation" : "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, в Києві приймають на утилізацію <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> (графік уточнюй)."
+        },
+        {
+          "waste_item_id" : "8.12",
+          "waste_containers" : [
+            "construction"
+          ],
+          "recommendation" : null
+        }
+      ],
+      "name" : "Ecola & Plastic Club",
+      "description" : "Ecola — технологічний стартап, який допомагає сортувати і здавати відходи на переробку у Києві та передмісті. Можна замовляти вивезення вторсировини через чат-бот або привозити самостійно в пункт прийому чи в дружній пункт — гараж Plastic Club.\n\n<a href=\"https:\/\/www.ecolaglobal.com\/\">Перейти на сайт Ecola<\/a>\n<a href=\"https:\/\/www.instagram.com\/plastic.club\/\">Instagram Plastic Club<\/a>"
     }
   ]
 }
