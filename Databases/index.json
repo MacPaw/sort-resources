@@ -173,7 +173,14 @@
       "version": "1.0.0",
       "compatibleVersion": "0.1",
       "location": "ecola.json",
-      "name": "Ecola & Plastic Club"
+      "name": "Ecola"
+    },
+    {
+      "id": "plastic_club",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "plastic_club.json",
+      "name": "Plastic Club"
     }
   ],
   "popularSearchRequests": [

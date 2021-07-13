@@ -1,10 +1,10 @@
 {
   "globals": {
-    "id": "ecola",
+    "id": "plastic_club",
     "version": "1.0.0",
     "compatibleVersion": "0.1",
-    "name": "Ecola & Plastic Club",
-    "description": "Ecola — технологічний стартап, який допомагає сортувати і здавати відходи на переробку у Києві та передмісті. Можна замовляти вивезення вторсировини через чат-бот або привозити самостійно в пункт прийому чи в дружній пункт — гараж Plastic Club.\n\n<a href=\"https://www.ecolaglobal.com/\">Перейти на сайт Ecola</a>\n<a href=\"https://www.instagram.com/plastic.club/\">Instagram Plastic Club</a>",
+    "name": "Plastic Club",
+    "description": "Гараж Plastic Club — це пункт прийому та сортування відходів, заснований творцями ресторанів «Китайський привіт», «В'єтнамський привіт» та «Тайський привіт». Тут приймуть ваші посортовані відходи та передадуть на переробку чи високотемпературне спалювання в Ecola.\n\n<a href=\"https://www.instagram.com/plastic.club/\">Instagram Plastic Club</a>",
     "cities": "Київ"
   },
   "wasteItems": [
