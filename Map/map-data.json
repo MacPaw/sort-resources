@@ -134,8 +134,14 @@
     },
     {
       "id": "ecola",
-      "locationType": "Вивезення вторсировини",
-      "locationName": "Ecola & Plastic Club",
+      "locationType": "Сортувальна станція / вивезення вторсировини",
+      "locationName": "Ecola",
+      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap"]
+    },
+    {
+      "id": "plastic_club",
+      "locationType": "Пункт прийому",
+      "locationName": "Plastic Club",
       "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap"]
     }
   ],
@@ -1282,19 +1288,24 @@
       "locations": [
         {
           "address": "вул. Новопирогівська, 50",
-          "description": "Пункт прийому Ecola: пластик, скло, папір, метал, тетрапак.<br><br>Графік уточнюй за телефоном <a href=\"tel:+380985588638\">(098) 558-86-38</a>",
+          "description": "Сортувальна станція Ecola: пластик, скло, папір, метал, тетрапак.<br><br>Графік уточнюй на facebook.com/EcolaUkraine",
           "coordinates": "50.362834, 30.555234"
         },
         {
-          "description": "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовляй вивезення через <a href=\"https://t.me/EcolaAssistBot\">чат-бот</a>",
+          "description": "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовляй вивезення через чат-бот.",
           "coordinates": "50.433126, 30.426488",
           "isMobile": 1
         },
         {
-          "description": "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовлення вивезення через <a href=\"https://t.me/EcolaAssistBot\">чат-бот</a>",
-          "coordinates": "50.421554, 30.638121",
+          "description": "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовлення вивезення через чат-бот.",
+          "coordinates": "50.421670, 30.636233",
           "isMobile": 1
-        },
+        }
+      ]
+    },
+    {
+      "operator": "plastic_club",
+      "locations": [
         {
           "address": "вул. Липинського, 3",
           "description": "Гараж Plastic Club: пластик, скло, папір, метал, тетрапак.<br><br>Сб, нд: 11:00–18:00<br>Графік може змінюватись, перевір на сторінці @plastic.club",
