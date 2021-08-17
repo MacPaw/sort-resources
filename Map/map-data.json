@@ -124,7 +124,7 @@
       "id": "ekomisto_izmail",
       "locationType": "Пункт/контейнер",
       "locationName": "Екомісто Ізмаїл",
-      "acceptedWasteTypes": ["tetrapak", "paper", "paper_chalk", "paper_fax", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_alu", "metal_cap", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "styrofoam", "water_cap"]
+      "acceptedWasteTypes": ["paper", "paper_chalk", "paper_fax", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_alu", "metal_cap", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "plastic_box","styrofoam", "water_cap"]
     },
     {
       "id": "shuttle",
