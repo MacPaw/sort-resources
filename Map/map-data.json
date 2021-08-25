@@ -124,7 +124,7 @@
       "id": "ekomisto_izmail",
       "locationType": "Пункт/контейнер",
       "locationName": "Екомісто Ізмаїл",
-      "acceptedWasteTypes": ["tetrapak", "paper", "paper_chalk", "paper_fax", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_alu", "metal_cap", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "styrofoam", "water_cap"]
+      "acceptedWasteTypes": ["paper", "paper_chalk", "paper_fax", "glass", "glass_perfume", "glass_broken", "metal_aerosol", "metal_posud", "metal_alu", "metal_cap", "metal_tube", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "PET_colour", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "plastic_box","styrofoam", "water_cap"]
     },
     {
       "id": "shuttle",
@@ -526,7 +526,8 @@
         {
           "address": "вул. Космонавтів, 91",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380993380402\">(099) 338-04-02</a>",
-          "coordinates": "46.969882,32.081451"
+          "coordinates": "46.969882,32.081451",
+          "isHidden": 1
         }
       ]
     },
