@@ -13,7 +13,8 @@
       "name" : "Універсальні правила",
       "recyclingPoints" : [
 
-      ]
+      ],
+      "sortingRulesList" : "base"
     },
     {
       "cities" : [
@@ -24,7 +25,8 @@
       "name" : "Smart",
       "recyclingPoints" : [
 
-      ]
+      ],
+      "sortingRulesList" : "base"
     },
     {
       "cities" : [
@@ -35,7 +37,8 @@
       "name" : "Україна без сміття",
       "recyclingPoints" : [
         "ukraina_bez_smittya-1"
-      ]
+      ],
+      "sortingRulesList" : "ukraina_bez_smittya-default_sorting_rules"
     },
     {
       "cities" : [
@@ -59,7 +62,8 @@
         "kmvr-9",
         "kmvr-10",
         "kmvr-11"
-      ]
+      ],
+      "sortingRulesList" : "kmvr-default_sorting_rules"
     },
     {
       "cities" : [
@@ -86,7 +90,8 @@
         "vtorma-9",
         "vtorma-10",
         "vtorma-11"
-      ]
+      ],
+      "sortingRulesList" : "vtorma-default_sorting_rules"
     },
     {
       "cities" : [
@@ -98,7 +103,8 @@
       "recyclingPoints" : [
         "pryhysty_paket-1",
         "pryhysty_paket-2"
-      ]
+      ],
+      "sortingRulesList" : "pryhysty_paket-default_sorting_rules"
     },
     {
       "cities" : [
@@ -109,7 +115,8 @@
       "name" : "Чиста Глеваха",
       "recyclingPoints" : [
         "glevaha-1"
-      ]
+      ],
+      "sortingRulesList" : "glevaha-default_sorting_rules"
     },
     {
       "cities" : [
@@ -120,7 +127,8 @@
       "name" : "Зелена коробка",
       "recyclingPoints" : [
         "green_box-1"
-      ]
+      ],
+      "sortingRulesList" : "green_box-default_sorting_rules"
     },
     {
       "cities" : [
@@ -136,7 +144,20 @@
         "ecodbay-2",
         "ecodbay-3",
         "ecodbay-4"
-      ]
+      ],
+      "sortingRulesList" : "ecodbay-default_sorting_rules"
+    },
+    {
+      "cities" : [
+        "Київ"
+      ],
+      "description" : "«Центр управління відходами» працює в Києві та Київській області, організовує роздільний збір сміття в офісах, на виробництві та в побуті. Компанія також надає послуги з утилізації електроніки та побутової техніки, ртутьвмісних ламп, батарей, акумуляторів та інших видів відходів.\n\n<a href=\"https:\/\/recycle.com.ua\/\">Перейти на сайт<\/a>",
+      "id" : "cuv",
+      "name" : "Центр управління відходами",
+      "recyclingPoints" : [
+
+      ],
+      "sortingRulesList" : "cuv-default_sorting_rules"
     },
     {
       "cities" : [
@@ -147,7 +168,8 @@
       "name" : "Місто майбутнього",
       "recyclingPoints" : [
         "misto_m-1"
-      ]
+      ],
+      "sortingRulesList" : "misto_m-default_sorting_rules"
     },
     {
       "cities" : [
@@ -205,7 +227,8 @@
         "green_house-46",
         "green_house-47",
         "green_house-48"
-      ]
+      ],
+      "sortingRulesList" : "green_house-default_sorting_rules"
     },
     {
       "cities" : [
@@ -216,7 +239,8 @@
       "name" : "Пункт прийому на Стуса, 3",
       "recyclingPoints" : [
         "stusa_3-1"
-      ]
+      ],
+      "sortingRulesList" : "stusa_3-default_sorting_rules"
     },
     {
       "cities" : [
@@ -227,7 +251,8 @@
       "name" : "METRO Маріуполь",
       "recyclingPoints" : [
         "metro_mariupol-1"
-      ]
+      ],
+      "sortingRulesList" : "metro_mariupol-default_sorting_rules"
     },
     {
       "cities" : [
@@ -241,7 +266,8 @@
         "metro_kyiv-2",
         "metro_kyiv-3",
         "metro_kyiv-4"
-      ]
+      ],
+      "sortingRulesList" : "metro_kyiv-default_sorting_rules"
     },
     {
       "cities" : [
@@ -252,7 +278,8 @@
       "name" : "Екопатруль",
       "recyclingPoints" : [
         "eco_patrul-1"
-      ]
+      ],
+      "sortingRulesList" : "eco_patrul-default_sorting_rules"
     },
     {
       "cities" : [
@@ -263,7 +290,8 @@
       "name" : "SilpoRecycling Дніпро",
       "recyclingPoints" : [
         "silpo_dp-1"
-      ]
+      ],
+      "sortingRulesList" : "silpo_dp-default_sorting_rules"
     },
     {
       "cities" : [
@@ -275,7 +303,8 @@
       "recyclingPoints" : [
         "silpo_zp-1",
         "silpo_zp-2"
-      ]
+      ],
+      "sortingRulesList" : "silpo_zp-default_sorting_rules"
     },
     {
       "cities" : [
@@ -286,7 +315,8 @@
       "name" : "SilpoRecycling Київ",
       "recyclingPoints" : [
         "silpo_kyiv-1"
-      ]
+      ],
+      "sortingRulesList" : "silpo_kyiv-default_sorting_rules"
     },
     {
       "cities" : [
@@ -297,7 +327,8 @@
       "name" : "SilpoRecycling Львів",
       "recyclingPoints" : [
         "silpo_lviv-1"
-      ]
+      ],
+      "sortingRulesList" : "silpo_lviv-default_sorting_rules"
     },
     {
       "cities" : [
@@ -308,7 +339,8 @@
       "name" : "SilpoRecycling Одеса",
       "recyclingPoints" : [
         "silpo_odesa-1"
-      ]
+      ],
+      "sortingRulesList" : "silpo_odesa-default_sorting_rules"
     },
     {
       "cities" : [
@@ -319,7 +351,8 @@
       "name" : "SilpoRecycling Харків",
       "recyclingPoints" : [
         "silpo_kharkiv-1"
-      ]
+      ],
+      "sortingRulesList" : "silpo_kharkiv-default_sorting_rules"
     },
     {
       "cities" : [
@@ -345,7 +378,8 @@
         "rada-9",
         "rada-10",
         "rada-11"
-      ]
+      ],
+      "sortingRulesList" : "rada-default_sorting_rules"
     },
     {
       "cities" : [
@@ -406,7 +440,8 @@
         "ekomisto_izmail-49",
         "ekomisto_izmail-50",
         "ekomisto_izmail-51"
-      ]
+      ],
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules"
     },
     {
       "cities" : [
@@ -417,7 +452,8 @@
       "name" : "Shuttle",
       "recyclingPoints" : [
         "shuttle-1"
-      ]
+      ],
+      "sortingRulesList" : "shuttle-default_sorting_rules"
     },
     {
       "cities" : [
@@ -430,7 +466,8 @@
         "ecola-1",
         "ecola-2",
         "ecola-3"
-      ]
+      ],
+      "sortingRulesList" : "ecola-default_sorting_rules"
     },
     {
       "cities" : [
@@ -441,7 +478,8 @@
       "name" : "Plastic Club",
       "recyclingPoints" : [
         "plastic_club-1"
-      ]
+      ],
+      "sortingRulesList" : "plastic_club-default_sorting_rules"
     }
   ],
   "recyclingPoints" : [
@@ -451,7 +489,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Ср–Пт: 14:00–19:30<br>Сб, Нд: 10:00–15:30<br>Пн, Вт: Вихідні",
       "id" : "ukraina_bez_smittya-1",
       "name" : "Станція \"Україна без сміття\"",
-      "sortingRules" : "ukraina_bez_smittya-default_sorting_rules",
+      "sortingRulesList" : "ukraina_bez_smittya-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -460,7 +498,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 9:00–12:00<br>Нд, Пн: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-1",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -469,7 +507,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Cб: 8:00–17:00<br>Нд: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-2",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -478,7 +516,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн-Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-3",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -487,7 +525,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 7:00–15:00<br>Нд, Пн: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-4",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -496,7 +534,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, шини, метал, пляшки.<br><br>Вт–Cб: 8:00–16:00<br>Нд, Пн: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-5",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -505,7 +543,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-6",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -514,7 +552,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Нд: 8:00–18:00<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-7",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -523,7 +561,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Пт: 8:30–16:30<br>Сб–Пн: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380952860079\">(095) 286‒00‒79<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-8",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -532,7 +570,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Вт–Cб: 7:00–15:00<br>Нд, Пн: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-9",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -541,7 +579,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Нд: 8:00–18:00<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-10",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -550,7 +588,7 @@
       "description" : "Пункт прийому вторсировини: макулатура, пластик, склобій, метал, шини, пляшки.<br><br>Пн–Пт: 8:00–16:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380445165136\">(044) 516‒51‒36<\/a>, <a href=\"tel:+380445173290\">(044) 517‒32‒90<\/a>, <a href=\"tel:+380445176564\">(044) 517‒65‒64<\/a>",
       "id" : "kmvr-11",
       "name" : "Пункт прийому \"Київміськвторресурси\"",
-      "sortingRules" : "kmvr-default_sorting_rules",
+      "sortingRulesList" : "kmvr-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -559,7 +597,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Сб: 8:00–17:00<br>Нд: 8:00–15:00<br>Пн: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380674101119\">(067) 410-11-19<\/a>",
       "id" : "vtorma-1",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -568,7 +606,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Сб: 8:00–17:00<br>Нд: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380674101119\">(067) 410-11-19<\/a>",
       "id" : "vtorma-2",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -577,7 +615,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 8:00–15:00<br>Нд: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380674101119\">(067) 410-11-19<\/a>",
       "id" : "vtorma-3",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -586,7 +624,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 8:00–17:00<br>Сб, Нд: 8:00–15:00<br>Пн: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380674101119\">(067) 410-11-19<\/a>",
       "id" : "vtorma-4",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -595,7 +633,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 8:00–17:00<br>Сб, Нд: 7:00–14:00<br>Пн: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380674101119\">(067) 410-11-19<\/a>",
       "id" : "vtorma-5",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -604,7 +642,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380979474482\">(097) 947-44-82<\/a>",
       "id" : "vtorma-6",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -613,7 +651,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380689730970\">(‎068) 973-09-70<\/a>",
       "id" : "vtorma-7",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -622,7 +660,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380975535998\">(097) 553-59-98<\/a>",
       "id" : "vtorma-8",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -631,7 +669,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380675052112\">(067) 505-21-12<\/a>",
       "id" : "vtorma-9",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -640,7 +678,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380502158285\">(050) 215-82-85<\/a>",
       "id" : "vtorma-10",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -649,7 +687,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380966243358\">(096) 624-33-58<\/a>",
       "id" : "vtorma-11",
       "name" : "Пункт прийому \"ВТОРМА юа\"",
-      "sortingRules" : "vtorma-default_sorting_rules",
+      "sortingRulesList" : "vtorma-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -658,7 +696,7 @@
       "description" : "Екохаб, пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Графік роботи уточнюй у оператора.<br>Тел.: <a href=\"tel:+380506986613\">(050) 698-66-13<\/a>",
       "id" : "pryhysty_paket-1",
       "name" : "Пункт прийому \"Прихисти пакет\"",
-      "sortingRules" : "pryhysty_paket-default_sorting_rules",
+      "sortingRulesList" : "pryhysty_paket-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -667,7 +705,7 @@
       "description" : "Екохаб, пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Графік роботи уточнюй у оператора.<br>Тел.: <a href=\"tel:+380506986613\">(050) 698-66-13<\/a>",
       "id" : "pryhysty_paket-2",
       "name" : "Пункт прийому \"Прихисти пакет\"",
-      "sortingRules" : "pryhysty_paket-default_sorting_rules",
+      "sortingRulesList" : "pryhysty_paket-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -676,7 +714,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Нд: 11:00-13:00<br>Пн-Сб: уточнюй у оператора<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380932783503\">(093) 278-35-03<\/a>",
       "id" : "glevaha-1",
       "name" : "Пункт прийому \"Чиста Глеваха\"",
-      "sortingRules" : "glevaha-default_sorting_rules",
+      "sortingRulesList" : "glevaha-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -685,7 +723,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Ср-Пт: 16:00-20:00<br>Сб, Вс: 12:00-17:00<br>Пн, Вт: Вихідні<br>Тел.: <a href=\"tel:+380931176606\">(093) 117-66-06<\/a>",
       "id" : "green_box-1",
       "name" : "Пункт прийому \"Зелена коробка\"",
-      "sortingRules" : "green_box-default_sorting_rules",
+      "sortingRulesList" : "green_box-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -694,7 +732,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60<\/a>",
       "id" : "ecodbay-1",
       "name" : "Пункт прийому \"ECODBAY\"",
-      "sortingRules" : "ecodbay-default_sorting_rules",
+      "sortingRulesList" : "ecodbay-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -703,7 +741,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60<\/a>",
       "id" : "ecodbay-2",
       "name" : "Пункт прийому \"ECODBAY\"",
-      "sortingRules" : "ecodbay-default_sorting_rules",
+      "sortingRulesList" : "ecodbay-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -712,7 +750,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60<\/a>",
       "id" : "ecodbay-3",
       "name" : "Пункт прийому \"ECODBAY\"",
-      "sortingRules" : "ecodbay-default_sorting_rules",
+      "sortingRulesList" : "ecodbay-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -721,7 +759,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні.<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380689166960\">(068) 916-69-60<\/a>",
       "id" : "ecodbay-4",
       "name" : "Пункт прийому \"ECODBAY\"",
-      "sortingRules" : "ecodbay-default_sorting_rules",
+      "sortingRulesList" : "ecodbay-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -730,7 +768,7 @@
       "description" : "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал. Київський, Приморський, Малиновський райони.<br><br>Тел.: <a href=\"tel:+380938381833\">(093) 838-18-33<\/a>",
       "id" : "misto_m-1",
       "name" : "Мобільний пункт прийому \"Місто майбутнього\"",
-      "sortingRules" : "misto_m-default_sorting_rules",
+      "sortingRulesList" : "misto_m-default_sorting_rules",
       "type" : "mobile"
     },
     {
@@ -739,7 +777,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-1",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -748,7 +786,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-2",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -757,7 +795,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-3",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -766,7 +804,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-4",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -775,7 +813,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-5",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -784,7 +822,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-6",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -793,7 +831,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-7",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -802,7 +840,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-8",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -811,7 +849,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-9",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -820,7 +858,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-10",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -829,7 +867,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-11",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -838,7 +876,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-12",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -847,7 +885,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-13",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -856,7 +894,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-14",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -865,7 +903,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-15",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -874,7 +912,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-16",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -883,7 +921,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-17",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -892,7 +930,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-18",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -901,7 +939,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-19",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -910,7 +948,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-20",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -919,7 +957,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-21",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -928,7 +966,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-22",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -937,7 +975,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-23",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -946,7 +984,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-24",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -955,7 +993,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-25",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -964,7 +1002,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-26",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -973,7 +1011,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-27",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -982,7 +1020,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-28",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -991,7 +1029,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-29",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1000,7 +1038,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-30",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1009,7 +1047,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-31",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1018,7 +1056,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-32",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1027,7 +1065,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-33",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1036,7 +1074,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-34",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1045,7 +1083,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-35",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1054,7 +1092,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-36",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1063,7 +1101,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-37",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1072,7 +1110,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-38",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1081,7 +1119,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-39",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1090,7 +1128,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-40",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1099,7 +1137,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-41",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1108,7 +1146,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-42",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1117,7 +1155,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-43",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1126,7 +1164,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-44",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1135,7 +1173,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-45",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1144,7 +1182,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-46",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1153,7 +1191,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-47",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1162,7 +1200,7 @@
       "description" : "Контейнер «Зелений дім»",
       "id" : "green_house-48",
       "name" : "Контейнер для скла, металу, пластику \"Зелений дім\"",
-      "sortingRules" : "green_house-default_sorting_rules",
+      "sortingRulesList" : "green_house-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1171,7 +1209,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Сб: 8:00–18:00<br>Нд: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380509050833\">(050) 905-08-33<\/a>",
       "id" : "stusa_3-1",
       "name" : "Пункт прийому \"вул. Василя Стуса, 3\"",
-      "sortingRules" : "stusa_3-default_sorting_rules",
+      "sortingRulesList" : "stusa_3-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1180,7 +1218,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.",
       "id" : "metro_mariupol-1",
       "name" : "Пункт прийому \"МЕТРО\"",
-      "sortingRules" : "metro_mariupol-default_sorting_rules",
+      "sortingRulesList" : "metro_mariupol-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1189,7 +1227,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.",
       "id" : "metro_kyiv-1",
       "name" : "Пункт прийому \"МЕТРО\"",
-      "sortingRules" : "metro_kyiv-default_sorting_rules",
+      "sortingRulesList" : "metro_kyiv-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1198,7 +1236,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.",
       "id" : "metro_kyiv-2",
       "name" : "Пункт прийому \"МЕТРО\"",
-      "sortingRules" : "metro_kyiv-default_sorting_rules",
+      "sortingRulesList" : "metro_kyiv-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1207,7 +1245,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.",
       "id" : "metro_kyiv-3",
       "name" : "Пункт прийому \"МЕТРО\"",
-      "sortingRules" : "metro_kyiv-default_sorting_rules",
+      "sortingRulesList" : "metro_kyiv-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1216,7 +1254,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.",
       "id" : "metro_kyiv-4",
       "name" : "Пункт прийому \"МЕТРО\"",
-      "sortingRules" : "metro_kyiv-default_sorting_rules",
+      "sortingRulesList" : "metro_kyiv-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1225,7 +1263,7 @@
       "description" : "Мобільний пункт прийому вторсировини: пластик, скло, папір, метал. Виїзди відбуваються в суботу та неділю. Точний графік та мапи маршрутів шукай на facebook сторінці оператора. <br><br>Тел.: <a href=\"tel:+380985412572\">(098) 541-25-72<\/a>",
       "id" : "eco_patrul-1",
       "name" : "Мобільний пункт прийому \"Екопатруль\"",
-      "sortingRules" : "eco_patrul-default_sorting_rules",
+      "sortingRulesList" : "eco_patrul-default_sorting_rules",
       "type" : "mobile"
     },
     {
@@ -1234,7 +1272,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com\/silporecycling\/",
       "id" : "silpo_dp-1",
       "name" : "Станція сортування \"SilpoRecycling\"",
-      "sortingRules" : "silpo_dp-default_sorting_rules",
+      "sortingRulesList" : "silpo_dp-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1243,7 +1281,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com\/silporecycling\/",
       "id" : "silpo_zp-1",
       "name" : "Станція сортування \"SilpoRecycling\"",
-      "sortingRules" : "silpo_zp-default_sorting_rules",
+      "sortingRulesList" : "silpo_zp-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1252,7 +1290,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com\/silporecycling\/",
       "id" : "silpo_zp-2",
       "name" : "Станція сортування \"SilpoRecycling\"",
-      "sortingRules" : "silpo_zp-default_sorting_rules",
+      "sortingRulesList" : "silpo_zp-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1261,7 +1299,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00-20:00<br>Сб, Нд: 8:30–20:00<br>обід: 14:00-15:00<br>www.facebook.com\/silporecycling\/",
       "id" : "silpo_kyiv-1",
       "name" : "Станція сортування \"SilpoRecycling\"",
-      "sortingRules" : "silpo_kyiv-default_sorting_rules",
+      "sortingRulesList" : "silpo_kyiv-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1270,7 +1308,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>обід: 14:00-15:00<br>www.facebook.com\/silporecycling\/",
       "id" : "silpo_lviv-1",
       "name" : "Станція сортування \"SilpoRecycling\"",
-      "sortingRules" : "silpo_lviv-default_sorting_rules",
+      "sortingRulesList" : "silpo_lviv-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1279,7 +1317,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 9:00-14:00<br>www.facebook.com\/silporecycling\/",
       "id" : "silpo_odesa-1",
       "name" : "Станція сортування \"SilpoRecycling\"",
-      "sortingRules" : "silpo_odesa-default_sorting_rules",
+      "sortingRulesList" : "silpo_odesa-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1288,7 +1326,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00–20:00<br>Сб, Нд: 8:30-20:00<br>обід: 14:00-15:00<br>www.facebook.com\/silporecycling\/",
       "id" : "silpo_kharkiv-1",
       "name" : "Станція сортування \"SilpoRecycling\"",
-      "sortingRules" : "silpo_kharkiv-default_sorting_rules",
+      "sortingRulesList" : "silpo_kharkiv-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1297,7 +1335,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-1",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1306,7 +1344,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-2",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1315,7 +1353,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-3",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1324,7 +1362,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-4",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1333,7 +1371,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-5",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1342,7 +1380,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-6",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1351,7 +1389,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-7",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1360,7 +1398,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-8",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1369,7 +1407,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-9",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1378,7 +1416,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-10",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1387,7 +1425,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб: 08:00-12:00<br>Нд: Вихідний<br>www.mpprada.com.ua",
       "id" : "rada-11",
       "name" : "Пункт прийому \"Рада\"",
-      "sortingRules" : "rada-default_sorting_rules",
+      "sortingRulesList" : "rada-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1396,7 +1434,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-1",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1405,7 +1443,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-2",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1414,7 +1452,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-3",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1423,7 +1461,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-4",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1432,7 +1470,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-5",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1441,7 +1479,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-6",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1450,7 +1488,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-7",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1459,7 +1497,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-8",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1468,7 +1506,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-9",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1477,7 +1515,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-10",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1486,7 +1524,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-11",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1495,7 +1533,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-12",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1504,7 +1542,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-13",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1513,7 +1551,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-14",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1522,7 +1560,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-15",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1531,7 +1569,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-16",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1540,7 +1578,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-17",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1549,7 +1587,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-18",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1558,7 +1596,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-19",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1567,7 +1605,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-20",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1576,7 +1614,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-21",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1585,7 +1623,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-22",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1594,7 +1632,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-23",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1603,7 +1641,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-24",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1612,7 +1650,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-25",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1621,7 +1659,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-26",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1630,7 +1668,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-27",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1639,7 +1677,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-28",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1648,7 +1686,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-29",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1657,7 +1695,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-30",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1666,7 +1704,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-31",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1675,7 +1713,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-32",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1684,7 +1722,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-33",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1693,7 +1731,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-34",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1702,7 +1740,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-35",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1711,7 +1749,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-36",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1720,7 +1758,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-37",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1729,7 +1767,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-38",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1738,7 +1776,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-39",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1747,7 +1785,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-40",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1756,7 +1794,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-41",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1765,7 +1803,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-42",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1774,7 +1812,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-43",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1783,7 +1821,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-44",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1792,7 +1830,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-45",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1801,7 +1839,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-46",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1810,7 +1848,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-47",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1819,7 +1857,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-48",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1828,7 +1866,7 @@
       "description" : "Контейнер для збору вторсировини: пластик, скло, папір, метал.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-49",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1837,7 +1875,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Сб: 8:00–18:00<br>Нд: Вихідний.<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-50",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1846,7 +1884,7 @@
       "description" : "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00-17:00<br>Сб-Вс: Вихідні<br>Обід: 12:00-13:00<br>Тел.: <a href=\"tel:+380674855907\">(067) 485-59-07<\/a>, <a href=\"tel:+380980037366\">(098) 003-73-66<\/a>, <a href=\"tel:+380680226622\">(068) 022-66-22<\/a>.",
       "id" : "ekomisto_izmail-51",
       "name" : "Пункт\/контейнер \"Екомісто Ізмаїл\"",
-      "sortingRules" : "ekomisto_izmail-default_sorting_rules",
+      "sortingRulesList" : "ekomisto_izmail-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1855,7 +1893,7 @@
       "description" : "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Чт: 16:00–19:00<br>Сб: 15:00-18:00<br>Графік може змінюватись, уточнюй.<br>Тел.: <a href=\"tel:+380680009999\">(068) 000-99-99<\/a>",
       "id" : "shuttle-1",
       "name" : "Сортувальна станція \"Shuttle\"",
-      "sortingRules" : "shuttle-default_sorting_rules",
+      "sortingRulesList" : "shuttle-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1864,7 +1902,7 @@
       "description" : "Сортувальна станція Ecola: пластик, скло, папір, метал, тетрапак.<br><br>Графік уточнюй на facebook.com\/EcolaUkraine",
       "id" : "ecola-1",
       "name" : "Сортувальна станція \/ вивезення вторсировини \"Ecola\"",
-      "sortingRules" : "ecola-default_sorting_rules",
+      "sortingRulesList" : "ecola-default_sorting_rules",
       "type" : "static"
     },
     {
@@ -1873,7 +1911,7 @@
       "description" : "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовляй вивезення через чат-бот.",
       "id" : "ecola-2",
       "name" : "Сортувальна станція \/ вивезення вторсировини \"Ecola\"",
-      "sortingRules" : "ecola-default_sorting_rules",
+      "sortingRulesList" : "ecola-default_sorting_rules",
       "type" : "mobile"
     },
     {
@@ -1882,7 +1920,7 @@
       "description" : "Виклик еколера: пластик, скло, папір, метал, тетрапак.<br><br>Замовлення вивезення через чат-бот.",
       "id" : "ecola-3",
       "name" : "Сортувальна станція \/ вивезення вторсировини \"Ecola\"",
-      "sortingRules" : "ecola-default_sorting_rules",
+      "sortingRulesList" : "ecola-default_sorting_rules",
       "type" : "mobile"
     },
     {
@@ -1891,7 +1929,7 @@
       "description" : "Гараж Plastic Club: пластик, скло, папір, метал, тетрапак.<br><br>Сб, нд: 11:00–18:00<br>Графік може змінюватись, перевір на сторінці @plastic.club",
       "id" : "plastic_club-1",
       "name" : "Пункт прийому \"Plastic Club\"",
-      "sortingRules" : "plastic_club-default_sorting_rules",
+      "sortingRulesList" : "plastic_club-default_sorting_rules",
       "type" : "static"
     }
   ],
@@ -6760,6 +6798,543 @@
         {
           "actionTitle" : "Утилізуй відповідально!",
           "recommendation" : "Не викидай до загального контейнеру. Цеглу, плитку, штукатурку без сторонніх домішок здавай до <a href=\"https:\/\/www.facebook.com\/Lvivspetskomuntrans\/\">ЛКП «Львівспецкомунтранс»<\/a>. Візьми з собою документ, що підтверджує проживання в місті, — це обов’язкова вимога пункту збору. Для іншого будівельного сміття викликай спеціальну службу, що вивезе його на полігон.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "construction",
+          "wasteItem" : "8.12"
+        }
+      ]
+    },
+    {
+      "id" : "cuv-default_sorting_rules",
+      "sortingRules" : [
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Промий від залишків рідини, висуши, стисни. Кришки не знімай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_tetrapak",
+          "wasteItem" : "6"
+        },
+        {
+          "actionTitle" : "Утилізуй відповідально!",
+          "recommendation" : "Кидай до контейнеру з батарейками. Це небезпечні відходи, що потребують спеціальної утилізації.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "battery",
+          "wasteItem" : "7"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чистий, сухий, ущільнений. Наклейки та скотч відривай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic",
+          "wasteItem" : "1.1.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "1.3.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "1.5.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чистий, сухий, ущільнений. Наклейки та скотч відривай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic",
+          "wasteItem" : "2.6"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чистий, сухий, ущільнений. Наклейки та скотч відривай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic",
+          "wasteItem" : "2.1.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 01 PET, 02 HDPE (PE, PE-HD) та 05 PP. Вимий, висуши, стисни. Етикетку та кришку (розпилювач, дозатор) залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bottle",
+          "wasteItem" : "2.1.2"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 01 PET, 02 HDPE (PE, PE-HD) та 05 PP. Вимий, висуши, стисни. Етикетку та кришку (розпилювач, дозатор) залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bottle",
+          "wasteItem" : "2.1.3"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 01 PET, 02 HDPE (PE, PE-HD) та 05 PP. Вимий, висуши, стисни. Етикетку та кришку (розпилювач, дозатор) залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bottle",
+          "wasteItem" : "2.1.4"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 01 PET, 02 HDPE (PE, PE-HD) та 05 PP. Вимий, висуши, стисни. Етикетку та кришку (розпилювач, дозатор) залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bottle",
+          "wasteItem" : "2.1.5"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Промий пляшку теплою водою, стисни, закрути кришку.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_oil",
+          "wasteItem" : "2.1.7"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чистий, сухий, ущільнений. Наклейки та скотч відривай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic",
+          "wasteItem" : "2.1.8"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чистий, сухий, ущільнений. Наклейки та скотч відривай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic",
+          "wasteItem" : "2.1.10"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чистий, сухий, ущільнений. Наклейки та скотч відривай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic",
+          "wasteItem" : "2.1.11"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Приймають лише чисті, сухі. Витягни прокладку з середини, зніми наліпку.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_water_cap",
+          "wasteItem" : "2.1.12"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише в чистому та сухому вигляді, не забруднене жиром. Без наклейок та скотчу.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag",
+          "wasteItem" : "2.2.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише в чистому та сухому вигляді, не забруднене жиром. Без наклейок та скотчу.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag",
+          "wasteItem" : "2.2.2"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Приймаються пакети з-під круп, снеків, обгортки з-під шоколаду, що сильно шуршать і не розтягуються (маркування — 05 PP або відсутнє). Без срібного шару всередині. Лише чисті та сухі.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag2",
+          "wasteItem" : "2.2.3"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише в чистому та сухому вигляді, не забруднене жиром. Без наклейок та скотчу.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag",
+          "wasteItem" : "2.2.4"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чисті та сухі. Пластикову застібку-блискавку відріж та викидай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_zip_bag",
+          "wasteItem" : "2.2.5"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише в чистому та сухому вигляді, не забруднене жиром. Без наклейок та скотчу.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag",
+          "wasteItem" : "2.2.6"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Приймаються пакети з-під круп, снеків, обгортки з-під шоколаду, що сильно шуршать і не розтягуються (маркування — 05 PP або відсутнє). Без срібного шару всередині. Лише чисті та сухі.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag2",
+          "wasteItem" : "2.2.7"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 05 PP та 06 PS. Чисті та сухі. Етикетку можеш не знімати.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_cup",
+          "wasteItem" : "2.3.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 05 PP та 06 PS. Чисті та сухі. Етикетку можеш не знімати.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_cup",
+          "wasteItem" : "2.3.3"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 05 PP та 06 PS. Чисті та сухі. Етикетку можеш не знімати.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_cup",
+          "wasteItem" : "2.3.4"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 05 PP та 06 PS. Чисті та сухі. Етикетку можеш не знімати.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_cup",
+          "wasteItem" : "2.4.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 02 HDPE, 04 LDPE та 05 PP. Чистий, сухий.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_marked",
+          "wasteItem" : "2.4.5"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 02 HDPE, 04 LDPE та 05 PP. Чистий, сухий.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_marked",
+          "wasteItem" : "2.4.7"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише чистий, сухий, ущільнений. Наклейки та скотч відривай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic",
+          "wasteItem" : "2.4.8"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Приймаються пакети з-під круп, снеків, обгортки з-під шоколаду, що сильно шуршать і не розтягуються (маркування — 05 PP або відсутнє). Без срібного шару всередині. Лише чисті та сухі.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag2",
+          "wasteItem" : "2.5.2"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише в чистому та сухому вигляді, не забруднене жиром. Без наклейок та скотчу.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_bag",
+          "wasteItem" : "2.5.5"
+        },
+        {
+          "actionTitle" : "Утилізуй відповідально!",
+          "recommendation" : "Збирай окремо. Уточни, чи в твоєму офісі ведеться збір медичних відходів, або здавай їх в <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a>.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_syringe",
+          "wasteItem" : "2.8.2"
+        },
+        {
+          "actionTitle" : "Не переробляється",
+          "recommendation" : "Переходь на світлу сторону — купуй бамбукову щітку! Стара пластикова опиниться на сміттєзвалищі, викидай її в загальний смітник.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "toothbrush",
+          "wasteItem" : "2.8.5"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Приймаються лише поліетиленові бахіли. Промий або протри від бруду, видали резинку.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_shoe_covers",
+          "wasteItem" : "2.8.8"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 02 HDPE, 04 LDPE та 05 PP. Чистий, сухий.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_marked",
+          "wasteItem" : "2.9.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Пластик»",
+          "recommendation" : "Лише з маркуванням 02 HDPE, 04 LDPE та 05 PP. Чистий, сухий.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_plastic_marked",
+          "wasteItem" : "2.9.2"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.5"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.6"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.2.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.2.2"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.2.3"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.2.5"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.2.6"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.2.7"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.3.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.3.2"
+        },
+        {
+          "actionTitle" : "Кидай у «Папір»",
+          "recommendation" : "Лише чистий, сухий, не забруднений жиром, без скотчу та наліпок.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_paper",
+          "wasteItem" : "3.3.5"
+        },
+        {
+          "actionTitle" : "Не переробляється, але",
+          "recommendation" : "бамбукова щітка краща за пластикову, оскільки розкладається швидше. Крім того, ручку такої щітки можна компостувати.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "bamboo_toothbrush",
+          "wasteItem" : "3.9.7"
+        },
+        {
+          "actionTitle" : "Кидай у «Скло»",
+          "recommendation" : "Лише чисте, сухе. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_glass",
+          "wasteItem" : "4.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Скло»",
+          "recommendation" : "Лише чисте, сухе. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_glass",
+          "wasteItem" : "4.3"
+        },
+        {
+          "actionTitle" : "Кидай у «Скло»",
+          "recommendation" : "Лише чисте, сухе. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_glass",
+          "wasteItem" : "4.7"
+        },
+        {
+          "actionTitle" : "Кидай у «Скло»",
+          "recommendation" : "Лише чисте, сухе. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_glass",
+          "wasteItem" : "4.8"
+        },
+        {
+          "actionTitle" : "Кидай у «Скло»",
+          "recommendation" : "Лише чисте, сухе. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_glass",
+          "wasteItem" : "4.9"
+        },
+        {
+          "actionTitle" : "Переходь на LED лампи :)",
+          "recommendation" : "Лампи розжарювання не приймаються на переробку. Викидай у загальний смітник.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_lamp_incand",
+          "wasteItem" : "4.2.1"
+        },
+        {
+          "actionTitle" : "Утилізуй відповідально!",
+          "recommendation" : "Запакуй в картон, щоб лампа не розбилась. Уточни в адміністратора, де у твоєму офісі збирають цей вид відходів.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_lamp_eco",
+          "wasteItem" : "4.2.2"
+        },
+        {
+          "actionTitle" : "Збирай окремо",
+          "recommendation" : "Збирай разом з іншою електронікою. Уточни в адміністратора, як організовано збір таких відходів у твоєму офісі.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_lamp_led",
+          "wasteItem" : "4.2.3"
+        },
+        {
+          "actionTitle" : "Утилізуй відповідально!",
+          "recommendation" : "Запакуй в картон, щоб лампа не розбилась. Уточни в адміністратора, де у твоєму офісі збирають цей вид відходів.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_lamp_tube",
+          "wasteItem" : "4.2.4"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.1"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.2"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.3"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.4"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.5"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.6"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.9"
+        },
+        {
+          "actionTitle" : "Кидай у «Метал»",
+          "recommendation" : "Лише чистий, сухий. Паперові етикетки залишай.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "cuv_metal",
+          "wasteItem" : "5.10"
+        },
+        {
+          "actionTitle" : "Це можна компостувати",
+          "recommendation" : "На звалищі харчові відходи змішуються зі сміттям та починають гнити, виділяючи шкідливий газ ментан. Компостування ж перетворює їх на корисні добрива для ґрунту. В офісі така опція рідко доступна, проте якщо ти задумуєшся про компостування вдома — <a href=\"https:\/\/bit.ly\/3enqkyx\">читай нашу статтю<\/a>.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "compost",
+          "wasteItem" : "8.13"
+        },
+        {
+          "actionTitle" : "Збирай окремо",
+          "recommendation" : "Приймається неробоча офісна та побутова техніка, електроніка, окремі деталі та дроти. Уточни в адміністратора, як організовано збір електроніки у твоєму офісі.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_electro",
+          "wasteItem" : "8.1"
+        },
+        {
+          "actionTitle" : "Дбайливо спакуй окремо",
+          "recommendation" : "Цілий термометр запакуй в картон, щоб не розбився, та збирай разом із ртутьвмісними лампами. Уточни в адміністратора, де у твоєму офісі збирають цей вид відходів.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_thermometer",
+          "wasteItem" : "8.2"
+        },
+        {
+          "actionTitle" : "Відвези до пункту прийому",
+          "recommendation" : "Твій оператор вивозить шини за окремою домовленістю. Уточнюй деталі в адміністратора.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_tyre",
+          "wasteItem" : "8.3"
+        },
+        {
+          "actionTitle" : "Це ще можна носити?",
+          "recommendation" : "Якщо речі виглядають непогано, віднеси їх до благодійного магазину <a href=\"https:\/\/www.facebook.com\/laskastore\/\">«Ласка»<\/a>, представництва <a href=\"https:\/\/www.facebook.com\/RedCrossUkraine\/\">«Червоного Хреста»<\/a> або інших благодійних організацій. Ганчір'я приймають для подальшої переробки в мережі магазинів H&M.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_clothing",
+          "wasteItem" : "8.4"
+        },
+        {
+          "actionTitle" : "Віддай на СТО",
+          "recommendation" : "Відпрацьовані автомобільні оливи можуть стати у нагоді на найближчій СТО. Віддай їх професіоналам.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_oils",
+          "wasteItem" : "8.6"
+        },
+        {
+          "actionTitle" : "Віддай на добру справу",
+          "recommendation" : "Матрас в хорошому стані передай благодійним організаціям. Старі та брудні матраси можуть стати в нагоді притулкам для тварин. Ватні матраци утилізують <a href=\"https:\/\/www.facebook.com\/kgvr.com.ua\/\">«Київміськвторресурси»<\/a>.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_mattress",
+          "wasteItem" : "8.7"
+        },
+        {
+          "actionTitle" : "Утилізуй відповідально!",
+          "recommendation" : "Ліки небезпечні для природи. Уточни, чи в твоєму офісі ведеться збір медичних відходів, або здавай їх в <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a>.",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "other_drugs",
+          "wasteItem" : "8.8"
+        },
+        {
+          "actionTitle" : "Це ще можна носити?",
+          "recommendation" : "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, приймають на утилізацію <a href=\"https:\/\/www.facebook.com\/EkolohichniInvestytsiyi\/\">«Екологічні інвестиції»<\/a> (графік уточнюй).",
+          "recyclingScore" : 0.8,
+          "wasteContainer" : "shoes",
+          "wasteItem" : "8.11"
+        },
+        {
+          "actionTitle" : "Утилізуй відповідально!",
+          "recommendation" : "Не викидай до загального контейнеру. Для вивозу на полігон викликай спеціальні служби.",
           "recyclingScore" : 0.8,
           "wasteContainer" : "construction",
           "wasteItem" : "8.12"
