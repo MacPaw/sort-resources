@@ -714,7 +714,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, корекс, корэкс, 6, 06, PS"],
       "wasteType": [
-        "plastic_blister"
+        "eco_patrul_plastic_blister"
       ],
       "hint": null,
       "children": null
@@ -834,7 +834,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, 6, 06, PS, полістирол, полистирол, кришечка, крышечка, крышка, кава, кофе, горнятко"],
       "wasteType": [
-        "cup_cover"
+        "eco_patrul_cup_cover"
       ],
       "hint": null,
       "children": null
@@ -2240,7 +2240,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "cup_cover",
+      "id": "eco_patrul_cup_cover",
       "title": "Не переробляється",
       "hint": "Кришечки з маркуванням 06 PS приймає мобільний пункт <a href=\"https://www.facebook.com/ecopatrull/\">«Екопатруль»</a>. Лише чисті та сухі. Проте їх виготовляють з пластику, який виділяє токсини при нагріванні, тож краще відмовитись або зменшити використання.",
       "icon": "finalYellow"
@@ -2288,7 +2288,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "plastic_blister",
+      "id": "eco_patrul_plastic_blister",
       "title": "Здавай іншому оператору",
       "hint": "Контейнери з маркуванням 05 PP та 06 PS приймає мобільний пункт <a href=\"https://www.facebook.com/ecopatrull/\">«Екопатруль»</a>. Лише чисті та сухі. Пластик із маркуванням 06 PS менш ресурсоцінний, тож його краще уникати.",
       "icon": "finalYellow"

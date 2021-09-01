@@ -714,7 +714,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/2.3.1.png",
       "keywords": ["пакування, упаковка, паковання, одноразовий посуд, бокс, 1, 01, PET, PETE, ПЭТ, ПЕТ, ПЕ, поліетилентерефталат, полиэтилентерефталат, корекс, корэкс, 6, 06, PS"],
       "wasteType": [
-        "plastic_blister"
+        "eco_patrul_plastic_blister"
       ],
       "hint": null,
       "children": null
@@ -834,7 +834,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, 6, 06, PS, полістирол, полистирол, кришечка, крышечка, крышка, кава, кофе, горнятко"],
       "wasteType": [
-        "cup_cover"
+        "eco_patrul_cup_cover"
       ],
       "hint": null,
       "children": null
@@ -2289,13 +2289,13 @@
       "icon": "finalYellow"
     },
     {
-      "id": "plastic_blister",
+      "id": "eco_patrul_plastic_blister",
       "title": "Збирай окремо",
       "hint": "Приймаються на переробку контейнери з маркуванням 05 PP та 06 PS. Лише чисті та сухі.",
       "icon": "finalYellow"
     },
     {
-      "id": "cup_cover",
+      "id": "eco_patrul_cup_cover",
       "title": "Збирай окремо",
       "hint": "Твій оператор приймає кришечки від кавових стаканчиків. Лише чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання.",
       "icon": "finalYellow"
