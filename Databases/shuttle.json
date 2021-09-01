@@ -594,7 +594,7 @@
       "iconURL": "",
       "keywords": ["ПЕТ, ПЭТ, желтая, жовта, черная, чорний, 1, 01, енергетик, энергетик"],
       "wasteType": [
-        "PET_colour_mixed"
+        "PET_colour_burn"
       ],
       "hint": null,
       "children": null
@@ -2228,10 +2228,10 @@
       "icon": "finalYellow"
     },
     {
-      "id": "PET_colour_mixed",
+      "id": "PET_colour_burn",
       "title": "Не переробляється",
       "hint": "Непрозорі кольорові PET-пляшки з-під напоїв (жовті, чорні тощо) твій оператор приймає та передає на високотемпературне спалювання до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a> (<a href=\"https://www.facebook.com/sortuj/posts/2222034794554236/\">деталі тут</a>). Лише чисті та сухі. Кришечки та білі PET-пляшки збирай окремо. Їх приймають на переробку.",
-      "icon": "finalBlack"
+      "icon": "finalYellow"
     },
     {
       "id": "plastic_bag",

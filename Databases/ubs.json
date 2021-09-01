@@ -1533,7 +1533,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "corks"
+        "corks_ubs"
       ],
       "hint": null,
       "children": null
@@ -2204,10 +2204,10 @@
       "icon": "finalYellow"
     },
     {
-      "id": "corks",
+      "id": "corks_ubs",
       "title": "Збирай окремо: деревина",
       "hint": "Твій оператор приймає натуральні коркові пробки. Пробки з пластику приймаються лише на високотемпературне спалювання.",
-      "icon": "finalRed"
+      "icon": "finalYellow"
     },
     {
       "id": "other_lamp_tube",
