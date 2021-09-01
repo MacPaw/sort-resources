@@ -1908,7 +1908,7 @@
       "iconURL": "",
       "keywords": ["контейнер, олія, оливки, масло, 40, Fe, канистра"],
       "wasteType": [
-        "metal_kanistra"
+        "metal_kanistra_mixed"
       ],
       "hint": null,
       "children": null
@@ -2186,7 +2186,7 @@
       "icon": "finalGrey"
     },
     {
-      "id": "metal_kanistra",
+      "id": "metal_kanistra_mixed",
       "title": "Здавай як метал",
       "hint": "Твій оператор не приймає металеві каністри, проте ними може зацікавитись найближчий пункт прийому металобрухту.",
       "icon": "finalBlack"

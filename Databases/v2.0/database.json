@@ -1,6 +1,6 @@
 {
   "globals" : {
-    "version" : "2.3.2",
+    "version" : "2.3.8",
     "compatible_version" : "2.0"
   },
   "waste_items" : [
@@ -2135,6 +2135,15 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Не переробляється",
+      "id" : "PET_colour_mixed",
+      "recommendation" : "Непрозорі білі, жовті, сині, чорні PET-пляшки (маркування 01 PET, об'ємна точка на дні) майже не приймають на переробку, відмовся від споживання напоїв у такій тарі, якщо можеш.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "PET_colour_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Не переробляється, але",
       "id" : "bamboo_toothbrush",
       "recommendation" : "бамбукова щітка краща за пластикову, оскільки розкладається швидше. Крім того, ручку такої щітки можна компостувати.",
@@ -2175,7 +2184,7 @@
       "id" : "cards",
       "recommendation" : "Приймаються дисконтні та інші пластикові картки, що не мають магнітної стрічки та металевого шару (об'ємні срібні цифри чи літери).",
       "icon_url" : null,
-      "icon" : "finalRed",
+      "icon" : "finalYellow",
       "name" : "cards"
     },
     {
@@ -2218,10 +2227,19 @@
       "map_filter" : null,
       "action_title" : "Не переробляється",
       "id" : "cup_cover",
-      "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>). Лише чисті та сухі. Кришечки виготовляють з пластику 06 PS, який не приймається на переробку та виділяє токсини при нагріванні. Краще відмовитись або зменшити використання.",
+      "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання.",
       "icon_url" : null,
       "icon" : "finalBlack",
       "name" : "cup_cover"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Не переробляється",
+      "id" : "cup_cover_burn",
+      "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>). Лише чисті та сухі. Кришечки виготовляють з пластику 06 PS, який не приймається на переробку та виділяє токсини при нагріванні. Краще відмовитись або зменшити використання.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "cup_cover_burn"
     },
     {
       "map_filter" : null,
@@ -2369,6 +2387,24 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Збирай окремо",
+      "id" : "eco_patrul_cup_cover",
+      "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків. Лише чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання.",
+      "icon_url" : null,
+      "icon" : "finalYellow",
+      "name" : "eco_patrul_cup_cover"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Збирай окремо",
+      "id" : "eco_patrul_plastic_blister",
+      "recommendation" : "Приймаються на переробку контейнери з маркуванням 05 PP та 06 PS. Лише чисті та сухі.",
+      "icon_url" : null,
+      "icon" : "finalYellow",
+      "name" : "eco_patrul_plastic_blister"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Здавай іншому оператору",
       "id" : "ecodbay",
       "recommendation" : "Твій оператор не приймає цей тип сировини. Можна здати до <a href=\"https:\/\/www.facebook.com\/ecodbay\/\">«ECODBAY»<\/a>.",
@@ -2388,6 +2424,15 @@
     {
       "map_filter" : null,
       "action_title" : "Збирай окремо",
+      "id" : "egg_carton_mixed",
+      "recommendation" : "Яєчні лотки не придатні для вторинної переробки, але швидко розкладаються при компостуванні. Як компостувати в домашніх умовах — <a href=\"https:\/\/bit.ly\/3enqkyx\">читай тут<\/a>.\n",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "egg_carton_mixed"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Збирай окремо",
       "id" : "foam_container",
       "recommendation" : "Приймаються на переробку лотки зі спіненого полістиролу (схожі на пінопласт, зазвичай білі або чорні, з маркуванням 06 PS). Проте переробка такого матеріалу ускладнена, тож його краще уникати.",
       "icon_url" : null,
@@ -2402,6 +2447,15 @@
       "icon_url" : null,
       "icon" : "finalGrey",
       "name" : "foil"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Не приймається",
+      "id" : "foil_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "foil_mixed"
     },
     {
       "map_filter" : null,
@@ -2504,6 +2558,15 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Все складно",
+      "id" : "metal_can_mixed",
+      "recommendation" : "Твій оператор не приймає жерстяні банки, проте ними може зацікавитись найближчий пункт прийому металобрухту.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "metal_can_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Здавай як метал",
       "id" : "metal_candle",
       "recommendation" : "Гільзи з-під свічок-таблеток зазвичай приймають на переробку. Лише чисті, без залишків свічки. Спресуй для компактності.",
@@ -2528,6 +2591,15 @@
       "icon_url" : null,
       "icon" : "finalGrey",
       "name" : "metal_kanistra"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Здавай як метал",
+      "id" : "metal_kanistra_mixed",
+      "recommendation" : "Твій оператор не приймає металеві каністри, проте ними може зацікавитись найближчий пункт прийому металобрухту.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "metal_kanistra_mixed"
     },
     {
       "map_filter" : null,
@@ -2756,6 +2828,15 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Не приймаються на переробку",
+      "id" : "paper_cup_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Такі стаканчики окрім паперу містять шар поліетилену, тому їх переробка ускладнена. Краще використовуй багаторазове горнятко.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "paper_cup_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Макулатура",
       "id" : "paper_fax",
       "recommendation" : "Лише чиста, суха, не забруднена жиром та залишками їжі. Звільни від скотчу, металевих і пластикових елементів. Склади щільніше.",
@@ -2810,12 +2891,21 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Не приймаються на переробку",
+      "id" : "plastic_bag_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши споживання одноразових пакетів. Для походів за продуктами чудово підійдуть <a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/1983152828442435\">багаторазові мішечки<\/a> з тканини!",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "plastic_bag_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Не переробляється",
-      "id" : "plastic_blister",
+      "id" : "plastic_blister_burn",
       "recommendation" : "Блістери — це прозорі контейнери, в які зазвичай пакують їжу\/ягоди в супермаркетах. Їх переробка ускладнена, тож краще обмежити використання. Твій оператор приймає такі контейнери незалежно від маркування на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>). Лише чисті та сухі.",
       "icon_url" : null,
       "icon" : "finalBlack",
-      "name" : "plastic_blister"
+      "name" : "plastic_blister_burn"
     },
     {
       "map_filter" : null,
@@ -2963,12 +3053,39 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Не приймаються на переробку",
+      "id" : "shoe_covers_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши використання або відмовся.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "shoe_covers_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Це ще можна носити?",
       "id" : "shoes",
       "recommendation" : "Якщо взуття в хорошому стані, передай його благодійним організаціям. Те, що не придатне для подальшого носіння, викидай.",
       "icon_url" : null,
       "icon" : "finalRed",
       "name" : "shoes"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Збирай окремо",
+      "id" : "shuttle_cup_cover",
+      "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків. Лише чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання.",
+      "icon_url" : null,
+      "icon" : "finalYellow",
+      "name" : "shuttle_cup_cover"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Шукай маркування",
+      "id" : "shuttle_plastic_blister",
+      "recommendation" : "Приймаються на переробку лише в чистому та сухому вигляді. Контейнери з маркуванням 05 PP та 06 PS поїдуть на переробку, а з маркування 01 PET — на спалювання до <a href=\"https:\/\/www.facebook.com\/NowasteUkraine\/\">«України без сміття»<\/a> (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>). На станції потрібно буде розсортувати за маркуванянм.",
+      "icon_url" : null,
+      "icon" : "finalYellow",
+      "name" : "shuttle_plastic_blister"
     },
     {
       "map_filter" : null,
@@ -2981,6 +3098,24 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Здавай іншому оператору",
+      "id" : "styrofoam_burn",
+      "recommendation" : "Твій оператор приймає цей вид відходів лише на високотемпературне спалювання. На переробку можеш здати до «України без сміття». Лише в чистому та сухому вигляді.",
+      "icon_url" : null,
+      "icon" : "finalYellow",
+      "name" : "styrofoam_burn"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Не переробляється",
+      "id" : "styrofoam_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "styrofoam_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Збирай окремо",
       "id" : "tetrapak",
       "recommendation" : "Промий від залишків рідини, висуши, стисни. Кришки не знімай.",
@@ -2990,12 +3125,30 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Збирай окремо",
+      "id" : "tetrapak_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Кришечки можеш збирати разом із кришечками від пляшок. Спробуй зменшити споживання або відмовитись.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "tetrapak_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Не переробляється",
       "id" : "toothbrush",
       "recommendation" : "Переходь на світлу сторону — купуй бамбукову щітку! Стара пластикова опиниться на сміттєзвалищі, викидай її в загальний смітник.",
       "icon_url" : null,
       "icon" : "finalBlack",
       "name" : "toothbrush"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Не переробляється",
+      "id" : "toothbrush_burn",
+      "recommendation" : "Переходь на світлу сторону — купуй бамбукову щітку! Cтарі пластикові на станції приймають для мистецького проєкту, а також на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>).",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "toothbrush_burn"
     },
     {
       "map_filter" : null,
@@ -3026,12 +3179,30 @@
     },
     {
       "map_filter" : null,
+      "action_title" : "Не приймаються на переробку",
+      "id" : "yoghurt_cup_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши використання або відмовся.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "yoghurt_cup_mixed"
+    },
+    {
+      "map_filter" : null,
       "action_title" : "Збирай із поліетиленом",
       "id" : "zip_bag",
       "recommendation" : "Пакет промий та висуши. Відріж пластикову застібку. Віддавай її на високотемпературне спалювання <a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">(деталі тут)<\/a>.",
       "icon_url" : null,
       "icon" : "finalYellow",
       "name" : "zip_bag"
+    },
+    {
+      "map_filter" : null,
+      "action_title" : "Не приймаються на переробку",
+      "id" : "zip_bag_mixed",
+      "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши використання або відмовся.",
+      "icon_url" : null,
+      "icon" : "finalBlack",
+      "name" : "zip_bag_mixed"
     }
   ],
   "providers" : [
@@ -3670,7 +3841,7 @@
         {
           "waste_item_id" : "2.3.1",
           "waste_containers" : [
-            "plastic_blister"
+            "plastic_blister_burn"
           ],
           "recommendation" : null
         },
@@ -3740,7 +3911,7 @@
         {
           "waste_item_id" : "2.4.8",
           "waste_containers" : [
-            "cup_cover"
+            "cup_cover_burn"
           ],
           "recommendation" : null
         },
@@ -3901,9 +4072,9 @@
         {
           "waste_item_id" : "2.8.5",
           "waste_containers" : [
-            "toothbrush"
+            "toothbrush_burn"
           ],
-          "recommendation" : "Переходь на світлу сторону — купуй бамбукову щітку! Cтарі пластикові на станції приймають для мистецького проєкту, а також на високотемпературне спалювання (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>)."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.8.6",
@@ -5517,7 +5688,7 @@
           "waste_containers" : [
             "cup_cover"
           ],
-          "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -5655,9 +5826,9 @@
         {
           "waste_item_id" : "3.3.4",
           "waste_containers" : [
-            "egg_carton"
+            "egg_carton_mixed"
           ],
-          "recommendation" : "Не зминай! Приймаються для повторного використання, лише цілі та чисті."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "3.3.5",
@@ -10678,9 +10849,9 @@
         {
           "waste_item_id" : "2.3.1",
           "waste_containers" : [
-            "plastic_blister"
+            "eco_patrul_plastic_blister"
           ],
-          "recommendation" : "Приймаються на переробку контейнери з маркуванням 05 PP та 06 PS. Лише чисті та сухі."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.3.3",
@@ -10720,9 +10891,9 @@
         {
           "waste_item_id" : "2.4.8",
           "waste_containers" : [
-            "cup_cover"
+            "eco_patrul_cup_cover"
           ],
-          "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків. Лише чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -11150,7 +11321,7 @@
         {
           "waste_item_id" : "2.3.1",
           "waste_containers" : [
-            "plastic_blister"
+            "eco_patrul_plastic_blister"
           ],
           "recommendation" : "Контейнери з маркуванням 05 PP та 06 PS приймає мобільний пункт <a href=\"https:\/\/www.facebook.com\/ecopatrull\/\">«Екопатруль»<\/a>. Лише чисті та сухі. Пластик із маркуванням 06 PS менш ресурсоцінний, тож його краще уникати."
         },
@@ -11192,7 +11363,7 @@
         {
           "waste_item_id" : "2.4.8",
           "waste_containers" : [
-            "cup_cover"
+            "eco_patrul_cup_cover"
           ],
           "recommendation" : "Кришечки з маркуванням 06 PS приймає мобільний пункт <a href=\"https:\/\/www.facebook.com\/ecopatrull\/\">«Екопатруль»<\/a>. Лише чисті та сухі. Проте їх виготовляють з пластику, який виділяє токсини при нагріванні, тож краще відмовитись або зменшити використання."
         },
@@ -11374,9 +11545,9 @@
         {
           "waste_item_id" : "5.10",
           "waste_containers" : [
-            "metal_kanistra"
+            "metal_kanistra_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає металеві каністри, проте ними може зацікавитись найближчий пункт прийому металобрухту."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "8.13",
@@ -11538,9 +11709,9 @@
         {
           "waste_item_id" : "2.1.10",
           "waste_containers" : [
-            "PET_colour"
+            "PET_colour_mixed"
           ],
-          "recommendation" : "Непрозорі білі, жовті, сині, чорні PET-пляшки (маркування 01 PET, об'ємна точка на дні) майже не приймають на переробку, відмовся від споживання напоїв у такій тарі, якщо можеш."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.1.11",
@@ -11561,7 +11732,7 @@
           "waste_containers" : [
             "cup_cover"
           ],
-          "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -11706,9 +11877,9 @@
         {
           "waste_item_id" : "5.1",
           "waste_containers" : [
-            "metal_can"
+            "metal_can_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає жерстяні банки, проте ними може зацікавитись найближчий пункт прийому металобрухту."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "5.2",
@@ -11720,9 +11891,9 @@
         {
           "waste_item_id" : "5.10",
           "waste_containers" : [
-            "metal_kanistra"
+            "metal_kanistra_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає металеві каністри, проте ними може зацікавитись найближчий пункт прийому металобрухту."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "8.13",
@@ -12587,9 +12758,9 @@
         {
           "waste_item_id" : "2.1.10",
           "waste_containers" : [
-            "PET_colour"
+            "PET_colour_mixed"
           ],
-          "recommendation" : "Непрозорі білі, жовті, сині, чорні PET-пляшки (маркування 01 PET, об'ємна точка на дні) майже не приймають на переробку, відмовся від споживання напоїв у такій тарі, якщо можеш."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.1.11",
@@ -12673,7 +12844,7 @@
           "waste_containers" : [
             "cup_cover"
           ],
-          "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -12902,7 +13073,7 @@
         {
           "waste_item_id" : "5.10",
           "waste_containers" : [
-            "metal_kanistra"
+            "metal_kanistra_mixed"
           ],
           "recommendation" : "Це приймають <a href=\"https:\/\/www.facebook.com\/ecodbay\/\">«ECODBAY»<\/a> та <a href=\"https:\/\/www.facebook.com\/greenboxukraine\/\">«Зелена коробка»<\/a>. Звільни від вмісту, промий, закрути кришкою."
         },
@@ -13152,7 +13323,7 @@
           "waste_containers" : [
             "cup_cover"
           ],
-          "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -13510,9 +13681,9 @@
         {
           "waste_item_id" : "2.1.10",
           "waste_containers" : [
-            "PET_colour"
+            "PET_colour_mixed"
           ],
-          "recommendation" : "Непрозорі білі, жовті, сині, чорні PET-пляшки (маркування 01 PET, об'ємна точка на дні) майже не приймають на переробку, відмовся від споживання напоїв у такій тарі, якщо можеш."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.1.11",
@@ -13596,7 +13767,7 @@
           "waste_containers" : [
             "cup_cover"
           ],
-          "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -14087,7 +14258,7 @@
           "waste_containers" : [
             "cup_cover"
           ],
-          "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -14417,9 +14588,9 @@
         {
           "waste_item_id" : "6",
           "waste_containers" : [
-            "tetrapak"
+            "tetrapak_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Кришечки можеш збирати разом із кришечками від пляшок. Спробуй зменшити споживання або відмовитись."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "7",
@@ -14431,9 +14602,9 @@
         {
           "waste_item_id" : "1.1.1",
           "waste_containers" : [
-            "paper_cup"
+            "paper_cup_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Такі стаканчики окрім паперу містять шар поліетилену, тому їх переробка ускладнена. Краще використовуй багаторазове горнятко."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "1.3.1",
@@ -14522,9 +14693,9 @@
         {
           "waste_item_id" : "2.2.1",
           "waste_containers" : [
-            "plastic_bag"
+            "plastic_bag_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши споживання одноразових пакетів. Для походів за продуктами чудово підійдуть <a href=\"https:\/\/www.facebook.com\/sortuj\/photos\/1983152828442435\">багаторазові мішечки<\/a> з тканини!"
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.2.2",
@@ -14543,9 +14714,9 @@
         {
           "waste_item_id" : "2.2.5",
           "waste_containers" : [
-            "zip_bag"
+            "zip_bag_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши використання або відмовся."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.2.6",
@@ -14557,9 +14728,9 @@
         {
           "waste_item_id" : "2.3.3",
           "waste_containers" : [
-            "yoghurt_cup"
+            "yoghurt_cup_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши використання або відмовся."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.3.4",
@@ -14587,7 +14758,7 @@
           "waste_containers" : [
             "cup_cover"
           ],
-          "recommendation" : "Такі кришечки виготовляють з пластику 06 PS, який майже не приймають на переробку. Крім того, він виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.5",
@@ -14613,9 +14784,9 @@
         {
           "waste_item_id" : "2.8.8",
           "waste_containers" : [
-            "shoe_covers"
+            "shoe_covers_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Якщо можеш, зменши використання або відмовся."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.9.1",
@@ -14711,7 +14882,7 @@
         {
           "waste_item_id" : "3.3.4",
           "waste_containers" : [
-            "egg_carton"
+            "egg_carton_mixed"
           ],
           "recommendation" : "Яєчні лотки не придатні для вторинної переробки, але швидко розкладаються при компостуванні. Як компостувати в домашніх умовах — <a href=\"https:\/\/bit.ly\/3enqkyx\">читай тут<\/a>."
         },
@@ -14802,9 +14973,9 @@
         {
           "waste_item_id" : "5.3",
           "waste_containers" : [
-            "foil"
+            "foil_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "5.4",
@@ -14973,16 +15144,16 @@
         {
           "waste_item_id" : "1.5.1",
           "waste_containers" : [
-            "foil"
+            "foil_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.6",
           "waste_containers" : [
-            "styrofoam"
+            "styrofoam_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.1.1",
@@ -15036,7 +15207,7 @@
         {
           "waste_item_id" : "2.1.10",
           "waste_containers" : [
-            "PET_colour"
+            "PET_colour_mixed"
           ],
           "recommendation" : "Непрозорі кольорові PET-пляшки з-під напоїв (жовті, чорні тощо) твій оператор приймає та передає на високотемпературне спалювання до <a href=\"https:\/\/www.facebook.com\/NowasteUkraine\/\">«України без сміття»<\/a> (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>). Лише чисті та сухі. Кришечки та білі PET-пляшки збирай окремо. Їх приймають на переробку."
         },
@@ -15106,9 +15277,9 @@
         {
           "waste_item_id" : "2.3.1",
           "waste_containers" : [
-            "plastic_blister"
+            "shuttle_plastic_blister"
           ],
-          "recommendation" : "Приймаються на переробку лише в чистому та сухому вигляді. Контейнери з маркуванням 05 PP та 06 PS поїдуть на переробку, а з маркування 01 PET — на спалювання до <a href=\"https:\/\/www.facebook.com\/NowasteUkraine\/\">«України без сміття»<\/a> (<a href=\"https:\/\/www.facebook.com\/sortuj\/posts\/2222034794554236\/\">деталі тут<\/a>). На станції потрібно буде розсортувати за маркуванянм."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.3.2",
@@ -15176,9 +15347,9 @@
         {
           "waste_item_id" : "2.4.8",
           "waste_containers" : [
-            "cup_cover"
+            "shuttle_cup_cover"
           ],
-          "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків. Лише чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.5.1",
@@ -15484,7 +15655,7 @@
         {
           "waste_item_id" : "3.3.4",
           "waste_containers" : [
-            "egg_carton"
+            "egg_carton_mixed"
           ],
           "recommendation" : "Яєчні лотки не придатні для вторинної переробки, але швидко розкладаються при компостуванні. Як компостувати в домашніх умовах — <a href=\"https:\/\/bit.ly\/3enqkyx\">читай тут<\/a>."
         },
@@ -15638,9 +15809,9 @@
         {
           "waste_item_id" : "5.3",
           "waste_containers" : [
-            "foil"
+            "foil_mixed"
           ],
-          "recommendation" : "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "5.4",
@@ -15823,16 +15994,16 @@
         {
           "waste_item_id" : "1.5.1",
           "waste_containers" : [
-            "foil"
+            "foil_mixed"
           ],
           "recommendation" : "Твій оператор не приймає цей вид відходів, але його приймає «України без сміття». Лише в чистому та сухому вигляді, без залишків жиру та їжі. Спресуй для компактності."
         },
         {
           "waste_item_id" : "2.6",
           "waste_containers" : [
-            "styrofoam"
+            "styrofoam_burn"
           ],
-          "recommendation" : "Твій оператор приймає цей вид відходів лише на високотемпературне спалювання. На переробку можеш здати до «України без сміття». Лише в чистому та сухому вигляді."
+          "recommendation" : null
         },
         {
           "waste_item_id" : "2.1.1",
@@ -16026,7 +16197,7 @@
         {
           "waste_item_id" : "2.4.8",
           "waste_containers" : [
-            "cup_cover"
+            "cup_cover_burn"
           ],
           "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків лише на високотемпературне спалювання. Чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
         },
@@ -16439,7 +16610,7 @@
         {
           "waste_item_id" : "5.3",
           "waste_containers" : [
-            "foil"
+            "foil_mixed"
           ],
           "recommendation" : "Твій оператор не приймає цей вид відходів, але його приймає «України без сміття». Лише в чистому та сухому вигляді, без залишків жиру та їжі. Спресуй для компактності."
         },
@@ -16617,7 +16788,7 @@
         {
           "waste_item_id" : "1.5.1",
           "waste_containers" : [
-            "foil"
+            "foil_mixed"
           ],
           "recommendation" : "Твій оператор не приймає цей вид відходів, але його приймає «України без сміття». Лише в чистому та сухому вигляді, без залишків жиру та їжі. Спресуй для компактності."
         },
@@ -16820,7 +16991,7 @@
         {
           "waste_item_id" : "2.4.8",
           "waste_containers" : [
-            "cup_cover"
+            "cup_cover_burn"
           ],
           "recommendation" : "Твій оператор приймає кришечки від кавових стаканчиків лише на високотемпературне спалювання. Чисті та сухі. Проте такі кришечки виготовляють з пластику 06 PS, який виділяє токсини при нагріванні. Краще відмовитись або зменшити використання."
         },
@@ -17233,7 +17404,7 @@
         {
           "waste_item_id" : "5.3",
           "waste_containers" : [
-            "foil"
+            "foil_mixed"
           ],
           "recommendation" : "Твій оператор не приймає цей вид відходів, але його приймає «України без сміття». Лише в чистому та сухому вигляді, без залишків жиру та їжі. Спресуй для компактності."
         },

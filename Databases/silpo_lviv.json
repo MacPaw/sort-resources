@@ -594,7 +594,7 @@
       "iconURL": "",
       "keywords": ["ПЕТ, ПЭТ, желтая, жовта, черная, чорний, 1, 01, енергетик, энергетик"],
       "wasteType": [
-        "PET_colour"
+        "PET_colour_mixed"
       ],
       "hint": null,
       "children": null
@@ -1908,7 +1908,7 @@
       "iconURL": "",
       "keywords": ["контейнер, олія, оливки, масло, 40, Fe, канистра"],
       "wasteType": [
-        "metal_kanistra"
+        "metal_kanistra_mixed"
       ],
       "hint": null,
       "children": null
@@ -2150,7 +2150,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "PET_colour",
+      "id": "PET_colour_mixed",
       "title": "Не переробляється",
       "hint": "Непрозорі білі, жовті, сині, чорні PET-пляшки (маркування 01 PET, об'ємна точка на дні) майже не приймають на переробку, відмовся від споживання напоїв у такій тарі, якщо можеш.",
       "icon": "finalBlack"
@@ -2204,7 +2204,7 @@
       "icon": "finalGrey"
     },
     {
-      "id": "metal_kanistra",
+      "id": "metal_kanistra_mixed",
       "title": "Здавай іншому оператору",
       "hint": "Це приймають <a href=\"https://www.facebook.com/ecodbay/\">«ECODBAY»</a> та <a href=\"https://www.facebook.com/greenboxukraine/\">«Зелена коробка»</a>. Звільни від вмісту, промий, закрути кришкою.",
       "icon": "finalBlack"
@@ -2381,7 +2381,7 @@
       "id": "styrofoam",
       "title": "Збирай окремо",
       "hint": "Пакувальний та будівельний пінопласт приймається та переробляється в наповнювач для бескаркасних меблів. Лише в чистому вигляді. Пінопластові лотки з-під харчових продуктів не приймаються.",
-      "icon": "finalRed"
+      "icon": "finalYellow"
     }
   ]
 }

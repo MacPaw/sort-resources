@@ -594,7 +594,7 @@
       "iconURL": "",
       "keywords": ["ПЕТ, ПЭТ, желтая, жовта, черная, чорний, 1, 01, енергетик, энергетик"],
       "wasteType": [
-        "PET_colour"
+        "PET_colour_mixed"
       ],
       "hint": null,
       "children": null
@@ -1800,7 +1800,7 @@
       "iconURL": "",
       "keywords": ["консервна банка, бляшанка, жерстяна банка, метал, консерва, тушонка, згущенка, згущене молоко, горошок, жерсть, can, 40, Fe"],
       "wasteType": [
-        "metal_can"
+        "metal_can_mixed"
       ],
       "hint": null,
       "children": null
@@ -1908,7 +1908,7 @@
       "iconURL": "",
       "keywords": ["контейнер, олія, оливки, масло, 40, Fe, канистра"],
       "wasteType": [
-        "metal_kanistra"
+        "metal_kanistra_mixed"
       ],
       "hint": null,
       "children": null
@@ -2150,7 +2150,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "PET_colour",
+      "id": "PET_colour_mixed",
       "title": "Не переробляється",
       "hint": "Непрозорі білі, жовті, сині, чорні PET-пляшки (маркування 01 PET, об'ємна точка на дні) майже не приймають на переробку, відмовся від споживання напоїв у такій тарі, якщо можеш.",
       "icon": "finalBlack"
@@ -2174,7 +2174,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "metal_can",
+      "id": "metal_can_mixed",
       "title": "Все складно",
       "hint": "Твій оператор не приймає жерстяні банки, проте ними може зацікавитись найближчий пункт прийому металобрухту.",
       "icon": "finalBlack"
@@ -2186,7 +2186,7 @@
       "icon": "finalGrey"
     },
     {
-      "id": "metal_kanistra",
+      "id": "metal_kanistra_mixed",
       "title": "Здавай як метал",
       "hint": "Твій оператор не приймає металеві каністри, проте ними може зацікавитись найближчий пункт прийому металобрухту.",
       "icon": "finalBlack"

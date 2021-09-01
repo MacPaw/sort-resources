@@ -2207,7 +2207,7 @@
       "id": "metal_kanistra",
       "title": "Здавай іншому оператору",
       "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a>. Звільни від вмісту, промий, закрути кришкою.",
-      "icon": "finalBlack"
+      "icon": "finalGrey"
     },
     {
       "id": "construction",

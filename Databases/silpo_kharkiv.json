@@ -594,7 +594,7 @@
       "iconURL": "",
       "keywords": ["ПЕТ, ПЭТ, желтая, жовта, черная, чорний, 1, 01, енергетик, энергетик"],
       "wasteType": [
-        "PET_colour"
+        "PET_colour_mixed"
       ],
       "hint": null,
       "children": null
@@ -2156,7 +2156,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "PET_colour",
+      "id": "PET_colour_mixed",
       "title": "Не переробляється",
       "hint": "Непрозорі білі, жовті, сині, чорні PET-пляшки (маркування 01 PET, об'ємна точка на дні) майже не приймають на переробку, відмовся від споживання напоїв у такій тарі, якщо можеш.",
       "icon": "finalBlack"
@@ -2213,7 +2213,7 @@
       "id": "metal_kanistra",
       "title": "Здавай як метал",
       "hint": "Здавай на переробку в пунктах <a href=\"https://www.facebook.com/pryhystypaket/\">«Прихисти пакет»</a>. Звільни від вмісту, промий, закрути кришкою.",
-      "icon": "finalBlack"
+      "icon": "finalGrey"
     },
     {
       "id": "construction",

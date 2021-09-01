@@ -317,7 +317,7 @@
       "iconURL": "",
       "keywords": ["фольга, одноразовий посуд, пакування, упаковка, паковання, запікання, foil, металевий, алюмінієвий, алюміній"],
       "wasteType": [
-        "foil"
+        "foil_mixed"
       ],
       "hint": null,
       "children": null
@@ -441,7 +441,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, пенопласт, 6, 06, PS, полістирол, полистирол, спінений, вспененный, лоток"],
       "wasteType": [
-        "styrofoam"
+        "styrofoam_mixed"
       ],
       "hint": null,
       "children": null
@@ -594,7 +594,7 @@
       "iconURL": "",
       "keywords": ["ПЕТ, ПЭТ, желтая, жовта, черная, чорний, 1, 01, енергетик, энергетик"],
       "wasteType": [
-        "PET_colour"
+        "PET_colour_mixed"
       ],
       "hint": null,
       "children": null
@@ -1485,7 +1485,7 @@
       "iconURL": "",
       "keywords": ["зберігання, пакування, упаковка, паковання, яйця, бумажный лоток"],
       "wasteType": [
-        "egg_carton"
+        "egg_carton_mixed"
       ],
       "hint": null,
       "children": null
@@ -1824,7 +1824,7 @@
       "iconURL": "",
       "keywords": ["метал, foil, metal, алюміній, алюминий, 41, Alu"],
       "wasteType": [
-        "foil"
+        "foil_mixed"
       ],
       "hint": null,
       "children": null
@@ -2102,13 +2102,7 @@
       "icon": "finalBlue"
     },
     {
-      "id": "paper_fax",
-      "title": "Не переробляється",
-      "hint": "Можеш здавати цей папір разом із чеками, вони поїдуть на високотемпературне спалювання до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a> (<a href=\"https://www.facebook.com/sortuj/posts/2222034794554236/\">деталі тут</a>).",
-      "icon": "finalBlack"
-    },
-    {
-      "id": "egg_carton",
+      "id": "egg_carton_mixed",
       "title": "Не переробляються",
       "hint": "Яєчні лотки не придатні для вторинної переробки, але швидко розкладаються при компостуванні. Як компостувати в домашніх умовах — <a href=\"https://bit.ly/3enqkyx\">читай тут</a>.",
       "icon": "finalBlack"
@@ -2156,7 +2150,7 @@
       "icon": "finalGrey"
     },
     {
-      "id": "foil",
+      "id": "foil_mixed",
       "title": "Не приймається",
       "hint": "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись.",
       "icon": "finalBlack"
@@ -2234,7 +2228,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "PET_colour",
+      "id": "PET_colour_mixed",
       "title": "Не переробляється",
       "hint": "Непрозорі кольорові PET-пляшки з-під напоїв (жовті, чорні тощо) твій оператор приймає та передає на високотемпературне спалювання до <a href=\"https://www.facebook.com/NowasteUkraine/\">«України без сміття»</a> (<a href=\"https://www.facebook.com/sortuj/posts/2222034794554236/\">деталі тут</a>). Лише чисті та сухі. Кришечки та білі PET-пляшки збирай окремо. Їх приймають на переробку.",
       "icon": "finalBlack"
@@ -2324,7 +2318,7 @@
       "icon": "finalYellow"
     },
     {
-      "id": "styrofoam",
+      "id": "styrofoam_mixed",
       "title": "Не переробляється",
       "hint": "Твій оператор не приймає цей вид відходів. Спробуй зменшити споживання або відмовитись.",
       "icon": "finalBlack"
