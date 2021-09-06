@@ -2134,7 +2134,7 @@
     {
       "id": "tetrapak",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів. У Києві його приймають <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> та <a href=\"https://www.facebook.com/zeleniyptah\">«Зелений птах»</a> (у т.ч. поштою). Лише чисті та сухі.",
+      "hint": "Оператор не приймає цей вид відходів. У Києві його приймають <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> та <a href=\"https://www.facebook.com/zeleniyptah\">«Зелений птах»</a> (у т.ч. поштою). Лише чисті та сухі.",
       "icon": "finalYellow"
     },
     {
@@ -2152,13 +2152,13 @@
     {
       "id": "plastic_milk",
       "title": "Шукай маркування",
-      "hint": "Твій оператор приймає приймає лише прозорі пляшки з-під молока з маркуванням 01 PET (а також об'ємною точкою на дні). Лише чисті та сухі. Білі пляшки з маркуванням 01 PET та 02 HDPE можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор приймає приймає лише прозорі пляшки з-під молока з маркуванням 01 PET (а також об'ємною точкою на дні). Лише чисті та сухі. Білі пляшки з маркуванням 01 PET та 02 HDPE можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "PET_colour",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві. Переробка такого пластику ускладнена, тому його краще уникати.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві. Переробка такого пластику ускладнена, тому його краще уникати.",
       "icon": "finalYellow"
     },
     {
@@ -2170,19 +2170,19 @@
     {
       "id": "plastic_wash",
       "title": "Шукай маркування",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_drugs",
       "title": "Шукай маркування",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_can",
       "title": "Здавай як пластик",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
@@ -2194,13 +2194,13 @@
     {
       "id": "metal_aerosol",
       "title": "Здавай як метал",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві. Не намагайся розібрати або стиснути!",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві. Не намагайся розібрати або стиснути!",
       "icon": "finalGrey"
     },
     {
       "id": "metal_cap",
       "title": "Здавай як метал",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalGrey"
     },
     {
@@ -2212,7 +2212,7 @@
     {
       "id": "metal_kanistra",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a>. Звільни від вмісту, промий, закрути кришкою.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a>. Звільни від вмісту, промий, закрути кришкою.",
       "icon": "finalGrey"
     },
     {
@@ -2248,7 +2248,7 @@
     {
       "id": "plastic_wrap",
       "title": "Збирай окремо",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
@@ -2260,7 +2260,7 @@
     {
       "id": "paper_cup",
       "title": "Збирай окремо",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
@@ -2284,25 +2284,25 @@
     {
       "id": "yoghurt_cup",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_container",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_marked",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_tube",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
@@ -2320,13 +2320,13 @@
     {
       "id": "shoe_covers",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "styrofoam",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
@@ -2338,37 +2338,37 @@
     {
       "id": "zip_bag",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "plastic_bag",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "milk_bag",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
       "id": "metal_posud",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalGrey"
     },
     {
       "id": "metal_candle",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalGrey"
     },
     {
       "id": "water_cap",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalYellow"
     },
     {
@@ -2380,7 +2380,7 @@
     {
       "id": "corks",
       "title": "Здавай іншому оператору",
-      "hint": "Твій оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
+      "hint": "Оператор не приймає цей вид відходів, можеш здати на станції <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> у Києві.",
       "icon": "finalRed"
     },
     {

@@ -2104,7 +2104,7 @@
     {
       "id": "other_ubs",
       "title": "Переробка чи звалище?",
-      "hint": "Твій оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a>.",
+      "hint": "Оператор не приймає цей тип сировини. Можна здати на станцію <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a>.",
       "icon": "finalRed"
     },
     {
