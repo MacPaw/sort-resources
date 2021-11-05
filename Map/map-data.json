@@ -4,7 +4,7 @@
       "id": "ukraina_bez_smittya",
       "locationType": "Станція",
       "locationName": "Україна без сміття",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "paper", "egg_carton", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_electro", "plastic_tube", "water_cap", "plastic_cap", "PET_clear", "metal_tube", "post_bag", "paper_container", "burn_ubs"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "paper", "egg_carton", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_electro", "plastic_tube", "water_cap", "plastic_cap", "PET_clear", "metal_tube", "post_bag", "paper_container", "cd", "07_ubs", "wood", "wood_basket", "wood_qtips", "wood_brush", "doy_pack", "compost"]
     },
     {
       "id": "kmvr",
