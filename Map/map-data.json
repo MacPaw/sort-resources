@@ -136,13 +136,13 @@
       "id": "ecola",
       "locationType": "Сортувальна станція / вивезення вторсировини",
       "locationName": "Ecola",
-      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap"]
+      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap", "paper_cup", "foil", "foil_container"]
     },
     {
       "id": "plastic_club",
       "locationType": "Пункт прийому",
       "locationName": "Plastic Club",
-      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap"]
+      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap", "paper_cup", "foil", "foil_container"]
     }
   ],
 

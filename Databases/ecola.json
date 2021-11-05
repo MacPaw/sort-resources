@@ -317,7 +317,7 @@
       "iconURL": "",
       "keywords": ["фольга, одноразовий посуд, пакування, упаковка, паковання, запікання, foil, металевий, алюмінієвий, алюміній"],
       "wasteType": [
-        "foil"
+        "foil_container"
       ],
       "hint": null,
       "children": null
