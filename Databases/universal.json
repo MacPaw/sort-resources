@@ -269,7 +269,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, кавовий, склянка, стаканчик, cup, кава, кофе, паперове горнятко"],
       "wasteType": [
-        "paper_cup"
+        "paper_cup_mixed"
       ],
       "hint": null,
       "children": null
