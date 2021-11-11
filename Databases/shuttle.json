@@ -978,7 +978,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, 3, 03, PVC, V, поливинилхлорид, ПВХ, полівенілхлорид, 7, 07, O, OTHER, полікарбонат,  PC, бутель, бутыль, вода"],
       "wasteType": [
-        "07_ubs"
+        "mixed"
       ],
       "hint": null,
       "children": null
@@ -1170,7 +1170,7 @@
       "iconURL": "",
       "keywords": ["стіл, стілець, комод, шафа, шкаф, стул, стол"],
       "wasteType": [
-        "plastic_mebli"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -1182,7 +1182,7 @@
       "iconURL": "",
       "keywords": ["зберігання, контейнер, корзина, кошик, таз, миска, горщик, вазон, горшок"],
       "wasteType": [
-        "plastic_box"
+        "plastic_marked"
       ],
       "hint": null,
       "children": null
@@ -1533,7 +1533,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "corks"
+        "mixed"
       ],
       "hint": null,
       "children": null
