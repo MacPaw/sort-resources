@@ -269,7 +269,7 @@
       "iconURL": "",
       "keywords": ["одноразовий посуд, кавовий, склянка, стаканчик, cup, кава, кофе, паперове горнятко"],
       "wasteType": [
-        "paper_cup"
+        "paper_cup_mixed"
       ],
       "hint": null,
       "children": null
@@ -1485,7 +1485,7 @@
       "iconURL": "",
       "keywords": ["зберігання, пакування, упаковка, паковання, яйця, бумажный лоток"],
       "wasteType": [
-        "egg_carton"
+        "egg_carton_mixed"
       ],
       "hint": null,
       "children": null
@@ -1533,7 +1533,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.1.png",
       "keywords": ["деревина, пробка, корок, вино, дерево, дерев'яна пробка, дерев'яний корок"],
       "wasteType": [
-        "wood"
+        "wood_mixed"
       ],
       "hint": null,
       "children": null
@@ -1545,7 +1545,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.2.png",
       "keywords": ["одноразовий посуд, деревина, кава, паличка, дерево, дерев'яна паличка, палочка, кофе, деревянная, мішалочка"],
       "wasteType": [
-        "wood"
+        "wood_mixed"
       ],
       "hint": null,
       "children": null
@@ -1569,7 +1569,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.4.png",
       "keywords": ["одноразовий посуд, деревина, китайські, дерев'яні, палочки, деревянные, суши, китайские"],
       "wasteType": [
-        "wood"
+        "wood_mixed"
       ],
       "hint": null,
       "children": null
@@ -1581,7 +1581,7 @@
       "iconURL": "",
       "keywords": ["деревина, палочки, вушні, ушные, ватные, зубочистка"],
       "wasteType": [
-        "wood"
+        "wood_mixed"
       ],
       "hint": null,
       "children": null
@@ -1593,7 +1593,7 @@
       "iconURL": "https://raw.githubusercontent.com/MacPaw/sort-resources/master/Icons/Items/3.9.6.png",
       "keywords": ["деревина, коврик, салфетка, суші, суши"],
       "wasteType": [
-        "wood"
+        "wood_mixed"
       ],
       "hint": null,
       "children": null
@@ -2096,7 +2096,7 @@
       "icon": "finalBlue"
     },
     {
-      "id": "egg_carton",
+      "id": "egg_carton_mixed",
       "title": "Не переробляється",
       "hint": "Яєчні лотки вже виготовлені з макулатури і майже не придатні для подальшої переробки, оскільки отримана сировина буде занадто низької якості. Але вони швидко розкладаються при компостуванні. Як компостувати в домашніх умовах — <a href=\"https://bit.ly/3enqkyx\">читай тут</a>.",
       "icon": "finalBlack"
@@ -2210,10 +2210,10 @@
       "icon": "finalYellow"
     },
     {
-      "id": "paper_cup",
+      "id": "paper_cup_mixed",
       "title": "Багаторазові краще!",
       "hint": "Ці стаканчики мають всередині шар пластику, тому їх не можна сортувати з макулатурою. Деякі сортувальні станції приймають цей вид відходів на переробку, в чистому та сухому вигляді. Але більшість все ж опиниться на звалищі, тож краще користуватись багаторазовим горнятком.",
-      "icon": "finalRed"
+      "icon": "finalBlack"
     },
     {
       "id": "plastic_milk",
@@ -2402,7 +2402,7 @@
       "icon": "finalRed"
     },
     {
-      "id": "wood",
+      "id": "wood_mixed",
       "title": "Не переробляється",
       "hint": "Деревину можна компостувати. В домашніх умовах це складно, оскільки дерево довго розкладається. Але якщо маєш компостер на дачі або здаєш органіку на промислове компостування, кидай туди й деревину. Якщо ні — викидай в смітник або використай для розпалювання вогнища на пікніку.",
       "icon": "finalBlack"
