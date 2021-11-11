@@ -4,7 +4,7 @@
       "id": "ukraina_bez_smittya",
       "locationType": "Станція",
       "locationName": "Україна без сміття",
-      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "paper", "egg_carton", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_electro", "plastic_tube", "water_cap", "plastic_cap", "PET_clear", "metal_tube", "post_bag", "paper_container", "burn_ubs"]
+      "acceptedWasteTypes": ["paper_cup", "paper", "foil", "plastic", "plastic_wash", "plastic_can", "plastic_drugs", "plastic_oil", "plastic_milk", "PET_colour", "plastic_bag", "plastic_wrap", "zip_bag", "milk_bag", "yoghurt_cup", "plastic_container", "plastic_cup", "plastic_marked", "styrofoam", "shoe_covers", "plastic_mebli", "plastic_box", "paper", "egg_carton", "corks", "glass", "glass_perfume", "metal_can", "metal_alu", "metal_aerosol", "metal_cap", "metal_posud", "metal_candle", "metal_kanistra", "tetrapak", "other_electro", "plastic_tube", "water_cap", "plastic_cap", "PET_clear", "metal_tube", "post_bag", "paper_container", "cd", "07_ubs", "wood", "wood_basket", "wood_qtips", "wood_brush", "doy_pack", "compost"]
     },
     {
       "id": "kmvr",
@@ -136,13 +136,13 @@
       "id": "ecola",
       "locationType": "Сортувальна станція / вивезення вторсировини",
       "locationName": "Ecola",
-      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap"]
+      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap", "paper_cup", "foil", "foil_container"]
     },
     {
       "id": "plastic_club",
       "locationType": "Пункт прийому",
       "locationName": "Plastic Club",
-      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap"]
+      "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap", "paper_cup", "foil", "foil_container"]
     }
   ],
 
@@ -465,7 +465,8 @@
         {
           "address": "вул. Київська, 161 (ринок «Нива», р-н «Розвилка»)",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Сб: 8:00–17:00<br>Нд: 8:00–15:00<br>Пн: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380674101119\">(067) 410-11-19</a>",
-          "coordinates": "50.500520,30.772380"
+          "coordinates": "50.500520,30.772380",
+          "isHidden": 1
         },
         {
           "address": "вул. Анатолія Луценка, 22",
@@ -485,12 +486,14 @@
         {
           "address": "вул. Короленка, 72 (територія ринку)",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Вт–Пт: 8:00–17:00<br>Сб, Нд: 7:00–14:00<br>Пн: Вихідний<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380674101119\">(067) 410-11-19</a>",
-          "coordinates": "50.52279,30.791"
+          "coordinates": "50.52279,30.791",
+          "isHidden": 1
         },
         {
           "address": "бул. Незалежності, 30",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380979474482\">(097) 947-44-82</a>",
-          "coordinates": "50.53305,30.82945"
+          "coordinates": "50.53305,30.82945",
+          "isHidden": 1
         },
         {
           "address": "вул. Леваневського, 95а",
@@ -500,7 +503,8 @@
         {
           "address": "вул. Широка, 1а",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380975535998\">(097) 553-59-98</a>",
-          "coordinates": "51.50574,31.26069"
+          "coordinates": "51.50574,31.26069",
+          "isHidden": 1
         },
         {
           "address": "вул. Березанська, 108",
@@ -521,13 +525,24 @@
         {
           "address": "вул. Широка,1б",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380966243358\">(096) 624-33-58</a>",
-          "coordinates": "49.84254,23.97963"
+          "coordinates": "49.84254,23.97963",
+          "isHidden": 1
         },
         {
           "address": "вул. Космонавтів, 91",
           "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380993380402\">(099) 338-04-02</a>",
           "coordinates": "46.969882,32.081451",
           "isHidden": 1
+        },
+        {
+          "address": "вул. Шевченка, 319",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380966243358\">(096) 624-33-58</a>",
+          "coordinates": "49.86991340783534,23.93591029545063"
+        },
+        {
+          "address": "вул. Інструментальна, 13",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн-Пт: 8:00–17:00<br>Сб, Нд: Вихідні<br><br>Під час карантину графік роботи може бути змінено.",
+          "coordinates": "51.518559015838456, 31.259357414263576"
         }
       ]
     },
@@ -551,7 +566,7 @@
       "locations": [
         {
           "address": "вул. Вокзальна, 18",
-          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Нд: 11:00-13:00<br>Пн-Сб: уточнюй у оператора<br><br>Під час карантину графік роботи може бути змінено. Звертайся до оператора.<br>Тел.: <a href=\"tel:+380932783503\">(093) 278-35-03</a>",
+          "description": "Пункт прийому вторсировини: пластик, скло, папір, метал.<br><br>Пн, Вт, Чт, Пт: 18:30-20:00<br>Сб: 12:00-14:00<br><br>Тел.: <a href=\"tel:+380932783503\">(093) 278-35-03</a>",
           "coordinates": "50.253522,30.322381"
         }
       ]
@@ -944,7 +959,8 @@
         {
           "address": "вул. Петра Калнишевського, 2",
           "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Пн-Пт: 15:00-20:00<br>Сб, Нд: 8:30–20:00<br>обід: 14:00-15:00<br>www.facebook.com/silporecycling/",
-          "coordinates": "50.519911, 30.465147"
+          "coordinates": "50.519911, 30.465147",
+          "isHidden": 1
         }
       ]
     },
@@ -1279,7 +1295,7 @@
       "locations": [
         {
           "address": "вул. Юності, 9",
-          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Чт: 16:00–19:00<br>Сб: 15:00-18:00<br>Графік може змінюватись, уточнюй.<br>Тел.: <a href=\"tel:+380680009999\">(068) 000-99-99</a>",
+          "description": "Станція сортування: пластик, скло, папір, метал, тетрапак.<br><br>Вт, Чт: 16:00–18:00<br>Сб: 15:00-18:00<br>Графік може змінюватись, уточнюй.<br>Тел.: <a href=\"tel:+380680009999\">(068) 000-99-99</a>",
           "coordinates": "49.232423, 28.418207"
         }
       ]
