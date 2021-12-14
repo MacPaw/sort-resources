@@ -143,6 +143,12 @@
       "locationType": "Пункт прийому",
       "locationName": "Plastic Club",
       "acceptedWasteTypes": ["tetrapak", "paper", "egg_carton","glass", "glass_perfume", "glass_broken", "metal_posud", "metal_can", "metal_alu", "metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_container", "plastic_marked", "water_cap", "paper_cup", "foil", "foil_container"]
+    },
+    {
+      "id": "sofiya_recycling",
+      "locationType": "Сортувальна станція",
+      "locationName": "SofiyaRecycling",
+      "acceptedWasteTypes": ["tetrapak", "battery", "paper", "egg_carton", "paper_plate", "pizza_box", "glass", "glass_perfume", "metal_aerosol", "glass_broken", "metal_posud", "metal_can", "metal_alu", "foil", "foil_container" ,"metal_cap", "metal_candle", "metal_kanistra", "PET_clear", "plastic_cap", "paper_cup", "plastic_milk", "plastic_wash", "plastic_drugs", "plastic_can", "plastic_oil", "plastic_bag", "shoe_covers", "zip_bag", "post_bag", "plastic_wrap", "milk_bag", "plastic_cup", "plastic_blister", "plastic_container", "plastic_marked", "styrofoam", "yoghurt_cup", "plastic_tube", "water_cap", "plastic_07", "cd", "gadgets_toys", "other_lamp_eco", "other_lamp_tube", "other_syringe", "other_thermometer", "other_tyre", "other_drugs", "other_electro", "other_lamp_led", "receipt", "wood", "corks", "wood_qtips"]
     }
   ],
 
@@ -1327,6 +1333,16 @@
           "address": "вул. Липинського, 3",
           "description": "Гараж Plastic Club: пластик, скло, папір, метал, тетрапак.<br><br>Сб, нд: 11:00–18:00<br>Графік може змінюватись, перевір на сторінці @plastic.club",
           "coordinates": "50.449035, 30.508647"
+        }
+      ]
+    },
+    {
+      "operator": "sofiya_recycling",
+      "locations": [
+        {
+          "address": "вул. Толстого, 102 (зелений гараж)",
+          "description": "Сортувальна станція: пластик, скло, папір, метал, тетрапак, небезпечні відходи.<br><br>Щоб відвідати, заповни форму на сайті itsrecycling.club<br>",
+          "coordinates": "50.399165040433246, 30.38545294215168"
         }
       ]
     }

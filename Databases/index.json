@@ -181,6 +181,13 @@
       "compatibleVersion": "0.1",
       "location": "plastic_club.json",
       "name": "Plastic Club"
+    },
+    {
+      "id": "sofiya_recycling",
+      "version": "1.0.0",
+      "compatibleVersion": "0.1",
+      "location": "sofiya_recycling.json",
+      "name": "SofiyaRecycling"
     }
   ],
   "popularSearchRequests": [
