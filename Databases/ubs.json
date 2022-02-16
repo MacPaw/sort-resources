@@ -918,7 +918,7 @@
       "iconURL": "",
       "keywords": ["пакування, упаковка, паковання, ліки, таблетки, пігулки, капсули, капсулы, конвалюта"],
       "wasteType": [
-        "drugs_blister"
+        "drugs_blister_burn"
       ],
       "hint": null,
       "children": null
