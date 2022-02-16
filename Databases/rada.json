@@ -2146,7 +2146,7 @@
     {
       "id": "tetrapak",
       "title": "Здавай іншому оператору",
-      "hint": "Оператор не приймає цей вид відходів. У Києві його приймають <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> та <a href=\"https://www.facebook.com/zeleniyptah\">«Зелений птах»</a> (у т.ч. поштою). Лише чисті та сухі.",
+      "hint": "Оператор не приймає цей вид відходів. У Києві паковання типу Tetra Pak, Elopak, Pure-Pak приймають <a href=\"https://www.facebook.com/NowasteUkraine/\">«Україна без сміття»</a> та <a href=\"https://www.facebook.com/zeleniyptah\">«Зелений птах»</a> (у т.ч. поштою). Лише чисті та сухі.",
       "icon": "finalYellow"
     },
     {
